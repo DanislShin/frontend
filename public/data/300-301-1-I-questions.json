@@ -1,0 +1,229 @@
+{
+  "1": [
+    {
+      "id": "1-1",
+      "word": "abandon",
+      "question": "뜻을 선택하세요",
+      "options": ["leave", "stay", "fight"],
+      "correct": 0
+    },
+    {
+      "id": "1-2",
+      "word": "ability",
+      "question": "뜻을 선택하세요",
+      "options": ["skill", "weakness", "delay"],
+      "correct": 0
+    }
+  ],
+  "2": [
+    {
+      "id": "1-1",
+      "word": "abandon",
+      "question": "뜻을 선택하세요",
+      "options": ["버리다, 단념하다", "흡수하다", "폐지하다", "가속하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-2",
+      "word": "abolish",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "폐지하다",
+        "버리다, 단념하다",
+        "절대적으로, 전혀",
+        "해외에서, 외국에서"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-3",
+      "word": "abroad",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "해외에서, 외국에서",
+        "결석, 결근, 부재",
+        "갑작스럽게",
+        "추상적인"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-4",
+      "word": "abruptly",
+      "question": "뜻을 선택하세요",
+      "options": ["갑작스럽게", "풍부한", "학대, 남용", "받아들이다, 수용하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-5",
+      "word": "absence",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "결석, 결근, 부재",
+        "접속, 입장",
+        "우연히, 실수로",
+        "수용하다"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-6",
+      "word": "absolutely",
+      "question": "뜻을 선택하세요",
+      "options": ["절대적으로, 전혀", "동행하다", "달성하다", "~에 따르면"],
+      "correct": 0
+    },
+    {
+      "id": "1-7",
+      "word": "absorb",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "흡수하다",
+        "따라서",
+        "~를 차지하다, 설명하다",
+        "설명, 이야기, 계좌"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-8",
+      "word": "abstract",
+      "question": "뜻을 선택하세요",
+      "options": ["추상적인", "책임이 있는", "버리다, 단념하다", "폐지하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-9",
+      "word": "abundant",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "풍부한",
+        "해외에서, 외국에서",
+        "갑작스럽게",
+        "결석, 결근, 부재"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-10",
+      "word": "abuse",
+      "question": "뜻을 선택하세요",
+      "options": ["학대, 남용", "절대적으로, 전혀", "흡수하다", "추상적인"],
+      "correct": 0
+    },
+    {
+      "id": "1-11",
+      "word": "accelerate",
+      "question": "뜻을 선택하세요",
+      "options": ["가속하다", "풍부한", "학대, 남용", "받아들이다, 수용하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-12",
+      "word": "accept",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "받아들이다, 수용하다",
+        "접속, 입장",
+        "우연히, 실수로",
+        "수용하다"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-13",
+      "word": "access",
+      "question": "뜻을 선택하세요",
+      "options": ["접속, 입장", "동행하다", "달성하다", "~에 따르면"],
+      "correct": 0
+    },
+    {
+      "id": "1-14",
+      "word": "accidentally",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "우연히, 실수로",
+        "따라서",
+        "~를 차지하다, 설명하다",
+        "설명, 이야기, 계좌"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-15",
+      "word": "accommodate",
+      "question": "뜻을 선택하세요",
+      "options": ["수용하다", "책임이 있는", "버리다, 단념하다", "폐지하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-16",
+      "word": "accompany",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "동행하다",
+        "해외에서, 외국에서",
+        "갑작스럽게",
+        "결석, 결근, 부재"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-17",
+      "word": "accomplish",
+      "question": "뜻을 선택하세요",
+      "options": ["달성하다", "절대적으로, 전혀", "흡수하다", "추상적인"],
+      "correct": 0
+    },
+    {
+      "id": "1-18",
+      "word": "according to",
+      "question": "뜻을 선택하세요",
+      "options": ["~에 따르면", "풍부한", "학대, 남용", "가속하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-19",
+      "word": "accordingly",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "따라서",
+        "받아들이다, 수용하다",
+        "접속, 입장",
+        "우연히, 실수로"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-20",
+      "word": "account for",
+      "question": "뜻을 선택하세요",
+      "options": ["~를 차지하다, 설명하다", "수용하다", "동행하다", "달성하다"],
+      "correct": 0
+    },
+    {
+      "id": "1-21",
+      "word": "account",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "설명, 이야기, 계좌",
+        "~에 따르면",
+        "따라서",
+        "~를 차지하다, 설명하다"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "1-22",
+      "word": "accountable",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "책임이 있는",
+        "버리다, 단념하다",
+        "폐지하다",
+        "해외에서, 외국에서"
+      ],
+      "correct": 0
+    }
+  ]
+}

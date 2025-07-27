@@ -1,0 +1,24 @@
+{
+  "100": [],
+  "200": [
+    {
+      "id": "202-3-I",
+      "type": "speech-accuracy",
+      "skill": "말하기",
+      "days": true
+    }
+  ],
+  "300": [
+    {
+      "id": "301-1-I",
+      "type": "multiple-choice",
+      "skill": "읽기",
+      "days": true
+    },
+
+    { "id": "301-1-B", "type": "ai-review", "skill": "읽기", "days": true }
+  ],
+  "400": [
+    { "id": "401-1-B", "type": "ai-review", "skill": "읽기", "days": true }
+  ]
+}

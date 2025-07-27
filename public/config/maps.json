@@ -1,0 +1,18 @@
+{
+  "topicMaps": {
+    "100": "종합",
+    "202": "문법",
+    "301": "고등 단어",
+    "400": "종합",
+    "401": "수능"
+  },
+
+  "typeMap": {
+    "speech-accuracy": "발음 테스트",
+    "writing-accuracy": "활용 테스트",
+    "multiple-choice": "이해 테스트",
+    "listening-comprehension": "지문 이해 테스트",
+    "subjective": "주관식 테스트",
+    "ai-review": "인공지능 리뷰 테스트"
+  }
+}
