@@ -52,7 +52,7 @@ function MultipleChoiceTest({ module, testId, day, onBack }) {
 
       // 서버에 결과 저장
       const response = await fetch(
-        "https://english-review-backend.onrender.com/api/save-result",
+        "https://backend-lurm.onrender.com/api/save-result",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

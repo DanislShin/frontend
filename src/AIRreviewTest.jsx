@@ -36,7 +36,7 @@ function AIRreviewTest({ module, testId, day, onBack }) {
     e.preventDefault();
 
     const reviewPromises = passage.questions.map((question, index) =>
-      fetch("https://english-review-backend.onrender.com/review", {
+      fetch("https://backend-lurm.onrender.com/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

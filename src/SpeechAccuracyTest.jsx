@@ -96,7 +96,7 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
 
     try {
       const response = await fetch(
-        "https://english-review-backend.onrender.com/api/save-result",
+        "https://backend-lurm.onrender.com/api/save-result",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
