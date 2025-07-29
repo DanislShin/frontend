@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function AIRreviewTest({ module, testId, day, onBack }) {
+function AIRreviewTest({ module, testId, day, onBack, session }) {
   const [passage, setPassage] = useState({ text: "", questions: [] });
   const [answers, setAnswers] = useState([]);
   const [aiFeedbacks, setAiFeedbacks] = useState([]);
@@ -35,12 +35,16 @@ function AIRreviewTest({ module, testId, day, onBack }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (!session) {
+      console.error("로그인 상태가 아닙니다");
+      return;
+    }
     const reviewPromises = passage.questions.map((question, index) =>
       fetch("https://backend-lurm.onrender.com/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          user_id: "test-user",
+          user_id: session.user.email,
           module_code: testId,
           sentence: question,
           input: answers[index],

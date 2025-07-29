@@ -1,12 +1,19 @@
 // src/App.jsx
 import React, { useState, useEffect } from "react";
 import "./App.css";
+import { createClient } from "@supabase/supabase-js";
 import MultipleChoiceTest from "./MultipleChoiceTest";
 import SpeechAccuracyTest from "./SpeechAccuracyTest";
 import SubjectiveTest from "./SubjectiveTest";
 import AIRreviewTest from "./AIRreviewTest";
 import ListeningComprehensionTest from "./ListeningComprehensionTest";
 import WritingAccuracyTest from "./WritingAccuracyTest";
+
+// 환경 변수로 Supabase 초기화
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
 
 function App() {
   const [selectedModule, setSelectedModule] = useState(null);
@@ -16,20 +23,59 @@ function App() {
   const [availableDays, setAvailableDays] = useState({});
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
   const [maps, setMaps] = useState({ topicMaps: {}, typeMap: {} });
+  const [session, setSession] = useState(null);
 
+  // 세션 상태 관리
+  useEffect(() => {
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      setSession(session);
+    });
+
+    const {
+      data: { subscription },
+    } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSession(session);
+    });
+
+    return () => subscription.unsubscribe();
+  }, []);
+  // 2️⃣ 🔥 새로 추가: 비활성 로그아웃 로직 (독립적인 useEffect)
+  useEffect(() => {
+    if (!session) return;
+
+    let inactivityTimer;
+
+    const resetTimer = () => {
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(() => {
+        supabase.auth.signOut();
+        alert("30분 간 활동이 없어 로그아웃됩니다.");
+      }, 1800000); // 30분
+    };
+
+    const events = ["mousemove", "keydown", "click"];
+    events.forEach((event) => window.addEventListener(event, resetTimer));
+
+    resetTimer(); // 초기 타이머 설정
+
+    return () => {
+      clearTimeout(inactivityTimer);
+      events.forEach((event) => window.removeEventListener(event, resetTimer));
+    };
+  }, [session]); // session이 변경될 때마다 실행
+
+  // 기존 데이터 로딩 로직 (변경 없음)
   useEffect(() => {
     const loadData = async () => {
       try {
         const [testsResponse, mapsResponse] = await Promise.all([
-          fetch("/config/tests.json?" + new Date().getTime()), // 캐시 무효화
-          fetch("/config/maps.json?" + new Date().getTime()), // 캐시 무효화
+          fetch("/config/tests.json?" + new Date().getTime()),
+          fetch("/config/maps.json?" + new Date().getTime()),
         ]);
         if (!testsResponse.ok) throw new Error("테스트 파일 로드 실패");
         if (!mapsResponse.ok) throw new Error("매핑 파일 로드 실패");
         const testsData = await testsResponse.json();
         const mapsData = await mapsResponse.json();
-        console.log("testsData:", testsData);
-        console.log("mapsData:", mapsData);
         setMaps(mapsData);
 
         const updatedTests = {};
@@ -42,6 +88,7 @@ function App() {
               200: "문법",
               300: "단어",
               400: "시험",
+              700: "읽기",
             };
             const skillMap = {
               0: "종합",
@@ -52,14 +99,12 @@ function App() {
             };
             const difficultyMap = { A: "고급", I: "중급", B: "초급" };
 
-            // categoryCode를 직접 사용 (adjustedCategoryCode 제거)
             const topic =
               mapsData.topicMaps[categoryCode] || `주제 ${categoryCode}`;
             const skill = skillMap[test.skill] || test.skill;
             const diff = difficultyMap[difficulty] || difficulty;
             const testType = mapsData.typeMap[test.type] || test.type;
 
-            console.log("Computed:", { categoryCode, topic, testType });
             return {
               ...test,
               name: `${
@@ -74,11 +119,6 @@ function App() {
                   `/data/${module}-${test.id}-questions.json`
                 );
                 if (!response.ok) {
-                  console.error(
-                    `지문 파일 로드 실패 (${test.id}):`,
-                    response.status,
-                    response.statusText
-                  );
                   dayMap[test.id] = 0;
                   return;
                 }
@@ -88,7 +128,6 @@ function App() {
                   .sort((a, b) => a - b);
                 dayMap[test.id] = days.length > 0 ? Math.max(...days) : 0;
               } catch (error) {
-                console.error(`지문 로드 오류 (${test.id}):`, error);
                 dayMap[test.id] = 0;
               }
             })
@@ -96,19 +135,22 @@ function App() {
         }
         setTests(updatedTests);
         setAvailableDays(dayMap);
-        console.log("Updated tests:", updatedTests);
       } catch (error) {
         console.error("데이터 로드 오류:", error);
       }
     };
-    loadData();
-  }, []);
+
+    if (session) {
+      loadData();
+    }
+  }, [session]);
 
   const modules = [
     { id: "100", name: "100번 발음" },
     { id: "200", name: "200번 문법" },
     { id: "300", name: "300번 단어" },
     { id: "400", name: "400번 시험" },
+    { id: "700", name: "700번 읽기" },
   ];
 
   const testComponentMap = {
@@ -120,7 +162,68 @@ function App() {
     "writing-accuracy": WritingAccuracyTest,
   };
 
+  // 로그인 컴포넌트
+  const Auth = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+
+    const handleLogin = async (e) => {
+      e.preventDefault();
+      setLoading(true);
+      setError(null);
+
+      const { error: signInError } = await supabase.auth.signInWithPassword({
+        email,
+        password,
+      });
+
+      if (signInError) {
+        setError(signInError.message);
+      }
+
+      setLoading(false);
+    };
+
+    return (
+      <div className="auth-container">
+        <div className="auth-card">
+          <h2>로그인</h2>
+          {error && <div className="auth-error">{error}</div>}
+          <form onSubmit={handleLogin}>
+            <div className="form-group">
+              <label>이메일</label>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>비밀번호</label>
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </div>
+            <button type="submit" disabled={loading}>
+              {loading ? "로그인 중..." : "로그인"}
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  };
+
   const renderContent = () => {
+    if (!session) {
+      return <Auth />;
+    }
+
     if (!selectedModule) {
       return (
         <div className="content-center">
@@ -174,90 +277,101 @@ function App() {
         testId={selectedTest}
         day={selectedDay}
         onBack={() => setSelectedDay(null)}
+        session={session} // 추가된 부분
       />
     );
   };
 
   return (
     <div className="app-container">
-      <div className={`sidebar ${isSidebarCollapsed ? "collapsed" : ""}`}>
-        <button
-          className="sidebar-toggle"
-          onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
-        >
-          {isSidebarCollapsed ? "▶" : "◀"}
-        </button>
+      {session && (
+        <>
+          <div className={`sidebar ${isSidebarCollapsed ? "collapsed" : ""}`}>
+            <button
+              className="sidebar-toggle"
+              onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
+            >
+              {isSidebarCollapsed ? "▶" : "◀"}
+            </button>
 
-        {!isSidebarCollapsed && (
-          <>
-            <div className="sidebar-header">
-              <h2>베스티온 폴리로그</h2>
-            </div>
+            {!isSidebarCollapsed && (
+              <>
+                <div className="sidebar-header">
+                  <h2>베스티온 폴리로그</h2>
+                  <button
+                    className="logout-btn"
+                    onClick={() => supabase.auth.signOut()}
+                  >
+                    로그아웃
+                  </button>
+                </div>
 
-            <div className="sidebar-menu">
-              {!selectedModule ? (
-                <ul>
-                  {modules.map((mod) => (
-                    <li key={mod.id}>
+                <div className="sidebar-menu">
+                  {!selectedModule ? (
+                    <ul>
+                      {modules.map((mod) => (
+                        <li key={mod.id}>
+                          <button
+                            className="sidebar-btn"
+                            onClick={() => setSelectedModule(mod.id)}
+                          >
+                            {mod.name}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : !selectedTest ? (
+                    <>
                       <button
-                        className="sidebar-btn"
-                        onClick={() => setSelectedModule(mod.id)}
+                        className="sidebar-back-btn"
+                        onClick={() => setSelectedModule(null)}
                       >
-                        {mod.name}
+                        ← 모듈 선택
                       </button>
-                    </li>
-                  ))}
-                </ul>
-              ) : !selectedTest ? (
-                <>
-                  <button
-                    className="sidebar-back-btn"
-                    onClick={() => setSelectedModule(null)}
-                  >
-                    ← 모듈 선택
-                  </button>
-                  <ul>
-                    {tests[selectedModule]?.map((test) => (
-                      <li key={test.id}>
-                        <button
-                          className="sidebar-btn"
-                          onClick={() => setSelectedTest(test.id)}
-                        >
-                          {test.name}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              ) : (
-                <>
-                  <button
-                    className="sidebar-back-btn"
-                    onClick={() => setSelectedTest(null)}
-                  >
-                    ← 테스트 선택
-                  </button>
-                  <ul>
-                    {Array.from(
-                      { length: availableDays[selectedTest] || 0 },
-                      (_, i) => i + 1
-                    ).map((day) => (
-                      <li key={day}>
-                        <button
-                          className="sidebar-btn"
-                          onClick={() => setSelectedDay(day)}
-                        >
-                          {day}일차
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </>
-              )}
-            </div>
-          </>
-        )}
-      </div>
+                      <ul>
+                        {tests[selectedModule]?.map((test) => (
+                          <li key={test.id}>
+                            <button
+                              className="sidebar-btn"
+                              onClick={() => setSelectedTest(test.id)}
+                            >
+                              {test.name}
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : (
+                    <>
+                      <button
+                        className="sidebar-back-btn"
+                        onClick={() => setSelectedTest(null)}
+                      >
+                        ← 테스트 선택
+                      </button>
+                      <ul>
+                        {Array.from(
+                          { length: availableDays[selectedTest] || 0 },
+                          (_, i) => i + 1
+                        ).map((day) => (
+                          <li key={day}>
+                            <button
+                              className="sidebar-btn"
+                              onClick={() => setSelectedDay(day)}
+                            >
+                              {day}일차
+                            </button>
+                          </li>
+                        ))}
+                      </ul>
+                    </>
+                  )}
+                </div>
+              </>
+            )}
+          </div>
+        </>
+      )}
 
       <div className="main-content">{renderContent()}</div>
     </div>

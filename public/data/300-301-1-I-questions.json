@@ -2,228 +2,1269 @@
   "1": [
     {
       "id": "1-1",
-      "word": "abandon",
+      "word": "버리다, 단념하다",
       "question": "뜻을 선택하세요",
-      "options": ["leave", "stay", "fight"],
+      "options": ["abandon", "abolish", "abroad", "abruptly"],
       "correct": 0
     },
     {
       "id": "1-2",
-      "word": "ability",
+      "word": "폐지하다",
       "question": "뜻을 선택하세요",
-      "options": ["skill", "weakness", "delay"],
-      "correct": 0
-    }
-  ],
-  "2": [
-    {
-      "id": "1-1",
-      "word": "abandon",
-      "question": "뜻을 선택하세요",
-      "options": ["버리다, 단념하다", "흡수하다", "폐지하다", "가속하다"],
-      "correct": 0
-    },
-    {
-      "id": "1-2",
-      "word": "abolish",
-      "question": "뜻을 선택하세요",
-      "options": [
-        "폐지하다",
-        "버리다, 단념하다",
-        "절대적으로, 전혀",
-        "해외에서, 외국에서"
-      ],
-      "correct": 0
+      "options": ["abandon", "abolish", "abroad", "abruptly"],
+      "correct": 1
     },
     {
       "id": "1-3",
-      "word": "abroad",
+      "word": "해외에서, 외국에서",
       "question": "뜻을 선택하세요",
-      "options": [
-        "해외에서, 외국에서",
-        "결석, 결근, 부재",
-        "갑작스럽게",
-        "추상적인"
-      ],
-      "correct": 0
+      "options": ["abandon", "abolish", "abroad", "abruptly"],
+      "correct": 2
     },
     {
       "id": "1-4",
-      "word": "abruptly",
+      "word": "갑작스럽게",
       "question": "뜻을 선택하세요",
-      "options": ["갑작스럽게", "풍부한", "학대, 남용", "받아들이다, 수용하다"],
-      "correct": 0
+      "options": ["abandon", "abolish", "abroad", "abruptly"],
+      "correct": 3
     },
     {
       "id": "1-5",
-      "word": "absence",
+      "word": "결석, 결근, 부재",
       "question": "뜻을 선택하세요",
-      "options": [
-        "결석, 결근, 부재",
-        "접속, 입장",
-        "우연히, 실수로",
-        "수용하다"
-      ],
+      "options": ["absence", "absolutely", "absorb", "abstract"],
       "correct": 0
     },
     {
       "id": "1-6",
-      "word": "absolutely",
+      "word": "절대적으로, 전혀",
       "question": "뜻을 선택하세요",
-      "options": ["절대적으로, 전혀", "동행하다", "달성하다", "~에 따르면"],
-      "correct": 0
+      "options": ["absence", "absolutely", "absorb", "abstract"],
+      "correct": 1
     },
     {
       "id": "1-7",
-      "word": "absorb",
+      "word": "흡수하다",
       "question": "뜻을 선택하세요",
-      "options": [
-        "흡수하다",
-        "따라서",
-        "~를 차지하다, 설명하다",
-        "설명, 이야기, 계좌"
-      ],
-      "correct": 0
+      "options": ["absence", "absolutely", "absorb", "abstract"],
+      "correct": 2
     },
     {
       "id": "1-8",
-      "word": "abstract",
+      "word": "추상적인",
       "question": "뜻을 선택하세요",
-      "options": ["추상적인", "책임이 있는", "버리다, 단념하다", "폐지하다"],
-      "correct": 0
+      "options": ["absence", "absolutely", "absorb", "abstract"],
+      "correct": 3
     },
     {
       "id": "1-9",
-      "word": "abundant",
+      "word": "풍부한",
       "question": "뜻을 선택하세요",
-      "options": [
-        "풍부한",
-        "해외에서, 외국에서",
-        "갑작스럽게",
-        "결석, 결근, 부재"
-      ],
+      "options": ["abundant", "abuse", "accelerate", "accept"],
       "correct": 0
     },
     {
       "id": "1-10",
-      "word": "abuse",
+      "word": "학대, 남용",
       "question": "뜻을 선택하세요",
-      "options": ["학대, 남용", "절대적으로, 전혀", "흡수하다", "추상적인"],
-      "correct": 0
+      "options": ["abundant", "abuse", "accelerate", "accept"],
+      "correct": 1
     },
     {
       "id": "1-11",
-      "word": "accelerate",
+      "word": "가속하다",
       "question": "뜻을 선택하세요",
-      "options": ["가속하다", "풍부한", "학대, 남용", "받아들이다, 수용하다"],
-      "correct": 0
+      "options": ["abundant", "abuse", "accelerate", "accept"],
+      "correct": 2
     },
     {
       "id": "1-12",
-      "word": "accept",
+      "word": "받아들이다, 수용하다",
       "question": "뜻을 선택하세요",
-      "options": [
-        "받아들이다, 수용하다",
-        "접속, 입장",
-        "우연히, 실수로",
-        "수용하다"
-      ],
-      "correct": 0
+      "options": ["abundant", "abuse", "accelerate", "accept"],
+      "correct": 3
     },
     {
       "id": "1-13",
-      "word": "access",
+      "word": "접속, 입장",
       "question": "뜻을 선택하세요",
-      "options": ["접속, 입장", "동행하다", "달성하다", "~에 따르면"],
+      "options": ["access", "accidentally", "accommodate", "accompany"],
       "correct": 0
     },
     {
       "id": "1-14",
-      "word": "accidentally",
+      "word": "우연히, 실수로",
       "question": "뜻을 선택하세요",
-      "options": [
-        "우연히, 실수로",
-        "따라서",
-        "~를 차지하다, 설명하다",
-        "설명, 이야기, 계좌"
-      ],
-      "correct": 0
+      "options": ["access", "accidentally", "accommodate", "accompany"],
+      "correct": 1
     },
     {
       "id": "1-15",
-      "word": "accommodate",
+      "word": "수용하다",
       "question": "뜻을 선택하세요",
-      "options": ["수용하다", "책임이 있는", "버리다, 단념하다", "폐지하다"],
-      "correct": 0
+      "options": ["access", "accidentally", "accommodate", "accompany"],
+      "correct": 2
     },
     {
       "id": "1-16",
-      "word": "accompany",
+      "word": "동행하다",
       "question": "뜻을 선택하세요",
-      "options": [
-        "동행하다",
-        "해외에서, 외국에서",
-        "갑작스럽게",
-        "결석, 결근, 부재"
-      ],
-      "correct": 0
+      "options": ["access", "accidentally", "accommodate", "accompany"],
+      "correct": 3
     },
     {
       "id": "1-17",
-      "word": "accomplish",
+      "word": "달성하다",
       "question": "뜻을 선택하세요",
-      "options": ["달성하다", "절대적으로, 전혀", "흡수하다", "추상적인"],
+      "options": ["accomplish", "according to", "accordingly", "account for"],
       "correct": 0
     },
     {
       "id": "1-18",
-      "word": "according to",
+      "word": "~에 따르면",
       "question": "뜻을 선택하세요",
-      "options": ["~에 따르면", "풍부한", "학대, 남용", "가속하다"],
-      "correct": 0
+      "options": ["accomplish", "according to", "accordingly", "account for"],
+      "correct": 1
     },
     {
       "id": "1-19",
-      "word": "accordingly",
+      "word": "따라서",
       "question": "뜻을 선택하세요",
-      "options": [
-        "따라서",
-        "받아들이다, 수용하다",
-        "접속, 입장",
-        "우연히, 실수로"
-      ],
-      "correct": 0
+      "options": ["accomplish", "according to", "accordingly", "account for"],
+      "correct": 2
     },
     {
       "id": "1-20",
-      "word": "account for",
+      "word": "~를 차지하다, 설명하다",
       "question": "뜻을 선택하세요",
-      "options": ["~를 차지하다, 설명하다", "수용하다", "동행하다", "달성하다"],
-      "correct": 0
+      "options": ["accomplish", "according to", "accordingly", "account for"],
+      "correct": 3
     },
     {
       "id": "1-21",
-      "word": "account",
+      "word": "설명, 이야기, 계좌",
       "question": "뜻을 선택하세요",
-      "options": [
-        "설명, 이야기, 계좌",
-        "~에 따르면",
-        "따라서",
-        "~를 차지하다, 설명하다"
-      ],
+      "options": ["account", "accountable", "abandon", "abolish"],
       "correct": 0
     },
     {
       "id": "1-22",
-      "word": "accountable",
+      "word": "책임이 있는",
+      "question": "뜻을 선택하세요",
+      "options": ["account", "accountable", "abandon", "abolish"],
+      "correct": 1
+    }
+  ],
+  "2": [
+    {
+      "id": "2-1",
+      "word": "회계사",
+      "question": "뜻을 선택하세요",
+      "options": ["accountant", "accurate", "accuse", "accustomed"],
+      "correct": 0
+    },
+    {
+      "id": "2-2",
+      "word": "정확한",
+      "question": "뜻을 선택하세요",
+      "options": ["accountant", "accurate", "accuse", "accustomed"],
+      "correct": 1
+    },
+    {
+      "id": "2-3",
+      "word": "비난하다, 고소하다",
+      "question": "뜻을 선택하세요",
+      "options": ["accountant", "accurate", "accuse", "accustomed"],
+      "correct": 2
+    },
+    {
+      "id": "2-4",
+      "word": "익숙한, 습관이 된",
+      "question": "뜻을 선택하세요",
+      "options": ["accountant", "accurate", "accuse", "accustomed"],
+      "correct": 3
+    },
+    {
+      "id": "2-5",
+      "word": "아픔, 고통",
+      "question": "뜻을 선택하세요",
+      "options": ["ache", "achieve", "acknowledge", "acid rain"],
+      "correct": 0
+    },
+    {
+      "id": "2-6",
+      "word": "성취하다",
+      "question": "뜻을 선택하세요",
+      "options": ["ache", "achieve", "acknowledge", "acid rain"],
+      "correct": 1
+    },
+    {
+      "id": "2-7",
+      "word": "인정하다",
+      "question": "뜻을 선택하세요",
+      "options": ["ache", "achieve", "acknowledge", "acid rain"],
+      "correct": 2
+    },
+    {
+      "id": "2-8",
+      "word": "산성비",
+      "question": "뜻을 선택하세요",
+      "options": ["ache", "achieve", "acknowledge", "acid rain"],
+      "correct": 3
+    },
+    {
+      "id": "2-9",
+      "word": "아는 사람, 지인",
+      "question": "뜻을 선택하세요",
+      "options": ["acquaintance", "acquire", "acute", "adapt"],
+      "correct": 0
+    },
+    {
+      "id": "2-10",
+      "word": "습득하다, 획득하다",
+      "question": "뜻을 선택하세요",
+      "options": ["acquaintance", "acquire", "acute", "adapt"],
+      "correct": 1
+    },
+    {
+      "id": "2-11",
+      "word": "극심한, 급성의",
+      "question": "뜻을 선택하세요",
+      "options": ["acquaintance", "acquire", "acute", "adapt"],
+      "correct": 2
+    },
+    {
+      "id": "2-12",
+      "word": "맞추다, 적응하다",
+      "question": "뜻을 선택하세요",
+      "options": ["acquaintance", "acquire", "acute", "adapt"],
+      "correct": 3
+    },
+    {
+      "id": "2-13",
+      "word": "적응하다, 조절하다",
+      "question": "뜻을 선택하세요",
+      "options": ["adjust", "addict", "administer", "admirable"],
+      "correct": 0
+    },
+    {
+      "id": "2-14",
+      "word": "중독자",
+      "question": "뜻을 선택하세요",
+      "options": ["adjust", "addict", "administer", "admirable"],
+      "correct": 1
+    },
+    {
+      "id": "2-15",
+      "word": "관리하다, 집행하다",
+      "question": "뜻을 선택하세요",
+      "options": ["adjust", "addict", "administer", "admirable"],
+      "correct": 2
+    },
+    {
+      "id": "2-16",
+      "word": "칭찬할 만한",
+      "question": "뜻을 선택하세요",
+      "options": ["adjust", "addict", "administer", "admirable"],
+      "correct": 3
+    },
+    {
+      "id": "2-17",
+      "word": "입장, 입장료, 입학",
+      "question": "뜻을 선택하세요",
+      "options": ["admission", "adolescent", "adopt", "adore"],
+      "correct": 0
+    },
+    {
+      "id": "2-18",
+      "word": "사춘기 청소년",
+      "question": "뜻을 선택하세요",
+      "options": ["admission", "adolescent", "adopt", "adore"],
+      "correct": 1
+    },
+    {
+      "id": "2-19",
+      "word": "받아들이다, 입양하다",
+      "question": "뜻을 선택하세요",
+      "options": ["admission", "adolescent", "adopt", "adore"],
+      "correct": 2
+    },
+    {
+      "id": "2-20",
+      "word": "아주 좋아하다, 존경하다",
+      "question": "뜻을 선택하세요",
+      "options": ["admission", "adolescent", "adopt", "adore"],
+      "correct": 3
+    },
+    {
+      "id": "2-21",
+      "word": "전진, 발전",
+      "question": "뜻을 선택하세요",
+      "options": ["advance", "advantage", "accountant", "accurate"],
+      "correct": 0
+    },
+    {
+      "id": "2-22",
+      "word": "이점, 유리",
+      "question": "뜻을 선택하세요",
+      "options": ["advance", "advantage", "accountant", "accurate"],
+      "correct": 1
+    }
+  ],
+  "3": [
+    {
+      "id": "3-1",
+      "word": "출현, 도래",
+      "question": "뜻을 선택하세요",
+      "options": ["advent", "adventure", "adversity", "advertisement"],
+      "correct": 0
+    },
+    {
+      "id": "3-2",
+      "word": "모험",
+      "question": "뜻을 선택하세요",
+      "options": ["advent", "adventure", "adversity", "advertisement"],
+      "correct": 1
+    },
+    {
+      "id": "3-3",
+      "word": "역경, 고난",
+      "question": "뜻을 선택하세요",
+      "options": ["advent", "adventure", "adversity", "advertisement"],
+      "correct": 2
+    },
+    {
+      "id": "3-4",
+      "word": "광고",
+      "question": "뜻을 선택하세요",
+      "options": ["advent", "adventure", "adversity", "advertisement"],
+      "correct": 3
+    },
+    {
+      "id": "3-5",
+      "word": "충고",
+      "question": "뜻을 선택하세요",
+      "options": ["advice", "advocate", "affair", "affect"],
+      "correct": 0
+    },
+    {
+      "id": "3-6",
+      "word": "지지하다, 변호하다",
+      "question": "뜻을 선택하세요",
+      "options": ["advice", "advocate", "affair", "affect"],
+      "correct": 1
+    },
+    {
+      "id": "3-7",
+      "word": "일, 문제",
+      "question": "뜻을 선택하세요",
+      "options": ["advice", "advocate", "affair", "affect"],
+      "correct": 2
+    },
+    {
+      "id": "3-8",
+      "word": "영향을 주다",
+      "question": "뜻을 선택하세요",
+      "options": ["advice", "advocate", "affair", "affect"],
+      "correct": 3
+    },
+    {
+      "id": "3-9",
+      "word": "애정 있는, 다정한",
+      "question": "뜻을 선택하세요",
+      "options": ["affectionate", "affinity", "affluent", "afford"],
+      "correct": 0
+    },
+    {
+      "id": "3-10",
+      "word": "친밀감, 좋아함",
+      "question": "뜻을 선택하세요",
+      "options": ["affectionate", "affinity", "affluent", "afford"],
+      "correct": 1
+    },
+    {
+      "id": "3-11",
+      "word": "부유한",
+      "question": "뜻을 선택하세요",
+      "options": ["affectionate", "affinity", "affluent", "afford"],
+      "correct": 2
+    },
+    {
+      "id": "3-12",
+      "word": "여유가 있다, 감당할 수 있다",
+      "question": "뜻을 선택하세요",
+      "options": ["affectionate", "affinity", "affluent", "afford"],
+      "correct": 3
+    },
+    {
+      "id": "3-13",
+      "word": "(물에) 뜬",
+      "question": "뜻을 선택하세요",
+      "options": ["afloat", "agent", "aggressive", "aging"],
+      "correct": 0
+    },
+    {
+      "id": "3-14",
+      "word": "대리인, 중개상",
+      "question": "뜻을 선택하세요",
+      "options": ["afloat", "agent", "aggressive", "aging"],
+      "correct": 1
+    },
+    {
+      "id": "3-15",
+      "word": "공격적인, 호전적인",
+      "question": "뜻을 선택하세요",
+      "options": ["afloat", "agent", "aggressive", "aging"],
+      "correct": 2
+    },
+    {
+      "id": "3-16",
+      "word": "노화, 노화 과정",
+      "question": "뜻을 선택하세요",
+      "options": ["afloat", "agent", "aggressive", "aging"],
+      "correct": 3
+    },
+    {
+      "id": "3-17",
+      "word": "심한 고통, 괴로움",
+      "question": "뜻을 선택하세요",
+      "options": ["agony", "agriculture", "ahead of time", "aim"],
+      "correct": 0
+    },
+    {
+      "id": "3-18",
+      "word": "농업",
+      "question": "뜻을 선택하세요",
+      "options": ["agony", "agriculture", "ahead of time", "aim"],
+      "correct": 1
+    },
+    {
+      "id": "3-19",
+      "word": "앞서서, 일찍, 빨리",
+      "question": "뜻을 선택하세요",
+      "options": ["agony", "agriculture", "ahead of time", "aim"],
+      "correct": 2
+    },
+    {
+      "id": "3-20",
+      "word": "목표로 하다, 겨누다",
+      "question": "뜻을 선택하세요",
+      "options": ["agony", "agriculture", "ahead of time", "aim"],
+      "correct": 3
+    },
+    {
+      "id": "3-21",
+      "word": "통로",
+      "question": "뜻을 선택하세요",
+      "options": ["aisle", "alert", "advent", "adventure"],
+      "correct": 0
+    },
+    {
+      "id": "3-22",
+      "word": "주시하는, 빈틈없는, 기민한",
+      "question": "뜻을 선택하세요",
+      "options": ["aisle", "alert", "advent", "adventure"],
+      "correct": 1
+    }
+  ],
+  "4": [
+    {
+      "id": "4-1",
+      "word": "낯선, 생소한, 외계의",
+      "question": "뜻을 선택하세요",
+      "options": ["alien", "allegory", "allergic", "alliance"],
+      "correct": 0
+    },
+    {
+      "id": "4-2",
+      "word": "우화, 풍자",
+      "question": "뜻을 선택하세요",
+      "options": ["alien", "allegory", "allergic", "alliance"],
+      "correct": 1
+    },
+    {
+      "id": "4-3",
+      "word": "알레르기의, 몹시 싫어하는",
+      "question": "뜻을 선택하세요",
+      "options": ["alien", "allegory", "allergic", "alliance"],
+      "correct": 2
+    },
+    {
+      "id": "4-4",
+      "word": "동맹, 제휴, 공조",
+      "question": "뜻을 선택하세요",
+      "options": ["alien", "allegory", "allergic", "alliance"],
+      "correct": 3
+    },
+    {
+      "id": "4-5",
+      "word": "바꾸다",
+      "question": "뜻을 선택하세요",
+      "options": ["alter", "alternate", "alternative", "altitude"],
+      "correct": 0
+    },
+    {
+      "id": "4-6",
+      "word": "교대하는, 하나 거르는",
+      "question": "뜻을 선택하세요",
+      "options": ["alter", "alternate", "alternative", "altitude"],
+      "correct": 1
+    },
+    {
+      "id": "4-7",
+      "word": "대안의, 기존과는 다른",
+      "question": "뜻을 선택하세요",
+      "options": ["alter", "alternate", "alternative", "altitude"],
+      "correct": 2
+    },
+    {
+      "id": "4-8",
+      "word": "해발 고도, 높이",
+      "question": "뜻을 선택하세요",
+      "options": ["alter", "alternate", "alternative", "altitude"],
+      "correct": 3
+    },
+    {
+      "id": "4-9",
+      "word": "놀라움, 경탄",
+      "question": "뜻을 선택하세요",
+      "options": ["amazement", "ambassador", "ambitious", "amend"],
+      "correct": 0
+    },
+    {
+      "id": "4-10",
+      "word": "대사",
+      "question": "뜻을 선택하세요",
+      "options": ["amazement", "ambassador", "ambitious", "amend"],
+      "correct": 1
+    },
+    {
+      "id": "4-11",
+      "word": "야심찬, 야망 있는",
+      "question": "뜻을 선택하세요",
+      "options": ["amazement", "ambassador", "ambitious", "amend"],
+      "correct": 2
+    },
+    {
+      "id": "4-12",
+      "word": "개정하다, 수정하다",
+      "question": "뜻을 선택하세요",
+      "options": ["amazement", "ambassador", "ambitious", "amend"],
+      "correct": 3
+    },
+    {
+      "id": "4-13",
+      "word": "친목, 우호 관계",
+      "question": "뜻을 선택하세요",
+      "options": ["amity", "amount", "amusement", "analysis"],
+      "correct": 0
+    },
+    {
+      "id": "4-14",
+      "word": "이르다, 달하다",
+      "question": "뜻을 선택하세요",
+      "options": ["amity", "amount", "amusement", "analysis"],
+      "correct": 1
+    },
+    {
+      "id": "4-15",
+      "word": "기쁨, 즐거움",
+      "question": "뜻을 선택하세요",
+      "options": ["amity", "amount", "amusement", "analysis"],
+      "correct": 2
+    },
+    {
+      "id": "4-16",
+      "word": "분석",
+      "question": "뜻을 선택하세요",
+      "options": ["amity", "amount", "amusement", "analysis"],
+      "correct": 3
+    },
+    {
+      "id": "4-17",
+      "word": "조상, 선조",
+      "question": "뜻을 선택하세요",
+      "options": ["ancestor", "ancient", "ankle", "anniversary"],
+      "correct": 0
+    },
+    {
+      "id": "4-18",
+      "word": "고대의, 아주 오래된",
+      "question": "뜻을 선택하세요",
+      "options": ["ancestor", "ancient", "ankle", "anniversary"],
+      "correct": 1
+    },
+    {
+      "id": "4-19",
+      "word": "발목",
+      "question": "뜻을 선택하세요",
+      "options": ["ancestor", "ancient", "ankle", "anniversary"],
+      "correct": 2
+    },
+    {
+      "id": "4-20",
+      "word": "기념일",
+      "question": "뜻을 선택하세요",
+      "options": ["ancestor", "ancient", "ankle", "anniversary"],
+      "correct": 3
+    },
+    {
+      "id": "4-21",
+      "word": "발표하다, 알리다",
+      "question": "뜻을 선택하세요",
+      "options": ["announce", "annoy", "alien", "allegory"],
+      "correct": 0
+    },
+    {
+      "id": "4-22",
+      "word": "짜증나게 하다",
+      "question": "뜻을 선택하세요",
+      "options": ["announce", "annoy", "alien", "allegory"],
+      "correct": 1
+    }
+  ],
+  "5": [
+    {
+      "id": "5-1",
+      "word": "해마다의, 연간의",
+      "question": "뜻을 선택하세요",
+      "options": ["annual", "anonymous", "antibiotic", "anticipation"],
+      "correct": 0
+    },
+    {
+      "id": "5-2",
+      "word": "익명인, 작가미상의",
+      "question": "뜻을 선택하세요",
+      "options": ["annual", "anonymous", "antibiotic", "anticipation"],
+      "correct": 1
+    },
+    {
+      "id": "5-3",
+      "word": "항생제",
+      "question": "뜻을 선택하세요",
+      "options": ["annual", "anonymous", "antibiotic", "anticipation"],
+      "correct": 2
+    },
+    {
+      "id": "5-4",
+      "word": "예상, 기대",
+      "question": "뜻을 선택하세요",
+      "options": ["annual", "anonymous", "antibiotic", "anticipation"],
+      "correct": 3
+    },
+    {
+      "id": "5-5",
+      "word": "골동품",
+      "question": "뜻을 선택하세요",
+      "options": ["antique", "anxiety", "anxious", "apologize"],
+      "correct": 0
+    },
+    {
+      "id": "5-6",
+      "word": "불안, 걱정",
+      "question": "뜻을 선택하세요",
+      "options": ["antique", "anxiety", "anxious", "apologize"],
+      "correct": 1
+    },
+    {
+      "id": "5-7",
+      "word": "열망하는, 걱정하는",
+      "question": "뜻을 선택하세요",
+      "options": ["antique", "anxiety", "anxious", "apologize"],
+      "correct": 2
+    },
+    {
+      "id": "5-8",
+      "word": "사과하다",
+      "question": "뜻을 선택하세요",
+      "options": ["antique", "anxiety", "anxious", "apologize"],
+      "correct": 3
+    },
+    {
+      "id": "5-9",
+      "word": "마음을 끄는, 매력적인",
+      "question": "뜻을 선택하세요",
+      "options": ["appealing", "appearance", "appetite", "applause"],
+      "correct": 0
+    },
+    {
+      "id": "5-10",
+      "word": "외모",
+      "question": "뜻을 선택하세요",
+      "options": ["appealing", "appearance", "appetite", "applause"],
+      "correct": 1
+    },
+    {
+      "id": "5-11",
+      "word": "식욕, 욕구",
+      "question": "뜻을 선택하세요",
+      "options": ["appealing", "appearance", "appetite", "applause"],
+      "correct": 2
+    },
+    {
+      "id": "5-12",
+      "word": "박수갈채",
+      "question": "뜻을 선택하세요",
+      "options": ["appealing", "appearance", "appetite", "applause"],
+      "correct": 3
+    },
+    {
+      "id": "5-13",
+      "word": "지원자",
+      "question": "뜻을 선택하세요",
+      "options": ["applicant", "application", "apply to", "appoint"],
+      "correct": 0
+    },
+    {
+      "id": "5-14",
+      "word": "지원서, 신청서",
+      "question": "뜻을 선택하세요",
+      "options": ["applicant", "application", "apply to", "appoint"],
+      "correct": 1
+    },
+    {
+      "id": "5-15",
+      "word": "~에 적용되다",
+      "question": "뜻을 선택하세요",
+      "options": ["applicant", "application", "apply to", "appoint"],
+      "correct": 2
+    },
+    {
+      "id": "5-16",
+      "word": "지명하다, 임명하다",
+      "question": "뜻을 선택하세요",
+      "options": ["applicant", "application", "apply to", "appoint"],
+      "correct": 3
+    },
+    {
+      "id": "5-17",
+      "word": "감사하다, 고맙게 여기다",
+      "question": "뜻을 선택하세요",
+      "options": ["appreciate", "apprehensive", "approach", "appropriate"],
+      "correct": 0
+    },
+    {
+      "id": "5-18",
+      "word": "걱정스러운, 염려하는",
+      "question": "뜻을 선택하세요",
+      "options": ["appreciate", "apprehensive", "approach", "appropriate"],
+      "correct": 1
+    },
+    {
+      "id": "5-19",
+      "word": "접근방식, 방법",
+      "question": "뜻을 선택하세요",
+      "options": ["appreciate", "apprehensive", "approach", "appropriate"],
+      "correct": 2
+    },
+    {
+      "id": "5-20",
+      "word": "적절한, 어울리는",
+      "question": "뜻을 선택하세요",
+      "options": ["appreciate", "apprehensive", "approach", "appropriate"],
+      "correct": 3
+    },
+    {
+      "id": "5-21",
+      "word": "승인, 동의",
+      "question": "뜻을 선택하세요",
+      "options": ["approval", "approximately", "annual", "anonymous"],
+      "correct": 0
+    },
+    {
+      "id": "5-22",
+      "word": "대략, 거의",
+      "question": "뜻을 선택하세요",
+      "options": ["approval", "approximately", "annual", "anonymous"],
+      "correct": 1
+    }
+  ],
+  "6": [
+    {
+      "id": "6-1",
+      "word": "적성, 소질, 재능",
+      "question": "뜻을 선택하세요",
+      "options": ["aptitude", "archaeologist", "archaic", "archery"],
+      "correct": 0
+    },
+    {
+      "id": "6-2",
+      "word": "고고학자",
+      "question": "뜻을 선택하세요",
+      "options": ["aptitude", "archaeologist", "archaic", "archery"],
+      "correct": 1
+    },
+    {
+      "id": "6-3",
+      "word": "낡은, 폐물의",
+      "question": "뜻을 선택하세요",
+      "options": ["aptitude", "archaeologist", "archaic", "archery"],
+      "correct": 2
+    },
+    {
+      "id": "6-4",
+      "word": "궁술, 활쏘기, 양궁",
+      "question": "뜻을 선택하세요",
+      "options": ["aptitude", "archaeologist", "archaic", "archery"],
+      "correct": 3
+    },
+    {
+      "id": "6-5",
+      "word": "건축가",
+      "question": "뜻을 선택하세요",
+      "options": ["architect", "architecture", "arctic", "argue"],
+      "correct": 0
+    },
+    {
+      "id": "6-6",
+      "word": "건축학",
+      "question": "뜻을 선택하세요",
+      "options": ["architect", "architecture", "arctic", "argue"],
+      "correct": 1
+    },
+    {
+      "id": "6-7",
+      "word": "북극의, 몹시 찬",
+      "question": "뜻을 선택하세요",
+      "options": ["architect", "architecture", "arctic", "argue"],
+      "correct": 2
+    },
+    {
+      "id": "6-8",
+      "word": "주장하다, 논쟁하다",
+      "question": "뜻을 선택하세요",
+      "options": ["architect", "architecture", "arctic", "argue"],
+      "correct": 3
+    },
+    {
+      "id": "6-9",
+      "word": "일어나다, 발생하다",
+      "question": "뜻을 선택하세요",
+      "options": ["arise", "armor", "aroma", "arouse"],
+      "correct": 0
+    },
+    {
+      "id": "6-10",
+      "word": "갑옷",
+      "question": "뜻을 선택하세요",
+      "options": ["arise", "armor", "aroma", "arouse"],
+      "correct": 1
+    },
+    {
+      "id": "6-11",
+      "word": "향기, 방향",
+      "question": "뜻을 선택하세요",
+      "options": ["arise", "armor", "aroma", "arouse"],
+      "correct": 2
+    },
+    {
+      "id": "6-12",
+      "word": "불러일으키다, 자극하다",
+      "question": "뜻을 선택하세요",
+      "options": ["arise", "armor", "aroma", "arouse"],
+      "correct": 3
+    },
+    {
+      "id": "6-13",
+      "word": "정리하다, 준비하다",
+      "question": "뜻을 선택하세요",
+      "options": ["arrange", "arrest", "arrogant", "artery"],
+      "correct": 0
+    },
+    {
+      "id": "6-14",
+      "word": "체포하다",
+      "question": "뜻을 선택하세요",
+      "options": ["arrange", "arrest", "arrogant", "artery"],
+      "correct": 1
+    },
+    {
+      "id": "6-15",
+      "word": "오만한",
+      "question": "뜻을 선택하세요",
+      "options": ["arrange", "arrest", "arrogant", "artery"],
+      "correct": 2
+    },
+    {
+      "id": "6-16",
+      "word": "동맥",
+      "question": "뜻을 선택하세요",
+      "options": ["arrange", "arrest", "arrogant", "artery"],
+      "correct": 3
+    },
+    {
+      "id": "6-17",
+      "word": "기사, 물품, 물건",
       "question": "뜻을 선택하세요",
       "options": [
-        "책임이 있는",
-        "버리다, 단념하다",
-        "폐지하다",
-        "해외에서, 외국에서"
+        "article",
+        "artificial intelligence",
+        "artwork",
+        "as long as"
       ],
       "correct": 0
+    },
+    {
+      "id": "6-18",
+      "word": "인공지능",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "article",
+        "artificial intelligence",
+        "artwork",
+        "as long as"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "6-19",
+      "word": "예술작품, 미술품",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "article",
+        "artificial intelligence",
+        "artwork",
+        "as long as"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "6-20",
+      "word": "~ 하는 한, ~하기만 한다면",
+      "question": "뜻을 선택하세요",
+      "options": [
+        "article",
+        "artificial intelligence",
+        "artwork",
+        "as long as"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "6-21",
+      "word": "~에 관해서",
+      "question": "뜻을 선택하세요",
+      "options": ["as to", "ascend", "aptitude", "archaeologist"],
+      "correct": 0
+    },
+    {
+      "id": "6-22",
+      "word": "올라가다, 상승하다",
+      "question": "뜻을 선택하세요",
+      "options": ["as to", "ascend", "aptitude", "archaeologist"],
+      "correct": 1
+    }
+  ],
+  "7": [
+    {
+      "id": "7-1",
+      "word": "부끄러운, 창피한",
+      "question": "뜻을 선택하세요",
+      "options": ["ashamed", "aspect", "aspiration", "assembly"],
+      "correct": 0
+    },
+    {
+      "id": "7-2",
+      "word": "측면, 양상",
+      "question": "뜻을 선택하세요",
+      "options": ["ashamed", "aspect", "aspiration", "assembly"],
+      "correct": 1
+    },
+    {
+      "id": "7-3",
+      "word": "열망, 염원",
+      "question": "뜻을 선택하세요",
+      "options": ["ashamed", "aspect", "aspiration", "assembly"],
+      "correct": 2
+    },
+    {
+      "id": "7-4",
+      "word": "의회, 집회, 조립",
+      "question": "뜻을 선택하세요",
+      "options": ["ashamed", "aspect", "aspiration", "assembly"],
+      "correct": 3
+    },
+    {
+      "id": "7-5",
+      "word": "동의하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assent", "assert", "assess", "asset"],
+      "correct": 0
+    },
+    {
+      "id": "7-6",
+      "word": "주장하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assent", "assert", "assess", "asset"],
+      "correct": 1
+    },
+    {
+      "id": "7-7",
+      "word": "평가하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assent", "assert", "assess", "asset"],
+      "correct": 2
+    },
+    {
+      "id": "7-8",
+      "word": "자산",
+      "question": "뜻을 선택하세요",
+      "options": ["assent", "assert", "assess", "asset"],
+      "correct": 3
+    },
+    {
+      "id": "7-9",
+      "word": "부여하다, 배정하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assign", "assistance", "associate", "assume"],
+      "correct": 0
+    },
+    {
+      "id": "7-10",
+      "word": "도움",
+      "question": "뜻을 선택하세요",
+      "options": ["assign", "assistance", "associate", "assume"],
+      "correct": 1
+    },
+    {
+      "id": "7-11",
+      "word": "연관시키다, 연결 짓다",
+      "question": "뜻을 선택하세요",
+      "options": ["assign", "assistance", "associate", "assume"],
+      "correct": 2
+    },
+    {
+      "id": "7-12",
+      "word": "짐작하다, 추정하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assign", "assistance", "associate", "assume"],
+      "correct": 3
+    },
+    {
+      "id": "7-13",
+      "word": "장담하다, 확언하다",
+      "question": "뜻을 선택하세요",
+      "options": ["assure", "astonishing", "astray", "astronaut"],
+      "correct": 0
+    },
+    {
+      "id": "7-14",
+      "word": "놀라운, 엄청난",
+      "question": "뜻을 선택하세요",
+      "options": ["assure", "astonishing", "astray", "astronaut"],
+      "correct": 1
+    },
+    {
+      "id": "7-15",
+      "word": "길을 잃은",
+      "question": "뜻을 선택하세요",
+      "options": ["assure", "astonishing", "astray", "astronaut"],
+      "correct": 2
+    },
+    {
+      "id": "7-16",
+      "word": "우주 비행사",
+      "question": "뜻을 선택하세요",
+      "options": ["assure", "astonishing", "astray", "astronaut"],
+      "correct": 3
+    },
+    {
+      "id": "7-17",
+      "word": "천문학",
+      "question": "뜻을 선택하세요",
+      "options": ["astronomy", "athlete", "atmosphere", "atomic"],
+      "correct": 0
+    },
+    {
+      "id": "7-18",
+      "word": "운동선수",
+      "question": "뜻을 선택하세요",
+      "options": ["astronomy", "athlete", "atmosphere", "atomic"],
+      "correct": 1
+    },
+    {
+      "id": "7-19",
+      "word": "분위기, 대기",
+      "question": "뜻을 선택하세요",
+      "options": ["astronomy", "athlete", "atmosphere", "atomic"],
+      "correct": 2
+    },
+    {
+      "id": "7-20",
+      "word": "원자의, 핵의",
+      "question": "뜻을 선택하세요",
+      "options": ["astronomy", "athlete", "atmosphere", "atomic"],
+      "correct": 3
+    },
+    {
+      "id": "7-21",
+      "word": "붙이다, 첨부하다",
+      "question": "뜻을 선택하세요",
+      "options": ["attach", "attain", "ashamed", "aspect"],
+      "correct": 0
+    },
+    {
+      "id": "7-22",
+      "word": "달성하다, 획득하다",
+      "question": "뜻을 선택하세요",
+      "options": ["attach", "attain", "ashamed", "aspect"],
+      "correct": 1
+    }
+  ],
+  "8": [
+    {
+      "id": "8-1",
+      "word": "시도",
+      "question": "뜻을 선택하세요",
+      "options": ["attempt", "attendance", "attendant", "attitude"],
+      "correct": 0
+    },
+    {
+      "id": "8-2",
+      "word": "참석, 출석",
+      "question": "뜻을 선택하세요",
+      "options": ["attempt", "attendance", "attendant", "attitude"],
+      "correct": 1
+    },
+    {
+      "id": "8-3",
+      "word": "안내원, 수행원",
+      "question": "뜻을 선택하세요",
+      "options": ["attempt", "attendance", "attendant", "attitude"],
+      "correct": 2
+    },
+    {
+      "id": "8-4",
+      "word": "태도, 자세",
+      "question": "뜻을 선택하세요",
+      "options": ["attempt", "attendance", "attendant", "attitude"],
+      "correct": 3
+    },
+    {
+      "id": "8-5",
+      "word": "끌어들이다, 마음을 끌다",
+      "question": "뜻을 선택하세요",
+      "options": ["attract", "attribute", "auction", "audible"],
+      "correct": 0
+    },
+    {
+      "id": "8-6",
+      "word": "속성, 특성, 자질",
+      "question": "뜻을 선택하세요",
+      "options": ["attract", "attribute", "auction", "audible"],
+      "correct": 1
+    },
+    {
+      "id": "8-7",
+      "word": "경매",
+      "question": "뜻을 선택하세요",
+      "options": ["attract", "attribute", "auction", "audible"],
+      "correct": 2
+    },
+    {
+      "id": "8-8",
+      "word": "들을 수 있는",
+      "question": "뜻을 선택하세요",
+      "options": ["attract", "attribute", "auction", "audible"],
+      "correct": 3
+    },
+    {
+      "id": "8-9",
+      "word": "강당",
+      "question": "뜻을 선택하세요",
+      "options": ["auditorium", "authentic", "authority", "autobiography"],
+      "correct": 0
+    },
+    {
+      "id": "8-10",
+      "word": "진짜의, 진품의",
+      "question": "뜻을 선택하세요",
+      "options": ["auditorium", "authentic", "authority", "autobiography"],
+      "correct": 1
+    },
+    {
+      "id": "8-11",
+      "word": "권위, 권한",
+      "question": "뜻을 선택하세요",
+      "options": ["auditorium", "authentic", "authority", "autobiography"],
+      "correct": 2
+    },
+    {
+      "id": "8-12",
+      "word": "자서전",
+      "question": "뜻을 선택하세요",
+      "options": ["auditorium", "authentic", "authority", "autobiography"],
+      "correct": 3
+    },
+    {
+      "id": "8-13",
+      "word": "자동화",
+      "question": "뜻을 선택하세요",
+      "options": ["automation", "automobile", "available", "average"],
+      "correct": 0
+    },
+    {
+      "id": "8-14",
+      "word": "자동차",
+      "question": "뜻을 선택하세요",
+      "options": ["automation", "automobile", "available", "average"],
+      "correct": 1
+    },
+    {
+      "id": "8-15",
+      "word": "구할 수 있는, 이용 가능한",
+      "question": "뜻을 선택하세요",
+      "options": ["automation", "automobile", "available", "average"],
+      "correct": 2
+    },
+    {
+      "id": "8-16",
+      "word": "평균의",
+      "question": "뜻을 선택하세요",
+      "options": ["automation", "automobile", "available", "average"],
+      "correct": 3
+    },
+    {
+      "id": "8-17",
+      "word": "회피하다",
+      "question": "뜻을 선택하세요",
+      "options": ["avoid", "award", "aware", "awesome"],
+      "correct": 0
+    },
+    {
+      "id": "8-18",
+      "word": "상을 주다",
+      "question": "뜻을 선택하세요",
+      "options": ["avoid", "award", "aware", "awesome"],
+      "correct": 1
+    },
+    {
+      "id": "8-19",
+      "word": "알고 있는",
+      "question": "뜻을 선택하세요",
+      "options": ["avoid", "award", "aware", "awesome"],
+      "correct": 2
+    },
+    {
+      "id": "8-20",
+      "word": "멋진, 경탄할 만한",
+      "question": "뜻을 선택하세요",
+      "options": ["avoid", "award", "aware", "awesome"],
+      "correct": 3
+    },
+    {
+      "id": "8-21",
+      "word": "끔찍한",
+      "question": "뜻을 선택하세요",
+      "options": ["awful", "awkward", "attempt", "attendance"],
+      "correct": 0
+    },
+    {
+      "id": "8-22",
+      "word": "어색한, 서투른",
+      "question": "뜻을 선택하세요",
+      "options": ["awful", "awkward", "attempt", "attendance"],
+      "correct": 1
     }
   ]
 }

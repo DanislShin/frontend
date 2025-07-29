@@ -1,10 +1,13 @@
 // src/SpeechAccuracyTest.jsx
 import React, { useState, useEffect, useRef } from "react";
 
-function SpeechAccuracyTest({ module, testId, day, onBack }) {
+function SpeechAccuracyTest({ module, testId, day, onBack, session }) {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState({});
   const [results, setResults] = useState(null);
+  const [isRecording, setIsRecording] = useState(false);
+  const [currentQuestion, setCurrentQuestion] = useState(null);
+  const [error, setError] = useState(null);
   const recognitionRef = useRef(null);
 
   useEffect(() => {
@@ -17,9 +20,10 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
       .then((data) => {
         setQuestions(data[day] || []);
       })
-      .catch((error) =>
-        console.error(`데이터 로드 오류 (${jsonFilePath}):`, error)
-      );
+      .catch((error) => {
+        console.error(`데이터 로드 오류 (${jsonFilePath}):`, error);
+        setError(`질문 데이터를 불러오는데 실패했습니다: ${error.message}`);
+      });
 
     return () => {
       if (recognitionRef.current) recognitionRef.current.stop();
@@ -27,23 +31,47 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
   }, [day, module, testId]);
 
   const testAccuracy = (questionId) => async () => {
-    const recognition = new (window.SpeechRecognition ||
-      window.webkitSpeechRecognition)();
-    recognitionRef.current = recognition;
-    recognition.lang = "en-US";
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 1;
+    setError(null);
+    setCurrentQuestion(questionId);
 
-    recognition.onresult = (event) => {
-      const transcript = event.results[0][0].transcript;
-      setAnswers((prev) => ({ ...prev, [questionId]: transcript }));
-    };
+    try {
+      const recognition = new (window.SpeechRecognition ||
+        window.webkitSpeechRecognition)();
+      recognitionRef.current = recognition;
+      recognition.lang = "en-US";
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
 
-    recognition.onerror = (event) => {
-      console.error("음성 인식 오류:", event.error);
-    };
+      recognition.onstart = () => {
+        setIsRecording(true);
+      };
 
-    recognition.start();
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        setAnswers((prev) => ({ ...prev, [questionId]: transcript }));
+        setIsRecording(false);
+        setCurrentQuestion(null);
+      };
+
+      recognition.onerror = (event) => {
+        setIsRecording(false);
+        setCurrentQuestion(null);
+        console.error("음성 인식 오류:", event.error);
+        setError(`음성 인식 오류: ${event.error}`);
+      };
+
+      recognition.onend = () => {
+        setIsRecording(false);
+        setCurrentQuestion(null);
+      };
+
+      recognition.start();
+    } catch (err) {
+      setIsRecording(false);
+      setCurrentQuestion(null);
+      console.error("음성 인식 초기화 오류:", err);
+      setError(`음성 인식을 시작할 수 없습니다: ${err.message}`);
+    }
   };
 
   const levenshteinDistance = (s, t) => {
@@ -67,11 +95,18 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
   };
 
   const cleanText = (text) => {
-    return text.replace(/[.,!?]/g, "").trim(); // 특수문자 제거
+    return text.replace(/[.,!?]/g, "").trim();
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!session) {
+      setError("로그인 상태가 아닙니다");
+      console.error("로그인 상태가 아닙니다");
+      return;
+    }
+
     const newResults = questions.map((q) => {
       const userAnswer = answers[q.id] || "";
       const cleanUserAnswer = cleanText(userAnswer);
@@ -101,7 +136,7 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            user_id: "test-user",
+            user_id: session.user.email,
             module_code: `${testId}-${day}`,
             results: newResults,
           }),
@@ -113,6 +148,7 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
       console.log("Supabase 저장 성공:", data);
     } catch (error) {
       console.error("Supabase 저장 실패:", error);
+      setError(`결과 저장 실패: ${error.message}`);
     }
   };
 
@@ -128,21 +164,58 @@ function SpeechAccuracyTest({ module, testId, day, onBack }) {
         <li>"허용"을 선택해주세요</li>
         <li>한 번 허용하면 다음부터는 자동으로 인식됩니다</li>
       </ol>
+
+      {error && (
+        <div className="error-message" style={{ color: "red" }}>
+          {error}
+        </div>
+      )}
+
       {questions.map((q) => (
         <div key={q.id} className="question">
           <p>{q.question_text}</p>
-          <button onClick={testAccuracy(q.id)}>정확도 테스트</button>
+          <button
+            onClick={testAccuracy(q.id)}
+            disabled={isRecording}
+            style={{
+              backgroundColor: currentQuestion === q.id ? "red" : "",
+              color: currentQuestion === q.id ? "white" : "",
+            }}
+          >
+            {currentQuestion === q.id
+              ? "녹음 중... (말해주세요)"
+              : answers[q.id]
+              ? "다시 녹음하기"
+              : "정확도 테스트"}
+          </button>
+          {answers[q.id] && (
+            <div style={{ marginTop: "5px" }}>
+              <strong>인식된 답변:</strong> {answers[q.id]}
+            </div>
+          )}
         </div>
       ))}
+
       <form onSubmit={handleSubmit}>
-        <button type="submit">제출</button>
+        <button type="submit" disabled={isRecording}>
+          제출
+        </button>
       </form>
+
+      {isRecording && (
+        <div style={{ margin: "10px 0", color: "red" }}>
+          마이크에 말하고 있습니다...
+        </div>
+      )}
+
       {results && (
         <div className="result">
           <h2>채점 결과</h2>
           {results.map((r, index) => (
             <p key={index}>
               {r.question_text}: 점수 {r.score.toFixed(2)}%
+              <br />
+              <small>당신의 답변: {r.user_answer}</small>
             </p>
           ))}
         </div>

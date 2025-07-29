@@ -2,7 +2,7 @@
   "100": [],
   "200": [
     {
-      "id": "202-3-I",
+      "id": "201-3-B",
       "type": "speech-accuracy",
       "skill": "말하기",
       "days": true
@@ -16,9 +16,12 @@
       "days": true
     },
 
-    { "id": "301-1-B", "type": "ai-review", "skill": "읽기", "days": true }
+    { "id": "301-3-B", "type": "ai-review", "skill": "말하기", "days": true }
   ],
   "400": [
-    { "id": "401-1-B", "type": "ai-review", "skill": "읽기", "days": true }
+    { "id": "401-3-B", "type": "ai-review", "skill": "말하기", "days": true }
+  ],
+  "700": [
+    { "id": "701-3-B", "type": "ai-review", "skill": "말하기", "days": true }
   ]
 }

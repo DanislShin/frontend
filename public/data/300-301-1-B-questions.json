@@ -32,17 +32,5 @@
       "id": "1-8",
       "question_text": "We look forward to hearing from you. "
     }
-  ],
-  "2": [
-    { "id": "2-1", "question_text": "She reads every morning." },
-    { "id": "2-2", "question_text": "The morning reading is her habit." }
-  ],
-  "3": [
-    { "id": "3-1", "question_text": "The park is full of flowers." },
-    { "id": "3-2", "question_text": "Flowers in the park bloom beautifully." }
-  ],
-  "10": [
-    { "id": "10-1", "question_text": "The city is very busy today." },
-    { "id": "10-2", "question_text": "Today’s city traffic is overwhelming." }
   ]
 }
