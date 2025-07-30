@@ -47,59 +47,57 @@
     {
       "id": "1-12",
       "question_text": "The sounds of bend… snap, bend… snap echoed around the forest as Oma whipped branches off the trees. But the branches were wet and slimy, and many slipped out of her hands."
-    },
-    {
-      "id": "1-13",
-      "question_text": "Time's up! shouted Vina. Stop what you're doing."
-    },
-    {
-      "id": "1-14",
-      "question_text": "Oma did not feel confident with this challenge either."
-    },
-    {
-      "id": "1-15",
-      "question_text": "Can you stand up in your nest? shouted one of the watching orangutans."
-    },
-    {
-      "id": "1-16",
-      "question_text": "Oma nervously stepped in."
-    },
-    {
-      "id": "1-17",
-      "question_text": "But… her nest was not very strong."
-    },
-    {
-      "id": "1-18",
-      "question_text": "I'm not the best at building nests in super-quick time either, said Oma sadly."
-    },
-    {
-      "id": "1-19",
-      "question_text": "Amir suggested that for Oma's next challenge, she could try building the highest nest."
-    },
-    {
-      "id": "1-20",
-      "question_text": "Oma bravely climbed the tallest tree she could find. She could see for miles!"
-    },
-    {
-      "id": "1-21",
-      "question_text": "It's windy up here! she nervously shouted down. But she would not give up the challenge."
-    },
-    {
-      "id": "1-22",
-      "question_text": "I CAN do this, she told herself."
-    },
-    {
-      "id": "1-23",
-      "question_text": "Amir was not so sure about the view when he joined Oma."
-    },
-    {
-      "id": "1-24",
-      "question_text": "Look, the rain clouds are coming back!"
     }
   ],
   "2": [
-    { "id": "2-1", "question_text": "She reads every morning." },
-    { "id": "2-2", "question_text": "The morning reading is her habit." }
+    {
+      "id": "2-1",
+      "question_text": "Time's up! shouted Vina. Stop what you're doing."
+    },
+    {
+      "id": "2-2",
+      "question_text": "Oma did not feel confident with this challenge either."
+    },
+    {
+      "id": "2-3",
+      "question_text": "Can you stand up in your nest? shouted one of the watching orangutans."
+    },
+    {
+      "id": "2-4",
+      "question_text": "Oma nervously stepped in."
+    },
+    {
+      "id": "2-5",
+      "question_text": "But… her nest was not very strong."
+    },
+    {
+      "id": "2-6",
+      "question_text": "I'm not the best at building nests in super-quick time either, said Oma sadly."
+    },
+    {
+      "id": "2-7",
+      "question_text": "Amir suggested that for Oma's next challenge, she could try building the highest nest."
+    },
+    {
+      "id": "2-8",
+      "question_text": "Oma bravely climbed the tallest tree she could find. She could see for miles!"
+    },
+    {
+      "id": "2-9",
+      "question_text": "It's windy up here! she nervously shouted down. But she would not give up the challenge."
+    },
+    {
+      "id": "2-10",
+      "question_text": "I CAN do this, she told herself."
+    },
+    {
+      "id": "2-11",
+      "question_text": "Amir was not so sure about the view when he joined Oma."
+    },
+    {
+      "id": "2-12",
+      "question_text": "Look, the rain clouds are coming back!"
+    }
   ],
   "3": [
     { "id": "3-1", "question_text": "The park is full of flowers." },
