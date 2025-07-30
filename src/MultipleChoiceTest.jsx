@@ -63,8 +63,8 @@ function MultipleChoiceTest({ module, testId, day, onBack, session }) {
           body: JSON.stringify({
             user_id: session.user.email, // session 사용
             module_code: `${testId}-${day}`,
-            results: newResults.map((r) => ({
-              question_text: r.question,
+            results: newResults.map((r, index) => ({
+              question_text: `${questions[index].word}: ${r.question}`,
               user_answer: r.userAnswer,
               score: r.score,
             })),
