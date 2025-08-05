@@ -77,7 +77,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
         try {
           feedbackValue = JSON.parse(r.ai_feedback).score;
         } catch (e) {
-          feedbackValue = 0; // 파싱 실패 시 0으로 처리
+          feedbackValue = 0;
         }
         return isNaN(feedbackValue) ? null : feedbackValue;
       })
@@ -122,13 +122,13 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
       })
     );
 
-    // Score by module (ai_feedback 사용)
+    // Score by module
     const moduleFeedback = reportData.results.reduce((acc, r) => {
       let feedbackValue;
       try {
         feedbackValue = JSON.parse(r.ai_feedback).score;
       } catch (e) {
-        feedbackValue = 0; // 파싱 실패 시 0으로 처리
+        feedbackValue = 0;
       }
       if (isNaN(feedbackValue)) return acc;
       const module = r.module_code.split("-")[0];
@@ -160,7 +160,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
         try {
           feedbackValue = JSON.parse(r.ai_feedback).score;
         } catch (e) {
-          feedbackValue = 0; // 파싱 실패 시 0으로 처리
+          feedbackValue = 0;
         }
         return !isNaN(feedbackValue);
       })
@@ -169,7 +169,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
         try {
           feedbackValue = JSON.parse(r.ai_feedback).score;
         } catch (e) {
-          feedbackValue = 0; // 파싱 실패 시 0으로 처리
+          feedbackValue = 0;
         }
         return {
           date: new Date(r.timestamp).toLocaleDateString(),
@@ -186,7 +186,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
       try {
         feedbackValue = JSON.parse(r.ai_feedback).score;
       } catch (e) {
-        feedbackValue = 0; // 파싱 실패 시 0으로 처리
+        feedbackValue = 0;
       }
       if (isNaN(feedbackValue)) return acc;
       const question = r.question_text || "Unknown";
@@ -408,7 +408,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
             <select
               className="border border-gray-300 rounded px-3 py-2 text-sm"
               value={language}
-              onChange={() => {}} // Read-only for now
+              onChange={() => {}}
             >
               <option value="en">영어</option>
               <option value="ja">일본어</option>
@@ -675,7 +675,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
   );
 };
 
-// Main App Component - 모바일 메뉴 기능 추가
+// Main App Component
 function App() {
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedTest, setSelectedTest] = useState(null);
@@ -683,7 +683,7 @@ function App() {
   const [tests, setTests] = useState({});
   const [availableDays, setAvailableDays] = useState({});
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // 모바일 메뉴 상태 추가
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [maps, setMaps] = useState({
     topicMaps: {},
     typeMap: {},
@@ -696,6 +696,26 @@ function App() {
   const [showProfile, setShowProfile] = useState(false);
   const [profileData, setProfileData] = useState(null);
   const [reportData, setReportData] = useState({ progress: [], results: [] });
+
+  // 모바일 메뉴 닫기 조건 확인 함수
+  const closeMobileMenuIfComplete = (newModule, newTest, newDay) => {
+    if (learnMode) {
+      // 학습 모드: 모듈과 테스트 선택 시 메뉴 닫기
+      if (newModule && newTest) {
+        setIsMobileMenuOpen(false);
+      }
+    } else {
+      // 복습 모드: 모듈, 테스트, 일자 모두 선택 시 메뉴 닫기
+      if (newModule && newTest && newDay !== null) {
+        setIsMobileMenuOpen(false);
+      }
+    }
+  };
+
+  // 오버레이 클릭 시 메뉴 닫기
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -923,14 +943,12 @@ function App() {
         `Fetching profile data for user=${session.user.email}, language=${language}`
       );
 
-      // profiles 테이블이 없으므로 auth.users에서 email 사용
       setProfileData({
         email: session.user.email,
         first_name: "이름 없음",
         last_name: "",
       });
 
-      // 리포트 데이터 가져오기
       const [progressResponse, resultsResponse] = await Promise.all([
         supabase
           .from("learning_progress")
@@ -940,7 +958,7 @@ function App() {
           .order("completed_at", { ascending: false }),
         supabase
           .from("practice_results")
-          .select("module_code, ai_feedback, timestamp, question_text") // score 대신 ai_feedback 사용
+          .select("module_code, ai_feedback, timestamp, question_text")
           .eq("user_id", session.user.email)
           .eq("language", language)
           .order("timestamp", { ascending: false }),
@@ -978,7 +996,6 @@ function App() {
     }
   };
 
-  // useEffect 수정
   useEffect(() => {
     console.log("showProfile state changed:", showProfile);
     if (learnMode) {
@@ -1070,12 +1087,6 @@ function App() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
 
-  // 오버레이 클릭 시 메뉴 닫기
-  const closeMobileMenu = () => {
-    setIsMobileMenuOpen(false);
-  };
-
-  // renderContent 내 SAPDashboard 부분 수정
   const renderContent = () => {
     if (!session) return <Auth />;
 
@@ -1244,7 +1255,7 @@ function App() {
                       "Profile button clicked, setting showProfile to true"
                     );
                     setShowProfile(true);
-                    setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                    setIsMobileMenuOpen(false);
                   }}
                 >
                   프로필
@@ -1268,7 +1279,11 @@ function App() {
                             className="sidebar-btn"
                             onClick={() => {
                               setSelectedModule(mod.id);
-                              setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                              closeMobileMenuIfComplete(
+                                mod.id,
+                                selectedTest,
+                                selectedDay
+                              );
                             }}
                           >
                             {mod.name}
@@ -1282,7 +1297,11 @@ function App() {
                       className="sidebar-back-btn"
                       onClick={() => {
                         setSelectedModule(null);
-                        setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                        closeMobileMenuIfComplete(
+                          null,
+                          selectedTest,
+                          selectedDay
+                        );
                       }}
                     >
                       ← 모듈 선택
@@ -1294,7 +1313,11 @@ function App() {
                             className="sidebar-btn"
                             onClick={() => {
                               setSelectedTest(test.id);
-                              setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                              closeMobileMenuIfComplete(
+                                selectedModule,
+                                test.id,
+                                selectedDay
+                              );
                             }}
                           >
                             {test.name}
@@ -1309,7 +1332,11 @@ function App() {
                       className="sidebar-back-btn"
                       onClick={() => {
                         setSelectedTest(null);
-                        setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                        closeMobileMenuIfComplete(
+                          selectedModule,
+                          null,
+                          selectedDay
+                        );
                       }}
                     >
                       ← 테스트 선택
@@ -1327,7 +1354,11 @@ function App() {
                               className="sidebar-btn"
                               onClick={() => {
                                 setSelectedDay(day);
-                                setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                                closeMobileMenuIfComplete(
+                                  selectedModule,
+                                  selectedTest,
+                                  day
+                                );
                               }}
                             >
                               {day}일차
