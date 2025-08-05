@@ -51,15 +51,17 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
       console.error("로그인 상태가 아닙니다");
       return;
     }
+
     const reviewPromises = passage.questions.map((question, index) =>
       fetch("https://backend-lurm.onrender.com/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           user_id: session.user.email,
-          module_code: testId,
+          module_code: `${module}-${testId}`,
           sentence: question,
           input: answers[index],
+          language: "en", // 명시적으로 설정
         }),
       })
         .then((res) => {
@@ -67,6 +69,7 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
           return res.json();
         })
         .then((data) => {
+          if (data.error) throw new Error(data.error);
           if (data.feedback) return { index, feedback: data.feedback };
           throw new Error("응답 데이터 형식이 올바르지 않습니다.");
         })
@@ -76,21 +79,15 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
       const results = await Promise.all(reviewPromises);
       const newFeedbacks = [...aiFeedbacks];
       const newScores = [...scores];
-
       results.forEach(({ index, feedback }) => {
         newFeedbacks[index] = feedback;
-        newScores[index] = feedback["총점"].스코어;
+        newScores[index] = feedback["총점"]?.스코어 || 0;
       });
-
       setAiFeedbacks(newFeedbacks);
       setScores(newScores);
     } catch (error) {
-      console.error("API 호출 오류:", error);
-      setAiFeedbacks(
-        passage.questions.map(
-          () => "오류가 발생했습니다. 서버를 확인해 주세요."
-        )
-      );
+      console.error("API 호출 오류:", error.message);
+      setAiFeedbacks(passage.questions.map(() => `오류: ${error.message}`));
       setScores(passage.questions.map(() => null));
     }
   };
