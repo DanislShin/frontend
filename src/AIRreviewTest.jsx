@@ -1,4 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { createClient } from "@supabase/supabase-js";
+
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
 
 function AIRreviewTest({ module, testId, day, onBack, session }) {
   const [passage, setPassage] = useState({ text: "", questions: [] });
@@ -7,20 +13,19 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
   const [scores, setScores] = useState([]);
 
   useEffect(() => {
-    console.log(
-      `Fetching data for module: ${module}, testId: ${testId}, day: ${day}`
-    );
-    fetch(`/data/${module}-${testId}-questions.json`)
-      .then((response) => {
-        if (!response.ok) throw new Error("지문 로드 실패");
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Fetched data:", data);
-        const dayData = data[day] || [];
-        console.log("dayData:", dayData);
+    const loadData = async () => {
+      try {
+        const { data, error } = await supabase
+          .from("test_content")
+          .select("content")
+          .eq("language", "en")
+          .eq("module_id", module)
+          .eq("test_id", testId)
+          .eq("mode", "review")
+          .single();
+        if (error) throw new Error(`지문 데이터 조회 실패: ${error.message}`);
+        const dayData = data.content[day] || [];
         const questions = dayData.map((item) => item.question_text);
-        console.log("questions:", questions);
         setPassage({
           text: questions.join(" "),
           questions,
@@ -28,8 +33,15 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
         setAnswers(new Array(questions.length).fill(""));
         setAiFeedbacks(new Array(questions.length).fill(""));
         setScores(new Array(questions.length).fill(null));
-      })
-      .catch((error) => console.error("지문 로드 오류:", error));
+      } catch (err) {
+        console.error("지문 로드 오류:", err);
+        setPassage({ text: "", questions: [] });
+        setAnswers([]);
+        setAiFeedbacks([]);
+        setScores([]);
+      }
+    };
+    loadData();
   }, [module, testId, day]);
 
   const handleSubmit = async (e) => {
@@ -83,7 +95,6 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
     }
   };
 
-  // 피드백 데이터 검증 함수 (컴포넌트 내부에 위치)
   const isValidFeedback = (feedback) => {
     return (
       feedback &&
@@ -127,7 +138,6 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
         </button>
       </form>
 
-      {/* 피드백 표시 부분 */}
       {aiFeedbacks.some((f) => f) && (
         <div>
           <h4>🧠 AI 피드백</h4>
@@ -146,14 +156,12 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
                 }}
               >
                 <h5>문제 {index + 1} 피드백</h5>
-
                 <div style={{ marginBottom: "10px" }}>
                   <strong>
                     📝 문법 평가 ({feedback["문법"]?.스코어 || 0}/100):
                   </strong>
                   <p>{feedback["문법"]?.피드백 || "피드백 없음"}</p>
                 </div>
-
                 <div style={{ marginBottom: "10px" }}>
                   <strong>
                     🔠 단어 선택 및 문맥 (
@@ -163,7 +171,6 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
                     {feedback["단어 선택 및 문맥"]?.피드백 || "피드백 없음"}
                   </p>
                 </div>
-
                 <div
                   style={{
                     marginBottom: "10px",

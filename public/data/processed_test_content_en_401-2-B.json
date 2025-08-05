@@ -1,0 +1,510 @@
+[
+  {
+    "language": "en",
+    "module_id": "400",
+    "test_id": "401-2-B",
+    "mode": "review",
+    "content": {
+      "1": [
+        {
+          "id": "1-1",
+          "word": "Good morning, students.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "안녕하세요, 여러분.",
+            "좋은 아침입니다, 학생 여러분.",
+            "안녕히 주무셨습니까?",
+            "오늘도 화이팅!"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "1-2",
+          "word": "This is your vice principal, Ms. Morris.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "여기는 교장선생님, 모리스 씨입니다.",
+            "저는 교감선생님, 모리스 씨입니다.",
+            "여기는 부교장선생님, 모리스 씨입니다.",
+            "나는 선생님, 모리스 씨입니다."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "1-3",
+          "word": "I want to inform you that each class period will be reduced from 50 minutes to 40 minutes next Tuesday.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "다음 주 화요일부터 각 수업 시간이 50분에서 40분으로 줄어들 것이라고 알려드립니다.",
+            "다음 주 화요일에는 수업 시간이 50분에서 40분으로 늘어날 것입니다.",
+            "다음 주 화요일에는 수업 시간이 40분에서 50분으로 변경될 것입니다.",
+            "다음 주 화요일에는 수업 시간이 변하지 않을 것입니다."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "1-4",
+          "word": "Due to the parent-teacher conferences that will be held on that day, school will end one hour earlier than usual.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그 날 진행되는 학부모 상담으로 인해 학교가 평소보다 한 시간 일찍 끝날 것입니다.",
+            "학부모 상담이 없어서 학교가 평소보다 한 시간 늦게 끝날 것입니다.",
+            "학부모 상담이 있어도 학교 시간은 변함없습니다.",
+            "학부모 상담으로 인해 학교가 평소보다 두 시간 일찍 끝날 것입니다."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "1-5",
+          "word": "You’ll still take the same classes that you normally would on that day.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그 날은 평소와 다른 수업을 들을 것입니다.",
+            "그 날은 평소와 같은 수업을 들을 것입니다.",
+            "그 날은 수업이 없을 것입니다.",
+            "그 날은 특별 활동만 있을 것입니다."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "1-6",
+          "word": "The starting and ending bells will ring according to the reduced class time schedule.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "시작과 종료 벨은 평소와 같은 시간에 울릴 것입니다.",
+            "시작과 종료 벨은 줄어든 수업 시간에 맞춰 울릴 것입니다.",
+            "시작과 종료 벨은 더 긴 수업 시간에 맞춰 울릴 것입니다.",
+            "시작과 종료 벨은 울리지 않을 것입니다."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "1-7",
+          "word": "Once again, please keep in mind that next Tuesday’s class periods will be shortened by 10 minutes each.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "다시 한 번, 다음 주 화요일의 각 수업 시간이 10분씩 늘어날 것임을 명심해 주세요.",
+            "다시 한 번, 다음 주 화요일의 각 수업 시간이 10분씩 줄어들 것임을 명심해 주세요.",
+            "다시 한 번, 다음 주 화요일의 수업 시간이 변하지 않을 것임을 명심해 주세요.",
+            "다시 한 번, 다음 주 화요일의 수업이 없을 것임을 명심해 주세요."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "1-8",
+          "word": "Thank you.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "미안합니다.",
+            "감사합니다.",
+            "안녕히 가세요.",
+            "잘 부탁드립니다."
+          ],
+          "correct": 1
+        }
+      ],
+      "2": [
+        {
+          "id": "2-1",
+          "word": "Honey, I was thinking about asking our daughter to sign up for drama camp this winter.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "자기야, 딸에게 겨울 스포츠를 가르치려고 생각 중이야.",
+            "자기야, 겨울방학에 딸에게 드라마 캠프에 등록하라고 말하려고 생각 중이야.",
+            "자기야, 딸에게 겨울옷을 사주려고 생각 중이야.",
+            "자기야, 딸에게 겨울방학 계획을 물어보려고 생각 중이야."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "2-2",
+          "word": "Hmm. Why do you want her to participate in drama camp?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "흠. 왜 딸에게 혼자 놀게 하고 싶어?",
+            "흠. 왜 겨울방학에 집에 있게 하고 싶어?",
+            "흠. 왜 그 캠프에 참가시키고 싶어?",
+            "흠. 왜 딸에게 드라마를 보게 하고 싶어?"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "2-3",
+          "word": "I think drama camp is helpful for gaining diverse perspectives.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "드라마 캠프가 친구를 사귀는 데 도움이 될 것 같아.",
+            "드라마 캠프가 운동하는 데 도움이 될 것 같아.",
+            "드라마 캠프가 공부하는 데 도움이 될 것 같아.",
+            "드라마 캠프가 다양한 시각을 얻는 데 도움이 될 것 같아."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-4",
+          "word": "How will the camp help her with that?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "캠프가 언제 시작할까?",
+            "캠프가 어디에서 열릴까?",
+            "캠프가 얼마나 비쌀까?",
+            "캠프가 어떻게 그걸 도와줄 수 있을까?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-5",
+          "word": "In the camp, she'll play different types of characters.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "캠프에서 그녀는 다양한 옷을 입을 거야.",
+            "캠프에서 그녀는 다양한 음식을 먹을 거야.",
+            "캠프에서 그녀는 다양한 게임을 할 거야.",
+            "캠프에서 그녀는 다양한 종류의 캐릭터를 연기할 거야."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-6",
+          "word": "This can help her see things from others' perspectives.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "이건 그녀가 그림을 잘 그리는 데 도움이 될 수 있어.",
+            "이건 그녀가 수학을 잘하는 데 도움이 될 수 있어.",
+            "이건 그녀가 더 빨리 달리는 데 도움이 될 수 있어.",
+            "이건 그녀가 다른 사람의 시각에서 사물을 보는 데 도움이 될 수 있어."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-7",
+          "word": "That makes sense.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그건 비싸겠다.",
+            "그건 재미있겠다.",
+            "그건 이상해.",
+            "그건 말이 되네."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-8",
+          "word": "Also, she'll be expected to listen to other kids while collaborating with them.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "게다가, 그녀는 다른 아이들을 도와줘야 할 거야.",
+            "게다가, 그녀는 다른 아이들을 가르쳐야 할 거야.",
+            "게다가, 그녀는 다른 아이들과 경쟁하면서 그들을 이겨야 할 거야.",
+            "게다가, 그녀는 다른 아이들과 협력하면서 그들의 말을 들어야 할 거야."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-9",
+          "word": "Oh, that could help her broaden her views.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "오, 그건 그녀를 더 유명하게 만들 수 있겠네.",
+            "오, 그건 그녀를 더 강하게 만들 수 있겠네.",
+            "오, 그건 그녀를 더 똑똑하게 만들 수 있겠네.",
+            "오, 그건 그녀의 시야를 넓히는 데 도움이 될 수 있겠네."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-10",
+          "word": "Right. So, participating in drama camp is helpful for obtaining various perspectives.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "맞아. 그래서 드라마 캠프에 참여하는 건 더 유명해지는 데 도움이 돼.",
+            "맞아. 그래서 드라마 캠프에 참여하는 건 더 부유해지는 데 도움이 돼.",
+            "맞아. 그래서 드라마 캠프에 참여하는 건 더 건강해지는 데 도움이 돼.",
+            "맞아. 그래서 드라마 캠프에 참여하는 건 다양한 시각을 얻는 데 도움이 돼."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "2-11",
+          "word": "Okay. Then let's suggest it to her.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "알겠어. 그럼 내일 다시 얘기하자.",
+            "알겠어. 그럼 다른 캠프를 찾아보자.",
+            "알겠어. 그럼 그녀에게 말하지 말자.",
+            "알겠어. 그럼 그녀에게 제안해보자."
+          ],
+          "correct": 3
+        }
+      ],
+      "3": [
+        {
+          "id": "3-1",
+          "word": "Hello, viewers! I'm Kate and welcome back to my channel, Art Pier 25.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "여러분, 저는 케이트이고 오늘은 특별한 날입니다.",
+            "안녕하세요! 오늘은 미술관에 갈 거예요.",
+            "안녕하세요, 친구들! 저는 케이트이고 새로운 채널을 시작했습니다.",
+            "안녕하세요, 시청자 여러분! 저는 케이트이고 제 채널 Art Pier 25에 돌아오신 것을 환영합니다."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-2",
+          "word": "Have you ever felt like you couldn't understand the artwork in a museum?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "이 작품의 의미를 아시나요?",
+            "미술 작품을 좋아하시나요?",
+            "미술관에 가본 적이 있나요?",
+            "미술관에서 작품을 이해하지 못한 적이 있나요?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-3",
+          "word": "If so, here's a simple tip for understanding artists' work better.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "작품을 사는 방법을 알려드릴게요.",
+            "좋은 미술관을 추천해드릴게요.",
+            "미술관에 가는 방법을 알려드릴게요.",
+            "그렇다면, 작품을 더 잘 이해할 수 있는 간단한 팁이 있어요."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-4",
+          "word": "Knowing about the artists can deepen your appreciation of their work.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "작품 크기를 아는 것이 필요합니다.",
+            "미술관 위치를 아는 것이 좋습니다.",
+            "작품의 가격을 아는 것이 중요합니다.",
+            "작가에 대해 아는 것은 그들의 작품을 더 깊이 이해하는 데 도움이 됩니다."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-5",
+          "word": "Art is often a reflection of their feelings and thoughts.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "예술은 오래된 것이 좋습니다.",
+            "예술은 이해하기 어렵습니다.",
+            "예술은 비싼 것이 좋습니다.",
+            "예술은 종종 작가의 감정과 생각을 반영합니다."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-6",
+          "word": "Therefore, by exploring their lives and experiences, you can see what influenced their work.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "비싼 작품일수록 좋은 작품입니다.",
+            "큰 미술관에 가면 좋은 작품을 볼 수 있습니다.",
+            "작품을 자세히 보면 의미를 알 수 있습니다.",
+            "따라서 작가의 삶과 경험을 알아봄으로써 그들의 작품에 어떤 영향이 있었는지 알 수 있습니다."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-7",
+          "word": "So, the next time you go to an art museum, why not explore the artists' backgrounds first?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "비싼 작품을 사는 것이 좋습니다.",
+            "작품을 많이 보는 것이 중요합니다.",
+            "미술관에 자주 가는 것이 좋습니다.",
+            "다음에 미술관에 가실 때, 작가의 배경을 먼저 알아보는 건 어떨까요?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-8",
+          "word": "Once you know about the artists, you'll be able to have a better understanding of their work.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "친구와 함께 가면 더 잘 이해할 수 있습니다.",
+            "큰 미술관에 가면 더 잘 이해할 수 있습니다.",
+            "작품을 사면 더 잘 이해할 수 있습니다.",
+            "작가에 대해 알게 되면, 그들의 작품을 더 잘 이해할 수 있을 거예요."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-9",
+          "word": "I hope this helps.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "좋아요 부탁드립니다.",
+            "다음에 또 뵐게요.",
+            "재미있게 보셨나요?",
+            "도움이 되었으면 좋겠습니다."
+          ],
+          "correct": 3
+        }
+      ],
+      "4": [
+        {
+          "id": "4-1",
+          "word": "Hi, Sarah. What are you doing?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "사라, 도와줄까?",
+            "사라, 어디 가니?",
+            "사라, 잘 지냈어?",
+            "안녕, 사라. 뭐 해?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-2",
+          "word": "I'm looking at a picture that I took last weekend. Do you want to take a look?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "지난 여행 사진을 정리하고 있어. 도와줄래?",
+            "새로 찍은 영상을 보고 있어. 같이 볼래?",
+            "지난 주말에 산 옷을 보고 있어. 마음에 들어?",
+            "지난 주말에 찍은 사진을 보고 있어. 한번 볼래?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-3",
+          "word": "Sure. I see a flea market sign hanging from the tree.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그래. 나무에 옷이 걸려 있는 게 보여.",
+            "그래. 나무에 풍선이 달려 있는 게 보여.",
+            "그래. 나무에 새가 앉아 있는 게 보여.",
+            "그래. 나무에 플리마켓 간판이 걸려 있는 게 보여."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-4",
+          "word": "I was selling some of my old stuff at the flea market.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "플리마켓에서 친구를 기다리고 있었어.",
+            "플리마켓에서 음식을 팔고 있었어.",
+            "플리마켓에서 새로운 물건들을 사고 있었어.",
+            "플리마켓에서 내 오래된 물건들을 팔고 있었어."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-5",
+          "word": "Oh, I like the crown-shaped balloon the girl is holding.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "아, 그 여자아이가 타고 있는 자전거가 마음에 들어.",
+            "아, 그 여자아이가 신고 있는 신발이 마음에 들어.",
+            "아, 그 여자아이가 입고 있는 왕관이 마음에 들어.",
+            "아, 그 여자아이가 들고 있는 왕관 모양 풍선이 마음에 들어."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-6",
+          "word": "She's my daughter. Hey, do you remember that stripe-patterned tent?",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "내 친구 딸이야. 저기 점무늬 텐트 기억나?",
+            "내 동생이야. 저기 꽃무늬 텐트 기억나?",
+            "내 조카야. 저기 체크무늬 텐트 기억나?",
+            "내 딸이야. 저기 줄무늬 텐트 기억나?"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-7",
+          "word": "Of course. That's the one I gave you.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그거 샀어? 얼마였어?",
+            "기억 안 나. 설명해줄래?",
+            "몰랐어. 그건 언제 생긴 거야?",
+            "물론이지. 내가 너에게 준 그거잖아."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-8",
+          "word": "Oh, there are three vases on the table.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "아, 테이블 위에 컵이 세 개 있네.",
+            "아, 테이블 위에 책이 세 권 있네.",
+            "아, 테이블 위에 접시가 세 개 있네.",
+            "아, 테이블 위에 꽃병이 세 개 있네."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-9",
+          "word": "Unfortunately, I wasn't able to sell them.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "놀랍게도, 그건 빨리 팔렸어.",
+            "기쁘게도, 그건 비싸게 팔렸어.",
+            "다행히, 그건 다 팔았어.",
+            "안타깝게도, 그건 팔지 못했어."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-10",
+          "word": "I guess people weren't interested in them.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "사람들이 그건 너무 크다고 했나 봐.",
+            "사람들이 그건 너무 낡았다고 했나 봐.",
+            "사람들이 그건 너무 비싸다고 했나 봐.",
+            "사람들이 그건 관심이 없었나 봐."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-11",
+          "word": "Yeah. People were more interested in the speaker on the chair even though it wasn't for sale.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "그래. 사람들은 풍선에 더 관심이 있었어. 비록 그것은 작지만.",
+            "그래. 사람들은 테이블에 더 관심이 있었어. 비록 그것은 비싸지만.",
+            "그래. 사람들은 의자에 더 관심이 있었어. 비록 그것은 팔지 않았지만.",
+            "그래. 사람들은 의자 위에 있는 스피커에 더 관심이 있었어. 비록 그것은 판매용이 아니었지만."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-12",
+          "word": "I turned on music to attract customers.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "나는 할인을 해서 손님들을 유치했어.",
+            "나는 음식을 나눠줘서 손님들을 유치했어.",
+            "나는 춤을 춰서 손님들을 유치했어.",
+            "나는 음악을 틀어서 손님들을 유치했어."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-13",
+          "word": "I see. Looks like you had a busy weekend.",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "알겠어. 지루한 주말을 보낸 것 같네.",
+            "알겠어. 조용한 주말을 보낸 것 같네.",
+            "알겠어. 즐거운 주말을 보낸 것 같네.",
+            "알겠어. 바쁜 주말을 보낸 것 같네."
+          ],
+          "correct": 3
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "language": "en",
+    "module_id": "300",
+    "test_id": "303",
+    "content": {
+      "1": [
+        {
+          "word": "abandon",
+          "meaning": "버리다, 단념하다",
+          "example": "They abandoned the car and ran away."
+        },
+        {
+          "word": "abolish",
+          "meaning": "폐지하다",
+          "example": "He is in favor of abolishing the death penalty."
+        },
+        {
+          "word": "abroad",
+          "meaning": "해외에서, 외국에서",
+          "example": "He hopes to work abroad next year."
+        },
+        {
+          "word": "abruptly",
+          "meaning": "갑작스럽게",
+          "example": "The land dropped off abruptly."
+        },
+        {
+          "word": "absence",
+          "meaning": "결석, 결근, 부재",
+          "example": "Mark will be in charge in my absence."
+        },
+        {
+          "word": "absolutely",
+          "meaning": "절대적으로, 전혀",
+          "example": "He has absolutely no experience in this field."
+        },
+        {
+          "word": "absorb",
+          "meaning": "흡수하다",
+          "example": "Plant roots absorb moisture."
+        },
+        {
+          "word": "abstract",
+          "meaning": "추상적인",
+          "example": "Human beings are capable of abstract thought."
+        },
+        {
+          "word": "abundant",
+          "meaning": "풍부한",
+          "example": "Rainfall is abundant in the region."
+        },
+        {
+          "word": "abuse",
+          "meaning": "학대, 남용",
+          "example": "The boy was a victim of abuse."
+        },
+        {
+          "word": "accelerate",
+          "meaning": "가속하다",
+          "example": "The car accelerated to a speed of 80 miles per hour."
+        },
+        {
+          "word": "accept",
+          "meaning": "받아들이다, 수용하다",
+          "example": "They offered me a job and I accepted it."
+        },
+        {
+          "word": "access",
+          "meaning": "접속, 입장",
+          "example": "We have Internet access at the library."
+        },
+        {
+          "word": "accidentally",
+          "meaning": "우연히, 실수로",
+          "example": "They believe that the fire was started accidentally."
+        },
+        {
+          "word": "accommodate",
+          "meaning": "수용하다",
+          "example": "The hotel can only accommodate about 100 people."
+        },
+        {
+          "word": "accompany",
+          "meaning": "동행하다",
+          "example": "I want you to accompany her."
+        },
+        {
+          "word": "accomplish",
+          "meaning": "달성하다",
+          "example": "We have accomplished much in a short period of time."
+        },
+        {
+          "word": "according to",
+          "meaning": "~에 따르면",
+          "example": "According to the law, we had to pay a small fine."
+        },
+        {
+          "word": "accordingly",
+          "meaning": "따라서",
+          "example": "No complaint was made. Accordingly, they took no action."
+        },
+        {
+          "word": "account for",
+          "meaning": "~를 차지하다, 설명하다",
+          "example": "African-Americans account for about 13% of the US population."
+        },
+        {
+          "word": "account",
+          "meaning": "설명, 이야기, 계좌",
+          "example": "He gave a brief account of what had happened."
+        },
+        {
+          "word": "accountable",
+          "meaning": "책임이 있는",
+          "example": "Managers must be accountable for their decisions."
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]
