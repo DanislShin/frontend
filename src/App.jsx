@@ -34,6 +34,7 @@ import {
   Download,
   RefreshCw,
   ArrowLeft,
+  X,
 } from "lucide-react";
 
 const supabase = createClient(
@@ -674,7 +675,7 @@ const SAPDashboard = ({ reportData, profileData, onBack, language = "en" }) => {
   );
 };
 
-// Main App Component (기존 코드 유지하고 showProfile 부분만 수정)
+// Main App Component - 모바일 메뉴 기능 추가
 function App() {
   const [selectedModule, setSelectedModule] = useState(null);
   const [selectedTest, setSelectedTest] = useState(null);
@@ -682,6 +683,7 @@ function App() {
   const [tests, setTests] = useState({});
   const [availableDays, setAvailableDays] = useState({});
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // 모바일 메뉴 상태 추가
   const [maps, setMaps] = useState({
     topicMaps: {},
     typeMap: {},
@@ -1063,6 +1065,16 @@ function App() {
     );
   };
 
+  // 모바일 메뉴 토글 함수
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
+
+  // 오버레이 클릭 시 메뉴 닫기
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   // renderContent 내 SAPDashboard 부분 수정
   const renderContent = () => {
     if (!session) return <Auth />;
@@ -1186,120 +1198,153 @@ function App() {
   };
 
   return (
-    <div className="app-container flex h-screen overflow-hidden">
+    <div className="app-container">
+      {/* 모바일 햄버거 메뉴 버튼 */}
       {session && !showProfile && (
-        <>
-          <div
-            className={`sidebar ${
-              isSidebarCollapsed ? "w-16" : "w-64"
-            } bg-gray-100 p-4 transition-all overflow-y-auto`}
+        <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
+          <Menu className="w-6 h-6" />
+        </button>
+      )}
+
+      {/* 모바일 오버레이 */}
+      {isMobileMenuOpen && (
+        <div className="sidebar-overlay active" onClick={closeMobileMenu} />
+      )}
+
+      {session && !showProfile && (
+        <div
+          className={`sidebar ${isSidebarCollapsed ? "collapsed" : ""} ${
+            isMobileMenuOpen ? "mobile-open" : ""
+          }`}
+        >
+          {/* 데스크톱 사이드바 토글 버튼 */}
+          <button
+            className="absolute top-2 right-[-15px] bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center hidden md:flex"
+            onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
           >
-            <button
-              className="absolute top-2 right-[-15px] bg-blue-500 text-white rounded-full w-8 h-8 flex items-center justify-center"
-              onClick={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
-            >
-              {isSidebarCollapsed ? "▶" : "◀"}
-            </button>
+            {isSidebarCollapsed ? "▶" : "◀"}
+          </button>
 
-            {!isSidebarCollapsed && (
-              <>
-                <div className="sidebar-header mb-4">
-                  <h2 className="text-xl font-bold">베스티온 폴리로그</h2>
-                  <button
-                    className="sidebar-btn w-full p-2 mt-2 bg-blue-500 text-white rounded"
-                    onClick={() => {
-                      console.log(
-                        "Profile button clicked, setting showProfile to true"
-                      );
-                      setShowProfile(true);
-                    }}
-                  >
-                    프로필
-                  </button>
-                  <button
-                    className="logout-btn w-full p-2 mt-2 bg-red-500 text-white rounded"
-                    onClick={() => supabase.auth.signOut()}
-                  >
-                    로그아웃
-                  </button>
-                </div>
+          {/* 모바일 닫기 버튼 */}
+          <button
+            className="absolute top-4 right-4 text-white md:hidden"
+            onClick={closeMobileMenu}
+          >
+            <X className="w-6 h-6" />
+          </button>
 
-                <div className="sidebar-menu">
-                  {!selectedModule ? (
+          {!isSidebarCollapsed && (
+            <>
+              <div className="sidebar-header">
+                <h2>베스티온 폴리로그</h2>
+                <button
+                  className="sidebar-btn"
+                  onClick={() => {
+                    console.log(
+                      "Profile button clicked, setting showProfile to true"
+                    );
+                    setShowProfile(true);
+                    setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                  }}
+                >
+                  프로필
+                </button>
+                <button
+                  className="logout-btn"
+                  onClick={() => supabase.auth.signOut()}
+                >
+                  로그아웃
+                </button>
+              </div>
+
+              <div className="sidebar-menu">
+                {!selectedModule ? (
+                  <ul>
+                    {modules
+                      .filter((mod) => learnMode || tests[mod.id]?.length > 0)
+                      .map((mod) => (
+                        <li key={mod.id}>
+                          <button
+                            className="sidebar-btn"
+                            onClick={() => {
+                              setSelectedModule(mod.id);
+                              setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                            }}
+                          >
+                            {mod.name}
+                          </button>
+                        </li>
+                      ))}
+                  </ul>
+                ) : !selectedTest ? (
+                  <>
+                    <button
+                      className="sidebar-back-btn"
+                      onClick={() => {
+                        setSelectedModule(null);
+                        setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                      }}
+                    >
+                      ← 모듈 선택
+                    </button>
                     <ul>
-                      {modules
-                        .filter((mod) => learnMode || tests[mod.id]?.length > 0)
-                        .map((mod) => (
-                          <li key={mod.id} className="my-1">
-                            <button
-                              className="sidebar-btn w-full p-2 bg-blue-500 text-white rounded"
-                              onClick={() => setSelectedModule(mod.id)}
-                            >
-                              {mod.name}
-                            </button>
-                          </li>
-                        ))}
+                      {tests[selectedModule]?.map((test) => (
+                        <li key={test.id}>
+                          <button
+                            className="sidebar-btn"
+                            onClick={() => {
+                              setSelectedTest(test.id);
+                              setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                            }}
+                          >
+                            {test.name}
+                          </button>
+                        </li>
+                      ))}
                     </ul>
-                  ) : !selectedTest ? (
-                    <>
-                      <button
-                        className="sidebar-back-btn w-full p-2 bg-gray-500 text-white rounded mb-2"
-                        onClick={() => setSelectedModule(null)}
-                      >
-                        ← 모듈 선택
-                      </button>
+                  </>
+                ) : (
+                  <>
+                    <button
+                      className="sidebar-back-btn"
+                      onClick={() => {
+                        setSelectedTest(null);
+                        setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                      }}
+                    >
+                      ← 테스트 선택
+                    </button>
+                    {!learnMode && (
                       <ul>
-                        {tests[selectedModule]?.map((test) => (
-                          <li key={test.id} className="my-1">
+                        {Array.from(
+                          {
+                            length: availableDays[selectedTest]?.length || 0,
+                          },
+                          (_, i) => availableDays[selectedTest][i]
+                        ).map((day) => (
+                          <li key={day}>
                             <button
-                              className="sidebar-btn w-full p-2 bg-blue-500 text-white rounded"
-                              onClick={() => setSelectedTest(test.id)}
+                              className="sidebar-btn"
+                              onClick={() => {
+                                setSelectedDay(day);
+                                setIsMobileMenuOpen(false); // 모바일에서 메뉴 닫기
+                              }}
                             >
-                              {test.name}
+                              {day}일차
                             </button>
                           </li>
                         ))}
                       </ul>
-                    </>
-                  ) : (
-                    <>
-                      <button
-                        className="sidebar-back-btn w-full p-2 bg-gray-500 text-white rounded mb-2"
-                        onClick={() => setSelectedTest(null)}
-                      >
-                        ← 테스트 선택
-                      </button>
-                      {!learnMode && (
-                        <ul>
-                          {Array.from(
-                            {
-                              length: availableDays[selectedTest]?.length || 0,
-                            },
-                            (_, i) => availableDays[selectedTest][i]
-                          ).map((day) => (
-                            <li key={day} className="my-1">
-                              <button
-                                className="sidebar-btn w-full p-2 bg-blue-500 text-white rounded"
-                                onClick={() => setSelectedDay(day)}
-                              >
-                                {day}일차
-                              </button>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </>
-                  )}
-                </div>
-              </>
-            )}
-          </div>
-        </>
+                    )}
+                  </>
+                )}
+              </div>
+            </>
+          )}
+        </div>
       )}
 
-      <div className="main-content flex-1 p-4 overflow-y-auto">
-        {renderContent()}
-      </div>
+      <div className="main-content">{renderContent()}</div>
     </div>
   );
 }
