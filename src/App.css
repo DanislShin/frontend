@@ -1,4 +1,4 @@
-/* === SAP Cockpit 스타일 기반 미니멀 & 프로페셔널 스타일 === */
+/* === SAP Cockpit 스타일 기반 미니멀 & 프로페셔널 스타일 (모바일 반응형) === */
 :root {
   --primary: #0369a1;
   --primary-light: #e0f2fe;
@@ -9,7 +9,8 @@
   --gray-500: #6b7280;
   --gray-700: #374151;
   --radius-sm: 4px;
-  --font-base: "system-ui", Roboto, sans-serif;
+  --font-base: "system-ui", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, sans-serif;
 }
 
 * {
@@ -24,6 +25,7 @@ body {
   background: var(--gray-50);
   color: var(--gray-700);
   line-height: 1.5;
+  overflow-x: hidden; /* 가로 스크롤 방지 */
 }
 
 button,
@@ -32,13 +34,46 @@ input,
 textarea {
   font-family: inherit;
   font-size: 14px;
+  /* iOS에서 확대 방지 */
+  -webkit-text-size-adjust: 100%;
 }
 
 /* Layout */
 .app-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--gray-100);
+  position: relative;
+}
+
+/* 모바일 햄버거 메뉴 버튼 */
+.mobile-menu-btn {
+  display: none;
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 1001;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  min-height: 44px; /* iOS 권장 터치 타겟 크기 */
+  min-width: 44px;
+}
+
+/* 사이드바 오버레이 배경 (모바일용) */
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 .sidebar {
@@ -48,7 +83,9 @@ textarea {
   padding: 16px;
   display: flex;
   flex-direction: column;
-  height: 100vh; /* 전체 높이로 설정 */
+  height: 100vh;
+  position: relative;
+  flex-shrink: 0;
 }
 
 .sidebar.collapsed {
@@ -57,7 +94,7 @@ textarea {
 
 /* 사이드바 헤더는 고정 */
 .sidebar-header {
-  flex-shrink: 0; /* 헤더가 줄어들지 않도록 */
+  flex-shrink: 0;
   margin-bottom: 16px;
 }
 
@@ -69,12 +106,12 @@ textarea {
 
 /* 메뉴 영역에 스크롤 추가 */
 .sidebar-menu {
-  flex: 1; /* 남은 공간 모두 차지 */
-  overflow-y: auto; /* 세로 스크롤 활성화 */
-  padding-right: 8px; /* 스크롤바 공간 */
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 8px;
 }
 
-/* 스크롤바 스타일링 (선택사항) */
+/* 스크롤바 스타일링 */
 .sidebar-menu::-webkit-scrollbar {
   width: 6px;
 }
@@ -93,7 +130,7 @@ textarea {
   background: rgba(255, 255, 255, 0.5);
 }
 
-/* 기존 버튼 스타일은 그대로 유지 */
+/* 버튼 스타일 - 터치 친화적으로 개선 */
 .sidebar-btn,
 .sidebar-back-btn,
 .logout-btn,
@@ -104,15 +141,27 @@ textarea {
   color: white;
   border: none;
   border-radius: var(--radius-sm);
-  padding: 8px 12px;
+  padding: 12px 16px; /* 터치하기 쉽게 패딩 증가 */
   margin-bottom: 8px;
   text-align: left;
   cursor: pointer;
   font-weight: 500;
+  min-height: 44px; /* iOS 권장 터치 타겟 크기 */
+  transition: background-color 0.2s;
+}
+
+.sidebar-btn:hover,
+.sidebar-back-btn:hover,
+.sidebar-header button:hover {
+  background: #0c4a6e;
 }
 
 .logout-btn {
   background: #dc2626;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
 }
 
 .main-content {
@@ -121,6 +170,7 @@ textarea {
   overflow-y: auto;
   background: white;
   border-left: 1px solid var(--gray-200);
+  min-width: 0; /* Flexbox 오버플로우 방지 */
 }
 
 .content-center {
@@ -177,10 +227,16 @@ img {
 
 .form-group input {
   width: 100%;
-  padding: 8px 12px;
+  padding: 12px 16px; /* 터치하기 쉽게 패딩 증가 */
   border: 1px solid var(--gray-300);
   border-radius: var(--radius-sm);
   background: var(--gray-50);
+  min-height: 44px; /* iOS 권장 입력 필드 크기 */
+  font-size: 16px; /* iOS에서 확대 방지 */
+  -webkit-appearance: none; /* iOS 기본 스타일 제거 */
+  appearance: none; /* 표준 속성 */
+  appearance: none; /* 표준 속성 */
+  appearance: none; /* 표준 속성 */
 }
 
 .form-group input:focus {
@@ -191,13 +247,16 @@ img {
 
 .auth-card button[type="submit"] {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background: var(--primary);
   color: white;
   border: none;
   border-radius: var(--radius-sm);
   font-weight: 600;
   cursor: pointer;
+  min-height: 44px;
+  font-size: 16px;
+  transition: background-color 0.2s;
 }
 
 .auth-card button[type="submit"]:hover {
@@ -207,23 +266,29 @@ img {
 .auth-error {
   color: #dc2626;
   background: #fee2e2;
-  padding: 8px;
+  padding: 12px;
   border-radius: var(--radius-sm);
   margin-bottom: 16px;
   text-align: center;
   font-size: 0.9rem;
 }
 
-/* Table */
+/* Table - 모바일에서 가로 스크롤 */
+.table-container {
+  overflow-x: auto;
+  margin-top: 16px;
+  -webkit-overflow-scrolling: touch; /* iOS 부드러운 스크롤 */
+}
+
 .report-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 16px;
+  min-width: 600px; /* 최소 너비 설정으로 모바일에서 스크롤 가능 */
 }
 
 .report-table th,
 .report-table td {
-  padding: 8px;
+  padding: 12px 8px;
   border: 1px solid var(--gray-200);
   text-align: left;
   font-size: 0.85rem;
@@ -238,30 +303,161 @@ img {
   background: var(--gray-50);
 }
 
-/* Select, toggle */
+/* Select, toggle - 터치 친화적으로 개선 */
 .mode-toggle {
   display: flex;
   gap: 8px;
   margin-bottom: 24px;
+  flex-wrap: wrap; /* 모바일에서 줄바꿈 허용 */
 }
 
 .mode-toggle select,
 .mode-toggle button {
-  padding: 8px 12px;
+  padding: 12px 16px;
   border: 1px solid var(--gray-300);
   border-radius: var(--radius-sm);
   background: white;
   cursor: pointer;
   font-weight: 500;
+  min-height: 44px;
+  font-size: 16px; /* iOS에서 확대 방지 */
+  -webkit-appearance: none; /* iOS 기본 스타일 제거 */
+  appearance: none; /* 표준 속성 */
 }
 
 .mode-toggle button {
   background: var(--primary);
   color: white;
   border: none;
+  transition: background-color 0.2s;
+}
+
+.mode-toggle button:hover {
+  background: #0c4a6e;
 }
 
 .mode-toggle button:disabled {
   background: var(--gray-300);
   cursor: not-allowed;
+}
+
+/* 모바일 반응형 스타일 */
+@media (max-width: 768px) {
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .app-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -240px; /* 기본적으로 숨김 */
+    z-index: 1000;
+    transition: left 0.3s ease;
+    height: 100vh;
+  }
+
+  .sidebar.mobile-open {
+    left: 0; /* 열릴 때 표시 */
+  }
+
+  .sidebar-overlay.active {
+    display: block;
+  }
+
+  .main-content {
+    padding: 80px 16px 24px 16px; /* 상단에 햄버거 버튼 공간 확보 */
+    border-left: none;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .auth-card,
+  .test-container {
+    padding: 24px 16px;
+    margin: 0 16px;
+    max-width: none;
+  }
+
+  .content-center {
+    padding: 20px 8px;
+  }
+
+  .content-center h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-center h2 {
+    font-size: 1.1rem;
+  }
+
+  /* 테이블을 카드 형태로 변경 (선택사항) */
+  .report-table-mobile {
+    display: none;
+  }
+
+  @media (max-width: 480px) {
+    .report-table {
+      display: none;
+    }
+
+    .report-table-mobile {
+      display: block;
+    }
+
+    .report-card {
+      background: white;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-sm);
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+
+    .report-card-field {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .report-card-field:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+
+    .report-card-label {
+      font-weight: 600;
+      color: var(--gray-700);
+    }
+
+    .report-card-value {
+      color: var(--gray-500);
+    }
+  }
+}
+
+/* 아주 작은 화면 (iPhone SE 등) */
+@media (max-width: 375px) {
+  .main-content {
+    padding: 80px 12px 24px 12px;
+  }
+
+  .auth-card,
+  .test-container {
+    margin: 0 8px;
+    padding: 20px 12px;
+  }
+
+  .mode-toggle {
+    flex-direction: column;
+  }
+
+  .mode-toggle select,
+  .mode-toggle button {
+    width: 100%;
+  }
 }
