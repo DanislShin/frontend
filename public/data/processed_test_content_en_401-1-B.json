@@ -1,0 +1,230 @@
+[
+  {
+    "language": "en",
+    "module_id": "400",
+    "test_id": "401-1-B",
+    "mode": "review",
+    "content": {
+      "1": [
+        {
+          "id": "1-1",
+          "question_text": "The Smalltown Senior Center will host its annual Crafts Fair at the center on December 13 from 10 A.M. to 4 P.M. "
+        },
+        {
+          "id": "1-2",
+          "question_text": "This event is held in high regard by the community. "
+        },
+        {
+          "id": "1-3",
+          "question_text": "All of the best artists and craftspeople of Smalltown are represented each year."
+        },
+        {
+          "id": "1-4",
+          "question_text": "As in years past, we will be providing booth space for rental."
+        },
+        {
+          "id": "1-5",
+          "question_text": " A five-foot table costs $50, and a U-shaped six-by-six-by-six booth costs $125. "
+        },
+        {
+          "id": "1-6",
+          "question_text": "To reserve your space, please call Helen Dwyer at (555) 579-1343.  "
+        },
+        {
+          "id": "1-7",
+          "question_text": "We expect to sell out all available spaces soon, so do not miss your chance to participate.  "
+        },
+        {
+          "id": "1-8",
+          "question_text": "ll the proceeds from booth rentals go to support our activities at the center.  "
+        },
+        {
+          "id": "1-9",
+          "question_text": "We look forward to hearing from you. "
+        }
+      ],
+      "2": [
+        {
+          "id": "2-1",
+          "question_text": "We are really grateful to all of you who have signed up for the 10th Rosydale City Marathon that was scheduled for this coming Saturday at 10 a.m. ."
+        },
+        {
+          "id": "2-2",
+          "question_text": "Unfortunately, as you may already know, the weather forecast says that there is going to be a downpour throughout the race day."
+        },
+        {
+          "id": "2-3",
+          "question_text": "We truly hoped that the race would go smoothly. "
+        },
+        {
+          "id": "2-4",
+          "question_text": "However, it is likely that the heavy rain will make the roads too slippery and dangerous for the racers to run safely."
+        },
+        {
+          "id": "2-5",
+          "question_text": "As a result, we have decided to cancel the race."
+        },
+        {
+          "id": "2-6",
+          "question_text": "We hope you understand and we promise to hold another race in the near future."
+        }
+      ],
+      "3": [
+        {
+          "id": "3-1",
+          "question_text": "It was Valentine’s Day on Friday and Peter was certain that his wife, Amy, was going to love his surprise. "
+        },
+        {
+          "id": "3-2",
+          "question_text": " Peter had spent a long time searching online for an event that would be a new way to spend time with Amy. "
+        },
+        {
+          "id": "3-3",
+          "question_text": "He had finally found the perfect thing for her. "
+        },
+        {
+          "id": "3-4",
+          "question_text": "She often told him that she liked to go to places she had never visited before, and he was absolutely sure that she would love going to the new, five-star restaurant downtown."
+        },
+        {
+          "id": "3-5",
+          "question_text": "He smiled as he called the restaurant and asked for a reservation for Friday. "
+        },
+        {
+          "id": "3-6",
+          "question_text": "Unfortunately, his smile quickly disappeared when he was told that the restaurant was fully reserved. "
+        },
+        {
+          "id": "3-7",
+          "question_text": "“That’s too bad,” he said quietly."
+        },
+        {
+          "id": "3-8",
+          "question_text": "“I thought that I had found the right place.”"
+        }
+      ],
+      "4": [
+        {
+          "id": "4-1",
+          "question_text": "We almost universally accept that playing video games is at best a pleasant break from a student’s learning and more often what prevents a student from accomplishing their goals."
+        },
+        {
+          "id": "4-2",
+          "question_text": "Games catch and hold attention in a way that few things can."
+        },
+        {
+          "id": "4-3",
+          "question_text": "And yet once they have our focus, they rarely seem to offer anything meaningful to help students grow in their lives outside the games."
+        },
+        {
+          "id": "4-4",
+          "question_text": "While this may be true for many games, we are too easily ignoring a valuable tool that could be used to enhance productivity instead of derailing it."
+        },
+        {
+          "id": "4-5",
+          "question_text": "Rather, it is desirable that we develop games that connect to the learning outcomes we want for our students. "
+        },
+        {
+          "id": "4-6",
+          "question_text": "This will enable educators to take advantage of games’ attention commanding capacities and allow our students to enjoy their games while learning."
+        }
+      ],
+      "5": [
+        {
+          "id": "5-1",
+          "question_text": "The position of the architect rose during the Roman Empire, as architecture symbolically became a particularly important political statement."
+        },
+        {
+          "id": "5-2",
+          "question_text": "Cicero classed the architect with the physician and the teacher, and Vitruvius spoke of 'so great a profession as this.'"
+        },
+        {
+          "id": "5-3",
+          "question_text": "Marcus Vitruvius Pollio, a practicing architect during the rule of Augustus Caesar, recognized that architecture requires both practical and theoretical knowledge, and he listed the disciplines he felt the aspiring architect should master: literature and writing, draftsmanship, mathematics, history, philosophy, music, medicine, law, and astronomy ― a curriculum that still has much to recommend it."
+        },
+        {
+          "id": "5-4",
+          "question_text": "All of this study was necessary, he argued, because architects who have aimed at acquiring manual skill without scholarship have never been able to reach a position of authority to correspond to their plans, while those who have relied only upon theories and scholarship were obviously 'hunting the shadow, not the substance.'"
+        }
+      ],
+      "6": [
+        {
+          "id": "6-1",
+          "question_text": "The ability to understand emotions ― to have a diverse emotion vocabulary and to understand the causes and consequences of emotion ― is particularly relevant in group settings."
+        },
+        {
+          "id": "6-2",
+          "question_text": "Individuals who are skilled in this domain are able to express emotions, feelings and moods accurately and thus, may facilitate clear communication between co-workers."
+        },
+        {
+          "id": "6-3",
+          "question_text": "Furthermore, they may be more likely to act in ways that accommodate their own needs as well as the needs of others (i.e. cooperate)."
+        },
+        {
+          "id": "6-4",
+          "question_text": "In a group conflict situation, for example, a member with a strong ability to understand emotion will be able to express how he feels about the problem and why he feels this way."
+        },
+        {
+          "id": "6-5",
+          "question_text": "He also should be able to take the perspective of the other group members and understand why they are reacting in a certain manner."
+        },
+        {
+          "id": "6-6",
+          "question_text": "Appreciation of differences creates an arena for open communication and promotes constructive conflict resolution and improved group functioning."
+        }
+      ],
+      "7": [
+        {
+          "id": "7-1",
+          "question_text": "The arrival of the Industrial Age changed the relationship among time, labor, and capital."
+        },
+        {
+          "id": "7-2",
+          "question_text": "Factories could produce around the clock, and they could do so with greater speed and volume than ever before."
+        },
+        {
+          "id": "7-3",
+          "question_text": "A machine that runs twelve hours a day will produce more widgets than one that runs for only eight hours per day ― and a machine that runs twenty-four hours per day will produce the most widgets of all."
+        },
+        {
+          "id": "7-4",
+          "question_text": "As such, at many factories, the workday is divided into eight-hour shifts, so that there will always be people on hand to keep the widget machines humming."
+        },
+        {
+          "id": "7-5",
+          "question_text": "Industrialization raised the potential value of every single work hour ― the more hours you worked, the more widgets you produced, and the more money you made ― and thus wages became tied to effort and production."
+        },
+        {
+          "id": "7-6",
+          "question_text": "Labor, previously guided by harvest cycles, became clock-oriented, and society started to reorganize around new principles of productivity."
+        }
+      ],
+      "8": [
+        {
+          "id": "8-1",
+          "question_text": "The selfie resonates not because it is new, but because it expresses, develops, expands, and intensifies the long history of the self-portrait."
+        },
+        {
+          "id": "8-2",
+          "question_text": "The self-portrait showed to others the status of the person depicted."
+        },
+        {
+          "id": "8-3",
+          "question_text": "In this sense, what we have come to call our own 'image' ― the interface of the way we think we look and the way others see us ― is the first and fundamental object of global visual culture."
+        },
+        {
+          "id": "8-4",
+          "question_text": "The selfie depicts the drama of our own daily performance of ourselves in tension with our inner emotions that may or may not be expressed as we wish."
+        },
+        {
+          "id": "8-5",
+          "question_text": "At each stage of the self-portrait's expansion, more and more people have been able to depict themselves."
+        },
+        {
+          "id": "8-6",
+          "question_text": "Today's young, urban, networked majority has reworked the history of the self-portrait to make the selfie into the first visual signature of the new era."
+        }
+      ]
+    }
+  }
+]

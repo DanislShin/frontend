@@ -1,0 +1,96 @@
+[
+  {
+    "language": "en",
+    "module_id": "100",
+    "mode": "review",
+    "tests": []
+  },
+  {
+    "language": "en",
+    "module_id": "200",
+    "mode": "review",
+    "tests": [
+      {
+        "id": "201-3-B",
+        "type": "speech-accuracy",
+        "skill": "말하기",
+        "days": true
+      },
+      {
+        "id": "201-1-B",
+        "type": "multiple-choice",
+        "skill": "읽기",
+        "days": true
+      }
+    ]
+  },
+  {
+    "language": "en",
+    "module_id": "300",
+    "mode": "review",
+    "tests": [
+      {
+        "id": "301-1-I",
+        "type": "multiple-choice",
+        "skill": "읽기",
+        "days": true
+      },
+      {
+        "id": "301-2-B",
+        "type": "listening-comprehension",
+        "skill": "듣기",
+        "days": true
+      },
+      {
+        "id": "301-3-B",
+        "type": "speech-accuracy",
+        "skill": "말하기",
+        "days": true
+      }
+    ]
+  },
+  {
+    "language": "en",
+    "module_id": "400",
+    "mode": "review",
+    "tests": [
+      {
+        "id": "401-1-I",
+        "type": "multiple-choice",
+        "skill": "읽기",
+        "days": true
+      },
+      {
+        "id": "401-1-B",
+        "type": "ai-review",
+        "skill": "읽기",
+        "days": true
+      },
+      {
+        "id": "401-2-B",
+        "type": "listening-comprehension",
+        "skill": "듣기",
+        "days": true
+      },
+      {
+        "id": "401-2-I",
+        "type": "listening-comprehension",
+        "skill": "듣기",
+        "days": true
+      }
+    ]
+  },
+  {
+    "language": "en",
+    "module_id": "700",
+    "mode": "review",
+    "tests": [
+      {
+        "id": "701-3-B",
+        "type": "ai-review",
+        "skill": "말하기",
+        "days": true
+      }
+    ]
+  }
+]

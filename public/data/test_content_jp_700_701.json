@@ -1,0 +1,52 @@
+[
+  {
+    "language": "jp",
+    "module_id": "700",
+    "test_id": "701",
+    "content": {
+      "title": "オマというオランウータン",
+      "paragraphs": [
+        {
+          "korean": "오랑우탄 오마는 모든 것에 능숙하고 싶어했다. 그녀는 새로운 것을 시도하는 것을 좋아했다.",
+          "japanese": "オランウータンのオマは何でも上手になりたかった。彼女は新しいことに挑戦するのが大好きだった。",
+          "pronunciation": "オランウータン の オマ は なんでも じょうず に なりたかった。かのじょ は あたらしい こと に ちょうせん する の が だいすき だった。"
+        },
+        {
+          "korean": "깨어 있는 모든 시간 동안, 밥을 먹거나 낮잠을 자지 않을 때, 그녀는 도전을 즐겼다.",
+          "japanese": "目が覚めているすべての時間、食事をしていない時や昼寝をしていない時、彼女は挑戦を楽しんでいた。",
+          "pronunciation": "め が さめている すべて の じかん、しょくじ を していない とき や ひるね を していない とき、かのじょ は ちょうせん を たのしんでいた。"
+        }
+      ],
+      "vocabulary": [
+        {
+          "word": "orangutan",
+          "example": "オランウータンは枝から枝へとぶら下がった。",
+          "meaning": "オランウータン",
+          "pronunciation": "オランウータン",
+          "exampleTranslation": "오랑우탄이 가지에서 가지로 흔들렸다."
+        },
+        {
+          "word": "challenge",
+          "example": "彼女はその挑戦を受け入れた。",
+          "meaning": "挑戦",
+          "pronunciation": "ちょうせん",
+          "exampleTranslation": "그녀는 그 도전을 받아들였다."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "title": "過去進行形 (Past Continuous)",
+          "examples": [
+            {
+              "korean": "비가 내리기 시작했을 때 그녀는 둥지를 만들고 있었다.",
+              "japanese": "雨が降り始めた時、彼女は巣を作っていた。",
+              "pronunciation": "あめ が ふりはじめた とき、かのじょ は す を つくっていた。"
+            }
+          ],
+          "explanation": "was/were + -ing: 過去の特定の時点で進行中だった動作を表す"
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

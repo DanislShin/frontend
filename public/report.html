@@ -1,0 +1,295 @@
+<script type="text/javascript">
+        var gk_isXlsx = false;
+        var gk_xlsxFileLookup = {"learning_progress_rows (1).csv":false,"practice_results_rows (3).csv":false};
+        var gk_fileData = {"learning_progress_rows (1).csv":"id,user_id,module_code,completed_at,created_at,day,completed,language\r\n6,bestion00@gmail.com,301-1-I-1,2025-07-31 14:53:21.967+00,2025-07-31 14:53:22.941383+00,1,true,en\r\n7,bestion00@gmail.com,301-1-I-1,2025-07-31 14:55:26.924+00,2025-07-31 14:55:27.082323+00,1,true,en\r\n8,bestion00@gmail.com,401-3-B-all,2025-07-31 18:16:10.34+00,2025-07-31 18:16:10.464693+00,,true,en","practice_results_rows (3).csv":"id,user_id,module_code,question_text,user_answer,user_answer_final,ai_feedback,score,timestamp,language\r\n084dfd73-59d6-4980-8cd4-bedf41293d31,bestion00@gmail.com,301-2-B-1,abandon: 뜻을 선택하세요,\"버리다, 단념하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:22.428+00,en\r\n4e1a1b38-2d7b-4966-b44d-c991388357bc,bestion00@gmail.com,301-2-B-1,abolish: 뜻을 선택하세요,\"버리다, 단념하다\",,\"{\"\"score\"\":0}\",,2025-08-04 17:52:29.828+00,en\r\n31f59507-a160-433d-9352-23fde1a1a929,bestion00@gmail.com,301-2-B-1,abolish: 뜻을 선택하세요,폐지하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:34.399+00,en\r\ndd3d054b-62da-4eb0-830c-e960b44afc14,bestion00@gmail.com,301-2-B-1,abroad: 뜻을 선택하세요,\"해외에서, 외국에서\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:37.703+00,en\r\nc8acfeb8-c5ed-4742-9eee-b63e6ccabd28,bestion00@gmail.com,301-2-B-1,abruptly: 뜻을 선택하세요,갑작스럽게,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:41.18+00,en\r\ne5f01b4a-b87b-4efd-8052-3f97c84df0b0,bestion00@gmail.com,301-2-B-1,absence: 뜻을 선택하세요,\"결석, 결근, 부재\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:44.515+00,en\r\n8dceb5e9-526e-4ef1-9f2c-d77cdaaa4998,bestion00@gmail.com,301-2-B-1,absolutely: 뜻을 선택하세요,\"절대적으로, 전혀\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:48.133+00,en\r\n9f6f5962-a404-4002-aae3-bb897310be4d,bestion00@gmail.com,301-2-B-1,absorb: 뜻을 선택하세요,흡수하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:51.309+00,en\r\n01e3d8ed-9320-43e8-b47d-4d4174158ec6,bestion00@gmail.com,301-2-B-1,abstract: 뜻을 선택하세요,추상적인,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:54.705+00,en\r\nbf97bbf6-ab75-43f6-809d-75c99917e7e1,bestion00@gmail.com,301-2-B-1,abundant: 뜻을 선택하세요,풍부한,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:52:57.916+00,en\r\n1f20d00f-fe5e-4681-a8c9-cb5fade98c61,bestion00@gmail.com,301-2-B-1,abuse: 뜻을 선택하세요,\"학대, 남용\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:00.703+00,en\r\n3188ec34-91d5-4dbd-8f2f-b10d08716848,bestion00@gmail.com,301-2-B-1,accelerate: 뜻을 선택하세요,가속하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:03.362+00,en\r\n9af92a79-0614-4da9-80f9-55b0c94dd3aa,bestion00@gmail.com,301-2-B-1,accept: 뜻을 선택하세요,\"받아들이다, 수용하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:08.406+00,en\r\ne6770aaf-faa4-4d3b-bd11-63536d03445e,bestion00@gmail.com,301-2-B-1,access: 뜻을 선택하세요,\"접속, 입장\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:11.473+00,en\r\nddd2d673-8c90-40e7-9857-cf4aa969c113,bestion00@gmail.com,301-2-B-1,accidentally: 뜻을 선택하세요,\"우연히, 실수로\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:14.283+00,en\r\nea140dde-a187-4ac3-badf-d97b1ee26282,bestion00@gmail.com,301-2-B-1,accommodate: 뜻을 선택하세요,수용하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:17.264+00,en\r\n8efc7430-85aa-4915-a26d-4822326f59ac,bestion00@gmail.com,301-2-B-1,accompany: 뜻을 선택하세요,동행하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:20.644+00,en\r\n3834d62c-aeab-49a5-8ff9-38d529ef5ba2,bestion00@gmail.com,301-2-B-1,accomplish: 뜻을 선택하세요,달성하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:23.204+00,en\r\n9537b7c4-9322-4902-b684-8df50d7e8122,bestion00@gmail.com,301-2-B-1,according to: 뜻을 선택하세요,~에 따르면,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:26.019+00,en\r\ne26cf4cb-1302-41dc-968c-b56c24c713fe,bestion00@gmail.com,301-2-B-1,accordingly: 뜻을 선택하세요,따라서,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:29.233+00,en\r\nf667cd7e-0191-4e3f-89e1-0fe1635f5eb8,bestion00@gmail.com,301-2-B-1,account for: 뜻을 선택하세요,\"~를 차지하다, 설명하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:33.595+00,en\r\nb974f485-6df8-49a3-b5d6-310c5ce03f60,bestion00@gmail.com,301-2-B-1,account: 뜻을 선택하세요,\"설명, 이야기, 계좌\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:38.636+00,en\r\nd92627b2-90e2-4fdc-aaca-aa97a194bade,bestion00@gmail.com,301-2-B-1,accountable: 뜻을 선택하세요,책임이 있는,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:53:42.9+00,en\r\n36bbdc51-b7a5-45f4-8e43-09685ab48cc5,bestion00@gmail.com,301-2-B-2,accountant: 뜻을 선택하세요,회계사,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:54:40.349+00,en\r\n239ac282-aa5d-497a-b1fa-3d9c197bfbe1,bestion00@gmail.com,301-2-B-2,accurate: 뜻을 선택하세요,정확한,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:54:43.322+00,en\r\n4ca0d8ea-a28e-4b14-9cfa-f0145d66c17a,bestion00@gmail.com,301-2-B-2,accuse: 뜻을 선택하세요,\"비난하다, 고소하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:54:45.839+00,en\r\n3807e331-de67-469c-b7a8-91d396c9bb6e,bestion00@gmail.com,301-2-B-2,accustomed: 뜻을 선택하세요,\"익숙한, 습관이 된\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:54:49.143+00,en\r\n48e521f7-3c4a-4800-8528-6d0efb64317f,bestion00@gmail.com,301-2-B-2,ache: 뜻을 선택하세요,\"아픔, 고통\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:09.412+00,en\r\nb7e04163-078b-42a8-a7c0-c36b3e13ec67,bestion00@gmail.com,301-2-B-2,achieve: 뜻을 선택하세요,성취하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:11.847+00,en\r\nd43608c3-c71c-4e65-96ab-4f6ff3d30ac3,bestion00@gmail.com,301-2-B-2,acknowledge: 뜻을 선택하세요,인정하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:14.397+00,en\r\n4526f4b7-450e-42eb-92b4-6a36721784ef,bestion00@gmail.com,301-2-B-2,acid rain: 뜻을 선택하세요,산성비,,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:17.077+00,en\r\ne0c8523c-a6e0-4986-95f7-56410c848dba,bestion00@gmail.com,301-2-B-2,acquaintance: 뜻을 선택하세요,\"아는 사람, 지인\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:20.044+00,en\r\n4e129b0f-1ced-46d8-af39-ec9b19a46a2c,bestion00@gmail.com,301-2-B-2,acquire: 뜻을 선택하세요,\"습득하다, 획득하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:22.732+00,en\r\nf3a4f14d-2f50-490f-a20a-3399b6e6a8bf,bestion00@gmail.com,301-2-B-2,acute: 뜻을 선택하세요,\"극심한, 급성의\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:26.915+00,en\r\n22baf00e-736e-4d79-bc05-eaf3cc83dc0a,bestion00@gmail.com,301-2-B-2,adapt: 뜻을 선택하세요,\"맞추다, 적응하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:29.333+00,en\r\n1d9482e4-f152-4fdf-bbc1-ddce529a8da2,bestion00@gmail.com,301-2-B-2,adjust: 뜻을 선택하세요,\"적응하다, 조절하다\",,\"{\"\"score\"\":4.545454545454546}\",,2025-08-04 17:55:32.795+00,en\r\nca05579b-d56c-4d85-8aab-3910705bd0b7,bestion01@gmail.com,301-1-I-9,be eager to: 뜻을 선택하세요,~하기를 열망하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n7cc14ff8-e4cd-4e88-96c7-dae8d1b04848,bestion01@gmail.com,301-1-I-9,baggage: 뜻을 선택하세요,\"짐, 수화물\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n5ff6b0b0-6506-4f8f-9b0c-bf4d5cb9c72d,bestion01@gmail.com,301-1-I-9,badly: 뜻을 선택하세요,\"몹시, 간절히, 심하게\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n7819911a-3c07-47e9-ab23-16ad8d196798,bestion01@gmail.com,301-1-I-9,bald: 뜻을 선택하세요,\"대머리의, 머리가 벗겨진\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\nfb12ddd0-725f-4f76-bb63-11fa2d036ada,bestion01@gmail.com,301-1-I-9,backpack: 뜻을 선택하세요,배낭,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n63150723-460e-465e-9550-2acde3c1609b,bestion01@gmail.com,301-1-I-9,bamboo: 뜻을 선택하세요,대나무,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n03e9eb0a-64ba-4867-a213-8d065f235f2d,bestion01@gmail.com,301-1-I-9,be committed to: 뜻을 선택하세요,~에 전념하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n061971d6-7eee-4148-8cab-b7b09d07f1c7,bestion01@gmail.com,301-1-I-9,bankrupt: 뜻을 선택하세요,파산한,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\nb08a16da-706b-4472-8c90-b0e37893ce43,bestion01@gmail.com,301-1-I-9,banner: 뜻을 선택하세요,\"깃발, 현수막\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\nbf0f3c71-0775-449e-87d1-ce2cb25beb77,bestion01@gmail.com,301-1-I-9,barber: 뜻을 선택하세요,이발사,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\ndf4a8912-b211-4ab7-9bb2-641422ead352,bestion01@gmail.com,301-1-I-9,be confident of: 뜻을 선택하세요,~를 자신하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n0d27fac2-7505-4eb7-a3ea-30dd99ff763e,bestion01@gmail.com,301-1-I-9,be at odds with: 뜻을 선택하세요,~와 사이가 좋지 않다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n9dc628d5-d2be-4132-b1ba-a3b416057ff2,bestion01@gmail.com,301-1-I-9,basement: 뜻을 선택하세요,지하실,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n77b374c9-9cc6-456d-9bef-ef0d3e580398,bestion01@gmail.com,301-1-I-9,bare: 뜻을 선택하세요,\"벌거벗은, 맨 상태의\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\nce3fe6a9-a975-4950-bc8d-acc10c9a52d8,bestion01@gmail.com,301-1-I-9,barren: 뜻을 선택하세요,\"불모의, 메마른\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n046795fc-a572-41da-ae01-cd12f3c3b852,bestion01@gmail.com,301-1-I-9,barely: 뜻을 선택하세요,\"거의 ~아니게, 가까스로\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n4b2487c5-5f2e-47e2-9499-db3d30ce457d,bestion01@gmail.com,301-1-I-9,backing: 뜻을 선택하세요,\"지원, 후원, 지지\",,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n47a4a48f-9e58-4d45-bb1f-f5d933756711,bestion01@gmail.com,301-1-I-9,be against: 뜻을 선택하세요,~에 반대하다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n5614da0b-16bf-4f97-bb5f-efb92106c364,bestion01@gmail.com,301-1-I-9,be confined to: 뜻을 선택하세요,~에 갇혀 있다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n267d69ee-9883-4d7f-8f70-740e0edb2140,bestion01@gmail.com,301-1-I-9,banquet: 뜻을 선택하세요,~하기를 열망하다,,\"{\"\"score\"\":0}\",,2025-07-30 08:09:16.755+00,en\r\n4781c947-d75d-4579-8022-602bf3afa4d9,bestion01@gmail.com,301-1-I-9,be concerned with: 뜻을 선택하세요,~와 관련되다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n165431bc-60da-4cda-b8f1-433ab0a70d12,bestion01@gmail.com,301-1-I-9,be equipped with: 뜻을 선택하세요,~을 갖추고 있다,,\"{\"\"score\"\":4.545454545454546}\",,2025-07-30 08:09:16.755+00,en\r\n9dc453b9-e2df-42b4-98b2-23e2f8c4a8bc,bestion01@gmail.com,201-3-B-2,I was a student.,I was a student.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.433+00,en\r\n2e77e5b3-fd71-4fd0-9c51-5aa223926cc4,bestion01@gmail.com,201-3-B-2,Were you happy?,Were you happy?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n96a6c293-cb8f-4265-82fa-62550e775126,bestion01@gmail.com,201-3-B-2,It was sunny.,It was sunny.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n3e8e0060-21f0-4438-9af7-dc73a8b01941,bestion01@gmail.com,201-3-B-2,He/She was happy.,He was happy.,,\"{\"\"score\"\":75}\",,2025-08-01 17:27:06.434+00,en\r\nb1fc590c-fa08-4a24-ad8b-f4b6cd68915a,bestion01@gmail.com,201-3-B-2,Were they in Busan?,Were they in Busan?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n6693a842-ce86-4779-8ffb-844afc3bcae9,bestion01@gmail.com,201-3-B-2,They were friends.,We were friends.,,\"{\"\"score\"\":82.35294117647058}\",,2025-08-01 17:27:06.434+00,en\r\n751adc48-baee-4f62-9825-aa50388d9e88,bestion01@gmail.com,201-3-B-2,Was I at home?,Was I at home?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n9e9b4df6-7777-4c21-a28d-72cb150ff132,bestion01@gmail.com,201-3-B-2,I was happy.,I was happy.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n3d6117af-e014-4d0b-9ac9-7645562e0a3f,bestion01@gmail.com,201-3-B-2,Was he/she a doctor?,Was she a doctor?,,\"{\"\"score\"\":84.21052631578948}\",,2025-08-01 17:27:06.434+00,en\r\n62fc3a1f-237c-49bb-9496-27378a994ef0,bestion01@gmail.com,201-3-B-2,He/She was a doctor.,He was a doctor.,,\"{\"\"score\"\":78.94736842105263}\",,2025-08-01 17:27:06.434+00,en\r\n7779d308-46da-4d60-baf5-76cf75837592,bestion01@gmail.com,201-3-B-2,Were you a teacher?,Were you a teacher?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\ndeeec9aa-794a-49bf-9927-8e0774e740e7,bestion01@gmail.com,201-3-B-2,It was 7 o’clock.,It was 7:00.,,\"{\"\"score\"\":50}\",,2025-08-01 17:27:06.434+00,en\r\n113d954b-a30a-418f-8740-d7c633d26065,bestion01@gmail.com,201-3-B-2,Weren’t they friends?,Won't they brand this?,,\"{\"\"score\"\":47.61904761904761}\",,2025-08-01 17:27:06.434+00,en\r\n7e514ee9-1538-4a75-b674-66d3d7d9d471,bestion01@gmail.com,201-3-B-2,I was at home.,I was at home.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n251c8556-dffc-4e2d-83a3-180330b407dd,bestion01@gmail.com,201-3-B-2,He/She was at school.,He was at school.,,\"{\"\"score\"\":80}\",,2025-08-01 17:27:06.434+00,en\r\n56ef7d0b-7ed1-43c6-b869-f40625f9ef94,bestion01@gmail.com,201-3-B-2,They were in Busan.,They were Busan.,,\"{\"\"score\"\":83.33333333333334}\",,2025-08-01 17:27:06.434+00,en\r\n84af4d1b-4536-4e83-81b6-77e168b3bb83,bestion01@gmail.com,201-3-B-2,Were they happy?,Were they happy?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\ne07a39b5-14d6-486d-8553-1c61781f33a2,bestion01@gmail.com,201-3-B-2,Was it sunny?,Was it sunny?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n6b97b5a6-f4da-4c71-a350-ae49b8e1a74e,bestion01@gmail.com,201-3-B-2,You were in Seoul.,You are in soul.,,\"{\"\"score\"\":82.35294117647058}\",,2025-08-01 17:27:06.434+00,en\r\n7f65f28f-2d73-4be7-80e4-e19c2964c1d2,bestion01@gmail.com,201-3-B-2,Was I happy?,Was I happy?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\na50a4c9d-6e69-40d6-8333-890d915d4bb8,bestion01@gmail.com,201-3-B-2,You were a teacher.,You were a teacher.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n24a5ce97-ccbc-4a49-9bd5-992afc447df7,bestion01@gmail.com,201-3-B-2,Was he/she happy?,Was she happy?,,\"{\"\"score\"\":81.25}\",,2025-08-01 17:27:06.434+00,en\r\n356115d7-4941-4b76-a873-ac519f0f9bd4,bestion01@gmail.com,201-3-B-2,Were you in Seoul?,Why are you in Seoul?,,\"{\"\"score\"\":80}\",,2025-08-01 17:27:06.434+00,en\r\ne06b0f5c-2d10-4010-ba7f-f35c76eaedb2,bestion01@gmail.com,201-3-B-2,Wasn’t he/she a doctor?,Went he a doctor?,,\"{\"\"score\"\":68.18181818181819}\",,2025-08-01 17:27:06.434+00,en\r\n4ea529e8-0ba8-4f8f-9710-262ba6c5fc50,bestion01@gmail.com,201-3-B-2,They were happy.,They were happy.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\nebfe4d49-440d-4f02-8c72-1ec9cf8b21f0,bestion01@gmail.com,201-3-B-2,Was he/she at school?,Was she a score?,,\"{\"\"score\"\":65}\",,2025-08-01 17:27:06.434+00,en\r\naae7038b-df33-4cc9-ae05-8d25bb5df52f,bestion01@gmail.com,201-3-B-2,You were happy.,You are happy.,,\"{\"\"score\"\":85.71428571428572}\",,2025-08-01 17:27:06.434+00,en\r\n4cf1d7d5-1cb6-44fc-9da1-7d33ebd8470c,bestion01@gmail.com,201-3-B-2,Were they friends?,Were they friends?,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\nc22c666b-2624-46b0-8ae1-7562c1bc0ee4,bestion01@gmail.com,201-3-B-2,Wasn’t I a student?,Wasn't I a student?,,\"{\"\"score\"\":94.44444444444444}\",,2025-08-01 17:27:06.434+00,en\r\n79c89668-6312-4f23-8948-5186d4d9229c,bestion01@gmail.com,201-3-B-2,Wasn’t it sunny?,Wasn't it sunny?,,\"{\"\"score\"\":93.33333333333333}\",,2025-08-01 17:27:06.434+00,en\r\n7e3a2e63-64f8-45e9-a0d4-18d6e880bcfb,bestion01@gmail.com,201-3-B-2,Was I a student?,Was IA student.,,\"{\"\"score\"\":93.33333333333333}\",,2025-08-01 17:27:06.434+00,en\r\naa4a8691-8d1a-4ecc-b8e8-6bf2532c4f09,bestion01@gmail.com,201-3-B-2,I was not at home.,I was not at home.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n691927ac-a34c-416a-a80e-de2c7c934b16,bestion01@gmail.com,201-3-B-2,I was not happy.,I was not happy.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\nbc5efc6f-f1c7-4658-87d9-ae934070cfcf,bestion01@gmail.com,201-3-B-2,Weren’t you a teacher?,When you are teacher.,,\"{\"\"score\"\":71.42857142857143}\",,2025-08-01 17:27:06.434+00,en\r\n88ec7eb4-38a2-40b4-95bb-91543c2baf1e,bestion01@gmail.com,201-3-B-2,I was not a student.,I was not a student.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n7e3303f6-e12d-4a1a-aad4-362f723eb474,bestion01@gmail.com,201-3-B-2,Was it 7 o’clock?,Was it 7:00?,,\"{\"\"score\"\":50}\",,2025-08-01 17:27:06.434+00,en\r\n8c451b14-5535-4a35-b68e-06ca38f34618,bestion01@gmail.com,201-3-B-2,You were not a teacher.,You are not a teacher.,,\"{\"\"score\"\":90.9090909090909}\",,2025-08-01 17:27:06.434+00,en\r\n12d6114f-ecb0-418a-a906-a3edf6c520d9,bestion01@gmail.com,201-3-B-2,You were not in Seoul.,You was not in soul.,,\"{\"\"score\"\":80.95238095238095}\",,2025-08-01 17:27:06.434+00,en\r\n7985ea1e-fee1-40cc-b01b-76a8bd75944b,bestion01@gmail.com,201-3-B-2,He/She was not a doctor.,He was not a doctor.,,\"{\"\"score\"\":82.6086956521739}\",,2025-08-01 17:27:06.434+00,en\r\n7529bf52-f18a-4ac9-99e5-e80152ff9500,bestion01@gmail.com,201-3-B-2,He/She was not happy.,He was not happy.,,\"{\"\"score\"\":80}\",,2025-08-01 17:27:06.434+00,en\r\n0a633a38-3f59-4d50-8d5c-b1fb2781ae3d,bestion01@gmail.com,201-3-B-2,They were not in Busan.,They were not in Busan.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en\r\n55d5a0b7-bc99-4978-a4e6-d2c61ad897ee,bestion01@gmail.com,201-3-B-2,They were not friends.,They were not friends.,,\"{\"\"score\"\":100}\",,2025-08-01 17:27:06.434+00,en"};
+        function filledCell(cell) {
+          return cell !== '' && cell != null;
+        }
+        function loadFileData(filename) {
+        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+            try {
+                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
+                var firstSheetName = workbook.SheetNames[0];
+                var worksheet = workbook.Sheets[firstSheetName];
+
+                // Convert sheet to JSON to filter blank rows
+                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
+                // Filter out blank rows (rows where all cells are empty, null, or undefined)
+                var filteredData = jsonData.filter(row => row.some(filledCell));
+
+                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+                var headerRowIndex = filteredData.findIndex((row, index) =>
+                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
+                );
+                // Fallback
+                if (headerRowIndex === -1 || headerRowIndex > 25) {
+                  headerRowIndex = 0;
+                }
+
+                // Convert filtered JSON back to CSV
+                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+                return csv;
+            } catch (e) {
+                console.error(e);
+                return "";
+            }
+        }
+        return gk_fileData[filename] || "";
+        }
+        </script><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Progress Report</title>
+  <!-- Including Tailwind CSS for styling -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Including necessary libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.8.1/prop-types.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+  <script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chrono-node/1.3.11/chrono.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/recharts/2.15.0/Recharts.min.js"></script>
+  <style>
+    .recharts-text { font-size: 12px; }
+    .report-container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    .chart-container { margin: 20px 0; }
+    .table-container { margin-top: 20px; }
+    .highlight-box { background-color: #f0f9ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+    // Defining main App component
+    const App = () => {
+      const [data, setData] = React.useState(null);
+      const [loading, setLoading] = React.useState(true);
+
+      // Loading and processing CSV data
+      React.useEffect(() => {
+        const loadData = async () => {
+          try {
+            // Assuming CSV data is fetched via loadFileData
+            const learningProgressCsv = loadFileData("learning_progress_rows (1).csv");
+            const practiceResultsCsv = loadFileData("practice_results_rows (3).csv");
+
+            // Parsing learning_progress CSV
+            const learningProgress = Papa.parse(learningProgressCsv, {
+              header: true,
+              skipEmptyLines: true,
+              transformHeader: (header) => header.trim().replace(/^"|"$/g, ''),
+              transform: (value, header) => {
+                let cleaned = value.trim().replace(/^"|"$/g, '');
+                if (header === 'completed') {
+                  return cleaned.toLowerCase() === 'true';
+                }
+                if (header === 'day') {
+                  return cleaned ? parseInt(cleaned, 10) : null;
+                }
+                if (header === 'completed_at' || header === 'created_at') {
+                  return chrono.parseDate(cleaned) || null;
+                }
+                return cleaned;
+              },
+            }).data;
+
+            // Parsing practice_results CSV
+            const practiceResults = Papa.parse(practiceResultsCsv, {
+              header: true,
+              skipEmptyLines: true,
+              transformHeader: (header) => header.trim().replace(/^"|"$/g, ''),
+              transform: (value, header) => {
+                let cleaned = value.trim().replace(/^"|"$/g, '');
+                if (header === 'score') {
+                  try {
+                    const parsed = JSON.parse(cleaned);
+                    return typeof parsed.score === 'number' ? parsed.score : parseFloat(cleaned) || 0;
+                  } catch {
+                    return parseFloat(cleaned) || 0;
+                  }
+                }
+                if (header === 'timestamp') {
+                  return chrono.parseDate(cleaned) || null;
+                }
+                return cleaned;
+              },
+            }).data;
+
+            // Filtering for user bestion00@gmail.com
+            const userLearningProgress = learningProgress.filter(row => row["user_id"] === "bestion00@gmail.com");
+            const userPracticeResults = practiceResults.filter(row => row["user_id"] === "bestion00@gmail.com");
+
+            // Processing data for visualizations
+            const completedTests = userLearningProgress.filter(row => row["completed"]).reduce((acc, row) => {
+              const baseModule = row["module_code"].split("-")[0];
+              acc[baseModule] = (acc[baseModule] || 0) + 1;
+              return acc;
+            }, {});
+
+            const avgScores = userPracticeResults.reduce((acc, row) => {
+              const baseModule = row["module_code"].split("-")[0];
+              if (!acc[baseModule]) {
+                acc[baseModule] = { total: 0, count: 0 };
+              }
+              acc[baseModule].total += row["score"];
+              acc[baseModule].count += 1;
+              return acc;
+            }, {});
+            const avgScoresData = Object.entries(avgScores).map(([module, { total, count }]) => ({
+              module,
+              avgScore: (total / count).toFixed(2),
+            }));
+
+            const scoreTrend = userPracticeResults.map(row => ({
+              date: row["timestamp"],
+              score: row["score"],
+              module: row["module_code"],
+            })).sort((a, b) => a.date - b.date);
+
+            // Finding most missed question
+            const questionScores = userPracticeResults.reduce((acc, row) => {
+              const question = row["question_text"];
+              if (!acc[question]) {
+                acc[question] = { correct: 0, total: 0 };
+              }
+              acc[question].total += 1;
+              if (row["score"] > 0) {
+                acc[question].correct += 1;
+              }
+              return acc;
+            }, {});
+            const mostMissed = Object.entries(questionScores).reduce((worst, [question, stats]) => {
+              const missRate = (stats.total - stats.correct) / stats.total;
+              if (!worst || missRate > worst.missRate) {
+                return { question, missRate, total: stats.total };
+              }
+              return worst;
+            }, null);
+
+            setData({
+              learningProgress: userLearningProgress,
+              practiceResults: userPracticeResults,
+              completedTests: Object.entries(completedTests).map(([module, count]) => ({ module, count })),
+              avgScores: avgScoresData,
+              scoreTrend,
+              mostMissed,
+            });
+            setLoading(false);
+          } catch (error) {
+            console.error("Error loading data:", error);
+            setLoading(false);
+          }
+        };
+        loadData();
+      }, []);
+
+      // Rendering loading state
+      if (loading) {
+        return <div className="text-center text-2xl mt-10">Loading...</div>;
+      }
+
+      // Rendering main report content
+      return (
+        <div className="report-container">
+          <h1 className="text-3xl font-bold mb-6 text-center">Learning Progress Report</h1>
+
+          {/* Highlighting interesting fact */}
+          <div className="highlight-box">
+            <h2 className="text-xl font-semibold mb-2">Interesting Fact</h2>
+            {data.mostMissed ? (
+              <p>
+                The most frequently missed question was "{data.mostMissed.question}" with a miss rate of {(data.mostMissed.missRate * 100).toFixed(1)}% (missed in {data.mostMissed.total - data.mostMissed.correct} out of {data.mostMissed.total} attempts). This suggests a need for more practice with this concept!
+              </p>
+            ) : (
+              <p>No missed questions detected.</p>
+            )}
+          </div>
+
+          {/* Completed Tests Bar Chart */}
+          <div className="chart-container">
+            <h2 className="text-xl font-semibold mb-4">Completed Tests by Module</h2>
+            <Recharts.ResponsiveContainer width="100%" height={300}>
+              <Recharts.BarChart data={data.completedTests}>
+                <Recharts.CartesianGrid strokeDasharray="3 3" />
+                <Recharts.XAxis dataKey="module" />
+                <Recharts.YAxis label={{ value: 'Number of Tests', angle: -90, position: 'insideLeft' }} />
+                <Recharts.Tooltip />
+                <Recharts.Legend />
+                <Recharts.Bar dataKey="count" fill="#3b82f6" />
+              </Recharts.BarChart>
+            </Recharts.ResponsiveContainer>
+          </div>
+
+          {/* Average Scores Bar Chart */}
+          <div className="chart-container">
+            <h2 className="text-xl font-semibold mb-4">Average Score by Module</h2>
+            <Recharts.ResponsiveContainer width="100%" height={300}>
+              <Recharts.BarChart data={data.avgScores}>
+                <Recharts.CartesianGrid strokeDasharray="3 3" />
+                <Recharts.XAxis dataKey="module" />
+                <Recharts.YAxis label={{ value: 'Average Score', angle: -90, position: 'insideLeft' }} />
+                <Recharts.Tooltip />
+                <Recharts.Legend />
+                <Recharts.Bar dataKey="avgScore" fill="#10b981" />
+              </Recharts.BarChart>
+            </Recharts.ResponsiveContainer>
+          </div>
+
+          {/* Score Trend Line Chart */}
+          <div className="chart-container">
+            <h2 className="text-xl font-semibold mb-4">Score Trend Over Time</h2>
+            <Recharts.ResponsiveContainer width="100%" height={300}>
+              <Recharts.LineChart data={data.scoreTrend}>
+                <Recharts.CartesianGrid strokeDasharray="3 3" />
+                <Recharts.XAxis
+                  dataKey="date"
+                  tickFormatter={(date) => new Date(date).toLocaleDateString()}
+                />
+                <Recharts.YAxis label={{ value: 'Score', angle: -90, position: 'insideLeft' }} />
+                <Recharts.Tooltip formatter={(value, name) => [value, name]} />
+                <Recharts.Legend />
+                <Recharts.Line type="monotone" dataKey="score" stroke="#ef4444" />
+              </Recharts.LineChart>
+            </Recharts.ResponsiveContainer>
+          </div>
+
+          {/* Detailed Results Table */}
+          <div className="table-container">
+            <h2 className="text-xl font-semibold mb-4">Detailed Results</h2>
+            <table className="w-full border-collapse">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border p-2">Module Code</th>
+                  <th className="border p-2">Question</th>
+                  <th className="border p-2">User Answer</th>
+                  <th className="border p-2">Score</th>
+                  <th className="border p-2">Timestamp</th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.practiceResults.map((row, index) => (
+                  <tr key={index} className={index % 2 === 0 ? 'bg-gray-50' : ''}>
+                    <td className="border p-2">{row["module_code"]}</td>
+                    <td className="border p-2">{row["question_text"]}</td>
+                    <td className="border p-2">{row["user_answer"] || 'N/A'}</td>
+                    <td className="border p-2">{row["score"].toFixed(2)}</td>
+                    <td className="border p-2">{new Date(row["timestamp"]).toLocaleString()}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      );
+    };
+
+    // Rendering the app with createRoot
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>

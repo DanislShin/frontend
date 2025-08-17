@@ -1,0 +1,3804 @@
+[
+  {
+    "language": "en",
+    "module_id": "300",
+    "test_id": "301",
+    "content": {
+      "unit1": {
+        "title": "Unit 1: 기본 동사 및 관련 어휘",
+        "words": [
+          {
+            "word": "abandon",
+            "example": "They abandoned the car and ran away.",
+            "meaning": "버리다, 단념하다",
+            "translation": "그들은 차를 버리고 달아났다.",
+            "pronunciation": "/əˈbændən/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "abandonment",
+            "example": "The abandonment of the project disappointed the team.",
+            "meaning": "포기, 유기",
+            "translation": "그 프로젝트의 포기는 팀을 실망시켰다.",
+            "pronunciation": "/əˈbændənmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abolish",
+            "example": "He is in favor of abolishing the death penalty.",
+            "meaning": "폐지하다",
+            "translation": "그는 사형제를 폐지하는 것에 찬성한다.",
+            "pronunciation": "/əˈbɑlɪʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "abolition",
+            "example": "The abolition of slavery was a historic achievement.",
+            "meaning": "폐지",
+            "translation": "노예제 폐지는 역사적 업적이었다.",
+            "pronunciation": "/ˌæbəˈlɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abroad",
+            "example": "He hopes to work abroad next year.",
+            "meaning": "해외에서, 외국에서",
+            "translation": "그는 내년에 해외에서 근무하길 희망한다.",
+            "pronunciation": "/əˈbrɔːd/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "abruptly",
+            "example": "The land dropped off abruptly.",
+            "meaning": "갑작스럽게",
+            "translation": "땅이 갑자기 푹 꺼졌다.",
+            "pronunciation": "/əˈbrʌptli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "abrupt",
+            "example": "His abrupt departure surprised everyone.",
+            "meaning": "갑작스러운",
+            "translation": "그의 갑작스러운 출발은 모두를 놀라게 했다.",
+            "pronunciation": "/əˈbrʌpt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "absence",
+            "example": "Mark will be in charge in my absence.",
+            "meaning": "결석, 결근, 부재",
+            "translation": "내가 없는 동안 Mark가 책임을 맡을 것이다.",
+            "pronunciation": "/ˈæbsəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "absent",
+            "example": "She was absent from school due to illness.",
+            "meaning": "없는, 결석한",
+            "translation": "그녀는 병 때문에 학교에 결석했다.",
+            "pronunciation": "/ˈæbsənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "absolutely",
+            "example": "He has absolutely no experience in this field.",
+            "meaning": "절대적으로, 전혀",
+            "translation": "그는 이 분야에 전혀 경험이 없다.",
+            "pronunciation": "/ˌæbsəˈluːtli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "absolute",
+            "example": "The king had absolute power over the land.",
+            "meaning": "절대적인",
+            "translation": "왕은 그 땅에 절대적인 권력을 가지고 있었다.",
+            "pronunciation": "/ˈæbsəluːt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "absorb",
+            "example": "Plant roots absorb moisture.",
+            "meaning": "흡수하다",
+            "translation": "식물의 뿌리는 수분을 흡수한다.",
+            "pronunciation": "/əbˈzɔːrb/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "absorption",
+            "example": "The absorption of nutrients is essential for growth.",
+            "meaning": "흡수",
+            "translation": "영양소의 흡수는 성장에 필수적이다.",
+            "pronunciation": "/əbˈsɔːrpʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abstract",
+            "example": "Human beings are capable of abstract thought.",
+            "meaning": "추상적인",
+            "translation": "인간은 추상적 사고를 할 수 있다.",
+            "pronunciation": "/ˈæbstrækt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "abstraction",
+            "example": "Her painting is an abstraction of nature.",
+            "meaning": "추상, 추출",
+            "translation": "그녀의 그림은 자연의 추상적 표현이다.",
+            "pronunciation": "/æbˈstrækʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abundant",
+            "example": "Rainfall is abundant in the region.",
+            "meaning": "풍부한",
+            "translation": "그 지역은 강수층이 풍부하다.",
+            "pronunciation": "/əˈbʌndənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "abundance",
+            "example": "The region enjoys an abundance of natural resources.",
+            "meaning": "풍부함",
+            "translation": "그 지역은 천연자원의 풍부함을 누리고 있다.",
+            "pronunciation": "/əˈbʌndəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abuse",
+            "example": "The boy was a victim of abuse.",
+            "meaning": "학대, 남용",
+            "translation": "그 소년은 학대의 피해자였다.",
+            "pronunciation": "/əˈbjuːs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "abuse",
+            "example": "He abused his authority to gain personal benefits.",
+            "meaning": "학대하다, 남용하다",
+            "translation": "그는 개인적 이익을 위해 권한을 남용했다.",
+            "pronunciation": "/əbˈjuːz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accelerate",
+            "example": "The car accelerated to a speed of 80 miles per hour.",
+            "meaning": "가속하다",
+            "translation": "그 차는 시속 80마일까지 속도를 높였다。",
+            "pronunciation": "/əkˈseləreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "acceleration",
+            "example": "The acceleration of the economy boosted job creation.",
+            "meaning": "가속",
+            "translation": "경제의 가속은 일자리 창출을 촉진했다。",
+            "pronunciation": "/əkˌseləˈreɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accept",
+            "example": "They offered me a job and I accepted it.",
+            "meaning": "받아들이다, 수용하다",
+            "translation": "그들은 내게 일자리를 제공했고, 나는 그것을 수용했다。",
+            "pronunciation": "/əkˈsept/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "acceptance",
+            "example": "Her acceptance of the proposal was a relief.",
+            "meaning": "수용, 받아들임",
+            "translation": "그녀의 제안 수용은 안도감을 주었다。",
+            "pronunciation": "/əkˈseptəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "access",
+            "example": "We have Internet access at the library.",
+            "meaning": "접속, 입장",
+            "translation": "우리는 도서관에서 인터넷에 접속할 수 있다.",
+            "pronunciation": "/ˈækses/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "access",
+            "example": "You need a password to access the system.",
+            "meaning": "접근하다",
+            "translation": "시스템에 접근하려면 비밀번호가 필요하다。",
+            "pronunciation": "/ˈækses/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accidentally",
+            "example": "They believe that the fire was started accidentally.",
+            "meaning": "우연히, 실수로",
+            "translation": "그 화재는 우발적으로 시작된 것으로 믿고 있다.",
+            "pronunciation": "/ˌæksəˈdentəli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "accidental",
+            "example": "The discovery was purely accidental.",
+            "meaning": "우연한",
+            "translation": "그 발견은 순전히 우연한 것이었다。",
+            "pronunciation": "/ˌæksəˈdentl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "accommodate",
+            "example": "The hotel can only accommodate about 100 people.",
+            "meaning": "수용하다",
+            "translation": "그 호텔은 겨우 100명 정도만 수용할 수 있다。",
+            "pronunciation": "/əˈkɑːmədeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accommodation",
+            "example": "The accommodation at the resort was luxurious.",
+            "meaning": "수용, 숙소",
+            "translation": "리조트의 숙소는 호화로웠다。",
+            "pronunciation": "/əˌkɑːməˈdeɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accompany",
+            "example": "I want you to accompany her.",
+            "meaning": "동행하다",
+            "translation": "난 네가 그녀와 함께 가길 바란다。",
+            "pronunciation": "/əˈkʌmpəni/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accompaniment",
+            "example": "The piano provided accompaniment for the singer.",
+            "meaning": "동행, 반주",
+            "translation": "피아노는 가수의 반주를 제공했다。",
+            "pronunciation": "/əˈkʌmpənimənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accomplish",
+            "example": "We have accomplished much in a short period of time.",
+            "meaning": "달성하다",
+            "translation": "우리는 짧은 시간에 많은 것을 이루었다。",
+            "pronunciation": "/əˈkɑːmplɪʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accomplishment",
+            "example": "Finishing the marathon was a great accomplishment.",
+            "meaning": "성취, 업적",
+            "translation": "마라톤 완주는 큰 업적이었다。",
+            "pronunciation": "/əˈkɑːmplɪʃmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "according to",
+            "example": "According to the law, we had to pay a small fine.",
+            "meaning": "~에 따르면",
+            "translation": "법에 따라 우리는 벌금을 내야 했다。",
+            "pronunciation": "/əˈkɔːrdɪŋ tuː/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "accordingly",
+            "example": "No complaint was made. Accordingly, they took no action.",
+            "meaning": "따라서",
+            "translation": "불평이 없었기에, 그들은 아무 조치도 취하지 않았다。",
+            "pronunciation": "/əˈkɔːrdɪŋli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "account for",
+            "example": "African-Americans account for about 13% of the US population.",
+            "meaning": "~를 차지하다, 설명하다",
+            "translation": "흑인은 미국 인구의 약 13%를 차지한다。",
+            "pronunciation": "/əˈkaʊnt fɔːr/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "account",
+            "example": "He gave a brief account of what had happened.",
+            "meaning": "설명, 이야기, 계좌",
+            "translation": "그는 무슨 일이 있었는지 간단히 설명했다。",
+            "pronunciation": "/əˈkaʊnt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "account",
+            "example": "His experience is accounted valuable by the team.",
+            "meaning": "설명하다, 간주하다",
+            "translation": "그의 경험은 팀에서 가치 있게 간주된다。",
+            "pronunciation": "/əˈkaʊnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accountable",
+            "example": "Managers must be accountable for their decisions.",
+            "meaning": "책임이 있는",
+            "translation": "관리자들은 그들의 결정에 책임을 져야 한다。",
+            "pronunciation": "/əˈkaʊntəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "accountability",
+            "example": "Accountability is crucial in leadership roles.",
+            "meaning": "책임",
+            "translation": "책임은 리더십 역할에서 매우 중요하다。",
+            "pronunciation": "/əˌkaʊntəˈbɪləti/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit2": {
+        "title": "Unit 2: 직업/사회",
+        "words": [
+          {
+            "word": "accountant",
+            "example": "He began his career as an accountant for his father's company.",
+            "meaning": "회계사",
+            "translation": "그는 자신의 아버지 회사의 회계사로 직장 일을 시작했다.",
+            "pronunciation": "/əˈkaʊntənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accurate",
+            "example": "His novel is historically accurate.",
+            "meaning": "정확한",
+            "translation": "그의 소설은 역사적인 면에서 정확하다。",
+            "pronunciation": "/ˈækjərət/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "accuracy",
+            "example": "The accuracy of the data is critical for the experiment.",
+            "meaning": "정확성",
+            "translation": "데이터의 정확성은 실험에 매우 중요하다。",
+            "pronunciation": "/ˈækjərəsi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accuse",
+            "example": "No one could accuse him of being a coward.",
+            "meaning": "비난하다, 고소하다",
+            "translation": "아무도 그를 겁쟁이라고 비난할 수 없었다。",
+            "pronunciation": "/əˈkjuːz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "accusation",
+            "example": "The accusation of theft damaged her reputation.",
+            "meaning": "비난, 고소",
+            "translation": "도둑질에 대한 비난은 그녀의 평판을 손상시켰다。",
+            "pronunciation": "/ˌækjuˈzeɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "accustomed",
+            "example": "She is accustomed to living on the farm.",
+            "meaning": "익숙한, 습관이 된",
+            "translation": "그녀는 농장에서 생활하는 데 익숙해져 있다。",
+            "pronunciation": "/əˈkʌstəmd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "accustom",
+            "example": "He tried to accustom himself to the new schedule.",
+            "meaning": "익숙하게 하다",
+            "translation": "그는 새 일정에 익숙해지려고 노력했다。",
+            "pronunciation": "/əˈkʌstəm/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "ache",
+            "example": "He felt an ache in his leg gradually.",
+            "meaning": "아픔, 고통",
+            "translation": "그는 서서히 그의 다리에 아픔을 느꼈다。",
+            "pronunciation": "/eɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ache",
+            "example": "My head aches after a long day at work.",
+            "meaning": "아프다",
+            "translation": "긴 하루 일과 후에 머리가 아프다。",
+            "pronunciation": "/eɪk/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "achieve",
+            "example": "He eventually achieved his goal of becoming an actor.",
+            "meaning": "성취하다",
+            "translation": "그는 결국 영화배우가 되려는 자신의 꿈을 성취했다。",
+            "pronunciation": "/əˈtʃiːv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "achievement",
+            "example": "Winning the award was a significant achievement.",
+            "meaning": "성취, 업적",
+            "translation": "그 상을 받은 것은 중요한 업적이었다。",
+            "pronunciation": "/əˈtʃiːvmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "acknowledge",
+            "example": "He never acknowledges his mistakes.",
+            "meaning": "인정하다",
+            "translation": "그는 결코 자신의 실수를 인정하지 않는다。",
+            "pronunciation": "/əkˈnɑːlɪdʒ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "acknowledgment",
+            "example": "Her acknowledgment of the error earned respect.",
+            "meaning": "인정",
+            "translation": "그녀의 실수 인정은 존경을 받았다。",
+            "pronunciation": "/əkˈnɑːlɪdʒmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "acid rain",
+            "example": "Acid rain causes widespread damage to the environment.",
+            "meaning": "산성비",
+            "translation": "산성비는 환경에 광범위한 피해를 준다。",
+            "pronunciation": "/ˈæsɪd reɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "acquaintance",
+            "example": "She ran into an old acquaintance at the grocery store.",
+            "meaning": "아는 사람, 지인",
+            "translation": "그녀는 식료품점에서 오래 전에 알고 지내던 사람을 우연히 만났다。",
+            "pronunciation": "/əˈkweɪntəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "acquaint",
+            "example": "Let me acquaint you with the new rules.",
+            "meaning": "알게 하다",
+            "translation": "새로운 규칙을 알려주겠습니다.",
+            "pronunciation": "/əˈkweɪnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "acquire",
+            "example": "He has acquired a reputation as a hard worker.",
+            "meaning": "습득하다, 획득하다",
+            "translation": "그는 열심히 일하는 사람이라는 평판을 얻었다。",
+            "pronunciation": "/əˈkwaɪər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "acquisition",
+            "example": "The acquisition of new skills improved her career.",
+            "meaning": "습득, 획득",
+            "translation": "새로운 기술의 습득은 그녀의 경력을 향상시켰다。",
+            "pronunciation": "/ˌækwɪˈzɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "acute",
+            "example": "There is an acute shortage of housing facilities.",
+            "meaning": "극심한, 급성의",
+            "translation": "주거시설이 심각하게 부족하다。",
+            "pronunciation": "/əˈkjuːt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "acutely",
+            "example": "She was acutely aware of the danger.",
+            "meaning": "극심하게",
+            "translation": "그녀는 위험을 극심하게 인지하고 있었다。",
+            "pronunciation": "/əˈkjuːtli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "adapt",
+            "example": "He has adapted to college life quite easily.",
+            "meaning": "맞추다, 적응하다",
+            "translation": "그는 대학 생활에 상당히 쉽게 적응해왔다。",
+            "pronunciation": "/əˈdæpt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "adaptation",
+            "example": "The film is an adaptation of a famous novel.",
+            "meaning": "적응, 개작",
+            "translation": "그 영화는 유명한 소설을 개작한 것이다。",
+            "pronunciation": "/ˌædæpˈteɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "adjust",
+            "example": "She had trouble adjusting to living in the country.",
+            "meaning": "적응하다, 조절하다",
+            "translation": "그녀는 시골에 사는 데 어려움을 겪었다。",
+            "pronunciation": "/əˈdʒʌst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "adjustment",
+            "example": "Moving to a new city requires some adjustment.",
+            "meaning": "조절, 적응",
+            "translation": "새로운 도시에 이사하는 것은 약간의 적응이 필요하다。",
+            "pronunciation": "/əˈdʒʌstmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "addict",
+            "example": "He is a video game addict.",
+            "meaning": "중독자",
+            "translation": "그는 비디오 게임 중독자이다。",
+            "pronunciation": "/ˈædɪkt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "addict",
+            "example": "She became addicted to social media.",
+            "meaning": "중독되다",
+            "translation": "그녀는 소셜 미디어에 중독되었다。",
+            "pronunciation": "/əˈdɪkt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "addictive",
+            "example": "This game is highly addictive.",
+            "meaning": "중독성 있는",
+            "translation": "이 게임은 중독성이 매우 강하다。",
+            "pronunciation": "/əˈdɪktɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "administer",
+            "example": "The money will be administered by local charities.",
+            "meaning": "관리하다, 집행하다",
+            "translation": "그 돈은 지역 자선단체들에 의해 관리될 것이다。",
+            "pronunciation": "/ədˈmɪnɪstər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "administration",
+            "example": "The administration of the school was very efficient.",
+            "meaning": "관리, 행정",
+            "translation": "학교의 행정은 매우 효율적이었다。",
+            "pronunciation": "/ədˌmɪnɪˈstreɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "admirable",
+            "example": "The way he manages his department is admirable.",
+            "meaning": "칭찬할 만한",
+            "translation": "그가 부서를 운영하는 방식은 칭찬할 만하다。",
+            "pronunciation": "/ˈædmərəbəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "admire",
+            "example": "I admire her dedication to her work.",
+            "meaning": "칭찬하다, 감탄하다",
+            "translation": "나는 그녀의 일에 대한 헌신을 감탄한다。",
+            "pronunciation": "/ədˈmaɪər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "admission",
+            "example": "The museum offers reduced admission for young children.",
+            "meaning": "입장, 입장료, 입학",
+            "translation": "그 박물관은 어린아이들에게 입장료를 할인해 준다。",
+            "pronunciation": "/ədˈmɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "admit",
+            "example": "He admitted making a mistake.",
+            "meaning": "인정하다, 입장시키다",
+            "translation": "그는 실수를 저질렀음을 인정했다。",
+            "pronunciation": "/ədˈmɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "adolescent",
+            "example": "Adolescents are faced with many difficulties in today's society.",
+            "meaning": "사춘기 청소년",
+            "translation": "오늘날 사회에서 사춘기 청소년들은 많은 어려움에 직면하고 있다。",
+            "pronunciation": "/ˌædəˈlɛsənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "adolescent",
+            "example": "Adolescent behavior can be unpredictable.",
+            "meaning": "청소년의",
+            "translation": "청소년의 행동은 예측할 수 없다。",
+            "pronunciation": "/ˌædəˈlɛsənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "adopt",
+            "example": "Sally was adopted when she was three.",
+            "meaning": "받아들이다, 입양하다",
+            "translation": "Sally는 세 살 때 입양되었다。",
+            "pronunciation": "/əˈdɑːpt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "adoption",
+            "example": "The adoption of the new policy was successful.",
+            "meaning": "입양, 채택",
+            "translation": "새로운 정책의 채택은 성공적이었다。",
+            "pronunciation": "/əˈdɑːpʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "adore",
+            "example": "He's a good doctor. All his patients adore him.",
+            "meaning": "아주 좋아하다, 존경하다",
+            "translation": "그는 훌륭한 의사이다. 그의 환자 모두 그를 존경한다。",
+            "pronunciation": "/əˈdɔːr/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "adorable",
+            "example": "The puppy is absolutely adorable.",
+            "meaning": "사랑스러운",
+            "translation": "그 강아지는 정말 사랑스럽다。",
+            "pronunciation": "/əˈdɔːrəbəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "advance",
+            "example": "New advances in medicine improve the quality of health care.",
+            "meaning": "전진, 발전",
+            "translation": "의학의 새로운 발전이 의료 서비스의 질을 향상시킨다。",
+            "pronunciation": "/ədˈvæns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advance",
+            "example": "The team advanced to the finals.",
+            "meaning": "전진하다, 발전하다",
+            "translation": "그 팀은 결승전에 진출했다。",
+            "pronunciation": "/ədˈvæns/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "advantage",
+            "example": "Living in a big city has a lot of advantages.",
+            "meaning": "이점, 유리",
+            "translation": "대도시에 살면 좋은 점이 많다。",
+            "pronunciation": "/ədˈvæntɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advantageous",
+            "example": "The new location is advantageous for business.",
+            "meaning": "유리한",
+            "translation": "새로운 위치는 비즈니스에 유리하다。",
+            "pronunciation": "/ˌædvənˈteɪdʒəs/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit3": {
+        "title": "Unit 3: 모험과 사회적 관계",
+        "words": [
+          {
+            "word": "advent",
+            "example": "Before the advent of computers, not many people knew how to type.",
+            "meaning": "출현, 도래",
+            "translation": "컴퓨터가 출현하기 전에 타이핑 방법을 아는 사람은 많지 않았다.",
+            "pronunciation": "/ˈædvent/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "adventure",
+            "example": "Our camping trip turned into an adventure when we became lost.",
+            "meaning": "모험",
+            "translation": "우리가 길을 잃었을 때 우리의 캠핑여행은 모험으로 바뀌었다。",
+            "pronunciation": "/ədˈventʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "adversity",
+            "example": "He showed courage in the face of adversity.",
+            "meaning": "역경, 고난",
+            "translation": "그는 역경에 직면했을 때 용기를 발휘했다。",
+            "pronunciation": "/ədˈvɜːrsəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advertisement",
+            "example": "He learned about the job from an advertisement in the newspaper.",
+            "meaning": "광고",
+            "translation": "그는 신문광고로부터 그 일자리에 대해 알게 되었다。",
+            "pronunciation": "/ədˈvɜːrtɪsmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advice",
+            "example": "Take my advice and sell your old car.",
+            "meaning": "충고",
+            "translation": "내 충고를 받아들여 네 낡은 차를 팔도록 해라.",
+            "pronunciation": "/ədˈvaɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advocate",
+            "example": "The plan is advocated by the president.",
+            "meaning": "지지하다, 변호하다",
+            "translation": "그 계획은 대통령의 지지를 받고 있다。",
+            "pronunciation": "/ˈædvəkeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "affair",
+            "example": "I don't know much about their private affair.",
+            "meaning": "일, 문제",
+            "translation": "나는 그들의 사생활에 대해 많은 것을 알지 못한다。",
+            "pronunciation": "/əˈfeər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "affect",
+            "example": "His decisions could affect the lives of millions of people.",
+            "meaning": "영향을 주다",
+            "translation": "그의 결정은 수백만 명의 삶에 영향을 줄 수 있다。",
+            "pronunciation": "/əˈfekt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "affectionate",
+            "example": "John is very affectionate toward her.",
+            "meaning": "애정 있는, 다정한",
+            "translation": "존은 그녀를 매우 다정하게 대한다。",
+            "pronunciation": "/əˈfekʃənət/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "affinity",
+            "example": "They had much in common and felt an affinity with each other.",
+            "meaning": "친밀감, 좋아함",
+            "translation": "그들은 공통점이 많아서 서로에게 친밀감을 느꼈다。",
+            "pronunciation": "/əˈfɪnəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "affluent",
+            "example": "She was born into an affluent family.",
+            "meaning": "부유한",
+            "translation": "그녀는 부유한 집안에서 태어났다。",
+            "pronunciation": "/ˈæfluənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "afford",
+            "example": "They couldn't afford new coats for the children.",
+            "meaning": "여유가 있다, 감당할 수 있다",
+            "translation": "그들은 아이들에게 새 코트를 사줄 형편이 못 되었다。",
+            "pronunciation": "/əˈfɔːrd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "afloat",
+            "example": "The boat is afloat in the lake.",
+            "meaning": "(물에) 뜬",
+            "translation": "그 보트는 호수에 떠 있다。",
+            "pronunciation": "/əˈfloʊt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "agent",
+            "example": "What a travel agent does is make airline and hotel reservations.",
+            "meaning": "대리인, 중개상",
+            "translation": "여행사 직원이 하는 일은 항공기와 호텔을 예약하는 것이다。",
+            "pronunciation": "/ˈeɪdʒənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "aggressive",
+            "example": "Dogs show aggressive behavior toward strangers.",
+            "meaning": "공격적인, 호전적인",
+            "translation": "개들은 낯선 사람들에게 공격적인 행동을 보인다。",
+            "pronunciation": "/əˈɡresɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "aging",
+            "example": "Memory loss is often a part of aging.",
+            "meaning": "노화, 노화 과정",
+            "translation": "기억력 상실은 흔히 노화 과정의 일부이다。",
+            "pronunciation": "/ˈeɪdʒɪŋ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "agony",
+            "example": "He groaned in agony.",
+            "meaning": "심한 고통, 괴로움",
+            "translation": "그는 고통스럽게 신음했다。",
+            "pronunciation": "/ˈæɡəni/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "agriculture",
+            "example": "They cleared the land to use it for agriculture.",
+            "meaning": "농업",
+            "translation": "그들은 농사를 위해 이용하려고 그 땅을 개간했다。",
+            "pronunciation": "/ˈæɡrɪkʌltʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ahead of time",
+            "example": "The airplane landed about half an hour ahead of time.",
+            "meaning": "앞서서, 일찍, 빨리",
+            "translation": "그 비행기는 약 30분 일찍 착륙했다。",
+            "pronunciation": "/əˈhɛd əv taɪm/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "aim",
+            "example": "He aimed the gun carefully before shooting.",
+            "meaning": "목표로 하다, 겨누다",
+            "translation": "그는 발포하기 전에 총을 조심스럽게 겨누었다。",
+            "pronunciation": "/eɪm/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "aisle",
+            "example": "He walked down the aisle to our seats in the theater.",
+            "meaning": "통로",
+            "translation": "그는 극장에서 통로를 통해 우리 자리로 걸어갔다。",
+            "pronunciation": "/aɪl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "alert",
+            "example": "The nurse kept alert for any change in the patient's condition.",
+            "meaning": "주시하는, 빈틈없는, 기민한",
+            "translation": "간호사는 환자 상태의 변화를 주시했다。",
+            "pronunciation": "/əˈlɜːrt/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit4": {
+        "title": "Unit 4: 변화와 관계",
+        "words": [
+          {
+            "word": "alien",
+            "example": "Every aspect of the country is totally alien to us.",
+            "meaning": "낯선, 생소한, 외계의",
+            "translation": "그 나라의 모든 면이 우리에게 완전히 생소하다。",
+            "pronunciation": "/ˈeɪliən/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "allegory",
+            "example": "What is the moral message that the allegory conveys?",
+            "meaning": "우화, 풍자",
+            "translation": "그 우화가 전달하는 도덕적인 메시지는 무엇인가?",
+            "pronunciation": "/ˈæləɡɔːri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "allergic",
+            "example": "I'm allergic to animal fur.",
+            "meaning": "알레르기의, 몹시 싫어하는",
+            "translation": "나는 동물의 털에 알레르기 반응을 보인다。",
+            "pronunciation": "/əˈlɜːrdʒɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "alliance",
+            "example": "They formed an alliance to defeat their common enemy.",
+            "meaning": "동맹, 제휴, 공조",
+            "translation": "그들은 그들의 공동의 적을 무찌르기 위해 동맹을 맺었다。",
+            "pronunciation": "/əˈlaɪəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "alter",
+            "example": "This one small event altered the course of history.",
+            "meaning": "바꾸다",
+            "translation": "이 작은 사건이 역사의 흐름을 바꾸었다。",
+            "pronunciation": "/ˈɔːltər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "alternate",
+            "example": "The event is held on alternate years.",
+            "meaning": "교대하는, 하나 거르는",
+            "translation": "그 행사는 격년마다 개최된다。",
+            "pronunciation": "/ˈɔːltərneɪt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "alternative",
+            "example": "We took an alternative route to avoid the traffic jam.",
+            "meaning": "대안의, 기존과는 다른",
+            "translation": "우리는 교통체증을 피하기 위해 다른 경로로 갔다。",
+            "pronunciation": "/ɔːlˈtɜːrnətɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "altitude",
+            "example": "We're now flying at an altitude of 10,000 feet.",
+            "meaning": "해발 고도, 높이",
+            "translation": "우리는 현재 10,000피트 상공을 날고 있다。",
+            "pronunciation": "/ˈæltɪtjuːd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "amazement",
+            "example": "The crowd watched in amazement as the magician performed his tricks.",
+            "meaning": "놀라움, 경탄",
+            "translation": "마술사가 묘기를 부리는 것을 군중들은 놀란 눈으로 지켜보았다。",
+            "pronunciation": "/əˈmeɪzmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ambassador",
+            "example": "She became the American ambassador to Italy.",
+            "meaning": "대사",
+            "translation": "그녀는 이태리 주재 미국 대사가 되었다。",
+            "pronunciation": "/æmˈbæsədər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ambitious",
+            "example": "The company was created by two very ambitious young men.",
+            "meaning": "야심찬, 야망 있는",
+            "translation": "그 회사는 매우 야심찬 젊은 두 남자에 의해 창립되었다。",
+            "pronunciation": "/æmˈbɪʃəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "amend",
+            "example": "The government amended the law to make the taxes lower.",
+            "meaning": "개정하다, 수정하다",
+            "translation": "정부는 세금을 더 낮추기 위해 법을 개정했다。",
+            "pronunciation": "/əˈmend/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "amity",
+            "example": "He has lived in amity with his neighbors for many years.",
+            "meaning": "친목, 우호 관계",
+            "translation": "그는 이웃사람들과 여러 해 동안 사이좋게 지내왔다。",
+            "pronunciation": "/ˈæməti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "amount",
+            "example": "His annual income amounts to approximately two million dollars.",
+            "meaning": "이르다, 달하다",
+            "translation": "그의 연간 수입은 약 2백만 달러에 이른다。",
+            "pronunciation": "/əˈmaʊnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "amusement",
+            "example": "Steve couldn't hide his amusement.",
+            "meaning": "기쁨, 즐거움",
+            "translation": "Steve는 기쁨을 숨길 수 없었다。",
+            "pronunciation": "/əˈmjuːzmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "analysis",
+            "example": "It's a problem that requires careful analysis.",
+            "meaning": "분석",
+            "translation": "그것은 신중한 분석을 필요로 하는 문제이다。",
+            "pronunciation": "/əˈnæləsɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ancestor",
+            "example": "Like many African-Americans, his ancestor came to this country as slaves.",
+            "meaning": "조상, 선조",
+            "translation": "많은 아프리카계 미국인들과 마찬가지로 그의 조상은 이 나라에 노예로 왔다。",
+            "pronunciation": "/ˈænsestər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ancient",
+            "example": "The ancient Mesopotamian civilization is the oldest known civilization in the world.",
+            "meaning": "고대의, 아주 오래된",
+            "translation": "고대 메소포타미아 문명은 세계에서 가장 오래된 것으로 알려진 문명이다。",
+            "pronunciation": "/ˈeɪnʃənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "ankle",
+            "example": "He slipped on the stairs and sprained his ankle.",
+            "meaning": "발목",
+            "translation": "그는 계단에서 미끄러져 발목을 삐었다。",
+            "pronunciation": "/ˈæŋkl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "anniversary",
+            "example": "Our first wedding anniversary was last Tuesday.",
+            "meaning": "기념일",
+            "translation": "우리의 첫 결혼 기념일은 지난 화요일이었다。",
+            "pronunciation": "/ˌænɪˈvɜːrsəri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "announce",
+            "example": "The government announced a cut in taxes.",
+            "meaning": "발표하다, 알리다",
+            "translation": "정부에서 세금 감면을 발표했다。",
+            "pronunciation": "/əˈnaʊns/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "annoy",
+            "example": "The constant noise of the traffic annoyed me.",
+            "meaning": "짜증나게 하다",
+            "translation": "끊임없는 교통 소음이 나를 짜증나게 했다。",
+            "pronunciation": "/əˈnɔɪ/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit5": {
+        "title": "Unit 5: 연간과 불안 관련 어휘",
+        "words": [
+          {
+            "word": "annual",
+            "example": "The school festival has become an annual event.",
+            "meaning": "해마다의, 연간의",
+            "translation": "학교 축제는 연간 행사가 되었다.",
+            "pronunciation": "/ˈæn·ju·əl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "anonymous",
+            "example": "The donor wishes to remain anonymous.",
+            "meaning": "익명인, 작가미상의",
+            "translation": "그 기부자는 익명으로 하기를 바라고 있다.",
+            "pronunciation": "/əˈnɒn·ə·məs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "antibiotic",
+            "example": "Penicillin is a widely used antibiotic.",
+            "meaning": "항생제",
+            "translation": "페니실린은 널리 이용되는 항생제이다.",
+            "pronunciation": "/ˌæn·tɪ·baɪˈɒt·ɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "anticipation",
+            "example": "She waited in eager anticipation for him to arrive.",
+            "meaning": "예상, 기대",
+            "translation": "그녀는 그가 도착하기를 간절히 기대하며 기다렸다.",
+            "pronunciation": "/ænˌtɪs·əˈpeɪ·ʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "antique",
+            "example": "They bought the clock at an antique shop.",
+            "meaning": "골동품",
+            "translation": "그들은 그 시계를 한 골동품 가게에서 구입했다.",
+            "pronunciation": "/ænˈtik/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "anxiety",
+            "example": "There is growing public anxiety over levels of air pollution.",
+            "meaning": "불안, 걱정",
+            "translation": "대기 오염 수준에 대한 일반인들의 불안이 증가하고 있다.",
+            "pronunciation": "/æŋˈzaɪ·ə·ti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "anxious",
+            "example": "She was anxious to succeed in her new job.",
+            "meaning": "열망하는, 걱정하는",
+            "translation": "그녀는 자신의 새로운 직업에서 성공하기를 갈망했다.",
+            "pronunciation": "/ˈæŋk·ʃəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "apologize",
+            "example": "I want to apologize to you for what I said.",
+            "meaning": "사과하다",
+            "translation": "제가 했던 말에 대해 당신께 사과드리고자 합니다.",
+            "pronunciation": "/əˈpɒl·ə·dʒaɪz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "appealing",
+            "example": "The building has an appealing old-fashioned charm.",
+            "meaning": "마음을 끄는, 매력적인",
+            "translation": "그 건물은 마음을 사로잡는 고풍스러운 매력을 지니고 있다.",
+            "pronunciation": "/əˈpil·ɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "appearance",
+            "example": "You shouldn’t judge a person by his or her appearance.",
+            "meaning": "외모",
+            "translation": "당신은 사람을 외모에 의해 판단하지 말아야 한다.",
+            "pronunciation": "/əˈpɪr·əns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "appetite",
+            "example": "He seems to have lost his appetite lately.",
+            "meaning": "식욕, 욕구",
+            "translation": "그는 최근에 식욕을 잃은 것 같다.",
+            "pronunciation": "/ˈæp·ɪ·taɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "applaud",
+            "example": "The audience applauded loudly after the performance.",
+            "meaning": "박수치다",
+            "translation": "관객들은 공연 후에 큰 박수를 쳤다.",
+            "pronunciation": "/əˈplɔːd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "applause",
+            "example": "She walked onto the stage amid thunderous applause.",
+            "meaning": "박수갈채",
+            "translation": "그녀는 우레와 같은 박수갈채를 받으며 무대로 올라갔다.",
+            "pronunciation": "/əˈplɔːz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "applicant",
+            "example": "We have three applicants for the position of secretary.",
+            "meaning": "지원자",
+            "translation": "비서직 지원자가 세 명이다.",
+            "pronunciation": "/ˈæp·lɪ·kənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "application",
+            "example": "We receive hundreds of job applications each year.",
+            "meaning": "지원서, 신청서",
+            "translation": "우리는 매년 수백 장의 취업지원서를 받는다.",
+            "pronunciation": "/ˌæp·lɪˈkeɪ·ʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "apply to",
+            "example": "These rules apply to everyone in the school.",
+            "meaning": "~에 적용되다",
+            "translation": "이 규칙은 학교에 있는 모든 사람에게 적용된다.",
+            "pronunciation": "/əˈplaɪ tə/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "appoint",
+            "example": "The President appointed him as Secretary of Education.",
+            "meaning": "지명하다, 임명하다",
+            "translation": "대통령이 그를 교육부 장관으로 지명했다.",
+            "pronunciation": "/əˈpɔɪnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "appreciate",
+            "example": "I appreciate your concern, but honestly, I’m fine.",
+            "meaning": "감사하다, 고맙게 여기다",
+            "translation": "걱정해주신 데 대해 감사드립니다만, 솔직히 말씀드리면 저는 괜찮습니다.",
+            "pronunciation": "/əˈpri·ʃiˌeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "apprehensive",
+            "example": "She was apprehensive that something would go wrong.",
+            "meaning": "걱정스러운, 염려하는",
+            "translation": "그녀는 뭔가 일이 잘못될까봐 걱정스러워 했다.",
+            "pronunciation": "/ˌæp·rɪˈhɛn·sɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "approach",
+            "example": "I really admire your direct approach to the problem.",
+            "meaning": "접근방식, 방법",
+            "translation": "그 문제에 대한 너의 직접적인 접근방식에 진정으로 찬사를 보낸다.",
+            "pronunciation": "/əˈproʊtʃ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "appropriate",
+            "example": "We need to find an appropriate place to store the fuel.",
+            "meaning": "적절한, 어울리는",
+            "translation": "우리는 그 연료를 저장하기에 적합한 장소를 찾아야 한다.",
+            "pronunciation": "/əˈproʊ·pri·ət/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "approval",
+            "example": "He nodded in full approval of their decision.",
+            "meaning": "승인, 동의",
+            "translation": "그는 그들의 결정에 전적으로 동의하며 고개를 끄덕였다.",
+            "pronunciation": "/əˈpru·vəl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "approximately",
+            "example": "The plane will be landing in approximately 15 minutes.",
+            "meaning": "대략, 거의",
+            "translation": "비행기는 약 15분 후에 착륙할 예정이다.",
+            "pronunciation": "/əˈprɒk·sə·mət·li/",
+            "part_of_speech": "부사"
+          }
+        ]
+      },
+      "unit6": {
+        "title": "Unit 6: 적성과 과학 관련 어휘",
+        "words": [
+          {
+            "word": "aptitude",
+            "example": "The new test is supposed to measure the aptitude of the students.",
+            "meaning": "적성, 소질, 재능",
+            "translation": "새로운 테스트는 학생들의 적성을 측정할 예정이다.",
+            "pronunciation": "/ˈæp·tɪ·tud/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "archaeologist",
+            "example": "The archaeologist discovered a tomb filled with gold.",
+            "meaning": "고고학자",
+            "translation": "그 고고학자는 금으로 가득찬 무덤을 발견했다.",
+            "pronunciation": "/ˌɑr·kiˈɒl·ə·dʒɪst/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "archaic",
+            "example": "The company needs to update its archaic computer systems.",
+            "meaning": "낡은, 폐물의",
+            "translation": "그 회사는 낡은 컴퓨터 시스템을 새롭게 업그레이드 시킬 필요가 있다.",
+            "pronunciation": "/ɑrˈkeɪ·ɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "archery",
+            "example": "She learned how to use a bow and arrow in archery class.",
+            "meaning": "궁술, 활쏘기, 양궁",
+            "translation": "그녀는 양궁 수업 시간에 활과 화살을 사용하는 방법을 배웠다.",
+            "pronunciation": "/ˈɑr·tʃə·ri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "architect",
+            "example": "He is an architect who designs residential buildings.",
+            "meaning": "건축가",
+            "translation": "그는 주거용 건물을 설계하는 건축가이다.",
+            "pronunciation": "/ˈɑr·kɪ·tɛkt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "architecture",
+            "example": "Architecture is the art and science of designing buildings and structures.",
+            "meaning": "건축학",
+            "translation": "건축학은 건물과 구조물을 설계하는 예술이자 과학이다.",
+            "pronunciation": "/ˈɑr·kɪ·tɛk·tʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "arctic",
+            "example": "The arctic wind cut through to the bone.",
+            "meaning": "북극의, 몹시 찬",
+            "translation": "몹시 찬 바람이 뼈속까지 파고들었다.",
+            "pronunciation": "/ˈɑrk·tɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "argue",
+            "example": "She argued in favor of lowering taxes.",
+            "meaning": "주장하다, 논쟁하다",
+            "translation": "그녀는 세금을 낮추는 것을 지지하는 주장을 했다.",
+            "pronunciation": "/ˈɑr·ɡju/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "arise",
+            "example": "These problems arise when people try to avoid responsibility.",
+            "meaning": "일어나다, 발생하다",
+            "translation": "이러한 문제들은 사람들이 책임을 회피하려고 할 때 일어난다.",
+            "pronunciation": "/əˈraɪz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "armor",
+            "example": "King Arthur's knights wore a suit of armor when going into battle.",
+            "meaning": "갑옷",
+            "translation": "아서 왕의 기사들은 전투에 나갈 때 갑옷을 입었다.",
+            "pronunciation": "/ˈɑr·mər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "arouse",
+            "example": "The strange noise aroused the interest of the neighbors.",
+            "meaning": "일으키다, 자아내다",
+            "translation": "그 이상한 소음은 이웃들의 관심을 불러일으켰다.",
+            "pronunciation": "/əˈraʊz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "arrange",
+            "example": "Arrange the chairs around the table.",
+            "meaning": "정리하다, 준비하다",
+            "translation": "테이블 주위의 의자를 정돈해라.",
+            "pronunciation": "/əˈreɪndʒ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "arrest",
+            "example": "The police officer arrested the thief and sent him to jail.",
+            "meaning": "체포하다",
+            "translation": "그 경찰관은 도둑을 체포하여 감옥으로 보냈다.",
+            "pronunciation": "/əˈrɛst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "arrogant",
+            "example": "He's first in his class, but he's not arrogant about it.",
+            "meaning": "오만한",
+            "translation": "그는 학급에서 가장 우수하지만 그것에 대해 오만한 모습을 보이지 않는다.",
+            "pronunciation": "/ˈær·ə·ɡənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "artery",
+            "example": "An artery is a blood vessel that transports blood away from the heart.",
+            "meaning": "동맥",
+            "translation": "동맥은 심장에서 나온 피를 이동시키는 혈관이다.",
+            "pronunciation": "/ˈɑr·tə·ri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "article",
+            "example": "I just read an interesting article in the newspaper.",
+            "meaning": "기사, 물품, 물건",
+            "translation": "나는 방금 신문에서 재미있는 기사를 읽었다.",
+            "pronunciation": "/ˈɑr·tɪ·kəl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "artificial intelligence",
+            "example": "Artificial intelligence allows the computer to think like humans.",
+            "meaning": "인공지능",
+            "translation": "인공지능은 컴퓨터로 하여금 인간처럼 생각할 수 있게 한다.",
+            "pronunciation": "/ˌɑr·tɪˈfɪʃ·əl ɪnˈtɛl·ɪ·dʒəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "artwork",
+            "example": "A local painter was selling her artwork on the street.",
+            "meaning": "예술작품, 미술품",
+            "translation": "한 현지 예술가가 길거리에서 자신의 예술작품을 팔고 있었다.",
+            "pronunciation": "/ˈɑrt·wɜrk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "as long as",
+            "example": "My parents don't care what job I get as long as I'm happy.",
+            "meaning": "~ 하는 한, ~하기만 한다면",
+            "translation": "부모님은 내가 행복하기만 한다면 어떤 직업을 갖든 개의치 않으신다.",
+            "pronunciation": "/æz lɒŋ æz/",
+            "part_of_speech": "접속사"
+          },
+          {
+            "word": "as to",
+            "example": "There is a disagreement as to what caused the fire.",
+            "meaning": "~에 관해서",
+            "translation": "그 화재의 원인이 무엇이었는지에 관한 의견 충돌이 있었다.",
+            "pronunciation": "/æz tə/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "ascend",
+            "example": "Without a word, he began to ascend the stairs.",
+            "meaning": "올라가다, 상승하다",
+            "translation": "한 마디 말 없이 그는 계단을 오르기 시작했다.",
+            "pronunciation": "/əˈsɛnd/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit7": {
+        "title": "Unit 7: 감정과 평가 관련 어휘",
+        "words": [
+          {
+            "word": "ashamed",
+            "example": "I felt ashamed of the things I'd said to him.",
+            "meaning": "부끄러운, 창피한",
+            "translation": "나는 내가 그에게 말했던 것들에 대해 부끄러움을 느꼈다.",
+            "pronunciation": "/əˈʃeɪmd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "aspect",
+            "example": "Our proposal differs from theirs in one important aspect.",
+            "meaning": "측면, 양상",
+            "translation": "우리의 제안은 한 가지 중요한 측면에서 그들의 제안과 다르다.",
+            "pronunciation": "/ˈæs·pekt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "aspiration",
+            "example": "I've never had any aspiration to become famous.",
+            "meaning": "열망, 염원",
+            "translation": "나는 유명한 사람이 되겠다는 열망을 가져본 적이 전혀 없다.",
+            "pronunciation": "/ˌæs·pəˈreɪ·ʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "assembly",
+            "example": "The ruling party holds the majority of seats in the assembly.",
+            "meaning": "의회, 집회, 조립",
+            "translation": "집권당이 의회에서 과반수 의석을 차지하고 있다.",
+            "pronunciation": "/əˈsem·bli/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "assent",
+            "example": "She refused to assent to the new rules.",
+            "meaning": "동의하다",
+            "translation": "그녀는 새로운 규정에 동의하기를 거부했다.",
+            "pronunciation": "/əˈsent/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "assert",
+            "example": "He asserted that nuclear power was a non-polluting energy source.",
+            "meaning": "주장하다",
+            "translation": "그는 원자력 발전이 환경을 오염시키지 않는 에너지원이라고 주장했다.",
+            "pronunciation": "/əˈsɜrt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "assess",
+            "example": "Our agent will assess the value of your property.",
+            "meaning": "평가하다",
+            "translation": "우리 직원이 네 재산 가치를 평가할 것이다.",
+            "pronunciation": "/əˈses/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "asset",
+            "example": "The company had to sell some of its asset.",
+            "meaning": "자산",
+            "translation": "그 회사는 자산의 일부를 팔아야 했다.",
+            "pronunciation": "/ˈæs·et/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "assign",
+            "example": "The teacher assigned us ten math problems for homework.",
+            "meaning": "부여하다, 배정하다",
+            "translation": "선생님은 우리에게 수학문제 10개씩을 숙제로 내주셨다.",
+            "pronunciation": "/əˈsaɪn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "assistance",
+            "example": "We offer financial assistance to students.",
+            "meaning": "도움",
+            "translation": "우리들은 학생들에게 금전적인 도움을 제공한다.",
+            "pronunciation": "/əˈsɪs·təns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "associate",
+            "example": "She always associates that smell with her childhood.",
+            "meaning": "연관시키다, 연결 짓다",
+            "translation": "그녀는 항상 그 냄새를 자신의 어린 시절과 연결 지어 생각한다.",
+            "pronunciation": "/əˈsoʊ·ʃi·eɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "assume",
+            "example": "She assumed from his expression that he was confused.",
+            "meaning": "짐작하다, 추정하다",
+            "translation": "그녀는 그의 표정으로부터 그가 당황했음을 짐작했다.",
+            "pronunciation": "/əˈsum/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "assure",
+            "example": "Her doctor has assured us that she'll be fine.",
+            "meaning": "장담하다, 확언하다",
+            "translation": "그녀의 의사는 그녀가 괜찮아질 거라고 확약했다.",
+            "pronunciation": "/əˈʃʊər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "astonishing",
+            "example": "She gave an astonishing performance in her first film.",
+            "meaning": "놀라운, 엄청난",
+            "translation": "그녀는 자신의 첫 영화에서 놀라운 연기를 펼쳤다.",
+            "pronunciation": "/əˈstɒn·ɪʃ·ɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "astray",
+            "example": "They marked the trail so that hikers wouldn't go astray.",
+            "meaning": "길을 잃은",
+            "translation": "그들은 등산객들이 길을 잃지 않도록 길에 표시를 남겼다.",
+            "pronunciation": "/əˈstreɪ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "astronaut",
+            "example": "He had always wanted to be an astronaut.",
+            "meaning": "우주 비행사",
+            "translation": "그는 항상 우주비행사가 되기를 원했었다.",
+            "pronunciation": "/ˈæs·trə·nɔt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "astronomy",
+            "example": "I took a course in astronomy because I was interested in the planets.",
+            "meaning": "천문학",
+            "translation": "나는 행성에 관심이 있어서 천문학 과목을 수강했다.",
+            "pronunciation": "/əˈstrɒn·ə·mi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "athlete",
+            "example": "Athletes from around the world will be competing in the Olympic Games.",
+            "meaning": "운동선수",
+            "translation": "전 세계에서 온 운동선수들이 올림픽 경기에서 경쟁할 것이다.",
+            "pronunciation": "/ˈæθ·lit/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "atmosphere",
+            "example": "The hotel had a warm and friendly atmosphere.",
+            "meaning": "분위기, 대기",
+            "translation": "그 호텔의 분위기는 따뜻하고 친근했다.",
+            "pronunciation": "/ˈæt·məˌsfɪər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "atomic",
+            "example": "He studied atomic reactions in his physics course.",
+            "meaning": "원자의, 핵의",
+            "translation": "그는 물리학 수업에서 원자핵 반응을 공부했다.",
+            "pronunciation": "/əˈtɒm·ɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "attach",
+            "example": "I attach the file to the e-mail.",
+            "meaning": "붙이다, 첨부하다",
+            "translation": "나는 그 이메일에 파일 하나를 첨부했다.",
+            "pronunciation": "/əˈtætʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "attain",
+            "example": "The salesperson attained her sales goal for the month.",
+            "meaning": "달성하다, 획득하다",
+            "translation": "그 판매원은 자신의 한 달 판매 목표를 달성했다.",
+            "pronunciation": "/əˈteɪn/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit8": {
+        "title": "Unit 8: 시도와 태도 관련 어휘",
+        "words": [
+          {
+            "word": "attempt",
+            "example": "All attempt to control inflation have failed.",
+            "meaning": "시도",
+            "translation": "인플레이션을 억제하려는 모든 시도가 실패해 왔다.",
+            "pronunciation": "/əˈtempt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "attendance",
+            "example": "Everyone in attendance voted in favor of the measure.",
+            "meaning": "참석, 출석",
+            "translation": "참석한 모든 사람들은 그 조치에 찬성표를 던졌다.",
+            "pronunciation": "/əˈten·dəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "attendant",
+            "example": "She let the parking attendant park her car.",
+            "meaning": "안내원, 수행원",
+            "translation": "그녀는 주차 안내원에게 차를 주차시키게 했다.",
+            "pronunciation": "/əˈten·dənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "attitude",
+            "example": "You need to change your attitude toward work.",
+            "meaning": "태도, 자세",
+            "translation": "너는 일에 대한 너의 태도를 바꿀 필요가 있다.",
+            "pronunciation": "/ˈæt·ɪ·tud/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "attract",
+            "example": "San Francisco attracts millions of tourists each year.",
+            "meaning": "끌어들이다, 마음을 끌다",
+            "translation": "샌프란시스코는 매년 수백만 명의 관광객을 끌어들인다.",
+            "pronunciation": "/əˈtrækt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "attribute",
+            "example": "What attribute should a good leader possess?",
+            "meaning": "속성, 특성, 자질",
+            "translation": "훌륭한 지도자는 어떠한 자질을 갖춰야 하는가?",
+            "pronunciation": "/ˈæt·rɪ·bjut/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "auction",
+            "example": "She bought the desk at an auction.",
+            "meaning": "경매",
+            "translation": "그녀는 그 책상을 경매장에서 구입했다.",
+            "pronunciation": "/ˈɔk·ʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "audible",
+            "example": "Her voice was hardly audible over the noise.",
+            "meaning": "들을 수 있는",
+            "translation": "그녀의 목소리는 소음 속에서 거의 들리지 않았다.",
+            "pronunciation": "/ˈɔ·də·bəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "auditorium",
+            "example": "All the students went to the auditorium to hear the speech.",
+            "meaning": "강당",
+            "translation": "모든 학생들이 연설을 듣기 위해 강당으로 갔다.",
+            "pronunciation": "/ˌɔ·dɪˈtɔr·i·əm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "authentic",
+            "example": "I can't say whether the picture is authentic.",
+            "meaning": "진짜의, 진품의",
+            "translation": "나는 그 그림이 진품인지 아닌지 말할 수 없다.",
+            "pronunciation": "/ɔˈθen·tɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "authority",
+            "example": "Only the managers have the authority to change the schedule.",
+            "meaning": "권위, 권한",
+            "translation": "오로지 관리자들만이 일정을 바꿀 수 있는 권한을 지닌다.",
+            "pronunciation": "/əˈθɔr·ɪ·t̬i/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "autobiography",
+            "example": "The author wrote his autobiography after suffering a heart attack.",
+            "meaning": "자서전",
+            "translation": "그 작가는 심장마비를 겪은 후 자신의 자서전을 썼다.",
+            "pronunciation": "/ˌɔ·t̬oʊ·bɑɪˈɑɡ·rə·fi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "automation",
+            "example": "Automation has resulted in job losses.",
+            "meaning": "자동화",
+            "translation": "자동화는 일자리 상실을 가져왔다.",
+            "pronunciation": "/ˌɔ·t̬əˈmeɪ·ʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "automobile",
+            "example": "She was in an automobile accident.",
+            "meaning": "자동차",
+            "translation": "그녀는 자동차 사고를 당했다.",
+            "pronunciation": "/ˈɔ·t̬ə·mə·bil/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "available",
+            "example": "Tickets are available at the box office.",
+            "meaning": "구할 수 있는, 이용 가능한",
+            "translation": "티켓은 매표소에서 구입할 수 있다.",
+            "pronunciation": "/əˈveɪ·lə·bəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "average",
+            "example": "The cars were being sold at an average price of $11,000.",
+            "meaning": "평균의",
+            "translation": "그 차는 평균 11,000달러에 판매되고 있었다.",
+            "pronunciation": "/ˈæv·rɪdʒ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "avoid",
+            "example": "You should avoid walking on dark streets at night.",
+            "meaning": "회피하다",
+            "translation": "밤에 어두운 거리에서 걷는 것을 피해야 한다.",
+            "pronunciation": "/əˈvɔɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "award",
+            "example": "The judges will award a prize to the best speaker.",
+            "meaning": "상을 주다",
+            "translation": "심사위원들은 가장 훌륭한 연사에게 상을 줄 것이다.",
+            "pronunciation": "/əˈwɔrd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "aware",
+            "example": "The government is fully aware of the situation.",
+            "meaning": "알고 있는",
+            "translation": "정부는 그 상황을 아주 잘 알고 있다.",
+            "pronunciation": "/əˈweər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "awesome",
+            "example": "Niagara Falls is an awesome natural wonder.",
+            "meaning": "멋진, 경탄할 만한",
+            "translation": "나이아가라 폭포는 경이로운 자연 경관이다.",
+            "pronunciation": "/ˈɔ·səm/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "awful",
+            "example": "We've been having awful weather lately.",
+            "meaning": "끔찍한",
+            "translation": "요즘 날씨가 지독하다.",
+            "pronunciation": "/ˈɔ·fəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "awkward",
+            "example": "After he spoke, there was an awkward silence.",
+            "meaning": "어색한, 서투른",
+            "translation": "그가 연설을 하고나자 어색한 침묵이 흘렀다.",
+            "pronunciation": "/ˈɔk·wərd/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit9": {
+        "title": "Unit 9: 지원과 상태 관련 어휘",
+        "words": [
+          {
+            "word": "backing",
+            "example": "She opened her own restaurant without financial backing from a bank.",
+            "meaning": "지원, 후원, 지지",
+            "translation": "그녀는 은행으로부터의 자금 지원 없이 자신의 식당을 개업했다.",
+            "pronunciation": "/ˈbæk·ɪŋ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "backpack",
+            "example": "Backpacks are used to carry things like clothes or food.",
+            "meaning": "배낭",
+            "translation": "배낭은 옷이나 음식과 같은 물품들을 운반하는데 사용된다.",
+            "pronunciation": "/ˈbækˌpæk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "badly",
+            "example": "He badly wants to be healthy again.",
+            "meaning": "몹시, 간절히, 심하게",
+            "translation": "그는 건강이 회복되기를 간절히 바라고 있다.",
+            "pronunciation": "/ˈbæd·li/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "baggage",
+            "example": "I carried my baggage onto the train.",
+            "meaning": "짐, 수화물",
+            "translation": "나는 나의 짐을 기차 안으로 운반했다.",
+            "pronunciation": "/ˈbæɡ·ɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bald",
+            "example": "He covered his bald head with a baseball cap.",
+            "meaning": "대머리의, 머리가 벗겨진",
+            "translation": "그는 자신의 벗겨진 머리를 야구모자로 가렸다.",
+            "pronunciation": "/bɔld/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bamboo",
+            "example": "Bamboo is hollow inside, yet strong.",
+            "meaning": "대나무",
+            "translation": "대나무는 속은 비어 있지만 강하다.",
+            "pronunciation": "/bæmˈbu/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bankrupt",
+            "example": "The company went bankrupt before the project was completed.",
+            "meaning": "파산한",
+            "translation": "그 사업 계획이 완성되기도 전에 그 회사는 파산했다.",
+            "pronunciation": "/ˈbæŋ·krʌpt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "banner",
+            "example": "A banner was hung over the street advertising the film festival.",
+            "meaning": "깃발, 현수막",
+            "translation": "영화제를 광고하는 현수막이 길거리에 걸려 있었다.",
+            "pronunciation": "/ˈbæn·ər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "banquet",
+            "example": "They held a banquet in his honor.",
+            "meaning": "연회, 만찬",
+            "translation": "그들은 그를 축하해주기 위해 연회를 열었다.",
+            "pronunciation": "/ˈbæŋ·kwɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "barber",
+            "example": "He goes to the barber every two weeks.",
+            "meaning": "이발사",
+            "translation": "그는 2주에 한 번 이발하러 간다.",
+            "pronunciation": "/ˈbɑr·bər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bare",
+            "example": "He ran with bare feet on grass.",
+            "meaning": "벌거벗은, 맨 상태의",
+            "translation": "그는 맨발로 잔디밭을 달렸다.",
+            "pronunciation": "/beər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "barely",
+            "example": "I had barely sat down when the doorbell rang.",
+            "meaning": "거의 ~아니게, 가까스로",
+            "translation": "나는 자리에 앉자마자 초인종이 울렸다.",
+            "pronunciation": "/ˈbeər·li/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "bargain",
+            "example": "I bought this coat for half price. What a bargain!",
+            "meaning": "흥정을 하다, 싸게 사다",
+            "translation": "나는 이 코트를 반값에 샀다. 얼마나 싸게 산 거냐!",
+            "pronunciation": "/ˈbɑr·ɡən/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "barn",
+            "example": "The farmer keeps cows in the barn.",
+            "meaning": "외양간, 헛간",
+            "translation": "그 농부는 소들을 헛간에 가둔다.",
+            "pronunciation": "/bɑrn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "barren",
+            "example": "Deserts are barren, with very few plants and animals.",
+            "meaning": "불모의, 메마른",
+            "translation": "사막은 식물과 동물이 거의 없는 불모지이다.",
+            "pronunciation": "/ˈbær·ən/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "basement",
+            "example": "They keep old furniture in their basement.",
+            "meaning": "지하실",
+            "translation": "그들은 낡은 가구를 지하실에 보관하고 있다.",
+            "pronunciation": "/ˈbeɪs·mənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "be against",
+            "example": "They are against all forms of violence.",
+            "meaning": "~에 반대하다",
+            "translation": "그들은 모든 형태의 폭력에 반대한다.",
+            "pronunciation": "/bi əˈɡenst/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be at odds with",
+            "example": "The two groups have long been at odds with each other.",
+            "meaning": "~와 사이가 좋지 않다",
+            "translation": "그 두 집단은 오랫동안 서로 사이가 좋지 않은 상태이다.",
+            "pronunciation": "/bi æt ɑdz wɪð/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be committed to",
+            "example": "We are committed to offering the best service to our customers.",
+            "meaning": "~에 전념하다",
+            "translation": "저희들은 고객들에게 최고의 서비스를 제공하는 일에 전념하고 있습니다.",
+            "pronunciation": "/bi kəˈmɪt̬·ɪd tu/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be concerned with",
+            "example": "Public law is concerned with the relationship between the state and its citizens.",
+            "meaning": "~와 관련되다",
+            "translation": "공법은 국가와 시민 간의 관계와 관련된 법이다.",
+            "pronunciation": "/bi kənˈsɜrnd wɪð/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be confident of",
+            "example": "He was confident of winning the gold medal.",
+            "meaning": "~를 자신하다",
+            "translation": "그는 금메달 획득을 자신하고 있었다.",
+            "pronunciation": "/bi ˈkɑn·fɪ·dənt əv/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be confined to",
+            "example": "He had been confined to the wooden box for about ten hours.",
+            "meaning": "~에 갇혀 있다",
+            "translation": "그는 거의 10시간 동안 그 나무 상자 안에 갇혀 있었다.",
+            "pronunciation": "/bi kənˈfaɪnd tu/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be eager to",
+            "example": "She was eager to get back to work as soon as possible.",
+            "meaning": "~하기를 열망하다",
+            "translation": "그녀는 가능한 한 빨리 업무에 복귀하기를 열망했다.",
+            "pronunciation": "/bi ˈi·ɡər tu/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be equipped with",
+            "example": "All of the buses are equipped with air conditioning.",
+            "meaning": "~을 갖추고 있다",
+            "translation": "모든 버스에 냉방장치가 갖춰져 있다.",
+            "pronunciation": "/bi ɪˈkwɪpt wɪð/",
+            "part_of_speech": "동사구"
+          }
+        ]
+      },
+      "unit10": {
+        "title": "Unit 10: 표현과 행동 관련 어휘",
+        "words": [
+          {
+            "word": "be fond of",
+            "example": "My mother was fond of classical music.",
+            "meaning": "~를 좋아하다",
+            "translation": "나의 어머니는 고전음악을 좋아하셨다.",
+            "pronunciation": "/bi fɒnd əv/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be held",
+            "example": "The conference will be held at the Hilton Hotel.",
+            "meaning": "열리다, 개최되다",
+            "translation": "그 회의는 Hilton호텔에서 열릴 예정이다.",
+            "pronunciation": "/bi hɛld/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be lined with",
+            "example": "The street was lined with small shops.",
+            "meaning": "~로 줄지어 있다",
+            "translation": "그 거리에는 작은 상점들이 줄지어 있다.",
+            "pronunciation": "/bi laɪnd wɪð/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be obsessed with",
+            "example": "A lot of young girls are obsessed with their weight.",
+            "meaning": "~에 집착하다, 사로잡히다",
+            "translation": "많은 어린 소녀들은 자신들의 체중에 집착한다.",
+            "pronunciation": "/bi əbˈsɛst wɪð/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be willing to",
+            "example": "He was willing to help us find a solution.",
+            "meaning": "~기꺼이 ~하다",
+            "translation": "그는 우리가 해결책을 찾는 것을 기꺼이 도우려 했다.",
+            "pronunciation": "/bi ˈwɪlɪŋ tu/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "be worthwhile to",
+            "example": "I think it is worthwhile to continue the campaign.",
+            "meaning": "~할 가치가 있다",
+            "translation": "나는 그 캠페인을 계속하는 것이 가치 있다고 생각한다.",
+            "pronunciation": "/bi ˈwɜːθˈwaɪl tu/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "bead",
+            "example": "My mother made her necklace out of bead from her dress.",
+            "meaning": "구슬",
+            "translation": "나의 어머니는 어머니의 드레서에서 떼어낸 구슬로 목걸이를 만드셨다.",
+            "pronunciation": "/biːd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "beak",
+            "example": "An eagle has a sharp hooked beak.",
+            "meaning": "부리",
+            "translation": "독수리는 날카로운 갈고리 모양의 부리를 가지고 있다.",
+            "pronunciation": "/biːk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "beam",
+            "example": "We saw the beam from their flashlights.",
+            "meaning": "광선",
+            "translation": "우리는 그들의 손전등에서 나오는 빛줄기를 보았다.",
+            "pronunciation": "/biːm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "beard",
+            "example": "My father always had a beard and moustache.",
+            "meaning": "턱수염",
+            "translation": "나의 아버지는 항상 턱수염과 콧수염을 길러왔다.",
+            "pronunciation": "/bɪərd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "beat",
+            "example": "He gets very angry when I beat him at chess.",
+            "meaning": "이기다",
+            "translation": "내가 체스에서 그를 이길 때 그는 몹시 화를 낸다.",
+            "pronunciation": "/biːt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "beckon",
+            "example": "She beckoned to the waiter to come over.",
+            "meaning": "손짓하다",
+            "translation": "그녀는 웨이터에게 와달라는 손짓을 했다.",
+            "pronunciation": "/ˈbɛkən/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "beg",
+            "example": "A homeless man begs on that corner every day.",
+            "meaning": "구걸하다",
+            "translation": "한 노숙자가 길모퉁이에서 매일 구걸한다.",
+            "pronunciation": "/bɛɡ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "behavior",
+            "example": "Students will be rewarded for good behavior.",
+            "meaning": "행위, 행동",
+            "translation": "학생들은 선행에 대해 보상받을 것이다.",
+            "pronunciation": "/bɪˈheɪvjər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "behold",
+            "example": "She beheld a shooting star making its way across the sky.",
+            "meaning": "바라보다",
+            "translation": "그녀는 유성이 하늘을 가로질러 지나가는 것을 바라보았다.",
+            "pronunciation": "/bɪˈhoʊld/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "belief",
+            "example": "It is my firm belief that the government should fear the people.",
+            "meaning": "신념, 믿음, 생각",
+            "translation": "정부가 국민을 두려워해야 한다는 것이 나의 확고한 신념이다.",
+            "pronunciation": "/bɪˈliːf/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "belongings",
+            "example": "He packed his belongings in a suitcase and left.",
+            "meaning": "재산, 소유물, 소지품",
+            "translation": "그는 자신의 물건들을 가방에 싸서 떠났다.",
+            "pronunciation": "/bɪˈlɒŋɪŋz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "benchmark",
+            "example": "The figure is still far below the benchmark of 100.",
+            "meaning": "기준, 기준점",
+            "translation": "그 수치는 여전히 기준점인 100에 한참 미치지 못한다.",
+            "pronunciation": "/ˈbɛntʃmɑːrk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bend",
+            "example": "As he approached the bend, a dog sprang into the road.",
+            "meaning": "휘어진 곳, 곡선",
+            "translation": "그가 급커브에 접근하자 개 한마리가 갑자기 도로로 뛰어들었다.",
+            "pronunciation": "/bɛnd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "benefit",
+            "example": "These changes will benefit all of you.",
+            "meaning": "~에게 이득이 되다",
+            "translation": "이러한 변화들은 너희들 모두에게 이득이 될 것이다.",
+            "pronunciation": "/ˈbɛnɪfɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "besides",
+            "example": "Besides being a teammate, he is my friend.",
+            "meaning": "~뿐만 아니라, 게다가",
+            "translation": "그는 팀 동료일 뿐만 아니라 나의 친구이기도 하다.",
+            "pronunciation": "/bɪˈsaɪdz/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "best-seller",
+            "example": "Her novel is on the best-seller list.",
+            "meaning": "베스트셀러의",
+            "translation": "그녀의 소설은 베스트셀러 목록에 있다.",
+            "pronunciation": "/ˌbɛstˈsɛlər/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit11": {
+        "title": "Unit 11: 배신과 행동 관련 어휘",
+        "words": [
+          {
+            "word": "betray",
+            "example": "He felt that she had betrayed him.",
+            "meaning": "배신하다, 넘겨주다",
+            "translation": "그는 그녀가 자신을 배신했다고 느꼈다.",
+            "pronunciation": "/bɪˈtreɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "beverage",
+            "example": "May I offer you a beverage?",
+            "meaning": "음료, 마실 것",
+            "translation": "마실 것을 드릴까요?",
+            "pronunciation": "/ˈbevərɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "beware",
+            "example": "They should beware of making hasty decisions.",
+            "meaning": "조심하다, 경계하다",
+            "translation": "그들은 성급하게 결정내리는 것을 경계해야 한다.",
+            "pronunciation": "/bɪˈweər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bewilder",
+            "example": "He was bewildered by his daughter's reaction.",
+            "meaning": "어리둥절하게 하다",
+            "translation": "그는 딸의 반응에 어리둥절해 했다.",
+            "pronunciation": "/bɪˈwɪldər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bind",
+            "example": "She bound her hair in a ponytail.",
+            "meaning": "묶다",
+            "translation": "그녀는 자신의 머리를 말총머리로 묶었다.",
+            "pronunciation": "/baɪnd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "biologist",
+            "example": "He is considered the first marine biologist.",
+            "meaning": "생물학자",
+            "translation": "그는 최초의 해양생물학자로 여겨진다.",
+            "pronunciation": "/baɪˈɒlədʒɪst/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bite",
+            "example": "She didn't eat a bite of her dinner.",
+            "meaning": "한 입, 깨물기",
+            "translation": "그녀는 저녁식사를 한 입도 안 먹었다.",
+            "pronunciation": "/baɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bitter",
+            "example": "The wine had a little bitter taste.",
+            "meaning": "쓴맛의, 쓰라린, 혹독한",
+            "translation": "그 포도주는 약간 쓴맛이 났다.",
+            "pronunciation": "/ˈbɪtər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bizarre",
+            "example": "All the dancers wore bizarre costumes.",
+            "meaning": "기괴한, 별난",
+            "translation": "모든 무용수들이 기괴한 의상을 입었다.",
+            "pronunciation": "/bɪˈzɑːr/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "blanket",
+            "example": "The child is sleeping under a warm blanket.",
+            "meaning": "담요",
+            "translation": "그 아이는 따뜻한 담요 아래에서 자고 있다.",
+            "pronunciation": "/ˈblæŋkɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blaze",
+            "example": "A fire was blazing in the fireplace.",
+            "meaning": "타오르다",
+            "translation": "불꽃이 벽난로에서 타오르고 있었다.",
+            "pronunciation": "/bleɪz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bleed",
+            "example": "Your nose is bleeding.",
+            "meaning": "피를 흘리다",
+            "translation": "코피가 나고 있어요.",
+            "pronunciation": "/bliːd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "blend",
+            "example": "The music blends traditional and modern melodies.",
+            "meaning": "섞다, 혼합하다",
+            "translation": "그 음악은 전통적 멜로디와 현대적 멜로디가 조합을 이룬다.",
+            "pronunciation": "/blɛnd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "blessing",
+            "example": "It is a blessing to have good health.",
+            "meaning": "축복, 행복",
+            "translation": "건강한 것은 축복받은 일이다.",
+            "pronunciation": "/ˈblɛsɪŋ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blind",
+            "example": "He went blind at the age of 55.",
+            "meaning": "볼 수 없는, 시각장애의",
+            "translation": "그는 55세에 앞을 볼 수 없게 되었다.",
+            "pronunciation": "/blaɪnd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "blizzard",
+            "example": "They got stuck in a blizzard.",
+            "meaning": "심한 눈보라",
+            "translation": "그들은 심한 눈보라 속에 갇혔다.",
+            "pronunciation": "/ˈblɪzərd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blood drive",
+            "example": "The blood drive was organized to help out a young girl.",
+            "meaning": "헌혈 모임, 헌혈 캠페인",
+            "translation": "그 헌혈 모임은 한 어린 소녀를 돕기 위해 결성되었다.",
+            "pronunciation": "/ˈblʌd draɪv/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blunder",
+            "example": "He made a blunder by calling his boss by the wrong name.",
+            "meaning": "실수",
+            "translation": "그는 사장의 이름을 잘못 부르는 실수를 저질렀다.",
+            "pronunciation": "/ˈblʌndər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blunt",
+            "example": "The years had not blunted his keen intelligence.",
+            "meaning": "무디게 하다, 둔화시키다",
+            "translation": "세월이 그의 탁월한 지능을 무디게 하지는 못했다.",
+            "pronunciation": "/blʌnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "board",
+            "example": "The school board is trying to raise teachers' salaries.",
+            "meaning": "위원회",
+            "translation": "교육 위원회는 교사들의 임금을 인상하려고 노력 중이다.",
+            "pronunciation": "/bɔːrd/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit12": {
+        "title": "Unit 12: 자랑과 신체 관련 어휘",
+        "words": [
+          {
+            "word": "boarding pass",
+            "example": "Please present your boarding pass to the flight attendant.",
+            "meaning": "탑승권",
+            "translation": "탑승권을 승무원에게 제시하십시오.",
+            "pronunciation": "/ˈbɔːrdɪŋ pæs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "boast",
+            "example": "She boasted of having won five games in a row.",
+            "meaning": "뽐내다, 자랑하다",
+            "translation": "그녀는 연속 다섯 게임을 이긴 것을 자랑했다.",
+            "pronunciation": "/boʊst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "boil",
+            "example": "I boiled the water to cook the eggs.",
+            "meaning": "끓이다",
+            "translation": "나는 달걀을 요리하기 위해 물을 끓였다.",
+            "pronunciation": "/bɔɪl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bold",
+            "example": "The area was settled by bold pioneers.",
+            "meaning": "용감한, 대담한",
+            "translation": "그 지역에는 용감한 개척자들이 정착했다.",
+            "pronunciation": "/boʊld/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bond",
+            "example": "We will work to strengthen our bonds with our neighboring countries.",
+            "meaning": "결속, 유대",
+            "translation": "우리는 주변 국가들과 유대를 강화하기 위해 일하겠습니다.",
+            "pronunciation": "/bɒnd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bone-chilling",
+            "example": "The bone-chilling wind is blowing from the west.",
+            "meaning": "살을 에는 듯이 차가운",
+            "translation": "살을 에는 듯이 차가운 바람이 서쪽에서 불어오고 있다.",
+            "pronunciation": "/ˈboʊnˌtʃɪlɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "book report",
+            "example": "I have to write a book report about it by tomorrow.",
+            "meaning": "독후감",
+            "translation": "나는 내일까지 그것에 대한 독후감을 써야 한다.",
+            "pronunciation": "/bʊk rɪˈpɔːrt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "book",
+            "example": "I book a table at the restaurant for two people.",
+            "meaning": "예약하다",
+            "translation": "나는 식당에 두 사람을 위한 테이블을 예약했다.",
+            "pronunciation": "/bʊk/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bored",
+            "example": "I am bored with the same old movie.",
+            "meaning": "지루한",
+            "translation": "나는 똑같은 옛날 영화에 지루해졌다.",
+            "pronunciation": "/bɔːrd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bother",
+            "example": "My sore throat is bothering me today.",
+            "meaning": "괴롭히다",
+            "translation": "오늘 인후염이 나를 괴롭히고 있다.",
+            "pronunciation": "/ˈbɒðər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bounce",
+            "example": "She was bouncing a ball on the floor.",
+            "meaning": "튀어 오르다, 튕기다",
+            "translation": "그녀는 마룻바닥에 공을 튕기고 있었다.",
+            "pronunciation": "/baʊns/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "boundary",
+            "example": "The river forms the country's western boundary.",
+            "meaning": "한계, 경계",
+            "translation": "그 강이 나라의 서쪽 경계를 이룬다.",
+            "pronunciation": "/ˈbaʊndri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bow",
+            "example": "He rose from his chair, bowed, and left the room.",
+            "meaning": "허리를 숙여 인사하다",
+            "translation": "그는 의자에서 일어나, 머리 숙여 인사하고, 그 방을 떠났다.",
+            "pronunciation": "/baʊ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "brain",
+            "example": "The left and right sides of the brain have different functions.",
+            "meaning": "뇌, 두뇌",
+            "translation": "좌뇌와 우뇌는 다른 기능을 갖는다.",
+            "pronunciation": "/breɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "branch",
+            "example": "The bank has 250 branches all over the country.",
+            "meaning": "지점, 나뭇가지",
+            "translation": "그 은행은 전국에 250개의 지점을 가지고 있다.",
+            "pronunciation": "/bræntʃ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "brand-new",
+            "example": "Her clothes looked brand-new.",
+            "meaning": "완전 새 것인",
+            "translation": "그녀의 옷은 새것처럼 보였다.",
+            "pronunciation": "/ˌbrændˈnjuː/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "breath",
+            "example": "He opened his mouth and took a deep breath.",
+            "meaning": "숨, 호흡",
+            "translation": "그는 입을 벌리고 심호흡을 했다.",
+            "pronunciation": "/breθ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "breathtaking",
+            "example": "The view of the mountains was breathtaking.",
+            "meaning": "숨이 멎을 듯한, 대단한",
+            "translation": "산의 전망은 숨이 멎을 듯 아름다웠다.",
+            "pronunciation": "/ˈbreθteɪkɪŋ/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit13": {
+        "title": "Unit 13: 번식과 자연 관련 어휘",
+        "words": [
+          {
+            "word": "breeding",
+            "example": "The tiny animal is the result of generations of selective breeding.",
+            "meaning": "품종개량, 육종, 번식",
+            "translation": "그 작은 동물은 여러 세대에 걸친 선택적 품종 개량의 결과이다.",
+            "pronunciation": "/ˈbriːdɪŋ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "breeze",
+            "example": "The flowers were waving in the breeze.",
+            "meaning": "산들바람, 미풍",
+            "translation": "꽃들이 산들바람에 흔들거리고 있었다.",
+            "pronunciation": "/briːz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "brick",
+            "example": "Most of the buildings in the town are made of brick.",
+            "meaning": "벽돌",
+            "translation": "그 마을의 대부분의 건물들은 벽돌로 만들어져 있다.",
+            "pronunciation": "/brɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bride",
+            "example": "The bride wore a beautiful white dress.",
+            "meaning": "신부",
+            "translation": "신부는 아름다운 흰 드레스를 입었다.",
+            "pronunciation": "/braɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "briefly",
+            "example": "Please briefly describe your experience.",
+            "meaning": "간략하게, 짧게",
+            "translation": "당신이 체험한 것을 간략하게 설명하십시오.",
+            "pronunciation": "/ˈbriːfli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "bright side",
+            "example": "You should try to look on the bright side of life.",
+            "meaning": "좋은 면",
+            "translation": "인생의 좋은 면을 보도록 노력해야 한다.",
+            "pronunciation": "/ˈbraɪt saɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "brilliant",
+            "example": "The violinist gave a brilliant performance.",
+            "meaning": "멋진",
+            "translation": "그 바이올린 연주자는 멋진 공연을 보여주었다.",
+            "pronunciation": "/ˈbrɪliənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "brim",
+            "example": "She filled each glass to the brim.",
+            "meaning": "컵의 가장자리, 모자의 챙",
+            "translation": "그녀는 각 잔을 가득 채웠다.",
+            "pronunciation": "/brɪm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bring about",
+            "example": "What has brought about this change?",
+            "meaning": "~을 야기하다",
+            "translation": "무엇이 이러한 변화를 초래했는가?",
+            "pronunciation": "/brɪŋ əˈbaʊt/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "bring up",
+            "example": "She brought up four children on her own.",
+            "meaning": "기르다",
+            "translation": "그녀는 혼자서 네 아이를 길렀다.",
+            "pronunciation": "/brɪŋ ʌp/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "brisk",
+            "example": "Business is brisk at the store these days.",
+            "meaning": "활발한",
+            "translation": "요즘 그 가게의 장사가 활발하다.",
+            "pronunciation": "/brɪsk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "brittle",
+            "example": "The leaves were brittle after being in the sun all day.",
+            "meaning": "부서지기 쉬운",
+            "translation": "그 잎들은 하루 종일 햇볕에 노출되어 부서지기 쉬운 상태였다.",
+            "pronunciation": "/ˈbrɪtl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "broad",
+            "example": "He has very broad shoulders.",
+            "meaning": "넓은",
+            "translation": "그는 어깨가 매우 넓다.",
+            "pronunciation": "/brɔːd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "broadcast",
+            "example": "The game will be broadcast live on TV.",
+            "meaning": "방송하다",
+            "translation": "그 경기는 텔레비전에서 생중계될 것이다.",
+            "pronunciation": "/ˈbrɔːdkɑːst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "broke",
+            "example": "He went broke after he lost his job.",
+            "meaning": "빈털터리의, 무일푼의",
+            "translation": "직장을 잃은 후 그는 빈털터리가 되었다.",
+            "pronunciation": "/broʊk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "browse",
+            "example": "Several customers were browsing in the bookstore.",
+            "meaning": "둘러보다",
+            "translation": "몇몇 고객들이 서점에서 책을 구경하고 있었다.",
+            "pronunciation": "/braʊz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bubble",
+            "example": "Make sure there are no bubbles of air in the jam.",
+            "meaning": "거품, 풍선",
+            "translation": "잼에 기포가 전혀 없도록 해라.",
+            "pronunciation": "/ˈbʌbəl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "budget",
+            "example": "The film had a million dollar budget.",
+            "meaning": "예산",
+            "translation": "그 영화는 100만 달러의 예산을 들였다.",
+            "pronunciation": "/ˈbʌdʒɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "buffet",
+            "example": "The restaurant offers a breakfast buffet.",
+            "meaning": "뷔페",
+            "translation": "그 식당은 아침 뷔페식을 제공한다.",
+            "pronunciation": "/bəˈfeɪ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bulletin",
+            "example": "I saw our class schedule on the school bulletin board.",
+            "meaning": "게시, 공고",
+            "translation": "나는 학교 게시판에서 수업 시간표를 보았다.",
+            "pronunciation": "/ˈbʊlɪtɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "bully",
+            "example": "He bullied his younger brothers.",
+            "meaning": "괴롭히다, 못살게 굴다",
+            "translation": "그는 그의 남동생들을 괴롭힌다.",
+            "pronunciation": "/ˈbʊli/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bump",
+            "example": "I fell and bumped my elbow on the floor.",
+            "meaning": "~를 부딪치다",
+            "translation": "나는 넘어져서 팔꿈치를 마룻바닥에 부딪쳤다.",
+            "pronunciation": "/bʌmp/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bundle",
+            "example": "I put a bundle of clothes in the washing machine.",
+            "meaning": "묶음, 꾸러미",
+            "translation": "나는 한 보따리의 옷을 세탁기에 넣었다.",
+            "pronunciation": "/ˈbʌndl/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit14": {
+        "title": "Unit 14: 부담과 행동 관련 어휘",
+        "words": [
+          {
+            "word": "burden",
+            "example": "I don't wish to burden you with my problems.",
+            "meaning": "짐을 지우다, 부담을 주다",
+            "translation": "제 문제로 당신에게 부담을 주고 싶지 않습니다.",
+            "pronunciation": "/ˈbɜːrdn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "burglar",
+            "example": "A burglar broke into the house next door last night.",
+            "meaning": "강도",
+            "translation": "지난 밤에 강도가 옆집에 침입했다.",
+            "pronunciation": "/ˈbɜːrɡlər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "burrow",
+            "example": "Rabbits live in burrows.",
+            "meaning": "굴, 은신처",
+            "translation": "토끼들은 굴 속에서 산다.",
+            "pronunciation": "/ˈbɜːroʊ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "burst",
+            "example": "A pipe burst, shooting water into the air.",
+            "meaning": "터지다",
+            "translation": "파이프 하나가 터져 공중으로 물이 뿜어져 나왔다.",
+            "pronunciation": "/bɜːrst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "by all means",
+            "example": "\"May I come in?\" \"By all means!\"",
+            "meaning": "기꺼이, 반드시",
+            "translation": "\"들어가도 될까요?\" \"그럼요.\"",
+            "pronunciation": "/baɪ ɔːl miːnz/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "bystander",
+            "example": "Two bystanders were injured in the shooting.",
+            "meaning": "방관자, 구경꾼",
+            "translation": "두 행인이 그 총격에 부상을 입었다.",
+            "pronunciation": "/ˈbaɪstændər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cafeteria",
+            "example": "The students met in the cafeteria for lunch.",
+            "meaning": "구내식당, 교내식당",
+            "translation": "학생들은 점심식사를 위해 교내식당에 모였다.",
+            "pronunciation": "/ˌkæfəˈtɪəriə/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "calculate",
+            "example": "We'll need to calculate the overall costs.",
+            "meaning": "계산하다",
+            "translation": "우리는 총비용을 계산할 필요가 있을 것이다.",
+            "pronunciation": "/ˈkælkjʊleɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "call for",
+            "example": "The situation calls for immediate action.",
+            "meaning": "~을 요구하다",
+            "translation": "그 상황은 즉각적인 행동을 요구한다.",
+            "pronunciation": "/kɔːl fɔːr/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "call off",
+            "example": "The game was called off because of the rain.",
+            "meaning": "~을 취소하다",
+            "translation": "그 경기는 비 때문에 취소되었다.",
+            "pronunciation": "/kɔːl ɒf/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "call on",
+            "example": "The president called on the citizens to work hard.",
+            "meaning": "~에게 ~을 요구하다",
+            "translation": "대통령은 국민들에게 열심히 일할 것을 요구했다.",
+            "pronunciation": "/kɔːl ɒn/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "calm",
+            "example": "He remained calm even under pressure.",
+            "meaning": "침착하다",
+            "translation": "그는 압박 속에서도 침착함을 유지했다.",
+            "pronunciation": "/kɑːm/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "cameraman",
+            "example": "The cameraman was filming the scene.",
+            "meaning": "촬영기사",
+            "translation": "촬영기사가 그 장면을 찍고 있었다.",
+            "pronunciation": "/ˈkæmərəmæn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "campaign",
+            "example": "The school launched a campaign to stop bullying.",
+            "meaning": "캠페인",
+            "translation": "그 학교는 왕따를 방지하기 위한 캠페인을 시작했다.",
+            "pronunciation": "/kæmˈpeɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "canal",
+            "example": "The Panama Canal connects the Atlantic and Pacific oceans.",
+            "meaning": "운하",
+            "translation": "파나마 운하는 대서양과 태평양을 연결한다.",
+            "pronunciation": "/kəˈnæl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cancel",
+            "example": "The game was canceled due to rain.",
+            "meaning": "취소하다",
+            "translation": "그 경기는 비 때문에 취소되었다.",
+            "pronunciation": "/ˈkænsəl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cancer",
+            "example": "He was diagnosed with lung cancer.",
+            "meaning": "암",
+            "translation": "그는 폐암 진단을 받았다.",
+            "pronunciation": "/ˈkænsər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "candidate",
+            "example": "She is a candidate for the position of manager.",
+            "meaning": "후보자",
+            "translation": "그녀는 매니저 자리의 후보자이다.",
+            "pronunciation": "/ˈkændɪdeɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "candy",
+            "example": "He bought some candy at the store.",
+            "meaning": "사탕",
+            "translation": "그는 가게에서 사탕을 샀다.",
+            "pronunciation": "/ˈkændi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "capable",
+            "example": "She is capable of handling the project alone.",
+            "meaning": "할 수 있는, 유능한",
+            "translation": "그녀는 그 프로젝트를 혼자서 처리할 수 있다.",
+            "pronunciation": "/ˈkeɪpəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "capacity",
+            "example": "The stadium has a seating capacity of 50,000.",
+            "meaning": "용량, 수용력",
+            "translation": "그 경기장은 50,000명의 좌석 수용력을 가지고 있다.",
+            "pronunciation": "/kəˈpæsəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cape",
+            "example": "The superhero wore a red cape.",
+            "meaning": "망토",
+            "translation": "그 슈퍼히어로는 빨간 망토를 입었다.",
+            "pronunciation": "/keɪp/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "capital",
+            "example": "Paris is the capital of France.",
+            "meaning": "수도",
+            "translation": "파리는 프랑스의 수도이다.",
+            "pronunciation": "/ˈkæpɪtl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "captain",
+            "example": "The captain ordered the crew to abandon their ship.",
+            "meaning": "선장",
+            "translation": "선장은 선원들에게 배를 포기할 것을 명령했다.",
+            "pronunciation": "/ˈkæptɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "capture",
+            "example": "She captured 60 percent of the vote in the last election.",
+            "meaning": "포착하다, 획득하다",
+            "translation": "그녀는 지난 선거에서 60퍼센트의 표를 획득했다.",
+            "pronunciation": "/ˈkæptʃər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "car rental",
+            "example": "Are you looking for a car rental service?",
+            "meaning": "자동차 대여",
+            "translation": "자동차 대여 서비스를 알아보고 계신가요?",
+            "pronunciation": "/kɑːr ˈrentl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "carbon dioxide",
+            "example": "Plants give off carbon dioxide mostly at night.",
+            "meaning": "이산화탄소",
+            "translation": "식물들은 주로 밤에 이산화탄소를 방출한다.",
+            "pronunciation": "/ˈkɑːrbən daɪˈɒksaɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "career",
+            "example": "During his career in advertising, he won numerous awards.",
+            "meaning": "경력, 직업",
+            "translation": "광고 분야에 종사하는 동안 그는 수많은 상을 수상했다.",
+            "pronunciation": "/kəˈrɪər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "caring",
+            "example": "The school provides a caring environment.",
+            "meaning": "보살피는, 배려하는",
+            "translation": "그 학교에는 보살핌의 분위기가 형성되어 있다.",
+            "pronunciation": "/ˈkeərɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "carpenter",
+            "example": "He hired a couple of carpenters to do some woodworking.",
+            "meaning": "목수",
+            "translation": "그는 약간의 목공일을 수행할 두 명의 목수를 고용했다.",
+            "pronunciation": "/ˈkɑːrpəntər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "carry",
+            "example": "All the soldiers carry rifles.",
+            "meaning": "보유하다",
+            "translation": "모든 병사들은 소총을 가지고 다녔다.",
+            "pronunciation": "/ˈkæri/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit15": {
+        "title": "Unit 15: 여행과 사회 관련 어휘",
+        "words": [
+          {
+            "word": "carry-on luggage",
+            "example": "I took a small bag on board as carry-on luggage.",
+            "meaning": "기내수화물",
+            "translation": "나는 기내 수화물로 작은 가방 하나를 가지고 갔다.",
+            "pronunciation": "/ˈkæri ɒn ˈlʌɡɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cashier",
+            "example": "He took a ten-dollar bill out to pay the cashier.",
+            "meaning": "출납원, 계산원",
+            "translation": "그는 계산원에게 돈을 지불하기 위해 10달러 지폐를 꺼냈다.",
+            "pronunciation": "/kæˈʃɪər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cast",
+            "example": "The director cast a famous actor in the leading role.",
+            "meaning": "(배역을) 정하다, 맡기다",
+            "translation": "그 감독은 한 유명한 배우에게 주연을 맡겼다.",
+            "pronunciation": "/kɑːst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "castle",
+            "example": "There are many old castles in Europe.",
+            "meaning": "성, 대저택",
+            "translation": "유럽에는 오래 된 성이 많이 있다.",
+            "pronunciation": "/ˈkɑːsl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "category",
+            "example": "These are the categories: pop music, jazz, and the blues.",
+            "meaning": "범주, 종목, 부류",
+            "translation": "팝음악, 재즈, 그리고 블루스 음악과 같은 종류가 있다.",
+            "pronunciation": "/ˈkætəɡɔːri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cause",
+            "example": "The major cause of these accidents is speeding by drivers.",
+            "meaning": "원인",
+            "translation": "이러한 사고들의 주요 원인은 운전자들의 과속이다.",
+            "pronunciation": "/kɔːz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "caution",
+            "example": "She cautioned me not to decide too quickly.",
+            "meaning": "경고하다",
+            "translation": "그녀는 내게 너무 빨리 결정내리지 말도록 주의를 주었다.",
+            "pronunciation": "/ˈkɔːʃn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cautious",
+            "example": "He is very cautious about spending money.",
+            "meaning": "신중한, 조심스러운",
+            "translation": "그는 돈을 쓰는 데 매우 신중하다.",
+            "pronunciation": "/ˈkɔːʃəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "cave",
+            "example": "The cave was explored by scientists.",
+            "meaning": "동굴",
+            "translation": "그 동굴은 과학자들에 의해 탐험되었다.",
+            "pronunciation": "/keɪv/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "celebrate",
+            "example": "They celebrated their victory with a parade.",
+            "meaning": "축하하다",
+            "translation": "그들은 승리를 퍼레이드로 축하했다.",
+            "pronunciation": "/ˈselɪbreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "celebrity",
+            "example": "The event was attended by many celebrities.",
+            "meaning": "유명인사",
+            "translation": "그 행사에는 많은 유명인사들이 참석했다.",
+            "pronunciation": "/səˈlebrəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cell phone",
+            "example": "She forgot her cell phone at home.",
+            "meaning": "휴대전화",
+            "translation": "그녀는 집에 휴대전화를 놓아두고 왔다.",
+            "pronunciation": "/sel foʊn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cemetery",
+            "example": "The cemetery is located on the hill.",
+            "meaning": "묘지",
+            "translation": "그 묘지는 언덕에 위치해 있다.",
+            "pronunciation": "/ˈseməteri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "census",
+            "example": "The census is taken every ten years.",
+            "meaning": "인구조사",
+            "translation": "인구조사는 10년마다 실시된다.",
+            "pronunciation": "/ˈsensəs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "century",
+            "example": "The building is over a century old.",
+            "meaning": "세기",
+            "translation": "그 건물은 100년이 넘었다.",
+            "pronunciation": "/ˈsentʃəri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ceremony",
+            "example": "The opening ceremony will begin at 10 a.m.",
+            "meaning": "의식, 행사",
+            "translation": "개회식이 오전 10시에 시작될 것이다.",
+            "pronunciation": "/ˈserɪmoʊni/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "certain",
+            "example": "I am certain that he will come.",
+            "meaning": "확실한",
+            "translation": "나는 그가 올 것이라고 확신한다.",
+            "pronunciation": "/ˈsɜːrtn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "certificate",
+            "example": "He received a certificate for his achievement.",
+            "meaning": "증명서",
+            "translation": "그는 그의 업적으로 증명서를 받았다.",
+            "pronunciation": "/sərˈtɪfɪkət/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "challenging",
+            "example": "The task was very challenging.",
+            "meaning": "도전적인",
+            "translation": "그 작업은 매우 도전적이었다.",
+            "pronunciation": "/ˈtʃælɪndʒɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "challenged",
+            "example": "She has worked as an advocate for the physically challenged.",
+            "meaning": "장애가 있는, 힘든",
+            "translation": "그녀는 신체 장애인을 위한 변호사로 일해 왔다.",
+            "pronunciation": "/ˈtʃælɪndʒd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "chaotic",
+            "example": "After he became famous, his life became even more chaotic.",
+            "meaning": "혼란스러운",
+            "translation": "그가 유명해진 후 그의 생활은 훨씬 더 혼란스러워졌다.",
+            "pronunciation": "/keɪˈɒtɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "characteristic",
+            "example": "What are the characteristics of this breed of dog?",
+            "meaning": "특징",
+            "translation": "이러한 품종의 개의 특징은 무엇인가요?",
+            "pronunciation": "/ˌkærəktəˈrɪstɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "charge",
+            "example": "Leave the battery charge overnight.",
+            "meaning": "충전",
+            "translation": "그 배터리가 밤새도록 충전되게 두어라.",
+            "pronunciation": "/tʃɑːrdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "charity",
+            "example": "The event was held to raise funds for charity.",
+            "meaning": "자선, 자선단체",
+            "translation": "그 행사는 자선단체들을 위한 기금을 모으기 위해 개최되었다.",
+            "pronunciation": "/ˈtʃærəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "chat",
+            "example": "We chatted about our plans for the summer.",
+            "meaning": "이야기하다, 잡담하다",
+            "translation": "우리는 여름 계획에 대해 수다를 떨었다.",
+            "pronunciation": "/tʃæt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cheat",
+            "example": "He cheated on the test by using a calculator.",
+            "meaning": "부정행위를 하다",
+            "translation": "그는 시험에서 계산기를 사용함으로써 부정행위를 했다.",
+            "pronunciation": "/tʃiːt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cheerleading",
+            "example": "She tried out for the cheerleading squad.",
+            "meaning": "응원",
+            "translation": "그녀는 응원단에 지원했다.",
+            "pronunciation": "/ˈtʃɪəliːdɪŋ/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit16": {
+        "title": "Unit 16: 화학물질과 선택 관련 어휘",
+        "words": [
+          {
+            "word": "chemical",
+            "example": "Many household cleaners contain harmful chemicals.",
+            "meaning": "화학물질",
+            "translation": "많은 가정용 세제에 해로운 화학물질이 들어있다.",
+            "pronunciation": "/ˈkemɪkl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "childhood",
+            "example": "She had a happy childhood with her loving parents.",
+            "meaning": "어린 시절",
+            "translation": "그녀는 다정한 부모님과 함께 행복한 어린시절을 보냈다.",
+            "pronunciation": "/ˈtʃaɪldhʊd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "choose",
+            "example": "It took us about an hour to choose a new carpet.",
+            "meaning": "고르다, 선택하다",
+            "translation": "우리는 새로운 카펫을 고르는데 약 한 시간 걸렸다.",
+            "pronunciation": "/tʃuːz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "chopsticks",
+            "example": "I am still awkward at using chopsticks.",
+            "meaning": "젓가락",
+            "translation": "나는 아직도 젓가락을 사용하는 것이 서투르다.",
+            "pronunciation": "/ˈtʃɒpstɪks/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "chronic",
+            "example": "He has suffered chronic pain in his right knee.",
+            "meaning": "만성적인",
+            "translation": "그는 만성적인 오른쪽 무릎 통증에 시달려 왔다.",
+            "pronunciation": "/ˈkrɒnɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "chunk",
+            "example": "The rent takes a large chunk out of my monthly salary.",
+            "meaning": "상당히 많은 양",
+            "translation": "집세는 내 월급의 상당 부분을 차지한다.",
+            "pronunciation": "/tʃʌŋk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "circulate",
+            "example": "Air circulates through the vents.",
+            "meaning": "순환하다",
+            "translation": "공기가 통풍구를 통해 순환한다.",
+            "pronunciation": "/ˈsɜːkjʊleɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "circumstance",
+            "example": "Under the circumstances, we had no choice but to leave.",
+            "meaning": "상황, 여건",
+            "translation": "그 상황에서 우리는 떠날 수밖에 없었다.",
+            "pronunciation": "/ˈsɜːrkəmstæns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cite",
+            "example": "The professor cited several studies in his lecture.",
+            "meaning": "인용하다",
+            "translation": "그 교수는 강의에서 여러 연구를 인용했다.",
+            "pronunciation": "/saɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "citizen",
+            "example": "Every citizen has the right to vote.",
+            "meaning": "시민",
+            "translation": "모든 시민은 투표할 권리가 있다.",
+            "pronunciation": "/ˈsɪtɪzn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "civil",
+            "example": "The civil rights movement changed history.",
+            "meaning": "시민의",
+            "translation": "시민권 운동은 역사를 바꿔놓았다.",
+            "pronunciation": "/ˈsɪvl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "civilization",
+            "example": "Ancient civilizations left behind many artifacts.",
+            "meaning": "문명",
+            "translation": "고대 문명은 많은 유물을 남겼다.",
+            "pronunciation": "/ˌsɪvɪlɪˈzeɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "claim",
+            "example": "He claimed that he was innocent.",
+            "meaning": "주장하다",
+            "translation": "그는 자신이 결백하다고 주장했다.",
+            "pronunciation": "/kleɪm/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clap",
+            "example": "The audience clapped enthusiastically.",
+            "meaning": "박수치다",
+            "translation": "관객들은 열정적으로 박수를 쳤다.",
+            "pronunciation": "/klæp/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clarify",
+            "example": "Can you clarify what you mean?",
+            "meaning": "명확히 하다",
+            "translation": "무엇을 의미하는지 명확히 해줄 수 있나요?",
+            "pronunciation": "/ˈklærɪfaɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clash",
+            "example": "The two teams clashed in the finals.",
+            "meaning": "충돌하다",
+            "translation": "두 팀이 결승전에서 맞붙었다.",
+            "pronunciation": "/klæʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "classroom",
+            "example": "The teacher entered the classroom.",
+            "meaning": "교실",
+            "translation": "선생님이 교실에 들어왔다.",
+            "pronunciation": "/ˈklæsruːm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "claustrophobia",
+            "example": "He suffers from claustrophobia and can't use elevators.",
+            "meaning": "폐쇄공포증",
+            "translation": "그는 폐쇄공포증으로 엘리베이터를 타지 못한다.",
+            "pronunciation": "/ˌklɔːstrəˈfoʊbiə/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "clay",
+            "example": "She molded the clay into a pot.",
+            "meaning": "점토",
+            "translation": "그녀는 점토를 항아리로 만들었다.",
+            "pronunciation": "/kleɪ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "clean up",
+            "example": "Please clean up your room.",
+            "meaning": "청소하다",
+            "translation": "방을 청소해 주세요.",
+            "pronunciation": "/kliːn ʌp/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "clear up",
+            "example": "The weather cleared up in the afternoon.",
+            "meaning": "개다",
+            "translation": "날씨가 오후에 개었다.",
+            "pronunciation": "/klɪr ʌp/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "climate",
+            "example": "The climate here is mild.",
+            "meaning": "기후",
+            "translation": "이곳의 기후는 온화하다.",
+            "pronunciation": "/ˈklaɪmət/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "climb",
+            "example": "We climbed the mountain.",
+            "meaning": "오르다",
+            "translation": "우리는 산을 올랐다.",
+            "pronunciation": "/klaɪm/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clinic",
+            "example": "She went to the clinic for a check-up.",
+            "meaning": "진료소",
+            "translation": "그녀는 검진을 위해 진료소에 갔다.",
+            "pronunciation": "/ˈklɪnɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "clip",
+            "example": "He clipped the article from the newspaper.",
+            "meaning": "오려내다",
+            "translation": "그는 신문에서 그 기사를 오려냈다.",
+            "pronunciation": "/klɪp/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clone",
+            "example": "Scientists cloned a sheep.",
+            "meaning": "복제하다",
+            "translation": "과학자들이 양을 복제했다.",
+            "pronunciation": "/kloʊn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "close",
+            "example": "The store closes at 9 p.m.",
+            "meaning": "닫다",
+            "translation": "그 가게는 오후 9시에 문을 닫는다.",
+            "pronunciation": "/kloʊz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "closet",
+            "example": "She hung her clothes in the closet.",
+            "meaning": "벽장",
+            "translation": "그녀는 옷을 벽장에 걸었다.",
+            "pronunciation": "/ˈklɑːzɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cloudy",
+            "example": "The mud in the liquid made it cloudy.",
+            "meaning": "흐린, 뿌연",
+            "translation": "액체 속의 진흙이 그것을 뿌옇게 만들었다.",
+            "pronunciation": "/ˈklaʊdi/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "clue",
+            "example": "One of the most valuable clues at the scene of a crime is fingerprints.",
+            "meaning": "실마리, 단서",
+            "translation": "범죄 현장에서 가장 가치 있는 단서들 중 하나는 지문이다.",
+            "pronunciation": "/kluː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "coast",
+            "example": "We drove along a long stretch of coast.",
+            "meaning": "해안",
+            "translation": "우리는 길게 뻗은 해안을 따라 드라이브 했다.",
+            "pronunciation": "/kəʊst/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "code",
+            "example": "My school has a strict dress code.",
+            "meaning": "규약, 규칙",
+            "translation": "우리 학교는 복장규정이 엄격하다.",
+            "pronunciation": "/kəʊd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "coexist",
+            "example": "They found proof that dinosaurs and turtles coexisted.",
+            "meaning": "공존하다",
+            "translation": "그들은 공룡과 거북이 공존했다는 증거를 발견했다.",
+            "pronunciation": "/ˌkəʊɪɡˈzɪst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cognitive",
+            "example": "Many old people suffer a decline in cognitive functions.",
+            "meaning": "인지적인",
+            "translation": "많은 노인들은 인지기능의 저하를 겪는다.",
+            "pronunciation": "/ˈkɒɡnətɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "coincide",
+            "example": "The population increase coincided with rapid industrial growth.",
+            "meaning": "일치하다, 동시에 일어나다",
+            "translation": "인구증가와 빠른 산업 성장이 동시에 일어났다.",
+            "pronunciation": "/ˌkəʊɪnˈsaɪd/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit17": {
+        "title": "Unit 17: 협력과 변화 관련 어휘",
+        "words": [
+          {
+            "word": "collaborate",
+            "example": "The two companies agreed to collaborate.",
+            "meaning": "협력하다, 함께 연구하다",
+            "translation": "그 두 회사는 서로 협력하기로 합의했다.",
+            "pronunciation": "/kəˈlæbəreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "collapse",
+            "example": "He collapsed on stage during the performance.",
+            "meaning": "쓰러지다",
+            "translation": "그는 공연 도중 무대에서 쓰러졌다.",
+            "pronunciation": "/kəˈlæps/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "column",
+            "example": "This temple had more than 100 stone columns to support the roof.",
+            "meaning": "기둥, 열",
+            "translation": "이 사원에는 지붕을 지탱할 수 있도록 100개 이상의 돌기둥이 있었다.",
+            "pronunciation": "/ˈkɒləm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "combine",
+            "example": "We decided to combine both techniques.",
+            "meaning": "결합하다",
+            "translation": "우리는 두 가지 기술을 결합하기로 결정했다.",
+            "pronunciation": "/kəmˈbaɪn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "come about",
+            "example": "How did this change come about?",
+            "meaning": "발생하다",
+            "translation": "이러한 변화가 어떻게 발생했는가?",
+            "pronunciation": "/kʌm əˈbaʊt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "come across",
+            "example": "I came across an old diary in her desk.",
+            "meaning": "우연히 발견하다, 마주치다",
+            "translation": "나는 그녀의 책상에서 낡은 일기장을 우연히 발견했다.",
+            "pronunciation": "/kʌm əˈkrɒs/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "come to a halt",
+            "example": "The bus came to a halt at the traffic light.",
+            "meaning": "멈추다",
+            "translation": "버스가 신호등에서 멈췄다.",
+            "pronunciation": "/kʌm tu ə hɔːlt/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "come up with",
+            "example": "He came up with a brilliant idea.",
+            "meaning": "~을 생각해내다",
+            "translation": "그는 훌륭한 아이디어를 생각해냈다.",
+            "pronunciation": "/kʌm ʌp wɪð/",
+            "part_of_speech": "동사구"
+          },
+          {
+            "word": "comedy",
+            "example": "The movie is a romantic comedy.",
+            "meaning": "희극",
+            "translation": "그 영화는 로맨틱 코미디이다.",
+            "pronunciation": "/ˈkɒmədi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "comfortable",
+            "example": "The chair is very comfortable.",
+            "meaning": "편안한",
+            "translation": "그 의자는 매우 편안하다.",
+            "pronunciation": "/ˈkʌmftəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "comic",
+            "example": "He reads comic books.",
+            "meaning": "만화의",
+            "translation": "그는 만화책을 읽는다.",
+            "pronunciation": "/ˈkɒmɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "command",
+            "example": "The officer gave a command.",
+            "meaning": "명령",
+            "translation": "장교가 명령을 내렸다.",
+            "pronunciation": "/kəˈmænd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "commemorate",
+            "example": "The statue commemorates the war heroes.",
+            "meaning": "기념하다",
+            "translation": "그 동상은 전쟁 영웅들을 기념한다.",
+            "pronunciation": "/kəˈmeməreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "comment",
+            "example": "She made a comment about the weather.",
+            "meaning": "의견을 말하다",
+            "translation": "그녀는 날씨에 대해 의견을 말했다.",
+            "pronunciation": "/ˈkɒment/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "commercial",
+            "example": "The commercial was very funny.",
+            "meaning": "상업적인",
+            "translation": "그 광고는 매우 재미있었다.",
+            "pronunciation": "/kəˈmɜːrʃl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "commit",
+            "example": "He committed to finishing the project on time.",
+            "meaning": "약속하다",
+            "translation": "그는 프로젝트를 제때 끝낼 것을 약속했다.",
+            "pronunciation": "/kəˈmɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "committee",
+            "example": "They have a committee that is supposed to handle complaints from employees.",
+            "meaning": "위원회",
+            "translation": "그들은 종업원들로부터 나오는 불만을 처리할 위원회를 두고 있다.",
+            "pronunciation": "/kəˈmɪti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "commodity",
+            "example": "Commodity prices fell sharply.",
+            "meaning": "필수품, 일용품",
+            "translation": "생필품 물가가 급격하게 하락했다.",
+            "pronunciation": "/kəˈmɒdəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "common",
+            "example": "This problem is common among laptop computers.",
+            "meaning": "흔한",
+            "translation": "이런 문제는 노트북 컴퓨터에서 흔히 발견된다.",
+            "pronunciation": "/ˈkɒmən/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "communicate",
+            "example": "People use more than words when they communicate with each other.",
+            "meaning": "의사소통하다",
+            "translation": "사람들은 서로 의사소통할 때 말 이외에 더 많은 것을 이용한다.",
+            "pronunciation": "/kəˈmjuːnɪkeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "compact",
+            "example": "The compact design of the machine allows it to be stored easily.",
+            "meaning": "소형의, 간편한",
+            "translation": "그 기계의 간편한 디자인이 기계의 보관을 용이하게 해준다.",
+            "pronunciation": "/kəmˈpækt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "company",
+            "example": "I felt nervous being in the company of such important people.",
+            "meaning": "함께 있음, 손님",
+            "translation": "나는 그런 중요한 사람들과 함께 있는 것이 긴장되었다.",
+            "pronunciation": "/ˈkʌmpəni/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit18": {
+        "title": "Unit 18: 호환성과 보상 관련 어휘",
+        "words": [
+          {
+            "word": "compatible",
+            "example": "This printer is compatible with most personal computers.",
+            "meaning": "함께 사용될 수 있는, 양립할 수 있는",
+            "translation": "이 프린터는 대부분의 개인용 컴퓨터와 함께 사용될 수 있다.",
+            "pronunciation": "/kəmˈpætəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "compensation",
+            "example": "He offered to pay for lunch as compensation for keeping me waiting.",
+            "meaning": "보상",
+            "translation": "그는 나를 기다리게 한 것에 대한 보상으로 점심값을 지불할 것을 제의했다.",
+            "pronunciation": "/ˌkɒmpenˈseɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "competition",
+            "example": "The competition for jobs is fiercer than ever.",
+            "meaning": "경쟁, 경기",
+            "translation": "일자리를 얻기 위한 경쟁이 그 어느 때보다 치열하다.",
+            "pronunciation": "/ˌkɒmpəˈtɪʃn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "competitive",
+            "example": "Competitive sports allow children to develop teamwork skills.",
+            "meaning": "경쟁적인, 경쟁력 있는",
+            "translation": "경쟁심을 유발하는 스포츠는 아이들의 팀워크 기술을 발달시켜준다.",
+            "pronunciation": "/kəmˈpetətɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "complaint",
+            "example": "Many civil complaints have been filed against the construction company.",
+            "meaning": "불평",
+            "translation": "그 건설사에 대해 수많은 민원이 제기되었다.",
+            "pronunciation": "/kəmˈpleɪnt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "complete",
+            "example": "The project was completed on time.",
+            "meaning": "완료하다",
+            "translation": "프로젝트가 제때 완료되었다.",
+            "pronunciation": "/kəmˈpliːt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "complex",
+            "example": "The issue is more complex than it seems.",
+            "meaning": "복잡한",
+            "translation": "그 문제는 보이는 것보다 더 복잡하다.",
+            "pronunciation": "/ˈkɒmpleks/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "comply",
+            "example": "All employees must comply with the safety regulations.",
+            "meaning": "준수하다",
+            "translation": "모든 직원들은 안전 규정을 준수해야 한다.",
+            "pronunciation": "/kəmˈplaɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "component",
+            "example": "The engine has several key components.",
+            "meaning": "구성요소",
+            "translation": "엔진에는 여러 주요 구성요소가 있다.",
+            "pronunciation": "/kəmˈpoʊnənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "compose",
+            "example": "He composed a symphony.",
+            "meaning": "작곡하다",
+            "translation": "그는 교향곡을 작곡했다.",
+            "pronunciation": "/kəmˈpoʊz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "compound",
+            "example": "Water is a compound of hydrogen and oxygen.",
+            "meaning": "화합물",
+            "translation": "물은 수소와 산소의 화합물이다.",
+            "pronunciation": "/ˈkɒmpaʊnd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "comprehend",
+            "example": "I couldn't comprehend what he was saying.",
+            "meaning": "이해하다",
+            "translation": "나는 그가 말하는 것을 이해할 수 없었다.",
+            "pronunciation": "/ˌkɒmprɪˈhend/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "comprehensive",
+            "example": "The report is comprehensive.",
+            "meaning": "포괄적인",
+            "translation": "그 보고서는 포괄적이다.",
+            "pronunciation": "/ˌkɒmprɪˈhensɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "compress",
+            "example": "Compress the file to save space.",
+            "meaning": "압축하다",
+            "translation": "파일을 압축하여 공간을 절약하라.",
+            "pronunciation": "/kəmˈpres/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "compromise",
+            "example": "They reached a compromise.",
+            "meaning": "타협하다",
+            "translation": "그들은 타협에 도달했다.",
+            "pronunciation": "/ˈkɒmprəmaɪz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "compute",
+            "example": "The program computes the average.",
+            "meaning": "계산하다",
+            "translation": "그 프로그램은 평균을 계산한다.",
+            "pronunciation": "/kəmˈpjuːt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "conceal",
+            "example": "She tried to conceal her disappointment.",
+            "meaning": "숨기다",
+            "translation": "그녀는 실망감을 숨기려고 노력했다.",
+            "pronunciation": "/kənˈsiːl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "concentrate",
+            "example": "I need to concentrate on my work.",
+            "meaning": "집중하다",
+            "translation": "나는 일에 집중해야 한다.",
+            "pronunciation": "/ˈkɒnsəntreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "concept",
+            "example": "The concept is interesting.",
+            "meaning": "개념",
+            "translation": "그 개념은 흥미롭다.",
+            "pronunciation": "/ˈkɒnsept/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "concern",
+            "example": "Environmental concerns are growing.",
+            "meaning": "우려",
+            "translation": "환경 우려가 증가하고 있다.",
+            "pronunciation": "/kənˈsɜːrn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "concerned",
+            "example": "Her parents were very concerned about her safety.",
+            "meaning": "염려하는, 걱정하는",
+            "translation": "그녀의 부모는 그녀의 안전에 대해 매우 걱정했다.",
+            "pronunciation": "/kənˈsɜːrnd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "conclude",
+            "example": "At that time, I concluded that I must find a new job.",
+            "meaning": "결론내리다",
+            "translation": "그 당시에 나는 새로운 일자리를 찾아야 한다는 결론을 내렸다.",
+            "pronunciation": "/kənˈkluːd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "conclusion",
+            "example": "Scientists haven't yet reached a conclusion on the causes of this illness.",
+            "meaning": "결론",
+            "translation": "과학자들은 이 질병의 원인에 대해 아직 결론을 내리지 못했다.",
+            "pronunciation": "/kənˈkluːʒn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "condemn",
+            "example": "The law has been condemned as an attack on personal liberty.",
+            "meaning": "비난하다, 나무라다",
+            "translation": "그 법은 개인의 자유에 대한 침해라고 비난받아 왔다.",
+            "pronunciation": "/kənˈdem/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "conference",
+            "example": "Representatives from over 100 countries attended the conference.",
+            "meaning": "회의, 회담",
+            "translation": "100여개 국가에서 온 대표들이 그 회의에 참석했다.",
+            "pronunciation": "/ˈkɒnfərəns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "confidence",
+            "example": "You should have more confidence in your own abilities.",
+            "meaning": "자신감",
+            "translation": "너는 너 자신의 능력에 대해 좀 더 자신감을 가져야 한다.",
+            "pronunciation": "/ˈkɒnfɪdəns/",
+            "part_of_speech": "명사"
+          }
+        ]
+      }
+    },
+    "mode": "learn"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "language": "en",
+    "module_id": "400",
+    "test_id": "401-2-I",
+    "mode": "review",
+    "content": {
+      "1": [
+        {
+          "id": "1-1",
+          "word": " Good morning, students. This is your vice principal, Ms. Morris. I want to inform you that each class period will be reduced from 50 minutes to 40 minutes next Tuesday. Due to the parent-teacher conferences that will be held on that day, school will end one hour earlier than usual. You’ll still take the same classes that you normally would on that day. The starting and ending bells will ring according to the reduced class time schedule. Once again, please keep in mind that next Tuesday’s class periods will be shortened by 10 minutes each. Thank you.",
+          "question": "다음을 듣고, 여자가 하는 말의 목적으로 가장 적절한 것을 고르시오",
+          "options": [
+            "학교 종소리 교체 계획을 알리려고",
+            "학교 수업 시간 단축을 공지하려고",
+            "등교 시간 변경을 안내하려고",
+            "학부모 상담 신청서 제출을 독려하려고",
+            "학교 행사 후 교실 정리 정돈을 당부하려고"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "1-2",
+          "word": "Man: Honey, I was thinking about asking our daughter to sign up for drama camp this winter. What do you think? Woman: Hmm. Why do you want her to participate in drama camp? Man: I think drama camp is helpful for gaining diverse perspectives. Woman: How will the camp help her with that? Man: In the camp, she’ll play different types of characters. This can help her seethings from others’ perspectives. Woman: That makes sense. Man: Also, she’ll be expected to listen to other kids while collaborating with them. Woman: Oh, that could help her broaden her views. Man: Right. So, participating in drama camp is helpful for obtaining various perspectives. Woman: Okay. Then let’s suggest it to her.",
+          "question": "대화를 듣고, 남자의 의견으로 가장 적절한 것을 고르시오",
+          "options": [
+            "드라마 캠프 참여는 다양한 시각을 갖는 데 도움이 된다.",
+            "원만한 교우 관계를 위해 친구의 말에 귀 기울여야 한다.",
+            "드라마에는 독특한 개성을 가진 등장인물이 필요하다",
+            "좋은 연기를 하려면 다른 사람과의 협력이 중요하다",
+            "드라마 캠프는 효율적인 여가 시간 활용 수단이다."
+          ],
+          "correct": 0
+        }
+      ]
+    }
+  }
+]
