@@ -265,3 +265,45 @@ img {
   background: var(--gray-300);
   cursor: not-allowed;
 }
+
+/* 기존 스타일은 모두 유지하고, 하단에 모바일 미디어 쿼리만 추가 */
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    width: 100% !important; /* 중요: 모바일에서 전체 너비 */
+    height: auto;
+    max-height: 60vh;
+    padding: 12px;
+    position: relative;
+  }
+
+  .sidebar.collapsed {
+    width: 100% !important; /* 중요: 모바일에서 전체 너비 */
+    height: 60px;
+    overflow: hidden;
+  }
+
+  .sidebar-toggle-btn {
+    right: 10px !important;
+    top: 10px !important;
+  }
+
+  .main-content {
+    min-height: calc(100vh - 60px);
+  }
+
+  /* 모바일에서 폰트 크기 조정 */
+  .content-center h1 {
+    font-size: 1.4rem;
+  }
+
+  .content-center h2 {
+    font-size: 1.1rem;
+  }
+}
