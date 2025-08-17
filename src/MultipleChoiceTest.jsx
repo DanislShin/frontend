@@ -1,26 +1,50 @@
 import React, { useState, useEffect } from "react";
+import { createClient } from "@supabase/supabase-js";
 
-function MultipleChoiceTest({ module, testId, day, onBack, session }) {
-  // session prop 추가
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
+
+function MultipleChoiceTest({
+  module,
+  testId,
+  day,
+  onBack,
+  session,
+  language,
+}) {
   const [answers, setAnswers] = useState({});
   const [results, setResults] = useState(null);
   const [questions, setQuestions] = useState([]);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    const jsonFilePath = `/data/${module}-${testId}-questions.json`;
-    fetch(jsonFilePath)
-      .then((response) => {
-        if (!response.ok) throw new Error("파일을 찾을 수 없습니다.");
-        return response.json();
-      })
-      .then((data) => {
-        setQuestions(data[day] || []);
-      })
-      .catch((error) =>
-        console.error(`데이터 로드 오류 (${jsonFilePath}):`, error)
-      );
-  }, [day, module, testId]);
+    const loadQuestions = async () => {
+      try {
+        const { data, error } = await supabase
+          .from("test_content")
+          .select("content")
+          .eq("language", language)
+          .eq("module_id", module)
+          .eq("test_id", testId)
+          .eq("mode", "review")
+          .single();
+        if (error) throw new Error(`질문 데이터 조회 실패: ${error.message}`);
+        console.log(
+          `Questions loaded for ${module}-${testId}-${day}:`,
+          data.content[day]
+        );
+        setQuestions(data.content[day] || []);
+      } catch (err) {
+        console.error(`데이터 로드 오류 (${module}-${testId}):`, err);
+        setError(err.message);
+        setQuestions([]);
+      }
+    };
+    loadQuestions();
+  }, [day, module, testId, language]);
 
   const handleAnswerChange = (qId, value) => {
     setAnswers((prev) => ({ ...prev, [qId]: value }));
@@ -56,13 +80,14 @@ function MultipleChoiceTest({ module, testId, day, onBack, session }) {
       setResults(newResults);
 
       const response = await fetch(
-        "https://backend-lurm.onrender.com/api/save-result",
+        "https://backend-lurm.onrender.com/api/save-result", // ★ 배포 시 https://bestion.netlify.app/api/save-result
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
-            user_id: session.user.email, // session 사용
+            user_id: session.user.email,
             module_code: `${testId}-${day}`,
+            language: language, // ★ language 추가
             results: newResults.map((r, index) => ({
               question_text: `${questions[index].word}: ${r.question}`,
               user_answer: r.userAnswer,
@@ -80,6 +105,7 @@ function MultipleChoiceTest({ module, testId, day, onBack, session }) {
       console.log("저장 결과:", saveResult);
     } catch (error) {
       console.error("결과 저장 중 오류:", error);
+      setError(`결과 저장 실패: ${error.message}`);
     } finally {
       setIsSubmitting(false);
     }
@@ -90,12 +116,14 @@ function MultipleChoiceTest({ module, testId, day, onBack, session }) {
       <button onClick={onBack} className="back-button">
         뒤로 가기
       </button>
-      <h1>EBS 필수 영단어 {testId} 뜻맞추기 퀴즈</h1>
+      <h1>객관식 {testId} 올바른 답 맞추기</h1>
       <h4>
-        {day}일차 - {questions.length}개 문제
+        {day ? `${day}일차` : "복습 모드"} - {questions.length}개 문제
       </h4>
 
-      {questions.length === 0 ? (
+      {error ? (
+        <p>{error}</p>
+      ) : questions.length === 0 ? (
         <p>문제를 로딩 중입니다...</p>
       ) : (
         <form onSubmit={handleSubmit}>

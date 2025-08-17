@@ -1,7 +1,19 @@
-// src/SpeechAccuracyTest.jsx
 import React, { useState, useEffect, useRef } from "react";
+import { createClient } from "@supabase/supabase-js";
 
-function SpeechAccuracyTest({ module, testId, day, onBack, session }) {
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+);
+
+function SpeechAccuracyTest({
+  module,
+  testId,
+  day,
+  onBack,
+  session,
+  language,
+}) {
   const [questions, setQuestions] = useState([]);
   const [answers, setAnswers] = useState({});
   const [results, setResults] = useState(null);
@@ -11,24 +23,34 @@ function SpeechAccuracyTest({ module, testId, day, onBack, session }) {
   const recognitionRef = useRef(null);
 
   useEffect(() => {
-    const jsonFilePath = `/data/${module}-${testId}-questions.json`;
-    fetch(jsonFilePath)
-      .then((response) => {
-        if (!response.ok) throw new Error("파일을 찾을 수 없습니다.");
-        return response.json();
-      })
-      .then((data) => {
-        setQuestions(data[day] || []);
-      })
-      .catch((error) => {
-        console.error(`데이터 로드 오류 (${jsonFilePath}):`, error);
-        setError(`질문 데이터를 불러오는데 실패했습니다: ${error.message}`);
-      });
+    const loadQuestions = async () => {
+      try {
+        const { data, error } = await supabase
+          .from("test_content")
+          .select("content")
+          .eq("language", language) // ★ language 추가
+          .eq("module_id", module)
+          .eq("test_id", testId)
+          .eq("mode", "review")
+          .single();
+        if (error) throw new Error(`질문 데이터 조회 실패: ${error.message}`);
+        console.log(
+          `Questions loaded for ${module}-${testId}-${day}:`,
+          data.content[day]
+        );
+        setQuestions(data.content[day] || []);
+      } catch (err) {
+        console.error(`데이터 로드 오류 (${module}-${testId}):`, err);
+        setError(`질문 데이터를 불러오는데 실패했습니다: ${err.message}`);
+        setQuestions([]);
+      }
+    };
+    loadQuestions();
 
     return () => {
       if (recognitionRef.current) recognitionRef.current.stop();
     };
-  }, [day, module, testId]);
+  }, [day, module, testId, language]); // ★ language 의존성 추가
 
   const testAccuracy = (questionId) => async () => {
     setError(null);
@@ -38,7 +60,7 @@ function SpeechAccuracyTest({ module, testId, day, onBack, session }) {
       const recognition = new (window.SpeechRecognition ||
         window.webkitSpeechRecognition)();
       recognitionRef.current = recognition;
-      recognition.lang = "en-US";
+      recognition.lang = language === "ja" ? "ja-JP" : "en-US"; // ★ language에 따라 변경
       recognition.interimResults = false;
       recognition.maxAlternatives = 1;
 
@@ -107,47 +129,55 @@ function SpeechAccuracyTest({ module, testId, day, onBack, session }) {
       return;
     }
 
-    const newResults = questions.map((q) => {
-      const userAnswer = answers[q.id] || "";
-      const cleanUserAnswer = cleanText(userAnswer);
-      const cleanCorrectText = cleanText(q.correct_text);
-      const distance = levenshteinDistance(
-        cleanUserAnswer.toLowerCase(),
-        cleanCorrectText.toLowerCase()
-      );
-      const maxLength = Math.max(
-        cleanUserAnswer.length,
-        cleanCorrectText.length
-      );
-      const score =
-        maxLength > 0 ? Math.max(0, 100 - (distance / maxLength) * 100) : 0;
-      return {
-        question_text: q.question_text,
-        user_answer: userAnswer,
-        score: score,
-      };
-    });
-    setResults(newResults);
-
     try {
+      const newResults = questions.map((q) => {
+        const userAnswer = answers[q.id] || "";
+        const cleanUserAnswer = cleanText(userAnswer);
+        const cleanCorrectText = cleanText(q.correct_text);
+        const distance = levenshteinDistance(
+          cleanUserAnswer.toLowerCase(),
+          cleanCorrectText.toLowerCase()
+        );
+        const maxLength = Math.max(
+          cleanUserAnswer.length,
+          cleanCorrectText.length
+        );
+        const score =
+          maxLength > 0 ? Math.max(0, 100 - (distance / maxLength) * 100) : 0;
+        return {
+          question_text: q.question_text,
+          user_answer: userAnswer,
+          score: score,
+        };
+      });
+      setResults(newResults);
+
       const response = await fetch(
-        "https://backend-lurm.onrender.com/api/save-result",
+        "https://backend-lurm.onrender.com/api/save-result", // ★ 배포 시 https://bestion.netlify.app/api/save-result
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             user_id: session.user.email,
             module_code: `${testId}-${day}`,
-            results: newResults,
+            language, // ★ language 추가
+            results: newResults.map((r) => ({
+              question_text: r.question_text,
+              user_answer: r.user_answer,
+              score: r.score,
+            })),
           }),
         }
       );
-      if (!response.ok)
-        throw new Error("서버 응답 오류: " + response.statusText);
-      const data = await response.json();
-      console.log("Supabase 저장 성공:", data);
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+
+      const saveResult = await response.json();
+      console.log("저장 결과:", saveResult);
     } catch (error) {
-      console.error("Supabase 저장 실패:", error);
+      console.error("결과 저장 중 오류:", error);
       setError(`결과 저장 실패: ${error.message}`);
     }
   };
