@@ -1,0 +1,701 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "202",
+    "mode": "learn",
+    "content": {
+      "title": "영어 수동태 시제 학습",
+      "topics": [
+        {
+          "subtitle": "단순 현재",
+          "explanation": "현재 시점에서 정기적으로 또는 일반적으로 발생하는 행동을 표현할 때 사용 (Form: is/are + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "방은 매일 청소돼요.",
+              "english": "The room is cleaned every day."
+            },
+            {
+              "type": "부정문",
+              "korean": "방은 매일 청소되지 않아요.",
+              "english": "The room isn't cleaned every day."
+            },
+            {
+              "type": "의문문",
+              "korean": "방이 매일 청소돼?",
+              "english": "Is the room cleaned every day?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "방이 매일 청소되지 않아?",
+              "english": "Isn't the room cleaned every day?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "책은 도서관에서 학생들에 의해 읽혀요.",
+              "english": "Books are read by students in the library."
+            },
+            {
+              "type": "부정문",
+              "korean": "책은 도서관에서 학생들에 의해 읽히지 않아요.",
+              "english": "Books aren't read by students in the library."
+            },
+            {
+              "type": "의문문",
+              "korean": "책이 도서관에서 학생들에 의해 읽혀?",
+              "english": "Are books read by students in the library?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "책이 도서관에서 학생들에 의해 읽히지 않아?",
+              "english": "Aren't books read by students in the library?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "커피는 아침에 많은 사람들에 의해 마셔져요.",
+              "english": "Coffee is drunk by many people in the morning."
+            },
+            {
+              "type": "부정문",
+              "korean": "커피는 아침에 많은 사람들에 의해 마셔지지 않아요.",
+              "english": "Coffee isn't drunk by many people in the morning."
+            },
+            {
+              "type": "의문문",
+              "korean": "커피가 아침에 많은 사람들에 의해 마셔져?",
+              "english": "Is coffee drunk by many people in the morning?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "커피가 아침에 많은 사람들에 의해 마셔지지 않아?",
+              "english": "Isn't coffee drunk by many people in the morning?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "차는 매주 주말에 세차돼요.",
+              "english": "The car is washed every weekend."
+            },
+            {
+              "type": "부정문",
+              "korean": "차는 매주 주말에 세차되지 않아요.",
+              "english": "The car isn't washed every weekend."
+            },
+            {
+              "type": "의문문",
+              "korean": "차가 매주 주말에 세차돼?",
+              "english": "Is the car washed every weekend?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "차가 매주 주말에 세차되지 않아?",
+              "english": "Isn't the car washed every weekend?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 과거",
+          "explanation": "과거에 특정 시점에 완료된 행동을 표현할 때 사용 (Form: was/were + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "방은 어제 청소됐어요.",
+              "english": "The room was cleaned yesterday."
+            },
+            {
+              "type": "부정문",
+              "korean": "방은 어제 청소되지 않았어요.",
+              "english": "The room wasn't cleaned yesterday."
+            },
+            {
+              "type": "의문문",
+              "korean": "방이 어제 청소됐어?",
+              "english": "Was the room cleaned yesterday?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "방이 어제 청소되지 않았어?",
+              "english": "Wasn't the room cleaned yesterday?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "숙제는 어젯밤 아이들에 의해 완료됐어요.",
+              "english": "The homework was done by the kids last night."
+            },
+            {
+              "type": "부정문",
+              "korean": "숙제는 어젯밤 아이들에 의해 완료되지 않았어요.",
+              "english": "The homework wasn't done by the kids last night."
+            },
+            {
+              "type": "의문문",
+              "korean": "숙제가 어젯밤 아이들에 의해 완료됐어?",
+              "english": "Was the homework done by the kids last night?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "숙제가 어젯밤 아이들에 의해 완료되지 않았어?",
+              "english": "Wasn't the homework done by the kids last night?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "케이크는 엄마에 의해 구워졌어요.",
+              "english": "The cake was baked by my mom."
+            },
+            {
+              "type": "부정문",
+              "korean": "케이크는 엄마에 의해 구워지지 않았어요.",
+              "english": "The cake wasn't baked by my mom."
+            },
+            {
+              "type": "의문문",
+              "korean": "케이크가 엄마에 의해 구워졌어?",
+              "english": "Was the cake baked by my mom?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "케이크가 엄마에 의해 구워지지 않았어?",
+              "english": "Wasn't the cake baked by my mom?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "영화는 지난 주말에 우리에 의해 시청됐어요.",
+              "english": "The movie was watched by us last weekend."
+            },
+            {
+              "type": "부정문",
+              "korean": "영화는 지난 주말에 우리에 의해 시청되지 않았어요.",
+              "english": "The movie wasn't watched by us last weekend."
+            },
+            {
+              "type": "의문문",
+              "korean": "영화가 지난 주말에 우리에 의해 시청됐어?",
+              "english": "Was the movie watched by us last weekend?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "영화가 지난 주말에 우리에 의해 시청되지 않았어?",
+              "english": "Wasn't the movie watched by us last weekend?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 미래",
+          "explanation": "미래에 발생할 행동을 표현할 때 사용 (Form: will be + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "방은 내일 청소될 거예요.",
+              "english": "The room will be cleaned tomorrow."
+            },
+            {
+              "type": "부정문",
+              "korean": "방은 내일 청소되지 않을 거예요.",
+              "english": "The room won't be cleaned tomorrow."
+            },
+            {
+              "type": "의문문",
+              "korean": "방이 내일 청소될 거야?",
+              "english": "Will the room be cleaned tomorrow?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "방이 내일 청소되지 않을 거야?",
+              "english": "Won't the room be cleaned tomorrow?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "프로젝트는 팀에 의해 완료될 거예요.",
+              "english": "The project will be finished by the team."
+            },
+            {
+              "type": "부정문",
+              "korean": "프로젝트는 팀에 의해 완료되지 않을 거예요.",
+              "english": "The project won't be finished by the team."
+            },
+            {
+              "type": "의문문",
+              "korean": "프로젝트가 팀에 의해 완료될 거야?",
+              "english": "Will the project be finished by the team?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "프로젝트가 팀에 의해 완료되지 않을 거야?",
+              "english": "Won't the project be finished by the team?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "설거지는 저녁 식사 후에 될 거예요.",
+              "english": "The dishes will be washed after dinner."
+            },
+            {
+              "type": "부정문",
+              "korean": "설거지는 저녁 식사 후에 되지 않을 거예요.",
+              "english": "The dishes won't be washed after dinner."
+            },
+            {
+              "type": "의문문",
+              "korean": "설거지가 저녁 식사 후에 될 거야?",
+              "english": "Will the dishes be washed after dinner?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "설거지가 저녁 식사 후에 되지 않을 거야?",
+              "english": "Won't the dishes be washed after dinner?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "이메일은 나중에 나에 의해 보내질 거예요.",
+              "english": "The email will be sent by me later."
+            },
+            {
+              "type": "부정문",
+              "korean": "이메일은 나중에 나에 의해 보내지지 않을 거예요.",
+              "english": "The email won't be sent by me later."
+            },
+            {
+              "type": "의문문",
+              "korean": "이메일이 나중에 나에 의해 보내질 거야?",
+              "english": "Will the email be sent by me later?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "이메일이 나중에 나에 의해 보내지지 않을 거야?",
+              "english": "Won't the email be sent by me later?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 진행",
+          "explanation": "현재 진행 중인 행동을 표현할 때 사용 (Form: is/are being + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "방은 지금 청소되고 있어요.",
+              "english": "The room is being cleaned right now."
+            },
+            {
+              "type": "부정문",
+              "korean": "방은 지금 청소되고 있지 않아요.",
+              "english": "The room isn't being cleaned right now."
+            },
+            {
+              "type": "의문문",
+              "korean": "방이 지금 청소되고 있어?",
+              "english": "Is the room being cleaned right now?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "방이 지금 청소되고 있지 않아?",
+              "english": "Isn't the room being cleaned right now?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "집은 이번 주에 페인트칠되고 있어요.",
+              "english": "The house is being painted this week."
+            },
+            {
+              "type": "부정문",
+              "korean": "집은 이번 주에 페인트칠되고 있지 않아요.",
+              "english": "The house isn't being painted this week."
+            },
+            {
+              "type": "의문문",
+              "korean": "집이 이번 주에 페인트칠되고 있어?",
+              "english": "Is the house being painted this week?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "집이 이번 주에 페인트칠되고 있지 않아?",
+              "english": "Isn't the house being painted this week?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "음식은 지금 아빠에 의해 요리되고 있어요.",
+              "english": "The food is being cooked by my dad."
+            },
+            {
+              "type": "부정문",
+              "korean": "음식은 지금 아빠에 의해 요리되고 있지 않아요.",
+              "english": "The food isn't being cooked by my dad."
+            },
+            {
+              "type": "의문문",
+              "korean": "음식이 지금 아빠에 의해 요리되고 있어?",
+              "english": "Is the food being cooked by my dad?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "음식이 지금 아빠에 의해 요리되고 있지 않아?",
+              "english": "Isn't the food being cooked by my dad?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "보고서는 지금 팀에 의해 작성되고 있어요.",
+              "english": "The report is being written by the team."
+            },
+            {
+              "type": "부정문",
+              "korean": "보고서는 지금 팀에 의해 작성되고 있지 않아요.",
+              "english": "The report isn't being written by the team."
+            },
+            {
+              "type": "의문문",
+              "korean": "보고서가 지금 팀에 의해 작성되고 있어?",
+              "english": "Is the report being written by the team?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "보고서가 지금 팀에 의해 작성되고 있지 않아?",
+              "english": "Isn't the report being written by the team?"
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 진행",
+          "explanation": "과거 특정 시점에 진행 중이던 행동을 표현할 때 사용 (Form: was/were being + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "내가 도착했을 때 방이 청소되고 있었어요.",
+              "english": "The room was being cleaned when I arrived."
+            },
+            {
+              "type": "부정문",
+              "korean": "내가 도착했을 때 방이 청소되고 있지 않았어요.",
+              "english": "The room wasn't being cleaned when I arrived."
+            },
+            {
+              "type": "의문문",
+              "korean": "내가 도착했을 때 방이 청소되고 있었어?",
+              "english": "Was the room being cleaned when I arrived?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "내가 도착했을 때 방이 청소되고 있지 않았어?",
+              "english": "Wasn't the room being cleaned when I arrived?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "차는 하루 종일 수리되고 있었어요.",
+              "english": "The car was being repaired all day."
+            },
+            {
+              "type": "부정문",
+              "korean": "차는 하루 종일 수리되고 있지 않았어요.",
+              "english": "The car wasn't being repaired all day."
+            },
+            {
+              "type": "의문문",
+              "korean": "차가 하루 종일 수리되고 있었어?",
+              "english": "Was the car being repaired all day?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "차가 하루 종일 수리되고 있지 않았어?",
+              "english": "Wasn't the car being repaired all day?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "그때 합창단에 의해 노래가 불리고 있었어요.",
+              "english": "The song was being sung by the choir then."
+            },
+            {
+              "type": "부정문",
+              "korean": "그때 합창단에 의해 노래가 불리고 있지 않았어요.",
+              "english": "The song wasn't being sung by the choir then."
+            },
+            {
+              "type": "의문문",
+              "korean": "그때 합창단에 의해 노래가 불리고 있었어?",
+              "english": "Was the song being sung by the choir then?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그때 합창단에 의해 노래가 불리고 있지 않았어?",
+              "english": "Wasn't the song being sung by the choir then?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "그때 설거지가 되고 있었어요.",
+              "english": "The dishes were being washed at that time."
+            },
+            {
+              "type": "부정문",
+              "korean": "그때 설거지가 되고 있지 않았어요.",
+              "english": "The dishes weren't being washed at that time."
+            },
+            {
+              "type": "의문문",
+              "korean": "그때 설거지가 되고 있었어?",
+              "english": "Were the dishes being washed at that time?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그때 설거지가 되고 있지 않았어?",
+              "english": "Weren't the dishes being washed at that time?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 완료",
+          "explanation": "과거부터 현재까지 완료된 행동을 표현할 때 사용 (Form: have/has been + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "방은 방금 청소됐어요.",
+              "english": "The room has just been cleaned."
+            },
+            {
+              "type": "부정문",
+              "korean": "방은 방금 청소되지 않았어요.",
+              "english": "The room hasn't just been cleaned."
+            },
+            {
+              "type": "의문문",
+              "korean": "방이 방금 청소됐어?",
+              "english": "Has the room just been cleaned?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "방이 방금 청소되지 않았어?",
+              "english": "Hasn't the room just been cleaned?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "그 책은 많은 사람들에 의해 읽혔어요.",
+              "english": "The book has been read by many people."
+            },
+            {
+              "type": "부정문",
+              "korean": "그 책은 많은 사람들에 의해 읽히지 않았어요.",
+              "english": "The book hasn't been read by many people."
+            },
+            {
+              "type": "의문문",
+              "korean": "그 책이 많은 사람들에 의해 읽혔어?",
+              "english": "Has the book been read by many people?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그 책이 많은 사람들에 의해 읽히지 않았어?",
+              "english": "Hasn't the book been read by many people?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "바닥은 오늘 아침에 닦였어요.",
+              "english": "The floor has been mopped this morning."
+            },
+            {
+              "type": "부정문",
+              "korean": "바닥은 오늘 아침에 닦이지 않았어요.",
+              "english": "The floor hasn't been mopped this morning."
+            },
+            {
+              "type": "의문문",
+              "korean": "바닥이 오늘 아침에 닦였어?",
+              "english": "Has the floor been mopped this morning?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "바닥이 오늘 아침에 닦이지 않았어?",
+              "english": "Hasn't the floor been mopped this morning?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "편지는 친구에 의해 보내졌어요.",
+              "english": "The letter has been sent by my friend."
+            },
+            {
+              "type": "부정문",
+              "korean": "편지는 친구에 의해 보내지지 않았어요.",
+              "english": "The letter hasn't been sent by my friend."
+            },
+            {
+              "type": "의문문",
+              "korean": "편지가 친구에 의해 보내졌어?",
+              "english": "Has the letter been sent by my friend?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "편지가 친구에 의해 보내지지 않았어?",
+              "english": "Hasn't the letter been sent by my friend?"
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 완료",
+          "explanation": "과거 특정 시점 이전에 완료된 행동을 표현할 때 사용 (Form: had been + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "파티 전에 방이 청소돼 있었어요.",
+              "english": "The room had been cleaned before the party."
+            },
+            {
+              "type": "부정문",
+              "korean": "파티 전에 방이 청소돼 있지 않았어요.",
+              "english": "The room hadn't been cleaned before the party."
+            },
+            {
+              "type": "의문문",
+              "korean": "파티 전에 방이 청소돼 있었어?",
+              "english": "Had the room been cleaned before the party?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "파티 전에 방이 청소돼 있지 않았어?",
+              "english": "Hadn't the room been cleaned before the party?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "아이들이 숙제를 끝내 놓았었어요.",
+              "english": "The homework had been finished by the kids."
+            },
+            {
+              "type": "부정문",
+              "korean": "아이들이 숙제를 끝내 놓지 않았었어요.",
+              "english": "The homework hadn't been finished by the kids."
+            },
+            {
+              "type": "의문문",
+              "korean": "아이들이 숙제를 끝내 놓았었어?",
+              "english": "Had the homework been finished by the kids?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "아이들이 숙제를 끝내 놓지 않았었어?",
+              "english": "Hadn't the homework been finished by the kids?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "우리가 도착하기 전에 케이크가 먹혀 있었어요.",
+              "english": "The cake had been eaten before we arrived."
+            },
+            {
+              "type": "부정문",
+              "korean": "우리가 도착하기 전에 케이크가 먹혀 있지 않았어요.",
+              "english": "The cake hadn't been eaten before we arrived."
+            },
+            {
+              "type": "의문문",
+              "korean": "우리가 도착하기 전에 케이크가 먹혀 있었어?",
+              "english": "Had the cake been eaten before we arrived?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "우리가 도착하기 전에 케이크가 먹혀 있지 않았어?",
+              "english": "Hadn't the cake been eaten before we arrived?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "여행 전에 차가 고쳐져 있었어요.",
+              "english": "The car had been fixed before the trip."
+            },
+            {
+              "type": "부정문",
+              "korean": "여행 전에 차가 고쳐져 있지 않았어요.",
+              "english": "The car hadn't been fixed before the trip."
+            },
+            {
+              "type": "의문문",
+              "korean": "여행 전에 차가 고쳐져 있었어?",
+              "english": "Had the car been fixed before the trip?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "여행 전에 차가 고쳐져 있지 않았어?",
+              "english": "Hadn't the car been fixed before the trip?"
+            }
+          ]
+        },
+        {
+          "subtitle": "미래 완료",
+          "explanation": "미래 특정 시점까지 완료될 행동을 표현할 때 사용 (Form: will have been + past participle)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "내일까지 방이 청소돼 있을 거예요.",
+              "english": "The room will have been cleaned by tomorrow."
+            },
+            {
+              "type": "부정문",
+              "korean": "내일까지 방이 청소돼 있지 않을 거예요.",
+              "english": "The room won't have been cleaned by tomorrow."
+            },
+            {
+              "type": "의문문",
+              "korean": "내일까지 방이 청소돼 있을 거야?",
+              "english": "Will the room have been cleaned by tomorrow?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "내일까지 방이 청소돼 있지 않을 거야?",
+              "english": "Won't the room have been cleaned by tomorrow?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "다음 주까지 프로젝트가 팀에 의해 완료돼 있을 거예요.",
+              "english": "The project will have been finished by the team by next week."
+            },
+            {
+              "type": "부정문",
+              "korean": "다음 주까지 프로젝트가 팀에 의해 완료돼 있지 않을 거예요.",
+              "english": "The project won't have been finished by the team by next week."
+            },
+            {
+              "type": "의문문",
+              "korean": "다음 주까지 프로젝트가 팀에 의해 완료돼 있을 거야?",
+              "english": "Will the project have been finished by the team by next week?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "다음 주까지 프로젝트가 팀에 의해 완료돼 있지 않을 거야?",
+              "english": "Won't the project have been finished by the team by next week?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "오늘 밤까지 설거지가 돼 있을 거예요.",
+              "english": "The dishes will have been washed by tonight."
+            },
+            {
+              "type": "부정문",
+              "korean": "오늘 밤까지 설거지가 돼 있지 않을 거예요.",
+              "english": "The dishes won't have been washed by tonight."
+            },
+            {
+              "type": "의문문",
+              "korean": "오늘 밤까지 설거지가 돼 있을 거야?",
+              "english": "Will the dishes have been washed by tonight?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "오늘 밤까지 설거지가 돼 있지 않을 거야?",
+              "english": "Won't the dishes have been washed by tonight?"
+            },
+            {
+              "type": "긍정문",
+              "korean": "정오까지 이메일이 보내져 있을 거예요.",
+              "english": "The email will have been sent by noon."
+            },
+            {
+              "type": "부정문",
+              "korean": "정오까지 이메일이 보내져 있지 않을 거예요.",
+              "english": "The email won't have been sent by noon."
+            },
+            {
+              "type": "의문문",
+              "korean": "정오까지 이메일이 보내져 있을 거야?",
+              "english": "Will the email have been sent by noon?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "정오까지 이메일이 보내져 있지 않을 거야?",
+              "english": "Won't the email have been sent by noon?"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

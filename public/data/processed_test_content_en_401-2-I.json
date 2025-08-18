@@ -31,6 +31,32 @@
             "드라마 캠프는 효율적인 여가 시간 활용 수단이다."
           ],
           "correct": 0
+        },
+        {
+          "id": "1-3",
+          "word": " Hello, viewers! I’m Kate and welcome back to my channel, Art Pier 25. Have you ever felt like you couldn’t understand the artwork in a museum? If so, here’s a simple tip for understanding artists’ work better. Knowing about the artists can deepen your appreciation of their work. Art is often a reflection of their feelings and thoughts. Therefore, by exploring their lives and experiences, you can see what influenced their work. So, the next time you go to an art museum, why not explore the artists’ backgrounds first? Once you know about the artists, you’ll be able to have a better understanding of their work. I hope this helps.",
+          "question": "다음을 듣고, 여자가 하는 말의 요지로 가장 적절한 것을 고르시오.",
+          "options": [
+            "예술 작품은 보는 사람에 따라 다양한 해석이 가능하다.",
+            "정기적인 미술관 방문은 작품 감상 능력을 높여 준다.",
+            "예술 작품을 전시할 때 조명 효과를 고려해야 한다.",
+            "지역 사회는 예술가에 대한 지원을 확대해야 한다.",
+            "예술가에 관해 알면 작품을 더 잘 이해할 수 있다."
+          ],
+          "correct": 4
+        },
+        {
+          "id": "1-4",
+          "word": " Hi, Sarah. What are you doing? I’m looking at a picture that I took last weekend. Do you want to take a look? Sure. I see a flea market sign hanging from the tree. I was selling some of my old stuff at the flea market. Oh, I like the crown-shaped balloon the girl is holding. She’s my daughter. Hey, do you remember that stripe-patterned tent? Of course. That’s the one I gave you. Oh, there are three vases on the table. Unfortunately, I wasn’t able to sell them. I guess people weren’t interested in them. Yeah. People were more interested in the speaker on the chair even though it wasn’t for sale. I turned on music to attract customers. I see. Looks like you had a busy weekend.",
+          "question": "대화를 듣고, 그림에서 대화의 내용과 일치하지 않는 것을 고르시오.",
+          "options": [
+            "그림참조.",
+            "그림참조.",
+            "그림참조.",
+            "그림참조.",
+            "그림참조."
+          ],
+          "correct": 2
         }
       ]
     }

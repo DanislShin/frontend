@@ -5,116 +5,153 @@
     "test_id": "401",
     "mode": "learn",
     "content": {
-      "1": [
+      "title": "비디오 게임과 학습",
+      "paragraphs": [
         {
-          "word": "abandon",
-          "meaning": "버리다, 단념하다",
-          "example": "They abandoned the car and ran away."
+          "korean": "우리는 거의 보편적으로 비디오 게임을 학생의 학습에서 기껏해야 즐거운 휴식으로 받아들이며, 더 자주 학생이 목표를 달성하지 못하게 막는 것으로 여긴다.",
+          "english": "We almost universally accept that playing video games is at best a pleasant break from a student’s learning and more often what prevents a student from accomplishing their goals.",
+          "pronunciation": "/wi ˈɔːlmoʊst ˌjuːnɪˈvɜːrsəli əkˈsɛpt ðæt ˈpleɪɪŋ ˈvɪdioʊ ɡeɪmz ɪz æt bɛst ə ˈplɛznt breɪk frəm ə ˈstuːdntz ˈlɜːrnɪŋ ænd mɔːr ˈɔːfn wʌt prɪˈvɛnts ə ˈstuːdnt frəm əˈkɑːmplɪʃɪŋ ðɛr ɡoʊlz/"
         },
         {
-          "word": "abolish",
-          "meaning": "폐지하다",
-          "example": "He is in favor of abolishing the death penalty."
+          "korean": "게임은 몇 가지 것만이 할 수 있는 방식으로 주의를 끌고 유지한다.",
+          "english": "Games catch and hold attention in a way that few things can.",
+          "pronunciation": "/ɡeɪmz kætʃ ænd hoʊld əˈtɛnʃn ɪn ə weɪ ðæt fjuː θɪŋz kæn/"
         },
         {
-          "word": "abroad",
-          "meaning": "해외에서, 외국에서",
-          "example": "He hopes to work abroad next year."
+          "korean": "그러나 일단 게임이 우리의 주의를 사로잡으면, 학생들이 게임 밖에서의 삶에서 성장하는 데 의미 있는 것을 거의 제공하지 않는 것처럼 보인다.",
+          "english": "And yet once they have our focus, they rarely seem to offer anything meaningful to help students grow in their lives outside the games.",
+          "pronunciation": "/ænd jɛt wʌns ðeɪ hæv aʊr ˈfoʊkəs, ðeɪ ˈrɛərli siːm tə ˈɔːfər ˈɛniˌθɪŋ ˈmiːnɪŋfəl tə hɛlp ˈstuːdnts ɡroʊ ɪn ðɛr laɪvz aʊtˈsaɪd ðə ɡeɪmz/"
         },
         {
-          "word": "abruptly",
-          "meaning": "갑작스럽게",
-          "example": "The land dropped off abruptly."
+          "korean": "이것이 많은 게임에 대해 사실일 수 있지만, 우리는 생산성을 저해하는 대신 향상시킬 수 있는 가치 있는 도구를 너무 쉽게 무시하고 있다.",
+          "english": "While this may be true for many games, we are too easily ignoring a valuable tool that could be used to enhance productivity instead of derailing it.",
+          "pronunciation": "/waɪl ðɪs meɪ bi truː fər ˈmɛni ɡeɪmz, wi ɑːr tuː ˈiːzɪli ɪɡˈnɔːrɪŋ ə ˈvæljuəbl tuːl ðæt kʊd bi juːzd tə ɪnˈhæns prəˌdʌkˈtɪvɪti ɪnˈstɛd əv dɪˈreɪlɪŋ ɪt/"
         },
         {
-          "word": "absence",
-          "meaning": "결석, 결근, 부재",
-          "example": "Mark will be in charge in my absence."
+          "korean": "오히려 우리가 학생들에게 원하는 학습 성과와 연결되는 게임을 개발하는 것이 바람직하다.",
+          "english": "Rather, it is desirable that we develop games that connect to the learning outcomes we want for our students.",
+          "pronunciation": "/ˈræðər, ɪt ɪz dɪˈzaɪrəbl ðæt wi dɪˈvɛləp ɡeɪmz ðæt kəˈnɛkt tə ðə ˈlɜːrnɪŋ ˈaʊtˌkʌmz wi wɑːnt fər aʊr ˈstuːdnts/"
         },
         {
-          "word": "absolutely",
-          "meaning": "절대적으로, 전혀",
-          "example": "He has absolutely no experience in this field."
-        },
+          "korean": "이것은 교육자들이 게임의 주의를 사로잡는 능력을 활용할 수 있게 하고, 학생들이 학습하면서 게임을 즐길 수 있게 할 것이다.",
+          "english": "This will enable educators to take advantage of games’ attention commanding capacities and allow our students to enjoy their games while learning.",
+          "pronunciation": "/ðɪs wɪl ɪˈneɪbl ˈɛdʒəˌkeɪtərz tə teɪk ədˈvæntɪdʒ əv ɡeɪmz əˈtɛnʃn kəˈmændɪŋ kəˈpæsɪtiz ænd əˈlaʊ aʊr ˈstuːdnts tə ɪnˈdʒɔɪ ðɛr ɡeɪmz waɪl ˈlɜːrnɪŋ/"
+        }
+      ],
+      "vocabulary": [
         {
-          "word": "absorb",
-          "meaning": "흡수하다",
-          "example": "Plant roots absorb moisture."
-        },
-        {
-          "word": "abstract",
-          "meaning": "추상적인",
-          "example": "Human beings are capable of abstract thought."
-        },
-        {
-          "word": "abundant",
-          "meaning": "풍부한",
-          "example": "Rainfall is abundant in the region."
-        },
-        {
-          "word": "abuse",
-          "meaning": "학대, 남용",
-          "example": "The boy was a victim of abuse."
-        },
-        {
-          "word": "accelerate",
-          "meaning": "가속하다",
-          "example": "The car accelerated to a speed of 80 miles per hour."
-        },
-        {
-          "word": "accept",
-          "meaning": "받아들이다, 수용하다",
-          "example": "They offered me a job and I accepted it."
-        },
-        {
-          "word": "access",
-          "meaning": "접속, 입장",
-          "example": "We have Internet access at the library."
-        },
-        {
-          "word": "accidentally",
-          "meaning": "우연히, 실수로",
-          "example": "They believe that the fire was started accidentally."
-        },
-        {
-          "word": "accommodate",
-          "meaning": "수용하다",
-          "example": "The hotel can only accommodate about 100 people."
-        },
-        {
-          "word": "accompany",
-          "meaning": "동행하다",
-          "example": "I want you to accompany her."
+          "word": "universally",
+          "example": "The theory is universally accepted by scientists.",
+          "meaning": "보편적으로",
+          "pronunciation": "/ˌjuːnɪˈvɜːrsəli/",
+          "exampleTranslation": "그 이론은 과학자들에 의해 보편적으로 받아들여진다."
         },
         {
           "word": "accomplish",
+          "example": "She worked hard to accomplish her goals.",
           "meaning": "달성하다",
-          "example": "We have accomplished much in a short period of time."
+          "pronunciation": "/əˈkɑːmplɪʃ/",
+          "exampleTranslation": "그녀는 목표를 달성하기 위해 열심히 일했다."
         },
         {
-          "word": "according to",
-          "meaning": "~에 따르면",
-          "example": "According to the law, we had to pay a small fine."
+          "word": "attention",
+          "example": "The teacher tried to get the students’ attention.",
+          "meaning": "주의, 집중",
+          "pronunciation": "/əˈtɛnʃn/",
+          "exampleTranslation": "교사는 학생들의 주의를 끌려고 했다."
         },
         {
-          "word": "accordingly",
-          "meaning": "따라서",
-          "example": "No complaint was made. Accordingly, they took no action."
+          "word": "meaningful",
+          "example": "The book provided meaningful insights into life.",
+          "meaning": "의미 있는",
+          "pronunciation": "/ˈmiːnɪŋfəl/",
+          "exampleTranslation": "그 책은 삶에 대한 의미 있는 통찰을 제공했다."
         },
         {
-          "word": "account for",
-          "meaning": "~를 차지하다, 설명하다",
-          "example": "African-Americans account for about 13% of the US population."
+          "word": "enhance",
+          "example": "Good lighting can enhance the beauty of a room.",
+          "meaning": "향상시키다",
+          "pronunciation": "/ɪnˈhæns/",
+          "exampleTranslation": "좋은 조명은 방의 아름다움을 향상시킬 수 있다."
         },
         {
-          "word": "account",
-          "meaning": "설명, 이야기, 계좌",
-          "example": "He gave a brief account of what had happened."
+          "word": "derail",
+          "example": "Unexpected problems can derail a project.",
+          "meaning": "탈선시키다, 방해하다",
+          "pronunciation": "/dɪˈreɪl/",
+          "exampleTranslation": "예상치 못한 문제들은 프로젝트를 방해할 수 있다."
         },
         {
-          "word": "accountable",
-          "meaning": "책임이 있는",
-          "example": "Managers must be accountable for their decisions."
+          "word": "desirable",
+          "example": "A peaceful environment is desirable for studying.",
+          "meaning": "바람직한",
+          "pronunciation": "/dɪˈzaɪrəbl/",
+          "exampleTranslation": "평화로운 환경은 공부에 바람직하다."
+        },
+        {
+          "word": "outcome",
+          "example": "The outcome of the experiment was successful.",
+          "meaning": "결과",
+          "pronunciation": "/ˈaʊtˌkʌm/",
+          "exampleTranslation": "실험의 결과는 성공적이었다."
+        }
+      ],
+      "grammarPoints": [
+        {
+          "title": "명사절을 이끄는 That (Noun Clause with That)",
+          "examples": [
+            {
+              "korean": "우리는 비디오 게임이 학생의 학습에서 기껏해야 즐거운 휴식이라고 받아들인다.",
+              "english": "We accept that playing video games is at best a pleasant break from a student’s learning."
+            },
+            {
+              "korean": "그들은 그가 시험에 합격할 것이라고 믿는다.",
+              "english": "They believe that he will pass the exam."
+            }
+          ],
+          "explanation": "‘That’은 명사절을 이끌며 주어나 목적어로 사용된다. 문장 1에서 ‘that playing video games is at best a pleasant break’는 동사 ‘accept’의 목적어로 쓰이는 명사절이다. 한국어로는 ‘~라고’로 번역되며, 문맥에 따라 생략 가능."
+        },
+        {
+          "title": "관계대명사 What (Relative Pronoun What)",
+          "examples": [
+            {
+              "korean": "비디오 게임은 학생이 목표를 달성하지 못하게 막는 것이다.",
+              "english": "Playing video games is what prevents a student from accomplishing their goals."
+            },
+            {
+              "korean": "그가 원하는 것은 더 많은 자유 시간이다.",
+              "english": "What he wants is more free time."
+            }
+          ],
+          "explanation": "‘What’은 ‘~하는 것’을 의미하며, 명사절이나 관계대명사로 사용된다. 문장 1에서 ‘what prevents a student’는 ‘학생을 방해하는 것’을 나타내며, 주어가 되는 명사절 역할을 한다."
+        },
+        {
+          "title": "가정법 (Subjunctive Mood with It is desirable that)",
+          "examples": [
+            {
+              "korean": "우리가 학생들에게 원하는 학습 성과와 연결되는 게임을 개발하는 것이 바람직하다.",
+              "english": "It is desirable that we develop games that connect to the learning outcomes we want for our students."
+            },
+            {
+              "korean": "그가 즉시 떠나는 것이 중요하다.",
+              "english": "It is important that he leave immediately."
+            }
+          ],
+          "explanation": "‘It is desirable that’ 구조는 가정법으로, 제안이나 바람을 나타낼 때 사용된다. ‘That’ 절의 동사는 원형동사를 사용하며, 한국어로는 ‘~하는 것이 바람직하다’로 번역된다. 문장 5에서 ‘we develop’은 가정법 동사로, 권장 사항을 강조."
+        },
+        {
+          "title": "분사구문 (Participial Construction)",
+          "examples": [
+            {
+              "korean": "그들의 주의를 사로잡은 후, 게임은 의미 있는 것을 제공하지 않는다.",
+              "english": "Having caught their attention, games rarely offer anything meaningful."
+            },
+            {
+              "korean": "공부를 마친 후, 그는 게임을 했다.",
+              "english": "Having finished studying, he played games."
+            }
+          ],
+          "explanation": "분사구문은 부수적인 상황을 설명하며, 주절과 연결된다. 문장 3에서 ‘once they have our focus’는 시간 조건을 나타내며, 분사구문으로 변환하면 ‘having caught our focus’로 표현 가능. 학생들이 문맥 이해에 어려움을 겪을 수 있음."
         }
       ]
     }

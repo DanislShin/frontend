@@ -5,9 +5,11 @@
     "test_id": "201",
     "mode": "learn",
     "content": {
-      "title": "Simple Present Tense",
+      "title": "영어 능동태 시제 학습",
       "topics": [
         {
+          "subtitle": "단순 현재: 현재 상태",
+          "explanation": "소유, 감정, 생각, 존재를 표현할 때 사용",
           "examples": [
             {
               "type": "긍정문",
@@ -18,10 +20,486 @@
               "type": "부정문",
               "korean": "나는 차를 가지고 있지 않아요.",
               "english": "I don't have a car."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 차 가지고 있어?",
+              "english": "Do you have a car?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 차 안 가지고 있어?",
+              "english": "Don't you have a car?"
             }
-          ],
-          "subtitle": "용법 1: 현재 상태",
-          "explanation": "소유, 감정, 생각, 존재 표현"
+          ]
+        },
+        {
+          "subtitle": "단순 현재: 습관/일상",
+          "explanation": "반복되는 행동이나 일상을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 매일 학교에 가요.",
+              "english": "He goes to school every day."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 매일 학교에 가지 않아요.",
+              "english": "He doesn't go to school every day."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 매일 학교에 가?",
+              "english": "Does he go to school every day?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 매일 학교에 안 가?",
+              "english": "Doesn't he go to school every day?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 현재: 일반적 사실",
+          "explanation": "변하지 않는 사실이나 진리를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "해는 동쪽에서 떠요.",
+              "english": "The sun rises in the east."
+            },
+            {
+              "type": "부정문",
+              "korean": "해는 서쪽에서 뜨지 않아요.",
+              "english": "The sun doesn't rise in the west."
+            },
+            {
+              "type": "의문문",
+              "korean": "해가 동쪽에서 떠?",
+              "english": "Does the sun rise in the east?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "해가 동쪽에서 안 떠?",
+              "english": "Doesn't the sun rise in the east?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 현재: 감정/의견",
+          "explanation": "현재의 느낌이나 생각을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "나는 너가 맞다고 생각해요.",
+              "english": "I think you're right."
+            },
+            {
+              "type": "부정문",
+              "korean": "나는 너가 맞다고 생각하지 않아요.",
+              "english": "I don't think you're right."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 내가 맞다고 생각해?",
+              "english": "Do you think I'm right?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 내가 맞다고 생각 안 해?",
+              "english": "Don't you think I'm right?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 현재: 일정/시간표",
+          "explanation": "고정된 일정이나 시간표를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "기차는 오후 6시에 떠나요.",
+              "english": "The train leaves at 6 PM."
+            },
+            {
+              "type": "부정문",
+              "korean": "기차는 오후 6시에 떠나지 않아요.",
+              "english": "The train doesn't leave at 6 PM."
+            },
+            {
+              "type": "의문문",
+              "korean": "기차가 오후 6시에 떠나?",
+              "english": "Does the train leave at 6 PM?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "기차가 오후 6시에 안 떠나?",
+              "english": "Doesn't the train leave at 6 PM?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 과거: 완료된 행동",
+          "explanation": "과거에 특정 시간에 완료된 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 지난 주말에 할머니를 방문했어요.",
+              "english": "She visited her grandma last weekend."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 지난 주말에 할머니를 방문하지 않았어요.",
+              "english": "She didn't visit her grandma last weekend."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 지난 주말에 할머니를 방문했어?",
+              "english": "Did she visit her grandma last weekend?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 지난 주말에 할머니를 방문하지 않았어?",
+              "english": "Didn't she visit her grandma last weekend?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 미래: 계획/예측",
+          "explanation": "미래의 계획이나 예측을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "우리는 다음 달에 부산에 여행 갈 거예요.",
+              "english": "We will travel to Busan next month."
+            },
+            {
+              "type": "부정문",
+              "korean": "우리는 다음 달에 부산에 여행 가지 않을 거예요.",
+              "english": "We won't travel to Busan next month."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 다음 달에 부산에 여행 갈 거야?",
+              "english": "Will you travel to Busan next month?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 다음 달에 부산에 여행 안 갈 거야?",
+              "english": "Won't you travel to Busan next month?"
+            }
+          ]
+        },
+        {
+          "subtitle": "단순 미래: 즉흥적 결정",
+          "explanation": "말하는 순간 결정한 것을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "나중에 너한테 전화할게요.",
+              "english": "I will call you later."
+            },
+            {
+              "type": "부정문",
+              "korean": "나중에 너한테 전화 안 할게요.",
+              "english": "I won't call you later."
+            },
+            {
+              "type": "의문문",
+              "korean": "나중에 나한테 전화할 거야?",
+              "english": "Will you call me later?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "나중에 나한테 전화 안 할 거야?",
+              "english": "Won't you call me later?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 진행: 현재 진행 중",
+          "explanation": "말하는 순간 진행 중인 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 지금 영어를 공부하고 있어요.",
+              "english": "He is studying English right now."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 지금 영어를 공부하고 있지 않아요.",
+              "english": "He isn't studying English right now."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 지금 영어를 공부하고 있어?",
+              "english": "Is he studying English right now?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 지금 영어를 공부하고 있지 않아?",
+              "english": "Isn't he studying English right now?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 진행: 일시적 행동",
+          "explanation": "현재 시점에서 일시적으로 하는 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 이번 주에 호텔에 묵고 있어요.",
+              "english": "She is staying at a hotel this week."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 이번 주에 호텔에 묵고 있지 않아요.",
+              "english": "She isn't staying at a hotel this week."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 이번 주에 호텔에 묵고 있어?",
+              "english": "Is she staying at a hotel this week?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 이번 주에 호텔에 묵고 있지 않아?",
+              "english": "Isn't she staying at a hotel this week?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 진행: 미래 계획",
+          "explanation": "미래에 이미 결정된 계획을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 내일 친구를 만날 거예요.",
+              "english": "She is meeting her friend tomorrow."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 내일 친구를 만나지 않을 거예요.",
+              "english": "She isn't meeting her friend tomorrow."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 내일 친구를 만날 거야?",
+              "english": "Is she meeting her friend tomorrow?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 내일 친구를 안 만날 거야?",
+              "english": "Isn't she meeting her friend tomorrow?"
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 진행: 중단된 행동",
+          "explanation": "과거 특정 시점에 진행 중이던 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그들은 내가 전화했을 때 TV를 보고 있었어요.",
+              "english": "They were watching TV when I called."
+            },
+            {
+              "type": "부정문",
+              "korean": "그들은 내가 전화했을 때 TV를 보고 있지 않았어요.",
+              "english": "They weren't watching TV when I called."
+            },
+            {
+              "type": "의문문",
+              "korean": "그들이 내가 전화했을 때 TV를 보고 있었어?",
+              "english": "Were they watching TV when I called?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그들이 내가 전화했을 때 TV를 보고 있지 않았어?",
+              "english": "Weren't they watching TV when I called?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 완료: 경험",
+          "explanation": "과거부터 현재까지의 경험을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "나는 파리를 세 번 방문했어요.",
+              "english": "I have visited Paris three times."
+            },
+            {
+              "type": "부정문",
+              "korean": "나는 파리를 세 번 방문하지 않았어요.",
+              "english": "I haven't visited Paris three times."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 파리를 세 번 방문했어?",
+              "english": "Have you visited Paris three times?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 파리를 세 번 방문하지 않았어?",
+              "english": "Haven't you visited Paris three times?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 완료: 최근 행동",
+          "explanation": "방금 끝난 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "나는 방금 숙제를 끝냈어요.",
+              "english": "I have just finished my homework."
+            },
+            {
+              "type": "부정문",
+              "korean": "나는 방금 숙제를 끝내지 않았어요.",
+              "english": "I haven't just finished my homework."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 방금 숙제 끝냈어?",
+              "english": "Have you just finished your homework?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 방금 숙제 안 끝냈어?",
+              "english": "Haven't you just finished your homework?"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 완료: 지속 상태",
+          "explanation": "과거부터 현재까지 계속된 상태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "우리는 2020년부터 여기 살아왔어요.",
+              "english": "We have lived here since 2020."
+            },
+            {
+              "type": "부정문",
+              "korean": "우리는 2020년부터 여기 살지 않았어요.",
+              "english": "We haven't lived here since 2020."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 2020년부터 여기 살아왔어?",
+              "english": "Have you lived here since 2020?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 2020년부터 여기 살지 않았어?",
+              "english": "Haven't you lived here since 2020?"
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 완료: 과거 이전 행동",
+          "explanation": "과거 특정 시점 이전에 완료된 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 우리가 도착하기 전에 저녁을 요리했었어요.",
+              "english": "She had cooked dinner before we arrived."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 우리가 도착하기 전에 저녁을 요리하지 않았었어요.",
+              "english": "She hadn't cooked dinner before we arrived."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 우리가 도착하기 전에 저녁을 요리했었어?",
+              "english": "Had she cooked dinner before we arrived?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 우리가 도착하기 전에 저녁을 요리하지 않았었어?",
+              "english": "Hadn't she cooked dinner before we arrived?"
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 완료: 원인과 결과",
+          "explanation": "과거의 원인과 그 결과를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 하루 종일 일했었기 때문에 피곤했어요.",
+              "english": "He was tired because he had worked all day."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 하루 종일 일하지 않았었기 때문에 피곤하지 않았어요.",
+              "english": "He wasn't tired because he hadn't worked all day."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 하루 종일 일했었기 때문에 피곤했었어?",
+              "english": "Was he tired because he had worked all day?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 하루 종일 일하지 않았었기 때문에 피곤하지 않았어?",
+              "english": "Wasn't he tired because he hadn't worked all day?"
+            }
+          ]
+        },
+        {
+          "subtitle": "미래 완료: 미래 완료 예정",
+          "explanation": "미래 특정 시점까지 완료될 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그들은 내년까지 집을 지어 놓을 거예요.",
+              "english": "They will have built the house by next year."
+            },
+            {
+              "type": "부정문",
+              "korean": "그들은 내년까지 집을 지어 놓지 않을 거예요.",
+              "english": "They won't have built the house by next year."
+            },
+            {
+              "type": "의문문",
+              "korean": "그들이 내년까지 집을 지어 놓을 거야?",
+              "english": "Will they have built the house by next year?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그들이 내년까지 집을 지어 놓지 않을 거야?",
+              "english": "Won't they have built the house by next year?"
+            }
+          ]
+        },
+        {
+          "subtitle": "미래 완료: 미래 예상 결과",
+          "explanation": "미래 특정 시점에 예상되는 결과를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 그때까지 충분한 돈을 모아 놓을 거예요.",
+              "english": "She will have saved enough money by then."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 그때까지 충분한 돈을 모아 놓지 않을 거예요.",
+              "english": "She won't have saved enough money by then."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 그때까지 충분한 돈을 모아 놓을 거야?",
+              "english": "Will she have saved enough money by then?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 그때까지 충분한 돈을 모아 놓지 않을 거야?",
+              "english": "Won't she have saved enough money by then?"
+            }
+          ]
         }
       ]
     }

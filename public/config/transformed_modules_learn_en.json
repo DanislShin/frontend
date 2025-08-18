@@ -12,8 +12,20 @@
     "tests": [
       {
         "id": "201",
-        "name": "201 - 기초 문법",
+        "name": "201 - 시제",
         "dataFile": "200-201-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "202",
+        "name": "202 - 수동태",
+        "dataFile": "200-202-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "203",
+        "name": "203 - 조동사",
+        "dataFile": "200-203-learning.json",
         "component": "GrammarLearning"
       }
     ]
@@ -48,8 +60,9 @@
     "tests": [
       {
         "id": "401",
-        "name": "401 - 초급 시험",
-        "dataFile": "400-401-learning.json"
+        "name": "401 - 수능",
+        "dataFile": "400-401-learning.json",
+        "component": "ReadingLearning"
       }
     ]
   },

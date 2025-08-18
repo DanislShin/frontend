@@ -1,0 +1,741 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "203",
+    "mode": "learn",
+    "content": {
+      "title": "영어 조동사 및 조동사 + have + 과거분사 학습",
+      "topics": [
+        {
+          "subtitle": "Will: 미래의 예측이나 계획",
+          "explanation": "미래에 일어날 가능성이 있거나 계획된 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그들은 내년에 일본을 방문할 거예요.",
+              "english": "They will visit Japan next year."
+            },
+            {
+              "type": "부정문",
+              "korean": "그들은 내년에 일본을 방문하지 않을 거예요.",
+              "english": "They won’t visit Japan next year."
+            },
+            {
+              "type": "의문문",
+              "korean": "그들이 내년에 일본을 방문할까?",
+              "english": "Will they visit Japan next year?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그들이 내년에 일본을 방문하지 않을까?",
+              "english": "Won’t they visit Japan next year?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Will: 즉흥적인 결정",
+          "explanation": "말하는 순간 결정된 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "오늘 밤 너한테 전화할게요.",
+              "english": "I will call you tonight."
+            },
+            {
+              "type": "부정문",
+              "korean": "오늘 밤 너한테 전화 안 할게요.",
+              "english": "I won’t call you tonight."
+            },
+            {
+              "type": "의문문",
+              "korean": "오늘 밤 나한테 전화할 거야?",
+              "english": "Will you call me tonight?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "오늘 밤 나한테 전화 안 할 거야?",
+              "english": "Won’t you call me tonight?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Will: 요청",
+          "explanation": "정중한 요청이나 의지를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "내가 처리할게요.",
+              "english": "I will take care of it."
+            },
+            {
+              "type": "부정문",
+              "korean": "다시 너 귀찮게 안 할게요.",
+              "english": "I won’t bother you again."
+            },
+            {
+              "type": "의문문",
+              "korean": "소금 좀 건네줄래?",
+              "english": "Will you pass me the salt?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "소금 안 건네줄래?",
+              "english": "Won’t you pass me the salt?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Can: 능력",
+          "explanation": "어떤 일을 할 수 있는 능력을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 피아노를 아름답게 연주할 수 있어요.",
+              "english": "She can play the piano beautifully."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 피아노를 연주할 수 없어요.",
+              "english": "She can’t play the piano."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 피아노를 연주할 수 있어?",
+              "english": "Can she play the piano?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 피아노를 연주할 수 없어?",
+              "english": "Can’t she play the piano?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Can: 허락",
+          "explanation": "허락이나 금지를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "내 노트북 써도 돼요.",
+              "english": "You can use my laptop."
+            },
+            {
+              "type": "부정문",
+              "korean": "내 전화기 쓰면 안 돼요.",
+              "english": "You can’t use my phone."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 노트북 써도 돼?",
+              "english": "Can I use your laptop?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 노트북 못 써?",
+              "english": "Can’t I use your laptop?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Could: 과거의 능력",
+          "explanation": "과거의 능력을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 강을 건너 수영할 수 있었어요.",
+              "english": "He could swim across the river."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 강을 건너 수영할 수 없었어요.",
+              "english": "He couldn’t swim across the river."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 강을 건너 수영할 수 있었어?",
+              "english": "Could he swim across the river?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 강을 건너 수영할 수 없었어?",
+              "english": "Couldn’t he swim across the river?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Could: 정중한 요청",
+          "explanation": "정중한 요청을 할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "프로젝트 도와줄 수 있어요.",
+              "english": "I could assist you with the project."
+            },
+            {
+              "type": "부정문",
+              "korean": "오늘은 도와줄 수 없어요.",
+              "english": "I couldn’t assist you today."
+            },
+            {
+              "type": "의문문",
+              "korean": "문 좀 열어줄래요?",
+              "english": "Could you open the door?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "문 못 열어줄래요?",
+              "english": "Couldn’t you open the door?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Could: 낮은 가능성",
+          "explanation": "낮은 가능성을 나타낼 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "오늘 저녁에 눈이 올지도 몰라요.",
+              "english": "It could snow this evening."
+            },
+            {
+              "type": "부정문",
+              "korean": "오늘 저녁에 눈이 오지 않을 거예요.",
+              "english": "It couldn’t snow this evening."
+            },
+            {
+              "type": "의문문",
+              "korean": "오늘 저녁에 눈이 올까?",
+              "english": "Could it snow this evening?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "오늘 저녁에 눈이 안 올까?",
+              "english": "Couldn’t it snow this evening?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Should: 조언이나 권고",
+          "explanation": "조언이나 권고를 할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "너는 규칙적으로 운동해야 해요.",
+              "english": "You should exercise regularly."
+            },
+            {
+              "type": "부정문",
+              "korean": "너는 설탕을 너무 많이 먹으면 안 돼요.",
+              "english": "You shouldn’t eat too much sugar."
+            },
+            {
+              "type": "의문문",
+              "korean": "내가 규칙적으로 운동해야 해?",
+              "english": "Should I exercise regularly?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "내가 규칙적으로 운동하면 안 돼?",
+              "english": "Shouldn’t I exercise regularly?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Should: 기대나 예측",
+          "explanation": "기대되거나 예측되는 상황을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "소포는 내일 도착할 거예요.",
+              "english": "The package should arrive tomorrow."
+            },
+            {
+              "type": "부정문",
+              "korean": "소포는 늦게 도착하지 않을 거예요.",
+              "english": "The package shouldn’t arrive late."
+            },
+            {
+              "type": "의문문",
+              "korean": "소포가 내일 도착할까?",
+              "english": "Should the package arrive tomorrow?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "소포가 내일 도착하지 않을까?",
+              "english": "Shouldn’t the package arrive tomorrow?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Would: 가정법 (비현실적 상황)",
+          "explanation": "비현실적인 가정 상황을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "내가 부자라면 차를 살 텐데요.",
+              "english": "I would buy a car if I were rich."
+            },
+            {
+              "type": "부정문",
+              "korean": "내가 가난하면 차를 사지 않을 거예요.",
+              "english": "I wouldn’t buy a car if I were poor."
+            },
+            {
+              "type": "의문문",
+              "korean": "네가 부자라면 차를 살 거야?",
+              "english": "Would you buy a car if you were rich?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "네가 부자라면 차를 사지 않을 거야?",
+              "english": "Wouldn’t you buy a car if you were rich?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Would: 정중한 요청",
+          "explanation": "정중한 요청을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "물 한 잔 마시고 싶어요.",
+              "english": "I would like a glass of water."
+            },
+            {
+              "type": "부정문",
+              "korean": "지금 커피는 마시고 싶지 않아요.",
+              "english": "I wouldn’t like coffee now."
+            },
+            {
+              "type": "의문문",
+              "korean": "창문 좀 닫아주시겠어요?",
+              "english": "Would you mind closing the window?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "창문 닫는 거 괜찮으시겠어요?",
+              "english": "Wouldn’t you mind closing the window?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Would: 과거의 습관",
+          "explanation": "과거의 반복적인 행동이나 습관을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 매주 일요일에 할머니를 방문하곤 했어요.",
+              "english": "She would visit her grandma every Sunday."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 할머니를 자주 방문하지 않곤 했어요.",
+              "english": "She wouldn’t visit her grandma often."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 매주 일요일에 할머니를 방문하곤 했어?",
+              "english": "Would she visit her grandma every Sunday?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 매주 일요일에 할머니를 방문하지 않곤 했어?",
+              "english": "Wouldn’t she visit her grandma every Sunday?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Must: 의무",
+          "explanation": "의무나 필수적인 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "너는 내일까지 보고서를 제출해야 해요.",
+              "english": "You must submit the report by tomorrow."
+            },
+            {
+              "type": "부정문",
+              "korean": "시험 중에 이야기하면 안 돼요.",
+              "english": "You mustn’t talk during the exam."
+            },
+            {
+              "type": "의문문",
+              "korean": "내가 내일까지 보고서를 제출해야 해?",
+              "english": "Must I submit the report by tomorrow?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "내가 내일까지 보고서를 제출하면 안 돼?",
+              "english": "Mustn’t I submit the report by tomorrow?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Must: 논리적 추론",
+          "explanation": "논리적 추론을 통해 확신을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 지금 사무실에 있을 거예요.",
+              "english": "He must be at the office now."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 지금 사무실에 없을 거예요.",
+              "english": "He can’t be at the office now."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 지금 사무실에 있을까?",
+              "english": "Must he be at the office now?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 지금 사무실에 있지 않을까?",
+              "english": "Can’t he be at the office now?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Might: 낮은 가능성",
+          "explanation": "낮은 가능성을 나타낼 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀가 저녁에 우리와 함께할지도 몰라요.",
+              "english": "She might join us for dinner."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀가 저녁에 우리와 함께하지 않을지도 몰라요.",
+              "english": "She might not join us for dinner."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 저녁에 우리와 함께할까?",
+              "english": "Might she join us for dinner?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 저녁에 우리와 함께하지 않을까?",
+              "english": "Might she not join us for dinner?"
+            }
+          ]
+        },
+        {
+          "subtitle": "May: 가능성",
+          "explanation": "가능성을 나타낼 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "오늘 오후에 비가 올지도 몰라요.",
+              "english": "It may rain this afternoon."
+            },
+            {
+              "type": "부정문",
+              "korean": "오늘 오후에 비가 안 올지도 몰라요.",
+              "english": "It may not rain this afternoon."
+            },
+            {
+              "type": "의문문",
+              "korean": "오늘 오후에 비가 올까?",
+              "english": "May it rain this afternoon?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "오늘 오후에 비가 안 올까?",
+              "english": "May it not rain this afternoon?"
+            }
+          ]
+        },
+        {
+          "subtitle": "May: 정중한 허락",
+          "explanation": "정중한 허락이나 금지를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "이제 방을 나가도 돼요.",
+              "english": "You may leave the room now."
+            },
+            {
+              "type": "부정문",
+              "korean": "이제 방을 나가면 안 돼요.",
+              "english": "You may not leave the room now."
+            },
+            {
+              "type": "의문문",
+              "korean": "이제 방을 나가도 돼?",
+              "english": "May I leave the room now?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "이제 방을 나가면 안 돼?",
+              "english": "May I not leave the room now?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Be able to: 능력",
+          "explanation": "능력을 표현하며, 시제 변화가 가능한 표현 (Can과 유사)",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 복잡한 문제를 풀 수 있어요.",
+              "english": "She is able to solve complex problems."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 복잡한 문제를 풀 수 없어요.",
+              "english": "She isn’t able to solve complex problems."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 복잡한 문제를 풀 수 있어?",
+              "english": "Is she able to solve complex problems?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 복잡한 문제를 풀 수 없어?",
+              "english": "Isn’t she able to solve complex problems?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Be able to: 특정 상황에서의 가능성",
+          "explanation": "특정 상황에서 가능했던 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "우리는 마지막 기차를 탈 수 있었어요.",
+              "english": "We were able to catch the last train."
+            },
+            {
+              "type": "부정문",
+              "korean": "우리는 마지막 기차를 탈 수 없었어요.",
+              "english": "We weren’t able to catch the last train."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 마지막 기차를 탈 수 있었어?",
+              "english": "Were you able to catch the last train?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 마지막 기차를 탈 수 없었어?",
+              "english": "Weren’t you able to catch the last train?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Used to: 과거의 습관",
+          "explanation": "과거의 반복적인 행동이나 습관을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "나는 매주 주말에 축구를 하곤 했어요.",
+              "english": "I used to play soccer every weekend."
+            },
+            {
+              "type": "부정문",
+              "korean": "나는 축구를 하곤 하지 않았어요.",
+              "english": "I didn’t use to play soccer."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 축구를 하곤 했어?",
+              "english": "Did you use to play soccer?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 축구를 하곤 하지 않았어?",
+              "english": "Didn’t you use to play soccer?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Used to: 과거의 상태",
+          "explanation": "과거의 지속적인 상태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "이 공원은 예전에 비어 있었어요.",
+              "english": "This park used to be empty."
+            },
+            {
+              "type": "부정문",
+              "korean": "이 공원은 예전에 비어 있지 않았어요.",
+              "english": "This park didn’t use to be empty."
+            },
+            {
+              "type": "의문문",
+              "korean": "이 공원이 예전에 비어 있었어?",
+              "english": "Did this park use to be empty?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "이 공원이 예전에 비어 있지 않았어?",
+              "english": "Didn’t this park use to be empty?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Must have + 과거분사: 과거의 논리적 추론",
+          "explanation": "과거의 상황에 대해 논리적 추론을 할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그녀는 일찍 떠났을 거예요.",
+              "english": "She must have left early."
+            },
+            {
+              "type": "부정문",
+              "korean": "그녀는 일찍 떠나지 않았을 거예요.",
+              "english": "She can’t have left early."
+            },
+            {
+              "type": "의문문",
+              "korean": "그녀가 일찍 떠났을까?",
+              "english": "Must she have left early?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그녀가 일찍 떠나지 않았을까?",
+              "english": "Can’t she have left early?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Should have + 과거분사: 과거의 후회나 권고",
+          "explanation": "과거에 했어야 했던 행동이나 후회를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "너는 나한테 전화했어야 했어.",
+              "english": "You should have called me."
+            },
+            {
+              "type": "부정문",
+              "korean": "너는 경고를 무시하지 말았어야 했어.",
+              "english": "You shouldn’t have ignored the warning."
+            },
+            {
+              "type": "의문문",
+              "korean": "내가 너한테 전화했어야 했을까?",
+              "english": "Should I have called you?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "내가 너한테 전화하지 말았어야 했을까?",
+              "english": "Shouldn’t I have called you?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Might have + 과거분사: 과거의 낮은 가능성",
+          "explanation": "과거에 일어났을 가능성이 낮은 상황을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그는 회의를 잊었을지도 몰라요.",
+              "english": "He might have forgotten the meeting."
+            },
+            {
+              "type": "부정문",
+              "korean": "그는 회의를 잊지 않았을지도 몰라요.",
+              "english": "He might not have forgotten the meeting."
+            },
+            {
+              "type": "의문문",
+              "korean": "그가 회의를 잊었을까?",
+              "english": "Might he have forgotten the meeting?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그가 회의를 잊지 않았을까?",
+              "english": "Might he not have forgotten the meeting?"
+            }
+          ]
+        },
+        {
+          "subtitle": "May have + 과거분사: 과거의 가능성",
+          "explanation": "과거에 일어났을 가능성을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "그들은 비행기를 놓쳤을지도 몰라요.",
+              "english": "They may have missed the flight."
+            },
+            {
+              "type": "부정문",
+              "korean": "그들은 비행기를 놓치지 않았을지도 몰라요.",
+              "english": "They may not have missed the flight."
+            },
+            {
+              "type": "의문문",
+              "korean": "그들이 비행기를 놓쳤을까?",
+              "english": "May they have missed the flight?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "그들이 비행기를 놓치지 않았을까?",
+              "english": "May they not have missed the flight?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Could have + 과거분사: 과거의 가능했지만 하지 않은 일",
+          "explanation": "과거에 가능했지만 실제로 하지 않은 행동을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "너는 나에게 진실을 말할 수 있었어.",
+              "english": "You could have told me the truth."
+            },
+            {
+              "type": "부정문",
+              "korean": "너는 나에게 더 일찍 말할 수 없었어.",
+              "english": "You couldn’t have told me earlier."
+            },
+            {
+              "type": "의문문",
+              "korean": "너 나에게 진실을 말할 수 있었어?",
+              "english": "Could you have told me the truth?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "너 나에게 진실을 말하지 못했어?",
+              "english": "Couldn’t you have told me the truth?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Would have + 과거분사: 과거의 가정 상황",
+          "explanation": "과거의 비현실적인 가정 상황을 표현할 때 사용",
+          "examples": [
+            {
+              "type": "긍정문",
+              "korean": "시간이 있었다면 참석했을 거야.",
+              "english": "I would have attended if I had time."
+            },
+            {
+              "type": "부정문",
+              "korean": "바빴다면 참석하지 않았을 거야.",
+              "english": "I wouldn’t have attended if I was busy."
+            },
+            {
+              "type": "의문문",
+              "korean": "시간이 있었다면 참석했을까?",
+              "english": "Would you have attended if you had time?"
+            },
+            {
+              "type": "부정의문문",
+              "korean": "시간이 있었다면 참석하지 않았을까?",
+              "english": "Wouldn’t you have attended if you had time?"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
