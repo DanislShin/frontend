@@ -6,7 +6,7 @@ const supabase = createClient(
   import.meta.env.VITE_SUPABASE_ANON_KEY
 );
 
-function AIRreviewTest({ module, testId, day, onBack, session }) {
+function AIRreviewTest({ module, testId, day, onBack, session, language }) {
   const [passage, setPassage] = useState({ text: "", questions: [] });
   const [answers, setAnswers] = useState([]);
   const [aiFeedbacks, setAiFeedbacks] = useState([]);
@@ -15,10 +15,11 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
   useEffect(() => {
     const loadData = async () => {
       try {
+        console.log("Query params:", { module, testId, day, language });
         const { data, error } = await supabase
           .from("test_content")
           .select("content")
-          .eq("language", "en")
+          .eq("language", language)
           .eq("module_id", module)
           .eq("test_id", testId)
           .eq("mode", "review")
@@ -42,25 +43,31 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
       }
     };
     loadData();
-  }, [module, testId, day]);
+  }, [module, testId, day, language]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!session) {
+    if (!session || !session.user?.email) {
       console.error("로그인 상태가 아닙니다");
+      alert("로그인이 필요합니다. 다시 로그인해 주세요.");
       return;
     }
-    const reviewPromises = passage.questions.map((question, index) =>
-      fetch("https://backend-lurm.onrender.com/review", {
+
+    console.log("Submitting with language:", language);
+    const reviewPromises = passage.questions.map((question, index) => {
+      const requestBody = {
+        user_id: session.user.email,
+        module_code: testId,
+        sentence: question,
+        input: answers[index],
+        language, // language 추가
+      };
+      console.log("Request body:", requestBody);
+      return fetch("https://backend-lurm.onrender.com/review", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          user_id: session.user.email,
-          module_code: testId,
-          sentence: question,
-          input: answers[index],
-        }),
+        body: JSON.stringify(requestBody),
       })
         .then((res) => {
           if (!res.ok) throw new Error(`HTTP 오류: ${res.status}`);
@@ -69,8 +76,8 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
         .then((data) => {
           if (data.feedback) return { index, feedback: data.feedback };
           throw new Error("응답 데이터 형식이 올바르지 않습니다.");
-        })
-    );
+        });
+    });
 
     try {
       const results = await Promise.all(reviewPromises);
@@ -98,9 +105,10 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
   const isValidFeedback = (feedback) => {
     return (
       feedback &&
-      feedback["문법"] &&
-      feedback["단어 선택 및 문맥"] &&
-      feedback["총점"]
+      typeof feedback === "object" &&
+      feedback["문법"]?.스코어 != null &&
+      feedback["단어 선택 및 문맥"]?.스코어 != null &&
+      feedback["총점"]?.스코어 != null
     );
   };
 
@@ -143,7 +151,14 @@ function AIRreviewTest({ module, testId, day, onBack, session }) {
           <h4>🧠 AI 피드백</h4>
           {passage.questions.map((_, index) => {
             const feedback = aiFeedbacks[index];
-            if (!isValidFeedback(feedback)) return null;
+            if (!isValidFeedback(feedback)) {
+              return (
+                <div key={index}>
+                  <h5>문제 {index + 1} 피드백</h5>
+                  <p>피드백을 불러오는 데 실패했습니다.</p>
+                </div>
+              );
+            }
 
             return (
               <div
