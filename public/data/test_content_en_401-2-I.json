@@ -58,6 +58,34 @@
           ],
           "correct": 2
         }
+      ],
+      "2": [
+        {
+          "id": "2-1",
+          "word": " Hello students, this is Dr. Bennett, your principal. Please listen carefully to this announcement about the schedule changes for next week's Science Fair. The fair itself will be held all day next Wednesday in the gym. However, to accommodate the setup, the gym will be closed starting Tuesday afternoon. Therefore, all PE classes scheduled for Tuesday periods 5, 6, and 7 will be relocated to the outdoor field. Students in those classes, please check the online portal for your updated room assignment. Remember, the science fair opening ceremony begins promptly at 9:15 a.m. on Wednesday, and all homeroom classes will report directly to the gym at 9:00 a.m. instead of their regular classrooms. We look forward to seeing your fantastic projects.",
+          "question": "다음을 듣고, 과학 박람회 개막식이 시작되는 시간을 고르시오.",
+          "options": [
+            "9:00 a.m.",
+            "9:15 a.m.",
+            "10:00 a.m.",
+            "3:00 p.m.",
+            "5:00 p.m."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "2-2",
+          "word": " Attention, all library users. This is a reminder from the library administration. Please be informed that the library will have special operating hours during the final exam period next month. From December 15th to 20th, the library will open at 7:00 AM instead of the regular 8:30 AM opening time. However, the closing time will be extended to 11:00 PM, two hours later than our usual 9:00 PM closing. Please note that these extended hours apply only from Monday through Thursday. On Friday, December 20th, the library will close at its regular time of 9:00 PM. Also, remember that group study rooms must be reserved online at least 24 hours in advance during this period. We wish you the best of luck on your exams!",
+          "question": "내용과 일치하지 않는 것은?",
+          "options": [
+            "12월 15일부터 20일까지 도서관은 평소보다 일찍 열린다.",
+            "금요일에는 도서관이 평소와 같은 시간에 문을 닫는다.",
+            "그룹 스터디 룸은 시험 기간 동안 당일 예약이 가능하다.",
+            "월요일부터 목요일까지 도서관은 자정까지 운영된다.",
+            "도서관은 시험 기간 동안 평소보다 늦게까지 운영된다."
+          ],
+          "correct": 3
+        }
       ]
     }
   }

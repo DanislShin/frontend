@@ -11,6 +11,7 @@ const ReadingLearning = ({
   const [content, setContent] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [activeSection, setActiveSection] = useState("reading");
+  const [activeIndex, setActiveIndex] = useState(0); // 여러 세트 중 현재 선택된 것
   const [completed, setCompleted] = useState(false);
 
   useEffect(() => {
@@ -64,6 +65,10 @@ const ReadingLearning = ({
   if (loadError) return <p className="text-red-500">{loadError}</p>;
   if (!content) return <p>Loading...</p>;
 
+  // content가 배열인지 확인
+  const isArray = Array.isArray(content);
+  const current = isArray ? content[activeIndex] : content;
+
   return (
     <div className="reading-learning p-4 max-w-4xl mx-auto">
       <button
@@ -73,6 +78,26 @@ const ReadingLearning = ({
         ← 뒤로
       </button>
 
+      {/* 여러 세트 전환 탭 */}
+      {isArray && (
+        <div className="flex space-x-2 mb-6">
+          {content.map((section, idx) => (
+            <button
+              key={idx}
+              onClick={() => setActiveIndex(idx)}
+              className={`px-4 py-2 rounded-lg ${
+                activeIndex === idx
+                  ? "bg-blue-500 text-white font-bold"
+                  : "bg-gray-200 text-gray-700"
+              }`}
+            >
+              {section.title}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* 리딩/단어/문법 탭 */}
       <div className="tabs flex mb-6 border-b">
         <button
           className={`p-3 ${
@@ -106,95 +131,105 @@ const ReadingLearning = ({
         </button>
       </div>
 
-      {activeSection === "reading" && (
-        <div className="reading-section space-y-6">
-          <h1 className="text-2xl font-bold text-center mb-6">
-            {content.title}
-          </h1>
-
-          {content.paragraphs.map((para, idx) => (
-            <div
-              key={idx}
-              className="paragraph-group bg-white p-4 rounded-lg shadow"
-            >
-              <div className="flex items-start mb-2">
-                <button
-                  onClick={() => handlePronounce(para.english)}
-                  className="mr-3 p-2 bg-blue-100 rounded-full hover:bg-blue-200"
+      {/* 본문 */}
+      {current && (
+        <>
+          {activeSection === "reading" && (
+            <div className="reading-section space-y-6">
+              <h1 className="text-2xl font-bold text-center mb-6">
+                {current.title}
+              </h1>
+              {current.paragraphs.map((para, idx) => (
+                <div
+                  key={idx}
+                  className="paragraph-group bg-white p-4 rounded-lg shadow"
                 >
-                  🔊
-                </button>
-                <div>
-                  <p className="text-lg english-text mb-2">{para.english}</p>
-                  <p className="text-gray-600 pronunciation">
-                    {para.pronunciation}
+                  <div className="flex items-start mb-2">
+                    <button
+                      onClick={() => handlePronounce(para.english)}
+                      className="mr-3 p-2 bg-blue-100 rounded-full hover:bg-blue-200"
+                    >
+                      🔊
+                    </button>
+                    <div>
+                      <p className="text-lg english-text mb-2">
+                        {para.english}
+                      </p>
+                      <p className="text-gray-600 pronunciation">
+                        {para.pronunciation}
+                      </p>
+                    </div>
+                  </div>
+                  <p className="korean-text pl-11 text-gray-800">
+                    {para.korean}
                   </p>
                 </div>
-              </div>
-              <p className="korean-text pl-11 text-gray-800">{para.korean}</p>
+              ))}
             </div>
-          ))}
-        </div>
-      )}
+          )}
 
-      {activeSection === "vocabulary" && (
-        <div className="vocabulary-section">
-          <h2 className="text-xl font-bold mb-4">주요 단어</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {content.vocabulary.map((word, idx) => (
-              <div
-                key={idx}
-                className="word-card p-4 border rounded-lg hover:shadow"
-              >
-                <div className="flex justify-between items-start">
-                  <div>
-                    <h3 className="font-bold text-lg">{word.word}</h3>
-                    <p className="text-gray-600">{word.pronunciation}</p>
-                    <p className="text-blue-600">{word.meaning}</p>
-                  </div>
-                  <button
-                    onClick={() => handlePronounce(word.word)}
-                    className="p-2 bg-green-100 rounded-full"
-                  >
-                    🔊
-                  </button>
-                </div>
-                {word.example && (
-                  <div className="mt-2 pl-2 border-l-4 border-green-200">
-                    <p className="italic">{word.example}</p>
-                    <p className="text-gray-500">{word.exampleTranslation}</p>
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {activeSection === "grammar" && (
-        <div className="grammar-section">
-          <h2 className="text-xl font-bold mb-4">문법 포인트</h2>
-          {content.grammarPoints.map((point, idx) => (
-            <div
-              key={idx}
-              className="grammar-point mb-6 p-4 bg-gray-50 rounded-lg"
-            >
-              <h3 className="font-semibold text-lg mb-2">{point.title}</h3>
-              <p className="mb-3">{point.explanation}</p>
-              <div className="examples space-y-2">
-                {point.examples.map((ex, exIdx) => (
+          {activeSection === "vocabulary" && (
+            <div className="vocabulary-section">
+              <h2 className="text-xl font-bold mb-4">주요 단어</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {current.vocabulary.map((word, idx) => (
                   <div
-                    key={exIdx}
-                    className="example p-2 bg-white rounded border"
+                    key={idx}
+                    className="word-card p-4 border rounded-lg hover:shadow"
                   >
-                    <p className="font-medium">{ex.english}</p>
-                    <p className="text-gray-600">{ex.korean}</p>
+                    <div className="flex justify-between items-start">
+                      <div>
+                        <h3 className="font-bold text-lg">{word.word}</h3>
+                        <p className="text-gray-600">{word.pronunciation}</p>
+                        <p className="text-blue-600">{word.meaning}</p>
+                      </div>
+                      <button
+                        onClick={() => handlePronounce(word.word)}
+                        className="p-2 bg-green-100 rounded-full"
+                      >
+                        🔊
+                      </button>
+                    </div>
+                    {word.example && (
+                      <div className="mt-2 pl-2 border-l-4 border-green-200">
+                        <p className="italic">{word.example}</p>
+                        <p className="text-gray-500">
+                          {word.exampleTranslation}
+                        </p>
+                      </div>
+                    )}
                   </div>
                 ))}
               </div>
             </div>
-          ))}
-        </div>
+          )}
+
+          {activeSection === "grammar" && (
+            <div className="grammar-section">
+              <h2 className="text-xl font-bold mb-4">문법 포인트</h2>
+              {current.grammarPoints.map((point, idx) => (
+                <div
+                  key={idx}
+                  className="grammar-point mb-6 p-4 bg-gray-50 rounded-lg"
+                >
+                  <h3 className="font-semibold text-lg mb-2">{point.title}</h3>
+                  <p className="mb-3">{point.explanation}</p>
+                  <div className="examples space-y-2">
+                    {point.examples.map((ex, exIdx) => (
+                      <div
+                        key={exIdx}
+                        className="example p-2 bg-white rounded border"
+                      >
+                        <p className="font-medium">{ex.english}</p>
+                        <p className="text-gray-600">{ex.korean}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </>
       )}
 
       <button

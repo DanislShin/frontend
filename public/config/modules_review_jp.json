@@ -24,7 +24,7 @@
     "mode": "review",
     "tests": [
       {
-        "id": "301-1-I",
+        "id": "301-1-B",
         "type": "multiple-choice",
         "skill": "읽기",
         "days": true
