@@ -1,0 +1,31 @@
+[
+  {
+    "language": "ch",
+    "module_id": "200",
+    "test_id": "201",
+    "mode": "learn",
+    "content": {
+      "title": "現在形 (Simple Present Tense)",
+      "topics": [
+        {
+          "examples": [
+            {
+              "type": "肯定文",
+              "korean": "나는 차를 가지고 있어요.",
+              "japanese": "私は車を持っています。",
+              "pronunciation": "わたし は くるま を もっています。"
+            },
+            {
+              "type": "否定文",
+              "korean": "나는 차를 가지고 있지 않아요.",
+              "japanese": "私は車を持っていません。",
+              "pronunciation": "わたし は くるま を もっていません。"
+            }
+          ],
+          "subtitle": "用法 1: 現在の状態",
+          "explanation": "所有、感情、思考、存在を表す"
+        }
+      ]
+    }
+  }
+]

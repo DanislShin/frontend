@@ -55,6 +55,19 @@
   },
   {
     "language": "jp",
+    "module_id": "500",
+    "mode": "learn",
+    "tests": [
+      {
+        "id": "501",
+        "name": "501 - 넷플릭스",
+        "dataFile": "500-501-learning.json",
+        "component": "ReadingLearning"
+      }
+    ]
+  },
+  {
+    "language": "jp",
     "module_id": "700",
     "mode": "learn",
     "tests": [

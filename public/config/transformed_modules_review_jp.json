@@ -52,6 +52,19 @@
   },
   {
     "language": "jp",
+    "module_id": "500",
+    "mode": "review",
+    "tests": [
+      {
+        "id": "501-1-B",
+        "type": "multiple-choice",
+        "skill": "읽기",
+        "days": true
+      }
+    ]
+  },
+  {
+    "language": "jp",
     "module_id": "700",
     "mode": "review",
     "tests": [

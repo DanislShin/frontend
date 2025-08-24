@@ -1,25 +1,25 @@
 [
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "100",
     "mode": "learn",
     "tests": []
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "200",
     "mode": "learn",
     "tests": [
       {
         "id": "201",
-        "name": "201 - 기초 문법",
+        "name": "201 - 시제",
         "dataFile": "200-201-learning.json",
         "component": "GrammarLearning"
       }
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "300",
     "mode": "learn",
     "tests": [
@@ -28,46 +28,37 @@
         "name": "301 - 고급 단어",
         "dataFile": "300-301-learning.json",
         "component": "WordLearning"
-      },
-      {
-        "id": "302",
-        "name": "302 - 중급 단어",
-        "dataFile": "300-302-learning.json"
-      },
-      {
-        "id": "303",
-        "name": "303 - 초급 단어",
-        "dataFile": "300-303-learning.json"
       }
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "400",
     "mode": "learn",
     "tests": [
       {
         "id": "401",
-        "name": "401 - 초급 시험",
-        "dataFile": "400-401-learning.json"
+        "name": "401 - 수능",
+        "dataFile": "400-401-learning.json",
+        "component": "ReadingLearning"
       }
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "500",
     "mode": "learn",
     "tests": [
       {
         "id": "501",
-        "name": "501 - 넷플릭스",
+        "name": "501 - 영상",
         "dataFile": "500-501-learning.json",
         "component": "ReadingLearning"
       }
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "700",
     "mode": "learn",
     "tests": [

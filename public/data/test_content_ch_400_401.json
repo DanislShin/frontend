@@ -1,0 +1,122 @@
+[
+  {
+    "language": "ch",
+    "module_id": "400",
+    "test_id": "401",
+    "content": {
+      "1": [
+        {
+          "word": "abandon",
+          "meaning": "捨てる、断念する",
+          "example": "彼らは車を捨てて逃げた。"
+        },
+        {
+          "word": "abolish",
+          "meaning": "廃止する",
+          "example": "彼は死刑制度を廃止することに賛成している。"
+        },
+        {
+          "word": "abroad",
+          "meaning": "海外で、外国で",
+          "example": "彼は来年海外で働きたいと望んでいる。"
+        },
+        {
+          "word": "abruptly",
+          "meaning": "突然に",
+          "example": "その土地は突然崖のように落ち込んでいた。"
+        },
+        {
+          "word": "absence",
+          "meaning": "欠席、不在",
+          "example": "私が不在の間はマークが責任者になる。"
+        },
+        {
+          "word": "absolutely",
+          "meaning": "絶対に、全く",
+          "example": "彼にはこの分野の経験が全くない。"
+        },
+        {
+          "word": "absorb",
+          "meaning": "吸収する",
+          "example": "植物の根は水分を吸収する。"
+        },
+        {
+          "word": "abstract",
+          "meaning": "抽象的な",
+          "example": "人間は抽象的な思考をすることができる。"
+        },
+        {
+          "word": "abundant",
+          "meaning": "豊富な",
+          "example": "その地域は雨が豊富である。"
+        },
+        {
+          "word": "abuse",
+          "meaning": "虐待、乱用",
+          "example": "その少年は虐待の被害者だった。"
+        },
+        {
+          "word": "accelerate",
+          "meaning": "加速する",
+          "example": "その車は時速80マイルまで加速した。"
+        },
+        {
+          "word": "accept",
+          "meaning": "受け入れる、受け取る",
+          "example": "彼らは私に仕事を提供し、私はそれを受け入れた。"
+        },
+        {
+          "word": "access",
+          "meaning": "接続、利用、入場",
+          "example": "私たちは図書館でインターネットに接続できる。"
+        },
+        {
+          "word": "accidentally",
+          "meaning": "偶然に、誤って",
+          "example": "その火事は偶然に起こったと信じられている。"
+        },
+        {
+          "word": "accommodate",
+          "meaning": "収容する、宿泊させる",
+          "example": "そのホテルは約100人しか収容できない。"
+        },
+        {
+          "word": "accompany",
+          "meaning": "同行する",
+          "example": "君に彼女と一緒に行ってほしい。"
+        },
+        {
+          "word": "accomplish",
+          "meaning": "成し遂げる",
+          "example": "私たちは短期間で多くを成し遂げた。"
+        },
+        {
+          "word": "according to",
+          "meaning": "〜によれば",
+          "example": "法律によれば、私たちは罰金を支払わなければならなかった。"
+        },
+        {
+          "word": "accordingly",
+          "meaning": "したがって、それに応じて",
+          "example": "苦情がなかった。したがって、彼らは何の行動も取らなかった。"
+        },
+        {
+          "word": "account for",
+          "meaning": "〜を占める、説明する",
+          "example": "アフリカ系アメリカ人は米国人口の約13％を占める。"
+        },
+        {
+          "word": "account",
+          "meaning": "説明、話、口座",
+          "example": "彼は何が起こったかを簡単に説明した。"
+        },
+        {
+          "word": "accountable",
+          "meaning": "責任がある",
+          "example": "管理者は自分の決定に責任を持たなければならない。"
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

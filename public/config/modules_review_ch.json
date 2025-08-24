@@ -1,12 +1,12 @@
 [
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "100",
     "mode": "review",
     "tests": []
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "200",
     "mode": "review",
     "tests": [
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "300",
     "mode": "review",
     "tests": [
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "400",
     "mode": "review",
     "tests": [
@@ -51,7 +51,7 @@
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "500",
     "mode": "review",
     "tests": [
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "language": "jp",
+    "language": "ch",
     "module_id": "700",
     "mode": "review",
     "tests": [

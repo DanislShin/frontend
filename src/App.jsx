@@ -205,10 +205,13 @@ function App() {
               ...test,
               name: `${
                 {
-                  100: "발음",
+                  1: "문자",
+                  101: "발음",
                   201: "문법",
                   301: "단어",
                   401: "시험",
+                  501: "영상",
+                  601: "교과",
                   701: "읽기",
                 }[categoryCode] || `모듈 ${categoryCode}`
               } - 주제 ${topicCode || "없음"} - ${
@@ -334,10 +337,13 @@ function App() {
   }, [session, learnMode, language, showProfile]);
 
   const modules = [
+    { id: "000", name: "000번 문자" },
     { id: "100", name: "100번 발음" },
     { id: "200", name: "200번 문법" },
     { id: "300", name: "300번 단어" },
     { id: "400", name: "400번 시험" },
+    { id: "500", name: "500번 영상" },
+    { id: "600", name: "600번 교과" },
     { id: "700", name: "700번 읽기" },
   ];
 
@@ -373,6 +379,7 @@ function App() {
           >
             <option value="en">영어</option>
             <option value="jp">일본어</option>
+            <option value="ch">중국어</option>
           </select>
           <button
             onClick={() => setLearnMode(true)}

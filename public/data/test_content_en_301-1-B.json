@@ -4158,6 +4158,614 @@
           "options": ["회의, 회담", "자신감", "함께 사용될 수 있는", "보상"],
           "correct": 1
         }
+      ],
+      "19": [
+        {
+          "id": "19-1",
+          "word": "confident",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "자신감 있는, 확신하는",
+            "혼잡, 체증",
+            "관계, 연관성",
+            "의식하는, 알고 있는"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "19-2",
+          "word": "congestion",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "자신감 있는, 확신하는",
+            "혼잡, 체증",
+            "결과",
+            "보수적인"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-3",
+          "word": "connection",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "헌법",
+            "관계, 연관성",
+            "소비하다, 소모하다",
+            "경멸, 무시"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-4",
+          "word": "conscious",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "헌법",
+            "사려 깊은, 배려하는",
+            "의식하는, 알고 있는",
+            "회의, 회담"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "19-5",
+          "word": "consequence",
+          "question": "뜻을 선택하세요",
+          "options": ["경멸, 무시", "헌법", "결과", "보수적인"],
+          "correct": 2
+        },
+        {
+          "id": "19-6",
+          "word": "conservative",
+          "question": "뜻을 선택하세요",
+          "options": ["보수적인", "일관성 있는", "끊임없이", "상당한"],
+          "correct": 0
+        },
+        {
+          "id": "19-7",
+          "word": "considerable",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "보수적인",
+            "상당한",
+            "소비자중심주의",
+            "사려 깊은, 배려하는"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-8",
+          "word": "considerate",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "상당한",
+            "소비하다, 소모하다",
+            "사려 깊은, 배려하는",
+            "결과"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "19-9",
+          "word": "consideration",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "헌법",
+            "(고려할) 사정, 참작",
+            "자신감 있는, 확신하는",
+            "오염시키다"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-10",
+          "word": "consist of",
+          "question": "뜻을 선택하세요",
+          "options": ["~로 구성되다", "끊임없이", "경멸, 무시", "회의, 회담"],
+          "correct": 0
+        },
+        {
+          "id": "19-11",
+          "word": "consistent",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "일관성 있는, 불변하는",
+            "보수적인",
+            "소비자중심주의",
+            "소비하다, 소모하다"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "19-12",
+          "word": "constantly",
+          "question": "뜻을 선택하세요",
+          "options": ["소비자중심주의", "끊임없이", "헌법", "관계, 연관성"],
+          "correct": 1
+        },
+        {
+          "id": "19-13",
+          "word": "constitution",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "헌법",
+            "소비하다, 소모하다",
+            "경멸, 무시",
+            "의식하는, 알고 있는"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "19-14",
+          "word": "construct",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "오염시키다",
+            "연락하다",
+            "구성하다",
+            "자신감 있는, 확신하는"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "19-15",
+          "word": "consult",
+          "question": "뜻을 선택하세요",
+          "options": ["상의하다", "소비자중심주의", "보수적인", "경멸, 무시"],
+          "correct": 0
+        },
+        {
+          "id": "19-16",
+          "word": "consume",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "경멸, 무시",
+            "소비하다, 소모하다",
+            "자신감 있는, 확신하는",
+            "혼잡, 체증"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-17",
+          "word": "consumerism",
+          "question": "뜻을 선택하세요",
+          "options": ["헌법", "보수적인", "소비자중심주의", "끊임없이"],
+          "correct": 2
+        },
+        {
+          "id": "19-18",
+          "word": "contact",
+          "question": "뜻을 선택하세요",
+          "options": ["연락하다", "오염시키다", "헌법", "소비자중심주의"],
+          "correct": 0
+        },
+        {
+          "id": "19-19",
+          "word": "contaminate",
+          "question": "뜻을 선택하세요",
+          "options": ["헌법", "연락하다", "오염시키다", "소비자중심주의"],
+          "correct": 2
+        },
+        {
+          "id": "19-20",
+          "word": "contemporary",
+          "question": "뜻을 선택하세요",
+          "options": ["동시대의, 오늘날의", "경멸, 무시", "끊임없이", "상당한"],
+          "correct": 0
+        },
+        {
+          "id": "19-21",
+          "word": "contempt",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "헌법",
+            "경멸, 무시",
+            "소비하다, 소모하다",
+            "관계, 연관성"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "19-22",
+          "word": "content",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "내용, 내용물",
+            "보수적인",
+            "자신감 있는, 확신하는",
+            "경멸, 무시"
+          ],
+          "correct": 0
+        }
+      ],
+      "20": [
+        {
+          "id": "20-1",
+          "word": "contest",
+          "question": "뜻을 선택하세요",
+          "options": ["대회, 시합", "참가자", "계속하다", "계약, 계약서"],
+          "correct": 0
+        },
+        {
+          "id": "20-2",
+          "word": "contestant",
+          "question": "뜻을 선택하세요",
+          "options": ["대회, 시합", "참가자", "반대의", "대조적인"],
+          "correct": 1
+        },
+        {
+          "id": "20-3",
+          "word": "continue",
+          "question": "뜻을 선택하세요",
+          "options": ["계속하다", "기부, 기증품", "편리한", "조정하다"],
+          "correct": 0
+        },
+        {
+          "id": "20-4",
+          "word": "contract",
+          "question": "뜻을 선택하세요",
+          "options": ["저작권", "계약, 계약서", "핵심, 속, 응어리", "죄수"],
+          "correct": 1
+        },
+        {
+          "id": "20-5",
+          "word": "contrary",
+          "question": "뜻을 선택하세요",
+          "options": ["반대의", "냉각기, 아이스박스", "협력하다", "기업"],
+          "correct": 0
+        },
+        {
+          "id": "20-6",
+          "word": "contrasting",
+          "question": "뜻을 선택하세요",
+          "options": ["전통, 관습", "대조적인", "확신, 신념", "따라하다"],
+          "correct": 1
+        },
+        {
+          "id": "20-7",
+          "word": "contribute to",
+          "question": "뜻을 선택하세요",
+          "options": ["~에 공헌하다", "계속하다", "저작권", "핵심, 속, 응어리"],
+          "correct": 0
+        },
+        {
+          "id": "20-8",
+          "word": "contribution",
+          "question": "뜻을 선택하세요",
+          "options": ["계약, 계약서", "협력하다", "기부, 기증품", "대조적인"],
+          "correct": 2
+        },
+        {
+          "id": "20-9",
+          "word": "controversy",
+          "question": "뜻을 선택하세요",
+          "options": ["논쟁, 논란", "참가자", "핵심, 속, 응어리", "기업"],
+          "correct": 0
+        },
+        {
+          "id": "20-10",
+          "word": "convenient",
+          "question": "뜻을 선택하세요",
+          "options": ["대회, 시합", "냉각기, 아이스박스", "편리한", "저작권"],
+          "correct": 2
+        },
+        {
+          "id": "20-11",
+          "word": "convention",
+          "question": "뜻을 선택하세요",
+          "options": ["전통, 관습", "계속하다", "대조적인", "협력하다"],
+          "correct": 0
+        },
+        {
+          "id": "20-12",
+          "word": "convert",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "따라하다",
+            "개조하다, 전환하다",
+            "핵심, 속, 응어리",
+            "죄수"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "20-13",
+          "word": "convict",
+          "question": "뜻을 선택하세요",
+          "options": ["죄수", "확신, 신념", "저작권", "대조적인"],
+          "correct": 0
+        },
+        {
+          "id": "20-14",
+          "word": "conviction",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "참가자",
+            "냉각기, 아이스박스",
+            "확신, 신념",
+            "계약, 계약서"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "20-15",
+          "word": "cooler",
+          "question": "뜻을 선택하세요",
+          "options": ["편리한", "냉각기, 아이스박스", "전통, 관습", "조정하다"],
+          "correct": 1
+        },
+        {
+          "id": "20-16",
+          "word": "cooperate",
+          "question": "뜻을 선택하세요",
+          "options": ["협력하다", "계속하다", "핵심, 속, 응어리", "저작권"],
+          "correct": 0
+        },
+        {
+          "id": "20-17",
+          "word": "coordinate",
+          "question": "뜻을 선택하세요",
+          "options": ["기업", "조정하다", "대조적인", "대회, 시합"],
+          "correct": 1
+        },
+        {
+          "id": "20-18",
+          "word": "cope with",
+          "question": "뜻을 선택하세요",
+          "options": ["~에 대처하다", "저작권", "죄수", "기부, 기증품"],
+          "correct": 0
+        },
+        {
+          "id": "20-19",
+          "word": "copy",
+          "question": "뜻을 선택하세요",
+          "options": ["따라하다", "기업", "냉각기, 아이스박스", "협력하다"],
+          "correct": 0
+        },
+        {
+          "id": "20-20",
+          "word": "copyright",
+          "question": "뜻을 선택하세요",
+          "options": ["핵심, 속, 응어리", "저작권", "전통, 관습", "대회, 시합"],
+          "correct": 1
+        },
+        {
+          "id": "20-21",
+          "word": "core",
+          "question": "뜻을 선택하세요",
+          "options": ["핵심, 속, 응어리", "편리한", "협력하다", "참가자"],
+          "correct": 0
+        },
+        {
+          "id": "20-22",
+          "word": "corporation",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "계약, 계약서",
+            "기업",
+            "확신, 신념",
+            "냉각기, 아이스박스"
+          ],
+          "correct": 1
+        }
+      ],
+      "21": [
+        {
+          "id": "21-1",
+          "word": "correspond to",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "~와 일치하다",
+            "타락, 부패",
+            "비용을 감당할 수 없는",
+            "소파"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-2",
+          "word": "corruption",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "신조, 교의",
+            "창조물, 생물",
+            "타락, 부패",
+            "협의회, 의회"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "21-3",
+          "word": "cost-prohibitive",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "간주하다, 여기다",
+            "비용을 감당할 수 없는",
+            "보도, 범위",
+            "아늑한"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "21-4",
+          "word": "costume",
+          "question": "뜻을 선택하세요",
+          "options": ["복장", "상담원", "좌초되다, 추락하다", "범죄자"],
+          "correct": 0
+        },
+        {
+          "id": "21-5",
+          "word": "cottage",
+          "question": "뜻을 선택하세요",
+          "options": ["창조물, 생물", "전원, 시골", "시골집, 작은 집", "갈망"],
+          "correct": 2
+        },
+        {
+          "id": "21-6",
+          "word": "couch",
+          "question": "뜻을 선택하세요",
+          "options": ["소파", "간주하다, 여기다", "결정적인, 중대한", "아늑한"],
+          "correct": 0
+        },
+        {
+          "id": "21-7",
+          "word": "council",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "타락, 부패",
+            "협의회, 의회",
+            "비평가, 비판론자",
+            "신조, 교의"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "21-8",
+          "word": "counselor",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "상담원",
+            "좌초되다, 추락하다",
+            "보도, 범위",
+            "전원, 시골"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-9",
+          "word": "count",
+          "question": "뜻을 선택하세요",
+          "options": ["범죄자", "간주하다, 여기다", "갈망", "아늑한"],
+          "correct": 1
+        },
+        {
+          "id": "21-10",
+          "word": "countryside",
+          "question": "뜻을 선택하세요",
+          "options": ["전원, 시골", "복장", "창조물, 생물", "결정적인, 중대한"],
+          "correct": 0
+        },
+        {
+          "id": "21-11",
+          "word": "coverage",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "보도, (정보의) 범위",
+            "타락, 부패",
+            "비용을 감당할 수 없는",
+            "간주하다, 여기다"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-12",
+          "word": "cozy",
+          "question": "뜻을 선택하세요",
+          "options": ["결정적인, 중대한", "아늑한", "신조, 교의", "상담원"],
+          "correct": 1
+        },
+        {
+          "id": "21-13",
+          "word": "crash",
+          "question": "뜻을 선택하세요",
+          "options": ["좌초되다, 추락하다", "소파", "범죄자", "전원, 시골"],
+          "correct": 0
+        },
+        {
+          "id": "21-14",
+          "word": "craving",
+          "question": "뜻을 선택하세요",
+          "options": ["간주하다, 여기다", "갈망", "보도, 범위", "아늑한"],
+          "correct": 1
+        },
+        {
+          "id": "21-15",
+          "word": "creature",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "창조물, 생물",
+            "협의회, 의회",
+            "좌초되다, 추락하다",
+            "타락, 부패"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-16",
+          "word": "credible",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "범죄자",
+            "비평가, 비판론자",
+            "신조, 교의",
+            "믿을 만한, 확실한"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "21-17",
+          "word": "credit A with B",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "B를 A의 공으로 믿다",
+            "간주하다, 여기다",
+            "복장",
+            "좌초되다, 추락하다"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-18",
+          "word": "creed",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "신조, 교의",
+            "전원, 시골",
+            "비용을 감당할 수 없는",
+            "창조물, 생물"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "21-19",
+          "word": "creep",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "간주하다, 여기다",
+            "기다, 살금살금 걷다",
+            "결정적인, 중대한",
+            "보도, 범위"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "21-20",
+          "word": "criminal",
+          "question": "뜻을 선택하세요",
+          "options": ["범죄자", "복장", "창조물, 생물", "아늑한"],
+          "correct": 0
+        },
+        {
+          "id": "21-21",
+          "word": "critic",
+          "question": "뜻을 선택하세요",
+          "options": ["비평가, 비판론자", "신조, 교의", "범죄자", "타락, 부패"],
+          "correct": 0
+        },
+        {
+          "id": "21-22",
+          "word": "critical",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "결정적인, 중대한",
+            "좌초되다, 추락하다",
+            "상담원",
+            "간주하다, 여기다"
+          ],
+          "correct": 0
+        }
       ]
     }
   }

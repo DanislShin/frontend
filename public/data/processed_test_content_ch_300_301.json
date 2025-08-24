@@ -1,0 +1,55 @@
+[
+  {
+    "language": "ch",
+    "module_id": "300",
+    "test_id": "301",
+    "mode": "learn",
+    "content": {
+      "unit1": {
+        "title": "ユニット1: 基本動詞と関連語彙",
+        "words": [
+          {
+            "word": "abandon",
+            "example": "彼らは車を捨てて逃げた。",
+            "meaning": "捨てる、断念する",
+            "translation": "그들은 차를 버리고 달아났다。",
+            "pronunciation": "すてる、だんねんする",
+            "part_of_speech": "動詞"
+          },
+          {
+            "word": "abandonment",
+            "example": "そのプロジェクトの放棄はチームを失望させた。",
+            "meaning": "放棄、遺棄",
+            "translation": "그 프로젝트의 포기는 팀을 실망시켰다。",
+            "pronunciation": "ほうき、いき",
+            "part_of_speech": "名詞"
+          },
+          {
+            "word": "abolish",
+            "example": "彼は死刑制度を廃止することに賛成している。",
+            "meaning": "廃止する",
+            "translation": "그는 사형제를 폐지하는 것에 찬성한다。",
+            "pronunciation": "はいしする",
+            "part_of_speech": "動詞"
+          },
+          {
+            "word": "abolition",
+            "example": "奴隷制度の廃止は歴史的な業績だった。",
+            "meaning": "廃止",
+            "translation": "노예제 폐지는 역사적 업적이었다。",
+            "pronunciation": "はいし",
+            "part_of_speech": "名詞"
+          },
+          {
+            "word": "abroad",
+            "example": "彼は来年海外で働きたいと望んでいる。",
+            "meaning": "海外で、外国で",
+            "translation": "그는 내년에 해외에서 근무하길 희망한다。",
+            "pronunciation": "かいがいで、がいこくで",
+            "part_of_speech": "副詞"
+          }
+        ]
+      }
+    }
+  }
+]
