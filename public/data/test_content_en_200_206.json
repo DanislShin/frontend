@@ -1,0 +1,81 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "206",
+    "content": {
+      "title": "영어 to 부정사 학습",
+      "topics": [
+        {
+          "subtitle": "명사적 용법",
+          "explanation": "to + 동사원형 = ~하는 것, ~하는 일. 문장에서 주어, 목적어, 보어로 사용됨. 동작을 이름처럼 취급함. 해석: ~하는 것 / ~하기. 위치: 문장 앞, 동사 뒤, be동사 뒤 등. 포인트: 동사처럼 보이지만, 실제로는 문장에서 명사처럼 행동",
+          "examples": [
+            {
+              "type": "주어",
+              "korean": "영어를 공부하는 것은 중요하다.",
+              "english": "To study English is important."
+            },
+            {
+              "type": "목적어",
+              "korean": "나는 자고 싶다.",
+              "english": "I want to sleep."
+            },
+            {
+              "type": "보어",
+              "korean": "내 꿈은 가수가 되는 것이다.",
+              "english": "My dream is to be a singer."
+            }
+          ]
+        },
+        {
+          "subtitle": "형용사적 용법",
+          "explanation": "to + 동사원형 = ~할, ~해야 할. 명사를 꾸며주는 역할. 앞에 있는 명사를 설명함. 해석: ~할, ~해야 할. 위치: 명사 뒤에서 그 명사를 수식. 포인트: '어떤 ~?'이라는 질문에 답해줌 (형용사 역할)",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "나는 해야 할 숙제가 많다.",
+              "english": "I have a lot of homework to do."
+            },
+            {
+              "type": "example",
+              "korean": "그녀는 먹을 것이 필요하다.",
+              "english": "She needs something to eat."
+            },
+            {
+              "type": "example",
+              "korean": "그는 도착한 첫 번째 사람이다.",
+              "english": "He is the first person to arrive."
+            }
+          ]
+        },
+        {
+          "subtitle": "부사적 용법",
+          "explanation": "to + 동사원형 = ~하기 위해, ~해서, ~할 만큼. 동사, 형용사, 부사를 꾸며주는 역할. 이유, 목적, 결과, 조건, 감정의 원인 등 다양한 의미로 사용됨. 해석: ~하기 위해 / ~해서 / ~할 정도로. 포인트: ‘왜?’ 또는 ‘어떻게?’의 질문에 답해줌 (부사 역할)",
+          "examples": [
+            {
+              "type": "목적",
+              "korean": "그는 시험에 합격하기 위해 열심히 공부한다.",
+              "english": "He studies hard to pass the test."
+            },
+            {
+              "type": "감정의 원인",
+              "korean": "너를 보게 되어 기쁘다.",
+              "english": "I’m happy to see you."
+            },
+            {
+              "type": "결과",
+              "korean": "그녀는 자라서 의사가 되었다.",
+              "english": "She grew up to be a doctor."
+            },
+            {
+              "type": "정도/결과",
+              "korean": "너는 술을 마시기에는 너무 어리다.",
+              "english": "You are too young to drink."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

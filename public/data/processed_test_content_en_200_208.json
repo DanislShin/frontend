@@ -1,0 +1,100 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "208",
+    "mode": "learn",
+    "content": {
+      "title": "영어 관계대명사 학습",
+      "topics": [
+        {
+          "subtitle": "관계대명사란?",
+          "explanation": "두 문장을 연결하여 하나의 문장으로 만드는 역할을 함. 선행사(앞에 오는 명사)를 수식하며 주격, 목적격, 소유격 등으로 쓰임.",
+          "examples": [
+            {
+              "type": "주격",
+              "korean": "저기 서 있는 여자가 내 여동생이다.",
+              "english": "The woman who is standing over there is my sister."
+            },
+            {
+              "type": "목적격",
+              "korean": "내가 어제 만난 남자는 의사다.",
+              "english": "The man whom I met yesterday is a doctor."
+            },
+            {
+              "type": "소유격",
+              "korean": "차가 고장 난 소년은 내 친구다.",
+              "english": "The boy whose car broke down is my friend."
+            }
+          ]
+        },
+        {
+          "subtitle": "주격 관계대명사 (who/which/that)",
+          "explanation": "주어 역할을 하며, 사람이면 who/that, 사물이면 which/that 사용.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "나를 도와준 소녀는 친절하다.",
+              "english": "The girl who helped me is kind."
+            }
+          ]
+        },
+        {
+          "subtitle": "목적격 관계대명사 (whom/which/that)",
+          "explanation": "목적어 역할. 구어에서는 whom 대신 who나 생략 가능.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "그는 내가 좋아하는 배우다.",
+              "english": "He is the actor (whom) I like."
+            }
+          ]
+        },
+        {
+          "subtitle": "소유격 관계대명사 (whose)",
+          "explanation": "소유를 나타냄. 사람과 사물 모두 가능.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "지붕이 파란 집은 내 집이다.",
+              "english": "The house whose roof is blue is mine."
+            }
+          ]
+        },
+        {
+          "subtitle": "관계대명사 that",
+          "explanation": "사람/사물 모두 수식 가능. 특히 최상급, all, everything, something, anything, nothing 뒤에서 자주 사용.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "이것이 내가 원하는 전부다.",
+              "english": "This is all that I want."
+            }
+          ]
+        },
+        {
+          "subtitle": "관계대명사 생략",
+          "explanation": "목적격 관계대명사는 종종 생략됨.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "저 여자가 내가 어제 본 사람이다.",
+              "english": "That’s the woman I saw yesterday."
+            }
+          ]
+        },
+        {
+          "subtitle": "자주 틀리는 포인트",
+          "explanation": "관계대명사 뒤에는 반드시 완전한 절이 와야 함. 관계부사(where, when, why)와 혼동하지 않기.",
+          "examples": [
+            {
+              "type": "example",
+              "korean": "이것은 우리가 처음 만난 카페다.",
+              "english": "This is the café where we first met."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

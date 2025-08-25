@@ -28,12 +28,6 @@
         "type": "multiple-choice",
         "skill": "읽기",
         "days": true
-      },
-      {
-        "id": "301-3-B",
-        "type": "ai-review",
-        "skill": "말하기",
-        "days": true
       }
     ]
   },

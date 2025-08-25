@@ -11,7 +11,7 @@ const ReadingLearning = ({
   const [content, setContent] = useState(null);
   const [loadError, setLoadError] = useState(null);
   const [activeSection, setActiveSection] = useState("reading");
-  const [activeIndex, setActiveIndex] = useState(0); // 여러 세트 중 현재 선택된 것
+  const [activeIndex, setActiveIndex] = useState(0);
   const [completed, setCompleted] = useState(false);
 
   useEffect(() => {
@@ -36,7 +36,25 @@ const ReadingLearning = ({
 
   const handlePronounce = (text, rate = 0.7) => {
     const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = language === "jp" ? "ja-JP" : "en-US";
+
+    // 언어 코드에 따른 TTS 언어 설정
+    switch (language) {
+      case "en":
+        utterance.lang = "en-US";
+        break;
+      case "jp":
+        utterance.lang = "ja-JP";
+        break;
+      case "ch":
+        utterance.lang = "zh-CN"; // 중국어 간체
+        break;
+      case "sp":
+        utterance.lang = "es-ES"; // 스페인어
+        break;
+      default:
+        utterance.lang = "en-US";
+    }
+
     utterance.rate = rate;
     window.speechSynthesis.speak(utterance);
   };
@@ -65,9 +83,24 @@ const ReadingLearning = ({
   if (loadError) return <p className="text-red-500">{loadError}</p>;
   if (!content) return <p>Loading...</p>;
 
-  // content가 배열인지 확인
   const isArray = Array.isArray(content);
   const current = isArray ? content[activeIndex] : content;
+
+  // 언어에 따른 텍스트 필드 선택
+  const getTextContent = (para) => {
+    switch (language) {
+      case "en":
+        return { text: para.english, pronunciation: para.pronunciation };
+      case "jp":
+        return { text: para.japanese, pronunciation: para.pronunciation };
+      case "ch":
+        return { text: para.chinese, pronunciation: para.pronunciation };
+      case "sp":
+        return { text: para.spanish, pronunciation: para.pronunciation };
+      default:
+        return { text: para.english, pronunciation: para.pronunciation };
+    }
+  };
 
   return (
     <div className="reading-learning p-4 max-w-4xl mx-auto">
@@ -78,7 +111,6 @@ const ReadingLearning = ({
         ← 뒤로
       </button>
 
-      {/* 여러 세트 전환 탭 */}
       {isArray && (
         <div className="flex space-x-2 mb-6">
           {content.map((section, idx) => (
@@ -97,7 +129,6 @@ const ReadingLearning = ({
         </div>
       )}
 
-      {/* 리딩/단어/문법 탭 */}
       <div className="tabs flex mb-6 border-b">
         <button
           className={`p-3 ${
@@ -131,7 +162,6 @@ const ReadingLearning = ({
         </button>
       </div>
 
-      {/* 본문 */}
       {current && (
         <>
           {activeSection === "reading" && (
@@ -139,32 +169,33 @@ const ReadingLearning = ({
               <h1 className="text-2xl font-bold text-center mb-6">
                 {current.title}
               </h1>
-              {current.paragraphs.map((para, idx) => (
-                <div
-                  key={idx}
-                  className="paragraph-group bg-white p-4 rounded-lg shadow"
-                >
-                  <div className="flex items-start mb-2">
-                    <button
-                      onClick={() => handlePronounce(para.english)}
-                      className="mr-3 p-2 bg-blue-100 rounded-full hover:bg-blue-200"
-                    >
-                      🔊
-                    </button>
-                    <div>
-                      <p className="text-lg english-text mb-2">
-                        {para.english}
-                      </p>
-                      <p className="text-gray-600 pronunciation">
-                        {para.pronunciation}
-                      </p>
+              {current.paragraphs.map((para, idx) => {
+                const { text, pronunciation } = getTextContent(para);
+                return (
+                  <div
+                    key={idx}
+                    className="paragraph-group bg-white p-4 rounded-lg shadow"
+                  >
+                    <div className="flex items-start mb-2">
+                      <button
+                        onClick={() => handlePronounce(text)}
+                        className="mr-3 p-2 bg-blue-100 rounded-full hover:bg-blue-200"
+                      >
+                        🔊
+                      </button>
+                      <div>
+                        <p className="text-lg foreign-text mb-2">{text}</p>
+                        <p className="text-gray-600 pronunciation">
+                          {pronunciation}
+                        </p>
+                      </div>
                     </div>
+                    <p className="korean-text pl-11 text-gray-800">
+                      {para.korean}
+                    </p>
                   </div>
-                  <p className="korean-text pl-11 text-gray-800">
-                    {para.korean}
-                  </p>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
 
@@ -215,15 +246,19 @@ const ReadingLearning = ({
                   <h3 className="font-semibold text-lg mb-2">{point.title}</h3>
                   <p className="mb-3">{point.explanation}</p>
                   <div className="examples space-y-2">
-                    {point.examples.map((ex, exIdx) => (
-                      <div
-                        key={exIdx}
-                        className="example p-2 bg-white rounded border"
-                      >
-                        <p className="font-medium">{ex.english}</p>
-                        <p className="text-gray-600">{ex.korean}</p>
-                      </div>
-                    ))}
+                    {point.examples.map((ex, exIdx) => {
+                      const { text, pronunciation } = getTextContent(ex);
+                      return (
+                        <div
+                          key={exIdx}
+                          className="example p-2 bg-white rounded border"
+                        >
+                          <p className="font-medium">{text}</p>
+                          <p className="text-gray-600">{pronunciation}</p>
+                          <p className="text-gray-800">{ex.korean}</p>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
               ))}

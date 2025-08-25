@@ -1,0 +1,159 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "205",
+    "mode": "learn",
+    "content": {
+      "title": "영어 비교급과 최상급 형용사 학습",
+      "topics": [
+        {
+          "subtitle": "비교급과 최상급이란?",
+          "explanation": "비교급은 두 가지를 비교하여 어느 것이 더 크거나 작거나 같은지를 나타냅니다. 최상급은 셋 이상을 비교하여 어떤 것이 가장 뛰어난지를 나타냅니다.",
+          "examples": [
+            {
+              "type": "비교급",
+              "korean": "이 책은 저 책보다 더 재미있다.",
+              "english": "This book is more interesting than that book."
+            },
+            {
+              "type": "최상급",
+              "korean": "이 책은 도서관에서 가장 재미있는 책이다.",
+              "english": "This book is the most interesting book in the library."
+            }
+          ]
+        },
+        {
+          "subtitle": "비교급과 최상급 만드는 법: 일반 형용사",
+          "explanation": "형용사의 비교급과 최상급을 만드는 규칙입니다.",
+          "examples": [
+            {
+              "type": "키가 큰 (tall)",
+              "korean": "더 키가 큰 (taller)",
+              "english": "가장 키가 큰 (tallest)"
+            },
+            {
+              "type": "큰 (big)",
+              "korean": "더 큰 (bigger)",
+              "english": "가장 큰 (biggest)"
+            },
+            {
+              "type": "재미있는 (interesting)",
+              "korean": "더 재미있는 (more interesting)",
+              "english": "가장 재미있는 (most interesting)"
+            }
+          ]
+        },
+        {
+          "subtitle": "비교급과 최상급 만드는 법: 규칙",
+          "explanation": "한 음절 형용사: -er(비교급) 또는 -est(최상급)를 붙임. 자음-모음-자음으로 끝나는 한 음절 형용사: 마지막 자음을 두 번 쓰고 -er 또는 -est를 붙임. 두 음절 이상 형용사: more(비교급) 또는 most(최상급)를 사용. -y로 끝나는 형용사: -y를 -i로 바꾸고 -er 또는 -est를 붙임.",
+          "examples": [
+            {
+              "type": "한 음절 형용사",
+              "korean": "키가 큰 (tall) → 더 키가 큰 (taller) → 가장 키가 큰 (tallest)",
+              "english": "tall → taller → tallest"
+            },
+            {
+              "type": "자음-모음-자음 끝나는 한 음절",
+              "korean": "큰 (big) → 더 큰 (bigger) → 가장 큰 (biggest)",
+              "english": "big → bigger → biggest"
+            },
+            {
+              "type": "두 음절 이상",
+              "korean": "재미있는 (interesting) → 더 재미있는 (more interesting) → 가장 재미있는 (most interesting)",
+              "english": "interesting → more interesting → most interesting"
+            },
+            {
+              "type": "-y로 끝나는",
+              "korean": "행복한 (happy) → 더 행복한 (happier) → 가장 행복한 (happiest)",
+              "english": "happy → happier → happiest"
+            }
+          ]
+        },
+        {
+          "subtitle": "불규칙 형용사",
+          "explanation": "일부 형용사는 불규칙적으로 변합니다.",
+          "examples": [
+            {
+              "type": "좋은 (good)",
+              "korean": "더 좋은 (better)",
+              "english": "가장 좋은 (best)"
+            },
+            {
+              "type": "나쁜 (bad)",
+              "korean": "더 나쁜 (worse)",
+              "english": "가장 나쁜 (worst)"
+            },
+            {
+              "type": "먼 (far)",
+              "korean": "더 먼 (farther/further)",
+              "english": "가장 먼 (farthest/furthest)"
+            },
+            {
+              "type": "적은 (little)",
+              "korean": "더 적은 (less)",
+              "english": "가장 적은 (least)"
+            }
+          ]
+        },
+        {
+          "subtitle": "사용 시 주의점",
+          "explanation": "비교급: 두 가지를 비교할 때 than을 사용. 최상급: 최상급 앞에 the를 붙임. Less와 Least: 부정적인 비교에 사용. 동일 비교: as + 형용사 + as를 사용.",
+          "examples": [
+            {
+              "type": "비교급 with than",
+              "korean": "그녀는 오빠보다 키가 더 크다.",
+              "english": "She is taller than her brother."
+            },
+            {
+              "type": "최상급 with the",
+              "korean": "그는 학급에서 가장 키가 크다.",
+              "english": "He is the tallest in the class."
+            },
+            {
+              "type": "Less와 Least",
+              "korean": "이건 저것보다 덜 비싸다. / 이건 가장 덜 비싼 거다.",
+              "english": "This is less expensive than that. / This is the least expensive."
+            },
+            {
+              "type": "동일 비교",
+              "korean": "이 가방은 저 가방만큼 무겁다.",
+              "english": "This bag is as heavy as that bag."
+            }
+          ]
+        },
+        {
+          "subtitle": "예문",
+          "explanation": "비교급과 최상급의 사용 예시입니다.",
+          "examples": [
+            {
+              "type": "비교급",
+              "korean": "이 영화는 지난번 영화보다 더 재미있다.",
+              "english": "This movie is more interesting than the last one."
+            },
+            {
+              "type": "최상급",
+              "korean": "이건 내가 본 영화 중 가장 재미있는 영화다.",
+              "english": "This is the most interesting movie I've ever seen."
+            },
+            {
+              "type": "불규칙",
+              "korean": "그녀의 점수는 내 점수보다 더 좋았지만, 그의 점수가 가장 좋았다.",
+              "english": "Her score was better than mine, but his was the best."
+            },
+            {
+              "type": "동일",
+              "korean": "내 폰은 너 폰만큼 빠르다.",
+              "english": "My phone is as fast as yours."
+            },
+            {
+              "type": "부정",
+              "korean": "이 과제는 생각했던 것보다 덜 어렵다.",
+              "english": "This assignment is less difficult than I thought."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

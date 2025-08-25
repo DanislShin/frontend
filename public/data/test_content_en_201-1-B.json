@@ -11,7 +11,7 @@
           "word": "be",
           "question": "'be'의 과거형과 과거분사형을 순서대로 고르세요",
           "options": ["been - was", "was/were - been", "is - are", "be - be"],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "1-2",
@@ -71,7 +71,7 @@
             "betted - betted",
             "beat - beaten"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "1-7",
@@ -83,7 +83,7 @@
             "bited - bited",
             "bat - but"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "1-8",
@@ -107,7 +107,7 @@
             "choosed - choosed",
             "chosen - chose"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "1-10",
@@ -143,7 +143,7 @@
             "crop - crop",
             "crapt - crapt"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "1-13",
@@ -227,7 +227,7 @@
       ],
       "2": [
         {
-          "id": "2-1",
+          "id": "2-3",
           "word": "fall",
           "question": "'fall'의 과거형과 과거분사형을 순서대로 고르세요",
           "options": [
@@ -236,7 +236,7 @@
             "felt - felt",
             "falled - falled"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "2-2",
@@ -346,7 +346,7 @@
             "hing - hing",
             "hanged - hanged"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "2-12",
@@ -365,7 +365,7 @@
             "heared - heared",
             "hort - hort"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "2-14",
@@ -389,7 +389,7 @@
             "hitten - hitten",
             "hat - hat"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "2-16",
@@ -449,7 +449,7 @@
             "leave - leave",
             "left - leaved"
           ],
-          "correct": 1
+          "correct": 3
         },
         {
           "id": "2-21",
@@ -467,73 +467,470 @@
       "3": [
         {
           "id": "3-1",
-          "word": "eat",
-          "question": "'eat'의 과거형과 과거분사형을 순서대로 고르세요",
-          "options": [
-            "eated - eated",
-            "ate - eaten",
-            "aten - ate",
-            "eat - eat"
-          ],
-          "correct": 1
+          "word": "lie",
+          "question": "'lie'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": ["lie - lie", "lay-lain", "lay - lain", "layed - lained"],
+          "correct": 2
         },
         {
           "id": "3-2",
-          "word": "cut",
-          "question": "'cut'의 과거형과 과거분사형을 순서대로 고르세요",
-          "options": [
-            "cuted - cuted",
-            "cat - cat",
-            "cut - cut",
-            "cutted - cutted"
-          ],
-          "correct": 2
+          "word": "light",
+          "question": "'light'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": ["lited - lited", "lit - lit", "lit-lit", "light - light"],
+          "correct": 3
         },
         {
           "id": "3-3",
-          "word": "cost",
-          "question": "'cost'의 과거형과 과거분사형을 순서대로 고르세요",
+          "word": "lose",
+          "question": "'lose'의 과거형과 과거분사형을 순서대로 고르세요",
           "options": [
-            "costed - costed",
-            "cost - cost",
-            "coust - coust",
-            "cast - cast"
+            "lost - lost",
+            "losted - losted",
+            "lost-lost",
+            "lose - lose"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": "3-4",
-          "word": "choose",
-          "question": "'choose'의 과거형과 과거분사형을 순서대로 고르세요",
+          "word": "make",
+          "question": "'make'의 과거형과 과거분사형을 순서대로 고르세요",
           "options": [
-            "choose - choose",
-            "chose - chosen",
-            "choosed - choosed",
-            "chosen - chose"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "3-5",
-          "word": "begin",
-          "question": "'begin'의 과거형과 과거분사형을 순서대로 고르세요",
-          "options": [
-            "begun - began",
-            "begin - begin",
-            "began - begun",
-            "begined - begined"
+            "maked - maked",
+            "make - make",
+            "made - made",
+            "made-made"
           ],
           "correct": 2
         },
         {
-          "id": "3-6",
-          "word": "catch",
-          "question": "'catch'의 과거형과 과거분사형을 순서대로 고르세요",
+          "id": "3-5",
+          "word": "mean",
+          "question": "'mean'의 과거형과 과거분사형을 순서대로 고르세요",
           "options": [
-            "catch - catch",
-            "catched - catched",
-            "cought - cought",
-            "caught - caught"
+            "meant - meant",
+            "meant-meant",
+            "mean - mean",
+            "meanted - meanted"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "3-6",
+          "word": "meet",
+          "question": "'meet'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "meeted - meeted",
+            "met - met",
+            "meet - meet",
+            "meet - met"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-7",
+          "word": "pay",
+          "question": "'pay'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "payed - payed",
+            "paid - paid",
+            "pay - pay",
+            "payd - payd"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-8",
+          "word": "put",
+          "question": "'put'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "putted - putted",
+            "put - put",
+            "put - putted",
+            "put - puten"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-9",
+          "word": "quit",
+          "question": "'quit'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "quit - quitten",
+            "quit - quit",
+            "quited - quited",
+            "quit - quitted"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-10",
+          "word": "read",
+          "question": "'read'의 과거형과 과거분사형을 순서대로 고르세요 (발음: 과거형은 [red])",
+          "options": [
+            "reed - reeded",
+            "readed - readed",
+            "read - read",
+            "rod - rod"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "3-11",
+          "word": "ride",
+          "question": "'ride'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "rode - ridden",
+            "ride - ride",
+            "rided - rided",
+            "rode - rode"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "3-12",
+          "word": "ring",
+          "question": "'ring'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "rang - rung",
+            "ringed - ringed",
+            "rang - rang",
+            "ring - ring"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "3-13",
+          "word": "rise",
+          "question": "'rise'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "rised - rised",
+            "rose - risen",
+            "rise - rise",
+            "rosed - rosen"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-14",
+          "word": "run",
+          "question": "'run'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": ["ran - run", "run - run", "runned - runned", "ran - ran"],
+          "correct": 0
+        },
+        {
+          "id": "3-15",
+          "word": "say",
+          "question": "'say'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "said - sayed",
+            "say - say",
+            "sayed - sayed",
+            "said - said"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-16",
+          "word": "see",
+          "question": "'see'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": ["saw - seen", "see - see", "seed - seed", "sawn - sawed"],
+          "correct": 0
+        },
+        {
+          "id": "3-17",
+          "word": "sell",
+          "question": "'sell'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "sold - sold",
+            "sell - sell",
+            "selled - selled",
+            "selt - selt"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "3-18",
+          "word": "send",
+          "question": "'send'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "sent - sent",
+            "send - send",
+            "sended - sended",
+            "sent - send"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "3-19",
+          "word": "shine",
+          "question": "'shine'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "shine - shine",
+            "shone - shone",
+            "shined - shined",
+            "shon - shon"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "3-20",
+          "word": "shoot",
+          "question": "'shoot'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "shot - shooted",
+            "shooted - shooted",
+            "shot - shot",
+            "shoot - shoot"
+          ],
+          "correct": 2
+        }
+      ],
+      "4": [
+        {
+          "id": "4-1",
+          "word": "show",
+          "question": "'show'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "showed-shown",
+            "shoed - shoed",
+            "showeded - showned",
+            "showed - shown"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-2",
+          "word": "shut",
+          "question": "'shut'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "shued - shued",
+            "shuted - shuted",
+            "shut-shut",
+            "shut - shut"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-3",
+          "word": "sing",
+          "question": "'sing'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "sang - sung",
+            "sined - sined",
+            "sang-sung",
+            "sing - sing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "4-4",
+          "word": "sit",
+          "question": "'sit'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": ["sat-sat", "sited - sited", "sit - sit", "sat - sat"],
+          "correct": 3
+        },
+        {
+          "id": "4-5",
+          "word": "sleep",
+          "question": "'sleep'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "sleed - sleed",
+            "slept - slept",
+            "slept-slept",
+            "slepted - slepted"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-6",
+          "word": "speak",
+          "question": "'speak'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "spoke-spoken",
+            "spoke - spoken",
+            "speed - speed",
+            "spokeed - spokened"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-7",
+          "word": "spend",
+          "question": "'spend'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "spent-spent",
+            "spent - spent",
+            "spend - spend",
+            "speed - speed"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-8",
+          "word": "stand",
+          "question": "'stand'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "stood - stood",
+            "stooded - stooded",
+            "staed - staed",
+            "stood-stood"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "4-9",
+          "word": "steal",
+          "question": "'steal'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "stole - stolen",
+            "stole-stolen",
+            "stoleed - stolened",
+            "steal - steal"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "4-10",
+          "word": "swim",
+          "question": "'swim'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "swim - swim",
+            "swied - swied",
+            "swam-swum",
+            "swam - swum"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-11",
+          "word": "take",
+          "question": "'take'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "took - taken",
+            "take - take",
+            "took-taken",
+            "tooked - takened"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "4-12",
+          "word": "teach",
+          "question": "'teach'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "taught - taught",
+            "taughted - taughted",
+            "teaed - teaed",
+            "taught-taught"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "4-13",
+          "word": "tear",
+          "question": "'tear'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "toreed - torned",
+            "tore-torn",
+            "tore - torn",
+            "teaed - teaed"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "4-14",
+          "word": "tell",
+          "question": "'tell'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "tolded - tolded",
+            "told - told",
+            "tell - tell",
+            "told-told"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-15",
+          "word": "think",
+          "question": "'think'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "thoughted - thoughted",
+            "thought-thought",
+            "thied - thied",
+            "thought - thought"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-16",
+          "word": "throw",
+          "question": "'throw'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "thred - thred",
+            "threw - thrown",
+            "threw-thrown",
+            "throw - throw"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-17",
+          "word": "understand",
+          "question": "'understand'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "understand - understand",
+            "unded - unded",
+            "understood - understood",
+            "understood-understood"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "4-18",
+          "word": "wake",
+          "question": "'wake'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "waked - waked",
+            "woke - woken",
+            "wokeed - wokened",
+            "woke-woken"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "4-19",
+          "word": "wear",
+          "question": "'wear'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "wore-worn",
+            "wear - wear",
+            "woreed - worned",
+            "wore - worn"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-20",
+          "word": "win",
+          "question": "'win'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "win - win",
+            "woned - woned",
+            "wined - wined",
+            "won - won"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "4-21",
+          "word": "write",
+          "question": "'write'의 과거형과 과거분사형을 순서대로 고르세요",
+          "options": [
+            "wrote-written",
+            "wroteed - writtened",
+            "write - write",
+            "wrote - written"
           ],
           "correct": 3
         }

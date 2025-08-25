@@ -27,6 +27,36 @@
         "name": "203 - 조동사",
         "dataFile": "200-203-learning.json",
         "component": "GrammarLearning"
+      },
+      {
+        "id": "204",
+        "name": "204 - 조동사 시제/수동태",
+        "dataFile": "200-204-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "205",
+        "name": "205 - 비교급/최상급",
+        "dataFile": "200-205-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "206",
+        "name": "206 - 투부정사",
+        "dataFile": "200-206-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "207",
+        "name": "207 - 동명사",
+        "dataFile": "200-207-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "208",
+        "name": "208 - 관계대명사",
+        "dataFile": "200-208-learning.json",
+        "component": "GrammarLearning"
       }
     ]
   },

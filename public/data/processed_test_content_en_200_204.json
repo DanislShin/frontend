@@ -1,0 +1,301 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "204",
+    "mode": "learn",
+    "content": {
+      "title": "영어 조동사 시제별 및 수동태 용법 학습",
+      "topics": [
+        {
+          "subtitle": "Will: 시제별/수동태 용법",
+          "explanation": "Will의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Will + 동사원형",
+              "korean": "나중에 전화할게요.",
+              "english": "I will call you later."
+            },
+            {
+              "type": "Will + be + -ing",
+              "korean": "나는 오후 3시에 일하고 있을 거예요.",
+              "english": "I will be working at 3 PM."
+            },
+            {
+              "type": "Will + be + p.p. (수동태)",
+              "korean": "방은 곧 청소될 거예요.",
+              "english": "The room will be cleaned soon."
+            },
+            {
+              "type": "Will + have + p.p.",
+              "korean": "그녀는 그때까지 끝냈을 거예요.",
+              "english": "She will have finished it by then."
+            },
+            {
+              "type": "Will + have been + p.p. (수동태)",
+              "korean": "보고서는 금요일까지 제출됐을 거예요.",
+              "english": "The report will have been submitted by Friday."
+            }
+          ]
+        },
+        {
+          "subtitle": "Can: 시제별/수동태 용법",
+          "explanation": "Can의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Can + 동사원형",
+              "korean": "그녀는 프랑스어를 할 수 있어요.",
+              "english": "She can speak French."
+            },
+            {
+              "type": "Can + be + -ing",
+              "korean": "그는 지금 일하고 있을 수 있어요.",
+              "english": "He can be working now."
+            },
+            {
+              "type": "Can + be + p.p. (수동태)",
+              "korean": "이 규칙은 변경될 수 있어요.",
+              "english": "This rule can be changed."
+            },
+            {
+              "type": "Could + 동사원형 (과거)",
+              "korean": "나는 어렸을 때 수영할 수 있었어요.",
+              "english": "I could swim when I was young."
+            },
+            {
+              "type": "Could + have + p.p.",
+              "korean": "너는 나에게 더 일찍 말할 수 있었어.",
+              "english": "You could have told me earlier."
+            }
+          ]
+        },
+        {
+          "subtitle": "Must: 시제별/수동태 용법",
+          "explanation": "Must의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Must + 동사원형",
+              "korean": "너는 숙제를 끝내야 해.",
+              "english": "You must finish your homework."
+            },
+            {
+              "type": "Must + be + -ing",
+              "korean": "그는 지금 자고 있을 거야.",
+              "english": "He must be sleeping now."
+            },
+            {
+              "type": "Must + be + p.p. (수동태)",
+              "korean": "서류들은 서명되어야 해.",
+              "english": "The documents must be signed."
+            },
+            {
+              "type": "Must + have + p.p.",
+              "korean": "그녀는 이미 떠났을 거야.",
+              "english": "She must have left already."
+            },
+            {
+              "type": "Must + have been + p.p. (수동태)",
+              "korean": "문은 잠겼었을 거야.",
+              "english": "The door must have been locked."
+            }
+          ]
+        },
+        {
+          "subtitle": "Should: 시제별/수동태 용법",
+          "explanation": "Should의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Should + 동사원형",
+              "korean": "너는 의사를 봐야 해.",
+              "english": "You should see a doctor."
+            },
+            {
+              "type": "Should + be + -ing",
+              "korean": "너는 지금 공부하고 있어야 해.",
+              "english": "You should be studying now."
+            },
+            {
+              "type": "Should + be + p.p. (수동태)",
+              "korean": "이 문제는 논의되어야 해.",
+              "english": "This matter should be discussed."
+            },
+            {
+              "type": "Should + have + p.p.",
+              "korean": "너는 사과했어야 했어.",
+              "english": "You should have apologized."
+            },
+            {
+              "type": "Should + have been + p.p. (수동태)",
+              "korean": "편지는 보내졌어야 했어.",
+              "english": "The letter should have been sent."
+            }
+          ]
+        },
+        {
+          "subtitle": "May/Might: 시제별/수동태 용법",
+          "explanation": "May와 Might의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "May + 동사원형",
+              "korean": "내일 비가 올지도 몰라요.",
+              "english": "It may rain tomorrow."
+            },
+            {
+              "type": "May + be + -ing",
+              "korean": "그녀는 우리를 기다리고 있을지도 몰라요.",
+              "english": "She may be waiting for us."
+            },
+            {
+              "type": "May + be + p.p. (수동태)",
+              "korean": "열쇠는 곧 발견될지도 몰라요.",
+              "english": "The keys may be found soon."
+            },
+            {
+              "type": "May + have + p.p.",
+              "korean": "그는 잊었을지도 몰라요.",
+              "english": "He may have forgotten."
+            },
+            {
+              "type": "May + have been + p.p. (수동태)",
+              "korean": "소포는 배달되었을지도 몰라요.",
+              "english": "The package may have been delivered."
+            },
+            {
+              "type": "Might + 동사원형",
+              "korean": "오늘 밤 눈이 올지도 몰라요.",
+              "english": "It might snow tonight."
+            },
+            {
+              "type": "Might + be + -ing",
+              "korean": "그녀는 지금 자고 있을지도 몰라요.",
+              "english": "She might be sleeping now."
+            },
+            {
+              "type": "Might + be + p.p. (수동태)",
+              "korean": "결정이 바뀔지도 몰라요.",
+              "english": "The decision might be changed."
+            },
+            {
+              "type": "Might + have + p.p.",
+              "korean": "그녀는 기차를 놓쳤을지도 몰라요.",
+              "english": "She might have missed the train."
+            },
+            {
+              "type": "Might + have been + -ing",
+              "korean": "그는 그때 일하고 있었을지도 몰라요.",
+              "english": "He might have been working then."
+            },
+            {
+              "type": "Might + have been + p.p. (수동태)",
+              "korean": "편지는 이미 보내졌을지도 몰라요.",
+              "english": "The letter might have been sent already."
+            }
+          ]
+        },
+        {
+          "subtitle": "Would: 시제별/수동태 용법",
+          "explanation": "Would의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Would + 동사원형",
+              "korean": "내가 돈이 있다면 여행할 텐데.",
+              "english": "I would travel if I had money."
+            },
+            {
+              "type": "Would + be + -ing",
+              "korean": "그녀는 지금 일하고 있을 텐데.",
+              "english": "She would be working now."
+            },
+            {
+              "type": "Would + be + p.p. (수동태)",
+              "korean": "문제는 해결될 텐데.",
+              "english": "The problem would be solved."
+            },
+            {
+              "type": "Would + have + p.p.",
+              "korean": "내가 너를 도왔을 텐데.",
+              "english": "I would have helped you."
+            },
+            {
+              "type": "Would + have been + p.p. (수동태)",
+              "korean": "실수는 눈치채졌을 텐데.",
+              "english": "The mistake would have been noticed."
+            }
+          ]
+        },
+        {
+          "subtitle": "Could: 시제별/수동태 용법",
+          "explanation": "Could의 다양한 시제와 수동태 형태를 표현할 때 사용",
+          "examples": [
+            {
+              "type": "Could + 동사원형",
+              "korean": "나는 어렸을 때 수영할 수 있었어요.",
+              "english": "I could swim when I was young."
+            },
+            {
+              "type": "Could + be + -ing",
+              "korean": "그는 농담하고 있을 수도 있어요.",
+              "english": "He could be joking."
+            },
+            {
+              "type": "Could + be + p.p. (수동태)",
+              "korean": "이것은 다르게 처리될 수 있어요.",
+              "english": "This could be done differently."
+            },
+            {
+              "type": "Could + have + p.p.",
+              "korean": "너는 나에게 말할 수 있었어.",
+              "english": "You could have told me."
+            },
+            {
+              "type": "Could + have been + -ing",
+              "korean": "그녀는 기다리고 있었을 수도 있어.",
+              "english": "She could have been waiting."
+            },
+            {
+              "type": "Could + have been + p.p. (수동태)",
+              "korean": "그것은 예방될 수 있었어.",
+              "english": "It could have been prevented."
+            }
+          ]
+        },
+        {
+          "subtitle": "조동사 + have + 과거분사 완전 정리",
+          "explanation": "조동사 + have + 과거분사의 주요 용법과 예시",
+          "examples": [
+            {
+              "type": "Must have p.p.",
+              "korean": "그녀는 진실을 알았을 거야.",
+              "english": "She must have known the truth."
+            },
+            {
+              "type": "Should have p.p.",
+              "korean": "너는 더 열심히 공부했어야 했어.",
+              "english": "You should have studied harder."
+            },
+            {
+              "type": "Could have p.p.",
+              "korean": "나는 게임에서 이길 수 있었어.",
+              "english": "I could have won the game."
+            },
+            {
+              "type": "May have p.p.",
+              "korean": "그는 이미 떠났을지도 몰라.",
+              "english": "He may have left already."
+            },
+            {
+              "type": "Might have p.p.",
+              "korean": "그녀는 잊었을지도 몰라.",
+              "english": "She might have forgotten."
+            },
+            {
+              "type": "Would have p.p.",
+              "korean": "~했을 텐데 (가정)",
+              "english": "I would"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

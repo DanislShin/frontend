@@ -60,7 +60,7 @@
     "tests": [
       {
         "id": "501",
-        "name": "501 - 넷플릭스",
+        "name": "501 - 뉴스",
         "dataFile": "500-501-learning.json",
         "component": "ReadingLearning"
       }
