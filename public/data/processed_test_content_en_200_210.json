@@ -1,0 +1,300 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "210",
+    "mode": "learn",
+    "content": {
+      "title": "영어 의문사 학습 (Wh-words)",
+      "topics": [
+        {
+          "subtitle": "의문사란?",
+          "explanation": "의문사(wh-words)는 질문을 만드는 말로, 사람, 사물, 시간, 장소, 이유, 방법, 소유, 선택, 수량 등을 묻는다. 문두에 위치하며 직접의문문과 간접의문문에서 모두 사용된다.",
+          "examples": [
+            {
+              "type": "예문",
+              "korean": "너는 누구니?",
+              "english": "Who are you?"
+            },
+            {
+              "type": "예문",
+              "korean": "너는 무엇을 원하니?",
+              "english": "What do you want?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Who (사람을 묻는 의문사)",
+          "explanation": "사람의 신분, 정체, 역할을 묻는다. 주어·목적어·보어로 쓰인다.",
+          "examples": [
+            {
+              "type": "주어",
+              "korean": "누가 이겼니?",
+              "english": "Who won?"
+            },
+            {
+              "type": "목적어",
+              "korean": "너는 누구를 만났니?",
+              "english": "Who did you meet?"
+            },
+            {
+              "type": "보어",
+              "korean": "그는 누구입니까?",
+              "english": "Who is he?"
+            }
+          ]
+        },
+        {
+          "subtitle": "What (사물·행위·개념)",
+          "explanation": "사물이나 행동, 사건, 개념을 묻는다. 주어, 목적어, 보어, 전치사 목적어, 감탄문, 자유관계절, pseudo-cleft 구조 등 다양한 역할로 쓰인다.",
+          "examples": [
+            {
+              "type": "주어 의문문",
+              "korean": "무슨 일이 일어났니?",
+              "english": "What happened?"
+            },
+            {
+              "type": "자유관계절(주어)",
+              "korean": "무슨 일이 일어났는지가 중요하다.",
+              "english": "What happened is important."
+            },
+            {
+              "type": "목적어 의문문",
+              "korean": "너는 무엇을 샀니?",
+              "english": "What did you buy?"
+            },
+            {
+              "type": "간접의문문",
+              "korean": "나는 그가 무엇을 샀는지 모른다.",
+              "english": "I don't know what he bought."
+            },
+            {
+              "type": "전치사 목적어",
+              "korean": "무슨 얘기를 하고 있는 거니?",
+              "english": "What are you talking about?"
+            },
+            {
+              "type": "보어",
+              "korean": "문제는 네가 무엇을 했느냐이다.",
+              "english": "The problem is what you did."
+            },
+            {
+              "type": "to-infinitive",
+              "korean": "나는 무엇을 해야 할지 모른다.",
+              "english": "I don't know what to do."
+            },
+            {
+              "type": "감탄문",
+              "korean": "정말 아름다운 집이야!",
+              "english": "What a beautiful house!"
+            },
+            {
+              "type": "pseudo-cleft",
+              "korean": "내가 필요한 것은 휴식이다.",
+              "english": "What I need is a rest."
+            }
+          ]
+        },
+        {
+          "subtitle": "When (시간)",
+          "explanation": "어떤 일이 일어난(일어날) 시점을 묻는다. 직접의문문, 간접의문문에서 모두 쓰인다.",
+          "examples": [
+            {
+              "type": "직접의문",
+              "korean": "너는 언제 도착했니?",
+              "english": "When did you arrive?"
+            },
+            {
+              "type": "미래",
+              "korean": "회의는 언제 시작하니?",
+              "english": "When does the meeting start?"
+            },
+            {
+              "type": "간접의문",
+              "korean": "나는 그가 언제 떠났는지 안다.",
+              "english": "I know when he left."
+            }
+          ]
+        },
+        {
+          "subtitle": "Where (장소)",
+          "explanation": "장소, 위치, 출신지를 묻는다.",
+          "examples": [
+            {
+              "type": "위치",
+              "korean": "화장실은 어디에 있나요?",
+              "english": "Where is the bathroom?"
+            },
+            {
+              "type": "출신",
+              "korean": "너는 어디에서 왔니?",
+              "english": "Where are you from?"
+            },
+            {
+              "type": "간접의문",
+              "korean": "나는 그가 어디로 갔는지 모른다.",
+              "english": "I don't know where he went."
+            }
+          ]
+        },
+        {
+          "subtitle": "Why (이유)",
+          "explanation": "이유를 묻는다. 답에는 보통 because가 따른다.",
+          "examples": [
+            {
+              "type": "직접의문",
+              "korean": "왜 늦었니?",
+              "english": "Why are you late?"
+            },
+            {
+              "type": "답변",
+              "korean": "차가 막혀서 늦었어.",
+              "english": "Because there was heavy traffic."
+            },
+            {
+              "type": "간접의문",
+              "korean": "나는 그가 왜 떠났는지 궁금하다.",
+              "english": "I wonder why he left."
+            }
+          ]
+        },
+        {
+          "subtitle": "How (방법·상태·정도)",
+          "explanation": "방법, 상태, 정도, 빈도 등을 묻는다. 'How + 형용사/부사'와 결합하여 다양한 의미로 쓰인다.",
+          "examples": [
+            {
+              "type": "방법",
+              "korean": "너는 어떻게 영어를 공부하니?",
+              "english": "How do you study English?"
+            },
+            {
+              "type": "상태",
+              "korean": "오늘 기분이 어때?",
+              "english": "How are you today?"
+            },
+            {
+              "type": "정도",
+              "korean": "얼마나 멀리 가야 하나요?",
+              "english": "How far is it?"
+            },
+            {
+              "type": "나이",
+              "korean": "너는 몇 살이니?",
+              "english": "How old are you?"
+            },
+            {
+              "type": "빈도",
+              "korean": "너는 얼마나 자주 운동하니?",
+              "english": "How often do you exercise?"
+            },
+            {
+              "type": "기간",
+              "korean": "너는 여기 얼마나 머물 거니?",
+              "english": "How long will you stay here?"
+            }
+          ]
+        },
+        {
+          "subtitle": "Whose (소유)",
+          "explanation": "소유 관계를 묻는다. 사람과 사물 모두 가능.",
+          "examples": [
+            {
+              "type": "기본",
+              "korean": "이 가방은 누구의 것이니?",
+              "english": "Whose bag is this?"
+            },
+            {
+              "type": "간접의문",
+              "korean": "나는 이것이 누구의 가방인지 모른다.",
+              "english": "I don't know whose bag this is."
+            }
+          ]
+        },
+        {
+          "subtitle": "Which (제한된 선택)",
+          "explanation": "제한된 선택지 중 하나를 묻는다. what은 비한정, which는 한정된 범위에서 선택할 때 사용.",
+          "examples": [
+            {
+              "type": "직접의문",
+              "korean": "너는 어느 색을 좋아하니?",
+              "english": "Which color do you like?"
+            },
+            {
+              "type": "제한적 선택",
+              "korean": "빨강과 파랑 중 어느 것을 원하니?",
+              "english": "Which do you want, red or blue?"
+            }
+          ]
+        },
+        {
+          "subtitle": "How much / How many / How long / How far (복합 의문사)",
+          "explanation": "수량, 가격, 기간, 거리 등을 묻는다. much는 불가산, many는 가산 복수, long은 기간, far는 거리.",
+          "examples": [
+            {
+              "type": "How much",
+              "korean": "그 책은 얼마입니까?",
+              "english": "How much is the book?"
+            },
+            {
+              "type": "How many",
+              "korean": "사과가 몇 개 있니?",
+              "english": "How many apples are there?"
+            },
+            {
+              "type": "How long",
+              "korean": "너는 여기 얼마나 머물 거니?",
+              "english": "How long will you stay here?"
+            },
+            {
+              "type": "How far",
+              "korean": "여기서 역까지 얼마나 멀지?",
+              "english": "How far is it from here to the station?"
+            }
+          ]
+        },
+        {
+          "subtitle": "간접의문문 (embedded questions)",
+          "explanation": "간접의문문에서는 의문사 뒤 어순이 평서문(주어+동사)으로 유지된다. 직접의문문처럼 도치하지 않는다.",
+          "examples": [
+            {
+              "type": "직접의문",
+              "korean": "그는 어디에 있니?",
+              "english": "Where is he?"
+            },
+            {
+              "type": "간접의문",
+              "korean": "나는 그가 어디에 있는지 안다.",
+              "english": "I know where he is."
+            }
+          ]
+        },
+        {
+          "subtitle": "자주 틀리는 포인트",
+          "explanation": "① 의문사는 문두에 위치 ② 간접의문문에서는 도치 없음 ③ what vs which 구분 ④ why는 because와 짝 ⑤ how + 형용사/부사 조합 주의 (how old, how far, how often 등) ⑥ 전치사 목적어 의문사 위치(전치사 앞/뒤 모두 가능)",
+          "examples": [
+            {
+              "type": "틀린 예",
+              "korean": "너는 누구를 만났니? (잘못된 어순)",
+              "english": "Who you met?"
+            },
+            {
+              "type": "올바른 예",
+              "korean": "너는 누구를 만났니?",
+              "english": "Who did you meet?"
+            },
+            {
+              "type": "전치사 후치",
+              "korean": "무엇에 대해 말하고 있니?",
+              "english": "What are you talking about?"
+            },
+            {
+              "type": "전치사 전치(격식)",
+              "korean": "무엇에 대해 말하고 있습니까?",
+              "english": "About what are you talking?"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

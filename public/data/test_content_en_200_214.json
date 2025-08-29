@@ -1,0 +1,130 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "214",
+    "content": {
+      "title": "가정법 (Subjunctive Mood)",
+      "topics": [
+        {
+          "subtitle": "가정법이란?",
+          "explanation": "가정법은 사실과 반대되는 가정, 소망, 제안 등을 표현하는 동사 형태이다. 현재 가정법은 동사원형, 과거 가정법은 과거형/과거완료형을 사용한다. wish, if only, as if 등의 표현과 함께 쓰인다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "나는 그가 왔으면 좋겠다.",
+              "english": "I wish he came."
+            }
+          ]
+        },
+        {
+          "subtitle": "현재 가정법 (Wish/If only)",
+          "explanation": "Wish + that + 주어 + 과거형. 현재나 미래의 비현실적 소망을 표현한다. 'be'는 'were' 사용.",
+          "examples": [
+            {
+              "type": "현재 소망",
+              "korean": "나는 부자였으면 좋겠다.",
+              "english": "I wish I were rich."
+            },
+            {
+              "type": "미래 소망",
+              "korean": "그가 내일 왔으면 좋겠다.",
+              "english": "I wish he would come tomorrow."
+            }
+          ]
+        },
+        {
+          "subtitle": "과거 가정법 (Wish/If only)",
+          "explanation": "Wish + that + 주어 + 과거완료형. 과거의 후회나 비현실적 가정을 표현한다.",
+          "examples": [
+            {
+              "type": "과거 후회",
+              "korean": "나는 그 영화를 봤으면 좋았을 텐데.",
+              "english": "I wish I had seen the movie."
+            },
+            {
+              "type": "강조",
+              "korean": "그가 도와줬으면 좋았을 텐데!",
+              "english": "If only he had helped!"
+            }
+          ]
+        },
+        {
+          "subtitle": "As if / As though (まるで ~처럼)",
+          "explanation": "As if + 주어 + 과거형 (현재 가정) 또는 과거완료형 (과거 가정). 비현실적 비교를 표현한다.",
+          "examples": [
+            {
+              "type": "현재 가정",
+              "korean": "그는 모든 것을 아는 듯이 행동한다.",
+              "english": "He acts as if he knew everything."
+            },
+            {
+              "type": "과거 가정",
+              "korean": "그녀는 그를 만난 적이 없는 듯이 행동했다.",
+              "english": "She acted as though she had never met him."
+            }
+          ]
+        },
+        {
+          "subtitle": "기타 가정법 표현",
+          "explanation": "Would rather + 주어 + 과거형 (선호), It's time + 주어 + 과거형 (때가 되었다), Suggest/Recommend + that + 주어 + 동사원형 (제안).",
+          "examples": [
+            {
+              "type": "would rather",
+              "korean": "나는 네가 갔으면 좋겠어.",
+              "english": "I would rather you went."
+            },
+            {
+              "type": "it's time",
+              "korean": "집에 갈 시간이다.",
+              "english": "It's time we went home."
+            },
+            {
+              "type": "제안",
+              "korean": "나는 그가 떠나기를 제안한다.",
+              "english": "I suggest that he leave."
+            }
+          ]
+        },
+        {
+          "subtitle": "가정법과 조건문의 차이",
+          "explanation": "가정법은 소망이나 가정 표현에 초점, 조건문은 조건-결과 구조. 하지만 2형/3형 조건문은 가정법 형태를 사용한다.",
+          "examples": [
+            {
+              "type": "조건문",
+              "korean": "만약 비가 왔다면, 우리는 취소했을 텐데.",
+              "english": "If it had rained, we would have canceled."
+            },
+            {
+              "type": "가정법",
+              "korean": "비가 왔으면 좋았을 텐데.",
+              "english": "I wish it had rained."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① 'that'은 생략 가능. ② 미국 영어에서 제안형 가정법 (suggest that he go)이 더 엄격히 지켜짐. ③ 'were' 대신 'was' 가능하지만 형식적 맥락에서 'were' 선호. ④ 문맥상 가정의 시제를 구분해야 한다. ⑤ 영국/미국 영어 차이 주의.",
+          "examples": [
+            {
+              "type": "생략 예",
+              "korean": "나는 그가 왔으면 좋겠다.",
+              "english": "I wish he came. (that 생략)"
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ I wish I will be rich. (will 쓰면 안 됨)",
+              "english": "✗ I wish I will be rich."
+            },
+            {
+              "type": "교정 예",
+              "korean": "나는 부자였으면 좋겠다.",
+              "english": "I wish I were rich."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

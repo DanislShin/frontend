@@ -1,0 +1,129 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "215",
+    "mode": "learn",
+    "content": {
+      "title": "명사 (Nouns: Countable vs Uncountable, Singular/Plural)",
+      "topics": [
+        {
+          "subtitle": "명사란?",
+          "explanation": "명사는 사람, 사물, 장소, 개념 등을 나타내는 단어이다. 영어 명사는 셀 수 있는 명사(Countable Nouns)와 셀 수 없는 명사(Uncountable Nouns)로 나뉘며, 셀 수 있는 명사는 단수(Singular)와 복수(Plural) 형태를 가진다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "책은 셀 수 있는 명사이다.",
+              "english": "A book is a countable noun."
+            }
+          ]
+        },
+        {
+          "subtitle": "셀 수 있는 명사 (Countable Nouns)",
+          "explanation": "개별적으로 셀 수 있는 명사로, 단수와 복수 형태가 있다. 복수형은 보통 -s나 -es를 붙인다. a/an이나 숫자와 함께 사용한다.",
+          "examples": [
+            {
+              "type": "단수",
+              "korean": "나는 사과 하나를 가지고 있다.",
+              "english": "I have an apple."
+            },
+            {
+              "type": "복수",
+              "korean": "나는 사과 두 개를 가지고 있다.",
+              "english": "I have two apples."
+            },
+            {
+              "type": "불규칙 복수",
+              "korean": "아이들 (children)은 복수형이다.",
+              "english": "Children is the plural of child."
+            }
+          ]
+        },
+        {
+          "subtitle": "셀 수 없는 명사 (Uncountable Nouns)",
+          "explanation": "셀 수 없거나 추상적인 명사로, 복수형이 없고 a/an 대신 some/any/much/a piece of 등을 사용한다. 물질, 액체, 개념 등이 해당한다.",
+          "examples": [
+            {
+              "type": "물질",
+              "korean": "나는 물을 마신다.",
+              "english": "I drink water."
+            },
+            {
+              "type": "추상",
+              "korean": "정보는 유용하다.",
+              "english": "Information is useful."
+            },
+            {
+              "type": "수량 표현",
+              "korean": "빵 한 조각",
+              "english": "A piece of bread."
+            }
+          ]
+        },
+        {
+          "subtitle": "단수와 복수 형태 (Singular vs Plural)",
+          "explanation": "셀 수 있는 명사의 단수는 하나를, 복수는 둘 이상을 나타낸다. 불규칙 형태(man-men, foot-feet)와 집합명사(people, police)는 복수 취급한다.",
+          "examples": [
+            {
+              "type": "규칙 복수",
+              "korean": "책들",
+              "english": "Books (plural of book)."
+            },
+            {
+              "type": "집합명사",
+              "korean": "경찰은 바쁘다.",
+              "english": "The police are busy."
+            },
+            {
+              "type": "불규칙",
+              "korean": "이빨 (teeth)",
+              "english": "Teeth is the plural of tooth."
+            }
+          ]
+        },
+        {
+          "subtitle": "셀 수 있는 vs 셀 수 없는 명사 비교",
+          "explanation": "셀 수 있는 명사는 숫자/a/an 가능, 셀 수 없는 명사는 some/much/a lot of 사용. 일부 명사는 맥락에 따라 둘 다 될 수 있다 (e.g., hair: countable for strands, uncountable for mass).",
+          "examples": [
+            {
+              "type": "countable",
+              "korean": "나는 세 개의 케이크를 먹었다.",
+              "english": "I ate three cakes."
+            },
+            {
+              "type": "uncountable",
+              "korean": "나는 케이크를 먹었다.",
+              "english": "I ate cake."
+            },
+            {
+              "type": "이중성",
+              "korean": "머리카락 한 가닥 (a hair), 머리카락 (hair).",
+              "english": "A hair (countable), hair (uncountable)."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① 셀 수 없는 명사는 복수형 -s 붙이지 않음. ② some/any는 셀 수 없는 명사와 복수 countable에 사용. ③ much (uncountable), many (countable). ④ 문화적 차이: advice/news는 uncountable. ⑤ 문맥상 셀 수 있는지 확인.",
+          "examples": [
+            {
+              "type": "some/any 예",
+              "korean": "물 좀 있어? (Any water?)",
+              "english": "Do you have any water?"
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ I have two waters. (waters 쓰면 안 됨)",
+              "english": "✗ I have two waters."
+            },
+            {
+              "type": "교정 예",
+              "korean": "나는 두 잔의 물을 가지고 있다.",
+              "english": "I have two glasses of water."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

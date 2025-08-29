@@ -1,0 +1,150 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "216",
+    "content": {
+      "title": "관사 (Articles: a/an/the)",
+      "topics": [
+        {
+          "subtitle": "관사란?",
+          "explanation": "관사는 명사 앞에 붙어 명사의 특정성이나 일반성을 나타내는 단어이다. 부정관사(a/an: 불특정)와 정관사(the: 특정)가 있으며, zero article(관사 없음)도 있다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "나는 책을 읽는다. (특정 책)",
+              "english": "I read the book."
+            }
+          ]
+        },
+        {
+          "subtitle": "부정관사 a/an (Indefinite Articles)",
+          "explanation": "불특정한 명사를 처음 언급할 때 사용. a는 자음 소리 앞, an은 모음 소리 앞. 셀 수 있는 단수 명사에만 사용.",
+          "examples": [
+            {
+              "type": "a 사용",
+              "korean": "나는 책을 샀다. (어떤 책)",
+              "english": "I bought a book."
+            },
+            {
+              "type": "an 사용",
+              "korean": "나는 사과를 먹었다.",
+              "english": "I ate an apple."
+            },
+            {
+              "type": "예외",
+              "korean": "대학 (a university, u가 자음 소리).",
+              "english": "A university (u sounds like yoo)."
+            }
+          ]
+        },
+        {
+          "subtitle": "정관사 the (Definite Article)",
+          "explanation": "특정하거나 이미 언급된 명사 앞에 사용. 단수/복수/uncountable 모두 가능. 유일한 것( the sun), 방향/악기 등에도 사용.",
+          "examples": [
+            {
+              "type": "특정",
+              "korean": "나는 그 책을 읽었다. (이미 아는 책)",
+              "english": "I read the book."
+            },
+            {
+              "type": "유일",
+              "korean": "태양은 뜨겁다.",
+              "english": "The sun is hot."
+            },
+            {
+              "type": "uncountable",
+              "korean": "그 물은 깨끗하다.",
+              "english": "The water is clean."
+            }
+          ]
+        },
+        {
+          "subtitle": "Zero Article (관사 없음)",
+          "explanation": "일반화된 개념, 복수 countable, uncountable 명사, 고유명사 앞에서 관사를 생략한다. 국가/언어/식사 등에도 사용.",
+          "examples": [
+            {
+              "type": "일반화",
+              "korean": "책은 유용하다.",
+              "english": "Books are useful."
+            },
+            {
+              "type": "uncountable",
+              "korean": "우유는 건강에 좋다.",
+              "english": "Milk is good for health."
+            },
+            {
+              "type": "고유명사",
+              "korean": "나는 런던에 간다.",
+              "english": "I go to London."
+            }
+          ]
+        },
+        {
+          "subtitle": "관사 비교 (a/an vs the vs zero)",
+          "explanation": "a/an: 처음/불특정, the: 특정/이미 알려진, zero: 일반/추상. 맥락에 따라 달라진다.",
+          "examples": [
+            {
+              "type": "a/an",
+              "korean": "나는 개를 봤다. (어떤 개)",
+              "english": "I saw a dog."
+            },
+            {
+              "type": "the",
+              "korean": "나는 그 개를 봤다. (특정 개)",
+              "english": "I saw the dog."
+            },
+            {
+              "type": "zero",
+              "korean": "개는 충성스럽다.",
+              "english": "Dogs are loyal."
+            }
+          ]
+        },
+        {
+          "subtitle": "특수 사용법",
+          "explanation": "the + 형용사 (the rich), the + 악기 (play the piano), the + 지명 (the United States), no article + 식사 (have breakfast), no article + 스포츠 (play soccer).",
+          "examples": [
+            {
+              "type": "형용사",
+              "korean": "부자들은 행복하다.",
+              "english": "The rich are happy."
+            },
+            {
+              "type": "지명",
+              "korean": "네덜란드 (the Netherlands).",
+              "english": "The Netherlands."
+            },
+            {
+              "type": "no article",
+              "korean": "나는 학교에 간다.",
+              "english": "I go to school. (as a student)"
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① 발음에 따라 a/an 선택 (an hour, a university). ② 고유명사는 보통 no article, but 예외 (the Nile). ③ uncountable에 a/an 불가. ④ 영국/미국 영어 차이 주의 (hospital vs the hospital). ⑤ 문맥상 특정성 구분.",
+          "examples": [
+            {
+              "type": "발음 예",
+              "korean": "한 시간 (an hour).",
+              "english": "An hour."
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ I have a information. (a 쓰면 안 됨)",
+              "english": "✗ I have a information."
+            },
+            {
+              "type": "교정 예",
+              "korean": "나는 정보를 가지고 있다.",
+              "english": "I have information."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

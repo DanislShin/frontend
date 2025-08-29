@@ -1,0 +1,411 @@
+[
+  {
+    "language": "en",
+    "module_id": "100",
+    "test_id": "101",
+    "mode": "learn",
+    "content": {
+      "unit1": {
+        "title": "Unit 1: Interactive IPA Chart with Audio Examples",
+        "words": [
+          {
+            "word": "/iː/",
+            "example": "I can see the sea.",
+            "example_pronunciation": "/aɪ kæn siː ðə siː/",
+            "meaning": "입술을 약간 벌리고 혀를 입천장 가까이 올려 긴 \"이\" 소리. 한국어 \"시\"와 비슷하지만 더 길게.",
+            "translation": "나는 바다를 볼 수 있다.",
+            "pronunciation": "/iː/ | see /ˈsiː/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ɪ/",
+            "example": "Please sit here.",
+            "example_pronunciation": "/pliːz sɪt hɪr/",
+            "meaning": "짧고 빠른 \"이\" 소리. 혀를 약간 낮추고 입을 살짝 벌림. 한국어 \"시\"보다 짧고 약함.",
+            "translation": "여기에 앉아 주세요.",
+            "pronunciation": "/ɪ/ | sit /ˈsɪt/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/e/",
+            "example": "The bed is red.",
+            "example_pronunciation": "/ðə bed ɪz red/",
+            "meaning": "중간 높이의 \"에\" 소리. 한국어 \"에\"와 비슷하지만 더 단단하게.",
+            "translation": "그 침대는 빨간색이다.",
+            "pronunciation": "/e/ | bed /ˈbed/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/æ/",
+            "example": "The black cat sat.",
+            "example_pronunciation": "/ðə blæk kæt sæt/",
+            "meaning": "입을 넓게 벌리고 혀를 낮춘 \"애\" 소리. 한국어 \"앤\"과 유사.",
+            "translation": "검은 고양이가 앉았다.",
+            "pronunciation": "/æ/ | cat /ˈkæt/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ɑː/",
+            "example": "My father is calm.",
+            "example_pronunciation": "/maɪ ˈfɑːðər ɪz kɑːm/",
+            "meaning": "입을 크게 벌리고 혀를 낮춘 긴 \"아\" 소리. 한국어 \"아\"보다 깊게.",
+            "translation": "내 아버지는 차분하다.",
+            "pronunciation": "/ɑː/ | father /ˈfɑːðər/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ɔː/",
+            "example": "I saw the dawn.",
+            "example_pronunciation": "/aɪ sɔː ðə dɔːn/",
+            "meaning": "입술을 둥글게 하고 혀를 뒤로 낮춘 긴 \"오\" 소리. 한국어 \"오\"와 비슷.",
+            "translation": "나는 새벽을 보았다.",
+            "pronunciation": "/ɔː/ | saw /ˈsɔː/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ʊ/",
+            "example": "Read this book.",
+            "example_pronunciation": "/riːd ðɪs bʊk/",
+            "meaning": "짧은 \"우\" 소리. 입술을 살짝 둥글게 하고 혀를 뒤로. 한국어 \"우\"보다 짧음.",
+            "translation": "이 책을 읽어.",
+            "pronunciation": "/ʊ/ | book /ˈbʊk/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/uː/",
+            "example": "The moon is full.",
+            "example_pronunciation": "/ðə muːn ɪz fʊl/",
+            "meaning": "입술을 둥글게 하고 혀를 뒤로 올린 긴 \"우\" 소리. 한국어 \"우\"와 비슷.",
+            "translation": "달이 차 있다.",
+            "pronunciation": "/uː/ | moon /ˈmuːn/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ʌ/",
+            "example": "Fill the cup up.",
+            "example_pronunciation": "/fɪl ðə kʌp ʌp/",
+            "meaning": "혀를 중간에 두고 짧은 \"어\" 소리. 한국어 \"어\"와 비슷하지만 더 짧음.",
+            "translation": "컵을 채워.",
+            "pronunciation": "/ʌ/ | cup /ˈkʌp/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ɜː/",
+            "example": "The bird heard words.",
+            "example_pronunciation": "/ðə bɜːrd hɜːrd wɜːrdz/",
+            "meaning": "혀를 중간에 두고 긴 \"어\" 소리. 한국어 \"어\"보다 길고 강함.",
+            "translation": "새가 말을 들었다.",
+            "pronunciation": "/ɜː/ | bird /ˈbɜːrd/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/ə/",
+            "example": "What's it about?",
+            "example_pronunciation": "/wɑːts ɪt əˈbaʊt/",
+            "meaning": "약하고 중립적인 \"어\" 소리. 한국어 비강세 음절의 \"어\"와 유사.",
+            "translation": "그건 뭐에 관한 거지?",
+            "pronunciation": "/ə/ | about /əˈbaʊt/",
+            "part_of_speech": "발음기호-모음"
+          },
+          {
+            "word": "/eɪ/",
+            "example": "Have a nice day!",
+            "example_pronunciation": "/hæv ə naɪs deɪ/",
+            "meaning": "\"에\"에서 \"이\"로 미끄러지는 소리. 혀를 중간 높이에서 시작해 올리며 발음. 한국어 \"데이\"와 비슷.",
+            "translation": "좋은 하루 보내세요!",
+            "pronunciation": "/eɪ/ | day /ˈdeɪ/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/aɪ/",
+            "example": "Time flies by.",
+            "example_pronunciation": "/taɪm flaɪz baɪ/",
+            "meaning": "\"아\"에서 \"이\"로 미끄러지는 소리. 한국어 \"아이\"와 유사.",
+            "translation": "시간이 빨리 지나간다.",
+            "pronunciation": "/aɪ/ | time /ˈtaɪm/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/ɔɪ/",
+            "example": "The boy is noisy.",
+            "example_pronunciation": "/ðə bɔɪ ɪz ˈnɔɪzi/",
+            "meaning": "\"오\"에서 \"이\"로 빠르게 미끄러지는 소리. 입을 둥글게 한 뒤 혀를 올리며 입술을 좁힘. 한국어 \"보이\"와 유사.",
+            "translation": "그 소년은 시끄럽다.",
+            "pronunciation": "/ɔɪ/ | boy /ˈbɔɪ/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/aʊ/",
+            "example": "Do it right now.",
+            "example_pronunciation": "/duː ɪt raɪt naʊ/",
+            "meaning": "\"아\"에서 \"우\"로 미끄러지는 소리. 한국어 \"아우\"와 비슷.",
+            "translation": "지금 당장 해라.",
+            "pronunciation": "/aʊ/ | now /ˈnaʊ/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/oʊ/",
+            "example": "Let's go home.",
+            "example_pronunciation": "/lets goʊ hoʊm/",
+            "meaning": "\"오\"에서 \"우\"로 미끄러지는 소리. 한국어 \"오우\"와 유사.",
+            "translation": "집에 가자.",
+            "pronunciation": "/oʊ/ | go /ˈgoʊ/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/ɪə/",
+            "example": "Come over here.",
+            "example_pronunciation": "/kʌm ˈoʊvər hɪr/",
+            "meaning": "\"이\"에서 \"어\"로 미끄러지는 소리. 미국식은 /ɪr/로 단순화. 한국어 \"히어\"와 비슷.",
+            "translation": "여기로 와.",
+            "pronunciation": "/ɪə/ | here /ˈhɪr/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/ɛə/",
+            "example": "Her hair is fair.",
+            "example_pronunciation": "/hɜːr hɛr ɪz fɛr/",
+            "meaning": "\"에\"에서 \"어\"로 미끄러지는 소리. 미국식은 /ɛr/로 단순화. 한국어 \"헤어\"와 비슷.",
+            "translation": "그녀의 머리카락은 곱다.",
+            "pronunciation": "/ɛə/ | hair /ˈhɛr/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/ʊə/",
+            "example": "Enjoy your tour.",
+            "example_pronunciation": "/ɪnˈdʒɔɪ jʊr tʊr/",
+            "meaning": "\"우\"에서 \"어\"로 미끄러지는 소리. 미국식은 /ʊr/로 단순화. 한국어 \"투어\"와 비슷.",
+            "translation": "여행을 즐겨.",
+            "pronunciation": "/ʊə/ | tour /ˈtʊr/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/juː/",
+            "example": "The baby is cute.",
+            "example_pronunciation": "/ðə ˈbeɪbi ɪz kjuːt/",
+            "meaning": "\"이\"와 \"우\"가 결합된 긴 소리. 한국어 \"큐\"와 비슷.",
+            "translation": "그 아기는 귀엽다.",
+            "pronunciation": "/juː/ | cute /ˈkjuːt/",
+            "part_of_speech": "발음기호-이중모음"
+          },
+          {
+            "word": "/p/",
+            "example": "Pass me the pen.",
+            "example_pronunciation": "/pæs mi ðə pen/",
+            "meaning": "입술을 다물고 공기를 터뜨리며 내는 무성음 \"ㅍ\". 한국어 \"펜\"의 \"ㅍ\"와 비슷하지만 더 강한 공기 배출.",
+            "translation": "펜을 나에게 건네줘.",
+            "pronunciation": "/p/ | pen /ˈpen/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/b/",
+            "example": "That's not bad.",
+            "example_pronunciation": "/ðæts nɑːt bæd/",
+            "meaning": "입술을 다물고 성대를 울리며 내는 유성음 \"ㅂ\". 한국어 \"배\"의 \"ㅂ\"와 유사.",
+            "translation": "그건 나쁘지 않아.",
+            "pronunciation": "/b/ | bad /ˈbæd/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/t/",
+            "example": "I drink tea daily.",
+            "example_pronunciation": "/aɪ drɪŋk tiː ˈdeɪli/",
+            "meaning": "무성음 \"ㅌ\". 혀를 잇몸에 대고 공기를 터뜨림. 한국어 \"티\"의 \"ㅌ\".",
+            "translation": "나는 매일 차를 마신다.",
+            "pronunciation": "/t/ | tea /ˈtiː/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/d/",
+            "example": "The dog digs.",
+            "example_pronunciation": "/ðə dɑːɡ dɪɡz/",
+            "meaning": "유성음 \"ㄷ\". 성대를 울리며 혀를 잇몸에. 한국어 \"디\"의 \"ㄷ\".",
+            "translation": "그 개가 판다.",
+            "pronunciation": "/d/ | dog /ˈdɑːɡ/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/k/",
+            "example": "The cat is black.",
+            "example_pronunciation": "/ðə kæt ɪz blæk/",
+            "meaning": "무성음 \"ㅋ\". 혀를 목구멍에 대고 공기를 터뜨림. 한국어 \"키\"의 \"ㅋ\".",
+            "translation": "그 고양이는 검다.",
+            "pronunciation": "/k/ | cat /ˈkæt/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/g/",
+            "example": "Go get it!",
+            "example_pronunciation": "/goʊ ɡɛt ɪt/",
+            "meaning": "유성음 \"ㄱ\". 성대를 울리며 혀를 목구멍에. 한국어 \"기\"의 \"ㄱ\".",
+            "translation": "가서 가져와!",
+            "pronunciation": "/g/ | go /ˈgoʊ/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/f/",
+            "example": "Fresh fried fish.",
+            "example_pronunciation": "/frɛʃ fraɪd fɪʃ/",
+            "meaning": "무성음 \"ㅍ\". 아랫입술과 윗니로 공기를 뿜음. 한국어 \"피\"와 비슷.",
+            "translation": "신선한 튀긴 생선.",
+            "pronunciation": "/f/ | fish /ˈfɪʃ/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/v/",
+            "example": "Her voice is soft.",
+            "example_pronunciation": "/hɜːr vɔɪs ɪz sɑːft/",
+            "meaning": "유성음 \"ㅂ\". 성대를 울리며 아랫입술과 윗니로. 한국어에 없는 소리.",
+            "translation": "그녀의 목소리는 부드럽다.",
+            "pronunciation": "/v/ | voice /ˈvɔɪs/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/θ/",
+            "example": "Think before speaking.",
+            "example_pronunciation": "/θɪŋk bɪˈfɔːr ˈspiːkɪŋ/",
+            "meaning": "무성음. 혀를 이빨 사이에 넣고 공기를 뿜음. 한국어에 없는 \"쓰\" 비슷.",
+            "translation": "말하기 전에 생각해라.",
+            "pronunciation": "/θ/ | think /ˈθɪŋk/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/ð/",
+            "example": "This is the one.",
+            "example_pronunciation": "/ðɪs ɪz ðə wʌn/",
+            "meaning": "유성음. 성대를 울리며 혀를 이빨 사이로. 한국어에 없는 \"드\" 비슷.",
+            "translation": "이게 그거야.",
+            "pronunciation": "/ð/ | this /ˈðɪs/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/s/",
+            "example": "The sun is bright.",
+            "example_pronunciation": "/ðə sʌn ɪz braɪt/",
+            "meaning": "무성음 \"ㅅ\". 혀를 잇몸에 대고 공기를 뿜음. 한국어 \"시\"의 \"ㅅ\".",
+            "translation": "태양이 밝다.",
+            "pronunciation": "/s/ | sun /ˈsʌn/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/z/",
+            "example": "Let's visit the zoo.",
+            "example_pronunciation": "/lets ˈvɪzɪt ðə zuː/",
+            "meaning": "유성음 \"ㅈ\". 성대를 울리며 혀를 잇몸에. 한국어 \"지\"의 \"ㅈ\"와 비슷.",
+            "translation": "동물원에 가자.",
+            "pronunciation": "/z/ | zoo /ˈzuː/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/ʃ/",
+            "example": "New shoes hurt.",
+            "example_pronunciation": "/njuː ʃuːz hɜːrt/",
+            "meaning": "무성음 \"ㅅ\". 입술을 둥글게 하고 혀를 살짝 올림. 한국어 \"시\"보다 부드러움.",
+            "translation": "새 신발이 아프다.",
+            "pronunciation": "/ʃ/ | shoe /ˈʃuː/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/ʒ/",
+            "example": "Clear vision helps.",
+            "example_pronunciation": "/klɪr ˈvɪʒən hɛlps/",
+            "meaning": "유성음. 성대를 울리며 /ʃ/처럼 발음. 한국어에 없는 \"ㅈ\" 비슷.",
+            "translation": "맑은 시야가 도움이 된다.",
+            "pronunciation": "/ʒ/ | vision /ˈvɪʒən/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/h/",
+            "example": "Wear your hat.",
+            "example_pronunciation": "/wɛr jʊr hæt/",
+            "meaning": "무성음 \"ㅎ\". 목에서 공기를 뿜음. 한국어 \"히\"의 \"ㅎ\".",
+            "translation": "모자를 써.",
+            "pronunciation": "/h/ | hat /ˈhæt/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/tʃ/",
+            "example": "Sit on the chair.",
+            "example_pronunciation": "/sɪt ɑːn ðə tʃɛr/",
+            "meaning": "무성음 \"ㅊ\". 혀를 입천장에 대고 공기를 터뜨림. 한국어 \"치\"의 \"ㅊ\".",
+            "translation": "의자에 앉아.",
+            "pronunciation": "/tʃ/ | chair /ˈtʃɛr/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/dʒ/",
+            "example": "Jump over it!",
+            "example_pronunciation": "/dʒʌmp ˈoʊvər ɪt/",
+            "meaning": "유성음 \"ㅈ\". 성대를 울리며 /tʃ/처럼. 한국어 \"지\"와 비슷.",
+            "translation": "그 위로 뛰어!",
+            "pronunciation": "/dʒ/ | jump /ˈdʒʌmp/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/m/",
+            "example": "The man is tall.",
+            "example_pronunciation": "/ðə mæn ɪz tɑːl/",
+            "meaning": "유성음 \"ㅁ\". 입술을 다물고 성대 울림. 한국어 \"미\"의 \"ㅁ\".",
+            "translation": "그 남자는 키가 크다.",
+            "pronunciation": "/m/ | man /ˈmæn/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/n/",
+            "example": "No, I won't go.",
+            "example_pronunciation": "/noʊ aɪ woʊnt goʊ/",
+            "meaning": "유성음 \"ㄴ\". 혀를 잇몸에 대고 성대 울림. 한국어 \"니\"의 \"ㄴ\".",
+            "translation": "아니, 나 안 갈 거야.",
+            "pronunciation": "/n/ | no /ˈnoʊ/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/ŋ/",
+            "example": "Sing a song.",
+            "example_pronunciation": "/sɪŋ ə sɑːŋ/",
+            "meaning": "유성음 \"ㅇ\". 혀를 뒤로 하고 성대 울림. 한국어 \"싱\"의 \"ㅇ\".",
+            "translation": "노래를 불러.",
+            "pronunciation": "/ŋ/ | sing /ˈsɪŋ/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/l/",
+            "example": "Love is blind.",
+            "example_pronunciation": "/lʌv ɪz blaɪnd/",
+            "meaning": "유성음 \"ㄹ\". 혀를 잇몸에 대고 공기 흐름. 한국어 \"리\"의 \"ㄹ\".",
+            "translation": "사랑은 맹목적이다.",
+            "pronunciation": "/l/ | love /ˈlʌv/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/ɹ/",
+            "example": "The red rose.",
+            "example_pronunciation": "/ðə ɹɛd roʊz/",
+            "meaning": "유성음. 혀를 입천장 근처로 말아 올림. 한국어 \"리\"와 다른 미국식 \"r\".",
+            "translation": "빨간 장미.",
+            "pronunciation": "/ɹ/ | red /ˈɹɛd/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/j/",
+            "example": "Yes, you may.",
+            "example_pronunciation": "/jɛs juː meɪ/",
+            "meaning": "유성음 \"ㅣ\". 혀를 입천장에 대고 부드럽게. 한국어 \"예\"의 \"ㅣ\".",
+            "translation": "응, 해도 돼.",
+            "pronunciation": "/j/ | yes /ˈjɛs/",
+            "part_of_speech": "발음기호-자음"
+          },
+          {
+            "word": "/w/",
+            "example": "The floor is wet.",
+            "example_pronunciation": "/ðə flɔːr ɪz wɛt/",
+            "meaning": "유성음 \"ㅜ\". 입술을 둥글게 하고 부드럽게. 한국어 \"위\"의 \"ㅜ\".",
+            "translation": "바닥이 젖었다.",
+            "pronunciation": "/w/ | wet /ˈwɛt/",
+            "part_of_speech": "발음기호-자음"
+          }
+        ]
+      }
+    }
+  }
+]

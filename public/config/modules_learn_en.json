@@ -3,7 +3,14 @@
     "language": "en",
     "module_id": "100",
     "mode": "learn",
-    "tests": []
+    "tests": [
+      {
+        "id": "101",
+        "name": "101 - IPA 발음",
+        "dataFile": "100-101-learning.json",
+        "component": "WordLearning"
+      }
+    ]
   },
   {
     "language": "en",
@@ -56,6 +63,72 @@
         "id": "208",
         "name": "208 - 관계대명사",
         "dataFile": "200-208-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "209",
+        "name": "209 - 분사",
+        "dataFile": "200-209-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "210",
+        "name": "210 - 의문사",
+        "dataFile": "200-208-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "211",
+        "name": "211 - Be 동사 vs 일반동사 ",
+        "dataFile": "200-211-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "212",
+        "name": "212 - 사역동사",
+        "dataFile": "200-212-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "213",
+        "name": "213 - 조건문",
+        "dataFile": "200-213-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "214",
+        "name": "214 - 가정법",
+        "dataFile": "200-214-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "215",
+        "name": "215 - 명사 - 셀수 있는/없는 명사",
+        "dataFile": "200-214-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "216",
+        "name": "216 - 관사",
+        "dataFile": "200-214-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "217",
+        "name": "217 - 전치사",
+        "dataFile": "200-217-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "218",
+        "name": "218 - 접속사",
+        "dataFile": "200-218-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "219",
+        "name": "219 - 구동사",
+        "dataFile": "200-219-learning.json",
         "component": "GrammarLearning"
       }
     ]

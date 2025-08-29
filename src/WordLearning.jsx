@@ -108,6 +108,8 @@ const WordLearning = ({
               <th className="py-2 px-4 border-b">품사</th>
               <th className="py-2 px-4 border-b">의미</th>
               <th className="py-2 px-4 border-b">예문</th>
+              <th className="py-2 px-4 border-b">예문 발음</th>{" "}
+              {/* 추가된 열 */}
               <th className="py-2 px-4 border-b">번역</th>
               <th className="py-2 px-4 border-b">발음 듣기</th>
             </tr>
@@ -122,6 +124,10 @@ const WordLearning = ({
                 <td className="py-3 px-4 border-b">{item.part_of_speech}</td>
                 <td className="py-3 px-4 border-b">{item.meaning}</td>
                 <td className="py-3 px-4 border-b">{item.example}</td>
+                <td className="py-3 px-4 border-b">
+                  {item.example_pronunciation}
+                </td>{" "}
+                {/* 추가된 열 */}
                 <td className="py-3 px-4 border-b">{item.translation}</td>
                 <td className="py-3 px-4 border-b">
                   <div className="flex space-x-2">

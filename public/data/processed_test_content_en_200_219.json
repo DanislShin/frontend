@@ -1,0 +1,139 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "219",
+    "mode": "learn",
+    "content": {
+      "title": "구동사 (Phrasal Verbs)",
+      "topics": [
+        {
+          "subtitle": "구동사란?",
+          "explanation": "구동사는 동사 + 전치사/부사의 결합으로 이루어진 숙어 표현이다. 원래 동사의 의미와 전혀 다른 새로운 의미를 가지는 경우가 많다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "그는 담배를 끊었다.",
+              "english": "He gave up smoking."
+            }
+          ]
+        },
+        {
+          "subtitle": "타동성 구동사 (Transitive Phrasal Verbs)",
+          "explanation": "목적어를 필요로 하는 구동사. 목적어의 위치에 따라 의미가 달라질 수 있다.",
+          "examples": [
+            {
+              "type": "목적어 위치",
+              "korean": "TV를 켜다.",
+              "english": "Turn on the TV. / Turn the TV on."
+            },
+            {
+              "type": "대명사 목적어",
+              "korean": "그것을 켜다.",
+              "english": "Turn it on. (✗ Turn on it)"
+            },
+            {
+              "type": "예시",
+              "korean": "단어의 의미를 찾아보다.",
+              "english": "Look up the word. / Look the word up."
+            }
+          ]
+        },
+        {
+          "subtitle": "자동성 구동사 (Intransitive Phrasal Verbs)",
+          "explanation": "목적어를 필요로 하지 않는 구동사. 주어의 상태나 동작을 설명한다.",
+          "examples": [
+            {
+              "type": "예시",
+              "korean": "비가 그쳤다.",
+              "english": "The rain let up."
+            },
+            {
+              "type": "예시",
+              "korean": "그는 나타났다.",
+              "english": "He showed up."
+            },
+            {
+              "type": "예시",
+              "korean": "기계가 고장 났다.",
+              "english": "The machine broke down."
+            }
+          ]
+        },
+        {
+          "subtitle": "분리형 vs 비분리형 구동사",
+          "explanation": "분리형: 목적어가 중간에 올 수 있음 (turn on). 비분리형: 항상 함께 사용됨 (look after).",
+          "examples": [
+            {
+              "type": "분리형",
+              "korean": "회의를 미루다.",
+              "english": "Put off the meeting. / Put the meeting off."
+            },
+            {
+              "type": "비분리형",
+              "korean": "아이를 돌보다.",
+              "english": "Look after the child. (✗ Look the child after)"
+            },
+            {
+              "type": "비분리형",
+              "korean": "새 직장에 적응하다.",
+              "english": "Fit in at the new job. (✗ Fit at the new job in)"
+            }
+          ]
+        },
+        {
+          "subtitle": "일상에서 자주 쓰이는 구동사",
+          "explanation": "일상 대화에서 매우 빈번하게 사용되는 기본 구동사들.",
+          "examples": [
+            {
+              "type": "get up",
+              "korean": "일어나다",
+              "english": "I get up at 7 AM."
+            },
+            {
+              "type": "turn off",
+              "korean": "끄다",
+              "english": "Turn off the light."
+            },
+            {
+              "type": "pick up",
+              "korean": "태우다/주우다",
+              "english": "I'll pick you up at 8."
+            },
+            {
+              "type": "put on",
+              "korean": "입다/켜다",
+              "english": "Put on your coat."
+            },
+            {
+              "type": "take off",
+              "korean": "벗다/이륙하다",
+              "english": "The plane takes off at 9."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① 같은 구동사가 여러 의미를 가질 수 있음 (take off: 벗다, 이륙하다). ② 분리형 구동사에서 대명사 목적어는 항상 중간에 위치. ③ 문맥에 따라 의미 파악이 중요. ④ 암기가 필수적인 표현들이 많음.",
+          "examples": [
+            {
+              "type": "다의어 예시",
+              "korean": "그녀는 옷을 벗었다. / 비행기가 이륙했다.",
+              "english": "She took off her clothes. / The plane took off."
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ 그를 돌봐 줘. (look after him)",
+              "english": "✗ Look after him. (올바름) / ✗ Look him after. (잘못됨)"
+            },
+            {
+              "type": "문맥 이해",
+              "korean": "회의를 미루자. / 전화를 끊자.",
+              "english": "Let's put off the meeting. / Let's put down the phone."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

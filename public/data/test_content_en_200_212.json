@@ -1,0 +1,130 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "212",
+    "content": {
+      "title": "사역동사 (Causative Verbs)",
+      "topics": [
+        {
+          "subtitle": "사역동사란?",
+          "explanation": "사역동사는 다른 사람이 어떤 행동을 하도록 ‘시키다, 허락하다, 하게 만들다’의 의미를 전달하는 동사이다. 대표적으로 make, have, let, get이 있으며, 목적어와 함께 특정 동사 형태를 취한다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "나는 그에게 일을 시켰다.",
+              "english": "I made him do the work."
+            }
+          ]
+        },
+        {
+          "subtitle": "Make (강제로 시키다)",
+          "explanation": "Make + 목적어 + 동사원형. 강제성·억지로 하게 만드는 의미. 수동태에서는 to 부정사가 사용된다.",
+          "examples": [
+            {
+              "type": "능동",
+              "korean": "선생님은 우리에게 숙제를 하게 했다.",
+              "english": "The teacher made us do homework."
+            },
+            {
+              "type": "수동",
+              "korean": "그는 노래를 부르게 되었다.",
+              "english": "He was made to sing a song."
+            }
+          ]
+        },
+        {
+          "subtitle": "Have (시키다, 맡기다)",
+          "explanation": "Have + 목적어 + 동사원형. ‘~을 시키다, ~을 부탁하다’ 의미. 사물 목적어일 경우 과거분사를 써서 ‘~을 당하다, ~되게 하다’ 의미.",
+          "examples": [
+            {
+              "type": "사람 목적어",
+              "korean": "나는 비서를 서류를 복사하게 했다.",
+              "english": "I had my secretary copy the documents."
+            },
+            {
+              "type": "사물 목적어",
+              "korean": "나는 머리를 잘랐다. (미용사에게 시킴)",
+              "english": "I had my hair cut."
+            }
+          ]
+        },
+        {
+          "subtitle": "Let (허락하다)",
+          "explanation": "Let + 목적어 + 동사원형. ‘~하도록 허락하다’의 의미. 수동태 불가.",
+          "examples": [
+            {
+              "type": "허락",
+              "korean": "부모님은 내가 파티에 가도록 허락했다.",
+              "english": "My parents let me go to the party."
+            }
+          ]
+        },
+        {
+          "subtitle": "Get (설득해서 시키다)",
+          "explanation": "Get + 목적어 + to 부정사. ‘설득해서 ~하게 만들다’의 의미. 수동태는 과거분사 형태.",
+          "examples": [
+            {
+              "type": "설득",
+              "korean": "나는 그를 창문을 열게 했다.",
+              "english": "I got him to open the window."
+            },
+            {
+              "type": "수동",
+              "korean": "그녀는 차를 수리하게 했다.",
+              "english": "She got her car repaired."
+            }
+          ]
+        },
+        {
+          "subtitle": "사역동사 비교",
+          "explanation": "make(강제), have(부탁/지시), let(허락), get(설득)의 뉘앙스 차이를 구분해야 한다.",
+          "examples": [
+            {
+              "type": "make",
+              "korean": "그는 아이에게 울게 만들었다.",
+              "english": "He made the child cry."
+            },
+            {
+              "type": "have",
+              "korean": "나는 학생들에게 보고서를 제출하게 했다.",
+              "english": "I had the students submit the report."
+            },
+            {
+              "type": "let",
+              "korean": "그녀는 그가 들어오도록 허락했다.",
+              "english": "She let him come in."
+            },
+            {
+              "type": "get",
+              "korean": "나는 그를 나를 돕게 했다.",
+              "english": "I got him to help me."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① make와 let은 동사원형 사용, get은 to 부정사, have는 동사원형 또는 과거분사. ② let은 수동태 불가. ③ have/get + 사물 + 과거분사 → ‘~되게 하다’ 의미. ④ 문맥상 강제·허락·설득의 뉘앙스를 구분해야 한다.",
+          "examples": [
+            {
+              "type": "have/get 비교",
+              "korean": "나는 차를 세차했다. (세차장을 이용)",
+              "english": "I had my car washed. / I got my car washed."
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ He made me to go. (to 쓰면 안 됨)",
+              "english": "✗ He made me to go."
+            },
+            {
+              "type": "교정 예",
+              "korean": "그는 나를 가게 했다.",
+              "english": "He made me go."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "218",
+    "mode": "learn",
+    "content": {
+      "title": "접속사 (Conjunctions)",
+      "topics": [
+        {
+          "subtitle": "접속사란?",
+          "explanation": "접속사는 단어, 구, 문장을 연결하는 역할을 하는 품사이다. 등위접속사와 종속접속사로 구분된다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "나는 사과와 바나나를 좋아해요.",
+              "english": "I like apples and bananas."
+            }
+          ]
+        },
+        {
+          "subtitle": "등위접속사 (and/but/or/so)",
+          "explanation": "대등한 관계의 단어나 문장을 연결. and(추가), but(대조), or(선택), so(결과).",
+          "examples": [
+            {
+              "type": "and",
+              "korean": "나는 공부하고 놀았다.",
+              "english": "I studied and played."
+            },
+            {
+              "type": "but",
+              "korean": "비가 오지만 나는 갈 거야.",
+              "english": "It is raining, but I will go."
+            },
+            {
+              "type": "or",
+              "korean": "커피 아니면 차?",
+              "english": "Coffee or tea?"
+            },
+            {
+              "type": "so",
+              "korean": "피곤해서 일찍 잤다.",
+              "english": "I was tired, so I went to bed early."
+            }
+          ]
+        },
+        {
+          "subtitle": "종속접속사 (because/when/if/that)",
+          "explanation": "주절과 종속절을 연결. because(이유), when(시간), if(조건), that(내용).",
+          "examples": [
+            {
+              "type": "because",
+              "korean": "나는 행복해요 because 너를 봐서.",
+              "english": "I am happy because I see you."
+            },
+            {
+              "type": "when",
+              "korean": "네가 올 때 when, 나는 요리할게.",
+              "english": "I will cook when you come."
+            },
+            {
+              "type": "if",
+              "korean": "만약 비가 오면 if, 우리는 집에 있을 거야.",
+              "english": "We will stay home if it rains."
+            },
+            {
+              "type": "that",
+              "korean": "나는 그가 착하다고 생각해 that.",
+              "english": "I think that he is kind."
+            }
+          ]
+        },
+        {
+          "subtitle": "상관접속사 (both A and B / not only A but also B)",
+          "explanation": "짝을 이루어 사용하는 접속사. both A and B(A와 B 모두), not only A but also B(A뿐만 아니라 B도).",
+          "examples": [
+            {
+              "type": "both A and B",
+              "korean": "그는 both 똑똑하고 and 친절하다.",
+              "english": "He is both smart and kind."
+            },
+            {
+              "type": "not only A but also B",
+              "korean": "그녀는 not only 노래를 잘 부르지만 but also 춤도 잘 춘다.",
+              "english": "She not only sings well but also dances well."
+            }
+          ]
+        },
+        {
+          "subtitle": "접속사 vs 접속부사",
+          "explanation": "접속사(but)는 문장을 연결하지만, 접속부사(however)는 독립된 문장을 시작하며, 보통 마침표나 세미콜론과 함께 쓴다.",
+          "examples": [
+            {
+              "type": "접속사 (but)",
+              "korean": "나는 갔지만, 그는 없었다.",
+              "english": "I went, but he was not there."
+            },
+            {
+              "type": "접속부사 (however)",
+              "korean": "나는 갔다. However, 그는 없었다.",
+              "english": "I went. However, he was not there."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① because와 so, although와 but 같은 의미 중복 사용 금지. ② 등위접속사로 연결할 때는 구조가 평행해야 함. ③ that의 생략 가능 여부 주의.",
+          "examples": [
+            {
+              "type": "잘못된 예 (중복)",
+              "korean": "✗ Because I was tired, so I slept. (Because와 so 중복)",
+              "english": "✗ Because I was tired, so I slept."
+            },
+            {
+              "type": "교정 예",
+              "korean": "피곤해서 잤어요.",
+              "english": "Because I was tired, I slept. / I was tired, so I slept."
+            },
+            {
+              "type": "잘못된 예 (불평행)",
+              "korean": "✗ I like to swim and running. (to swim - running 불평행)",
+              "english": "✗ I like to swim and running."
+            },
+            {
+              "type": "교정 예",
+              "korean": "나는 수영하는 것과 달리기하는 것을 좋아한다.",
+              "english": "I like swimming and running. / I like to swim and to run."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

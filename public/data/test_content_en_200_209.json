@@ -1,0 +1,224 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "209",
+    "content": {
+      "title": "영어 분사 학습",
+      "topics": [
+        {
+          "subtitle": "분사란?",
+          "explanation": "분사는 동사에서 파생되어 형용사적·부사적 기능을 하는 형태이다. 주로 현재분사(-ing)와 과거분사(-ed 또는 불규칙 형태)로 나뉘며, 명사를 수식하거나 분사구문으로 문장을 축약하는 데 쓰인다. 또한 진행형·완료형·수동태의 동사 구조를 이루는 요소로도 사용된다.",
+          "examples": [
+            {
+              "type": "현재분사(기본)",
+              "korean": "웃고 있는 소녀는 내 친구이다.",
+              "english": "The girl smiling is my friend."
+            },
+            {
+              "type": "과거분사(기본)",
+              "korean": "부서진 창문은 고쳐야 한다.",
+              "english": "The broken window needs to be fixed."
+            }
+          ]
+        },
+        {
+          "subtitle": "형태와 기본 규칙",
+          "explanation": "현재분사: 동사원형 + -ing (뒤에 e가 있으면 e를 제거하고 -ing). 과거분사: 규칙동사는 -ed, 불규칙동사는 개별 형태(예: write - written, go - gone). 자음+모음+자음(CVC) 패턴일 때는 자음 중복( 예: run → running), 끝 e 제거( make → making ) 등 형태 규칙이 있다.",
+          "examples": [
+            {
+              "type": "현재분사 형성",
+              "korean": "write → writing, make → making, stop → stopping",
+              "english": "write → writing, make → making, stop → stopping"
+            },
+            {
+              "type": "과거분사 형성",
+              "korean": "work → worked (규칙), break → broken (불규칙)",
+              "english": "work → worked (regular), break → broken (irregular)"
+            }
+          ]
+        },
+        {
+          "subtitle": "현재분사(-ing)의 주요 용법",
+          "explanation": "1) 형용사 용법: 명사를 꾸며 현재의 동작·상태를 나타냄. 2) 진행 시제의 일부: be + -ing로 진행을 나타냄. 3) 분사구문의 일부로 사용되어 부가 정보를 제공(동시 동작 등).",
+          "examples": [
+            {
+              "type": "형용사적 용법",
+              "korean": "달리고 있는 개는 내 강아지다.",
+              "english": "The running dog is my puppy."
+            },
+            {
+              "type": "진행시제",
+              "korean": "그는 지금 책을 읽고 있다.",
+              "english": "He is reading a book now."
+            },
+            {
+              "type": "분사구문(동시)",
+              "korean": "음악을 들으면서 그는 숙제를 했다.",
+              "english": "Listening to music, he did his homework."
+            }
+          ]
+        },
+        {
+          "subtitle": "과거분사(-ed / p.p.)의 주요 용법",
+          "explanation": "1) 수동태의 일부: be + p.p. 형태로 ‘~되어지다’. 2) 완료시제의 일부 (have + p.p.). 3) 형용사 용법: 과거의 상태나 완료된 동작의 결과를 묘사한다.",
+          "examples": [
+            {
+              "type": "수동태",
+              "korean": "문은 잠겨 있었다.",
+              "english": "The door was locked."
+            },
+            {
+              "type": "완료시제",
+              "korean": "나는 숙제를 끝냈다.",
+              "english": "I have finished my homework."
+            },
+            {
+              "type": "형용사적 용법(결과)",
+              "korean": "깨진 컵을 치워라.",
+              "english": "Pick up the broken cup."
+            }
+          ]
+        },
+        {
+          "subtitle": "완료분사 (having + past participle)",
+          "explanation": "완료분사(= having + p.p.)는 주절의 동작보다 먼저 일어난 동작을 나타낸다. 주로 분사구문(부가적 정보)에서 ‘~한 뒤에/이미 ~했기 때문에’의 의미를 전달한다.",
+          "examples": [
+            {
+              "type": "완료분사(능동)",
+              "korean": "숙제를 끝낸 뒤에 그는 밖으로 나갔다.",
+              "english": "Having finished his homework, he went out."
+            },
+            {
+              "type": "완료분사(수동)",
+              "korean": "초대받은 후에 그녀는 파티에 갔다.",
+              "english": "Having been invited, she attended the party."
+            }
+          ]
+        },
+        {
+          "subtitle": "분사구문 (분사로 축약한 부사절)",
+          "explanation": "분사구문은 부사절(시간, 이유, 조건, 양보, 결과 등)을 분사 형태로 축약한 것. 문장을 간결하게 만들지만, 분사구문의 주어는 반드시 주절의 주어와 일치해야 한다.",
+          "examples": [
+            {
+              "type": "시간",
+              "korean": "학교에 도착하자마자 그는 전화를 받았다.",
+              "english": "Arriving at school, he received a phone call."
+            },
+            {
+              "type": "이유",
+              "korean": "피곤했기 때문에 그는 일찍 잠들었다.",
+              "english": "Being tired, he went to bed early."
+            },
+            {
+              "type": "조건",
+              "korean": "시험에 합격하면 그는 기뻐할 것이다.",
+              "english": "If successful, he will be pleased. / Successful, he will be pleased."
+            },
+            {
+              "type": "양보",
+              "korean": "부상을 입었음에도 그는 경주를 끝마쳤다.",
+              "english": "Injured, he finished the race."
+            },
+            {
+              "type": "결과",
+              "korean": "정말 피곤해서 그는 거의 잠들었다.",
+              "english": "Being so tired, he nearly fell asleep."
+            }
+          ]
+        },
+        {
+          "subtitle": "분사구문의 주어 일치와 잘못된 분사구문 (dangling participle)",
+          "explanation": "분사구문의 주어는 항상 주절의 주어와 같아야 한다. 이를 어기면 의미가 이상해지거나 문법적으로 틀린 문장이 된다.",
+          "examples": [
+            {
+              "type": "잘못된 예",
+              "korean": "길을 걷다가, 나무들이 보였다.",
+              "english": "Walking down the street, trees were seen."
+            },
+            {
+              "type": "수정된 예",
+              "korean": "길을 걸으면서, 나는 나무들을 보았다.",
+              "english": "Walking down the street, I saw the trees."
+            }
+          ]
+        },
+        {
+          "subtitle": "분사와 동명사(gerund)의 구분",
+          "explanation": "-ing 형태는 분사(형용사/동사 일부)일 수도 있고 동명사(명사)일 수도 있다. 동명사는 문장에서 명사 역할을 한다.",
+          "examples": [
+            {
+              "type": "동명사",
+              "korean": "운동하는 것은 건강에 좋다.",
+              "english": "Exercising is good for your health."
+            },
+            {
+              "type": "분사",
+              "korean": "운동하는 사람들은 활기차다.",
+              "english": "The exercising people are energetic."
+            },
+            {
+              "type": "진행형",
+              "korean": "그는 지금 운동하고 있다.",
+              "english": "He is exercising now."
+            }
+          ]
+        },
+        {
+          "subtitle": "수동분사와 형용사적 용법의 구별",
+          "explanation": "과거분사는 수동태(동사 기능)로도, 형용사(상태 설명)로도 쓰인다. 형용사적 용법일 때는 상태·결과, 수동 의미일 때는 행위자를 by로 나타낼 수 있다.",
+          "examples": [
+            {
+              "type": "형용사적 용법",
+              "korean": "깨진 창문은 교체해야 한다.",
+              "english": "The broken window must be replaced."
+            },
+            {
+              "type": "수동태",
+              "korean": "창문은 도둑에 의해 깨졌다.",
+              "english": "The window was broken by the thief."
+            },
+            {
+              "type": "형용사 혼동",
+              "korean": "그 영화는 흥미롭다 / 나는 그 영화에 흥미가 있다.",
+              "english": "The film is interesting. / I am interested in the film."
+            }
+          ]
+        },
+        {
+          "subtitle": "쉼표 사용과 위치 규칙",
+          "explanation": "문장 앞에서 오는 분사구문은 쉼표로 구분한다. 명사를 직접 수식하는 분사는 쉼표 없이 바로 앞에 위치한다.",
+          "examples": [
+            {
+              "type": "문장 앞",
+              "korean": "창문을 닦은 후에, 그는 방을 청소했다.",
+              "english": "Having cleaned the window, he tidied the room."
+            },
+            {
+              "type": "명사 앞",
+              "korean": "창문을 닦은 남자가 내 이웃이다.",
+              "english": "The man cleaning the window is my neighbor."
+            }
+          ]
+        },
+        {
+          "subtitle": "자주 틀리는 포인트",
+          "explanation": "① 주어 불일치 ② dangling participle ③ 쉼표 오류 ④ 현재분사·동명사 혼동 ⑤ 불규칙 과거분사 오용 ⑥ 축약 의미 불일치",
+          "examples": [
+            {
+              "type": "오류",
+              "korean": "방에 들어가면서, 불이 꺼져 있었다.",
+              "english": "Walking into the room, the lights were off."
+            },
+            {
+              "type": "수정",
+              "korean": "방에 들어가면서, 나는 불이 꺼져 있는 것을 발견했다.",
+              "english": "Walking into the room, I found the lights were off."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

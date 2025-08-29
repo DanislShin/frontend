@@ -3969,193 +3969,196 @@
           "word": "compatible",
           "question": "뜻을 선택하세요",
           "options": [
+            "결론",
             "함께 사용될 수 있는, 양립할 수 있는",
-            "보상",
-            "경쟁, 경기",
-            "경쟁적인, 경쟁력 있는"
+            "화합물",
+            "집중하다"
           ],
-          "correct": 0
+          "correct": 1
         },
         {
           "id": "18-2",
           "word": "compensation",
           "question": "뜻을 선택하세요",
-          "options": [
-            "함께 사용될 수 있는, 양립할 수 있는",
-            "보상",
-            "경쟁, 경기",
-            "경쟁적인, 경쟁력 있는"
-          ],
-          "correct": 1
+          "options": ["걱정하는, 염려하는", "계산하다", "자신감", "보상"],
+          "correct": 3
         },
         {
           "id": "18-3",
           "word": "competition",
           "question": "뜻을 선택하세요",
-          "options": [
-            "함께 사용될 수 있는, 양립할 수 있는",
-            "보상",
-            "경쟁, 경기",
-            "경쟁적인, 경쟁력 있는"
-          ],
-          "correct": 2
+          "options": ["구성요소", "계산하다", "압축하다", "경쟁, 경기"],
+          "correct": 3
         },
         {
           "id": "18-4",
           "word": "competitive",
           "question": "뜻을 선택하세요",
-          "options": [
-            "함께 사용될 수 있는, 양립할 수 있는",
-            "보상",
-            "경쟁, 경기",
-            "경쟁적인, 경쟁력 있는"
-          ],
-          "correct": 3
+          "options": ["개념", "이해하다", "경쟁적인, 경쟁력 있는", "보상"],
+          "correct": 2
         },
         {
           "id": "18-5",
           "word": "complaint",
           "question": "뜻을 선택하세요",
-          "options": ["불평", "완성, 마침", "복잡한", "복잡한"],
-          "correct": 0
+          "options": ["화합물", "불평", "완료하다", "타협하다"],
+          "correct": 1
         },
         {
           "id": "18-6",
-          "word": "completion",
+          "word": "complete",
           "question": "뜻을 선택하세요",
-          "options": ["불평", "완성, 마침", "복잡한", "복잡한"],
-          "correct": 1
+          "options": ["완료하다", "우려", "걱정하는, 염려하는", "포괄적인"],
+          "correct": 0
         },
         {
           "id": "18-7",
           "word": "complex",
           "question": "뜻을 선택하세요",
-          "options": ["불평", "완성, 마침", "복잡한", "복잡한"],
-          "correct": 2
-        },
-        {
-          "id": "18-8",
-          "word": "complicated",
-          "question": "뜻을 선택하세요",
-          "options": ["불평", "완성, 마침", "복잡한", "복잡한"],
-          "correct": 3
-        },
-        {
-          "id": "18-9",
-          "word": "compliment",
-          "question": "뜻을 선택하세요",
-          "options": ["칭찬", "무료의", "작곡가", "화합물, 복합체"],
-          "correct": 0
-        },
-        {
-          "id": "18-10",
-          "word": "complimentary",
-          "question": "뜻을 선택하세요",
-          "options": ["칭찬", "무료의", "작곡가", "화합물, 복합체"],
+          "options": ["포괄적인", "복잡한", "집중하다", "작곡하다"],
           "correct": 1
         },
         {
-          "id": "18-11",
-          "word": "composer",
+          "id": "18-8",
+          "word": "comply",
           "question": "뜻을 선택하세요",
-          "options": ["칭찬", "무료의", "작곡가", "화합물, 복합체"],
+          "options": ["준수하다", "화합물", "결론내리다", "자신감"],
+          "correct": 0
+        },
+        {
+          "id": "18-9",
+          "word": "component",
+          "question": "뜻을 선택하세요",
+          "options": ["타협하다", "구성요소", "비난하다, 나무라다", "개념"],
+          "correct": 1
+        },
+        {
+          "id": "18-10",
+          "word": "compose",
+          "question": "뜻을 선택하세요",
+          "options": ["작곡하다", "자신감", "포괄적인", "불평"],
+          "correct": 0
+        },
+        {
+          "id": "18-11",
+          "word": "compound",
+          "question": "뜻을 선택하세요",
+          "options": ["결론", "비난하다, 나무라다", "화합물", "회의, 회담"],
           "correct": 2
         },
         {
           "id": "18-12",
-          "word": "compound",
+          "word": "comprehend",
           "question": "뜻을 선택하세요",
-          "options": ["칭찬", "무료의", "작곡가", "화합물, 복합체"],
-          "correct": 3
+          "options": ["이해하다", "경쟁, 경기", "집중하다", "회의, 회담"],
+          "correct": 0
         },
         {
           "id": "18-13",
-          "word": "compulsion",
+          "word": "comprehensive",
+          "question": "뜻을 선택하세요",
+          "options": ["압축하다", "자신감", "포괄적인", "걱정하는, 염려하는"],
+          "correct": 2
+        },
+        {
+          "id": "18-14",
+          "word": "compress",
           "question": "뜻을 선택하세요",
           "options": [
-            "충동, 강한 욕구",
-            "숨기다",
-            "~에 집중하다",
-            "우려, 걱정"
+            "압축하다",
+            "작곡하다",
+            "포괄적인",
+            "경쟁적인, 경쟁력 있는"
           ],
           "correct": 0
         },
         {
-          "id": "18-14",
-          "word": "conceal",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "충동, 강한 욕구",
-            "숨기다",
-            "~에 집중하다",
-            "우려, 걱정"
-          ],
-          "correct": 1
-        },
-        {
           "id": "18-15",
-          "word": "concentrate on",
+          "word": "compromise",
           "question": "뜻을 선택하세요",
-          "options": [
-            "충동, 강한 욕구",
-            "숨기다",
-            "~에 집중하다",
-            "우려, 걱정"
-          ],
+          "options": ["우려", "완료하다", "타협하다", "개념"],
           "correct": 2
         },
         {
           "id": "18-16",
-          "word": "concern",
+          "word": "compute",
           "question": "뜻을 선택하세요",
-          "options": [
-            "충동, 강한 욕구",
-            "숨기다",
-            "~에 집중하다",
-            "우려, 걱정"
-          ],
-          "correct": 3
+          "options": ["화합물", "계산하다", "포괄적인", "자신감"],
+          "correct": 1
         },
         {
           "id": "18-17",
-          "word": "concerned",
+          "word": "conceal",
           "question": "뜻을 선택하세요",
-          "options": ["걱정하는", "결론내리다", "결론", "비난하다, 나무라다"],
-          "correct": 0
+          "options": ["화합물", "이해하다", "숨기다", "불평"],
+          "correct": 2
         },
         {
           "id": "18-18",
-          "word": "conclude",
+          "word": "concentrate",
           "question": "뜻을 선택하세요",
-          "options": ["걱정하는", "결론내리다", "결론", "비난하다, 나무라다"],
+          "options": ["완료하다", "집중하다", "작곡하다", "자신감"],
           "correct": 1
         },
         {
           "id": "18-19",
-          "word": "conclusion",
+          "word": "concept",
           "question": "뜻을 선택하세요",
-          "options": ["걱정하는", "결론내리다", "결론", "비난하다, 나무라다"],
-          "correct": 2
-        },
-        {
-          "id": "18-20",
-          "word": "condemn",
-          "question": "뜻을 선택하세요",
-          "options": ["걱정하는", "결론내리다", "결론", "비난하다, 나무라다"],
-          "correct": 3
-        },
-        {
-          "id": "18-21",
-          "word": "conference",
-          "question": "뜻을 선택하세요",
-          "options": ["회의, 회담", "자신감", "함께 사용될 수 있는", "보상"],
+          "options": ["개념", "집중하다", "불평", "회의, 회담"],
           "correct": 0
         },
         {
+          "id": "18-20",
+          "word": "concern",
+          "question": "뜻을 선택하세요",
+          "options": ["걱정하는, 염려하는", "우려", "화합물", "포괄적인"],
+          "correct": 1
+        },
+        {
+          "id": "18-21",
+          "word": "concerned",
+          "question": "뜻을 선택하세요",
+          "options": ["우려", "걱정하는, 염려하는", "화합물", "자신감"],
+          "correct": 1
+        },
+        {
           "id": "18-22",
+          "word": "conclude",
+          "question": "뜻을 선택하세요",
+          "options": ["작곡하다", "결론내리다", "압축하다", "자신감"],
+          "correct": 1
+        },
+        {
+          "id": "18-23",
+          "word": "conclusion",
+          "question": "뜻을 선택하세요",
+          "options": ["결론", "회의, 회담", "자신감", "우려"],
+          "correct": 0
+        },
+        {
+          "id": "18-24",
+          "word": "condemn",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "비난하다, 나무라다",
+            "작곡하다",
+            "결론내리다",
+            "집중하다"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "18-25",
+          "word": "conference",
+          "question": "뜻을 선택하세요",
+          "options": ["우려", "자신감", "회의, 회담", "완료하다"],
+          "correct": 2
+        },
+        {
+          "id": "18-26",
           "word": "confidence",
           "question": "뜻을 선택하세요",
-          "options": ["회의, 회담", "자신감", "함께 사용될 수 있는", "보상"],
+          "options": ["걱정하는, 염려하는", "자신감", "포괄적인", "회의, 회담"],
           "correct": 1
         }
       ],

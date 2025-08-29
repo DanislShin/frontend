@@ -1,0 +1,129 @@
+[
+  {
+    "language": "en",
+    "module_id": "200",
+    "test_id": "217",
+    "content": {
+      "title": "전치사 (Prepositions)",
+      "topics": [
+        {
+          "subtitle": "전치사란?",
+          "explanation": "전치사는 명사나 대명사 앞에 위치하여 다른 단어와의 관계(장소, 시간, 방향 등)를 나타내는 단어이다.",
+          "examples": [
+            {
+              "type": "개념",
+              "korean": "그는 탁자 위에 있다.",
+              "english": "He is on the table."
+            }
+          ]
+        },
+        {
+          "subtitle": "장소 전치사 (in/on/at)",
+          "explanation": "in: 넓은 공간/안에, on: 표면/접촉, at: 구체적인 지점.",
+          "examples": [
+            {
+              "type": "in",
+              "korean": "나는 서울에 산다.",
+              "english": "I live in Seoul."
+            },
+            {
+              "type": "on",
+              "korean": "책이 탁자 위에 있다.",
+              "english": "The book is on the table."
+            },
+            {
+              "type": "at",
+              "korean": "나는 역에서 만날게.",
+              "english": "I will meet you at the station."
+            }
+          ]
+        },
+        {
+          "subtitle": "시간 전치사 (in/on/at)",
+          "explanation": "in: 달/년/계절, on: 요일/특정 날, at: 정확한 시간.",
+          "examples": [
+            {
+              "type": "in",
+              "korean": "나는 5월에 여행 갈 거야.",
+              "english": "I will travel in May."
+            },
+            {
+              "type": "on",
+              "korean": "우리는 월요일에 만난다.",
+              "english": "We meet on Monday."
+            },
+            {
+              "type": "at",
+              "korean": "수업은 9시에 시작해.",
+              "english": "The class starts at 9 o'clock."
+            }
+          ]
+        },
+        {
+          "subtitle": "방향/운동 전치사 (to/into/onto)",
+          "explanation": "to: 방향, into: 안으로 이동, onto: 위로 이동.",
+          "examples": [
+            {
+              "type": "to",
+              "korean": "나는 학교에 간다.",
+              "english": "I go to school."
+            },
+            {
+              "type": "into",
+              "korean": "그는 방으로 들어갔다.",
+              "english": "He walked into the room."
+            },
+            {
+              "type": "onto",
+              "korean": "고양이가 의자로 뛰어올랐다.",
+              "english": "The cat jumped onto the chair."
+            }
+          ]
+        },
+        {
+          "subtitle": "기타 주요 전치사 (by/with/for)",
+          "explanation": "by: 수단/~에 의해, with: 함께/~로, for: 목적/기간.",
+          "examples": [
+            {
+              "type": "by",
+              "korean": "나는 버스로 출근해.",
+              "english": "I go to work by bus."
+            },
+            {
+              "type": "with",
+              "korean": "나는 친구와 함께 놀았다.",
+              "english": "I played with my friend."
+            },
+            {
+              "type": "for",
+              "korean": "이것은 너를 위한 선물이야.",
+              "english": "This is a gift for you."
+            }
+          ]
+        },
+        {
+          "subtitle": "주의할 점",
+          "explanation": "① 한국어에는 없는 개념으로 직접 대응 안 됨. ② 동사/형용사와 결합된 숙어(look at, interested in) 암기 필요. ③ in time(시간에 맞게) vs on time(정각에) 같은 의미 차이 주의.",
+          "examples": [
+            {
+              "type": "숙어 예",
+              "korean": "나는 그 음악을 좋아해.",
+              "english": "I am interested in the music."
+            },
+            {
+              "type": "잘못된 예",
+              "korean": "✗ I am listening music. (전치사 생략)",
+              "english": "✗ I am listening music."
+            },
+            {
+              "type": "교정 예",
+              "korean": "나는 음악을 듣고 있다.",
+              "english": "I am listening to music."
+            }
+          ]
+        }
+      ]
+    },
+    "mode": "learn"
+  }
+]

@@ -12,8 +12,26 @@
     "tests": [
       {
         "id": "201",
-        "name": "201 - 기초 문법",
+        "name": "201 - ーです。",
         "dataFile": "200-201-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "202",
+        "name": "202 - 형용사",
+        "dataFile": "200-201-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "203",
+        "name": "203 - 동사",
+        "dataFile": "200-203-learning.json",
+        "component": "GrammarLearning"
+      },
+      {
+        "id": "204",
+        "name": "204 - 조사",
+        "dataFile": "200-204-learning.json",
         "component": "GrammarLearning"
       }
     ]
