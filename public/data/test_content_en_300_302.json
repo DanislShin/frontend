@@ -3,120 +3,3756 @@
     "language": "en",
     "module_id": "300",
     "test_id": "302",
+    "mode": "learn",
     "content": {
-      "1": [
-        {
-          "word": "abandon",
-          "meaning": "버리다, 단념하다",
-          "example": "They abandoned the car and ran away."
-        },
-        {
-          "word": "abolish",
-          "meaning": "폐지하다",
-          "example": "He is in favor of abolishing the death penalty."
-        },
-        {
-          "word": "abroad",
-          "meaning": "해외에서, 외국에서",
-          "example": "He hopes to work abroad next year."
-        },
-        {
-          "word": "abruptly",
-          "meaning": "갑작스럽게",
-          "example": "The land dropped off abruptly."
-        },
-        {
-          "word": "absence",
-          "meaning": "결석, 결근, 부재",
-          "example": "Mark will be in charge in my absence."
-        },
-        {
-          "word": "absolutely",
-          "meaning": "절대적으로, 전혀",
-          "example": "He has absolutely no experience in this field."
-        },
-        {
-          "word": "absorb",
-          "meaning": "흡수하다",
-          "example": "Plant roots absorb moisture."
-        },
-        {
-          "word": "abstract",
-          "meaning": "추상적인",
-          "example": "Human beings are capable of abstract thought."
-        },
-        {
-          "word": "abundant",
-          "meaning": "풍부한",
-          "example": "Rainfall is abundant in the region."
-        },
-        {
-          "word": "abuse",
-          "meaning": "학대, 남용",
-          "example": "The boy was a victim of abuse."
-        },
-        {
-          "word": "accelerate",
-          "meaning": "가속하다",
-          "example": "The car accelerated to a speed of 80 miles per hour."
-        },
-        {
-          "word": "accept",
-          "meaning": "받아들이다, 수용하다",
-          "example": "They offered me a job and I accepted it."
-        },
-        {
-          "word": "access",
-          "meaning": "접속, 입장",
-          "example": "We have Internet access at the library."
-        },
-        {
-          "word": "accidentally",
-          "meaning": "우연히, 실수로",
-          "example": "They believe that the fire was started accidentally."
-        },
-        {
-          "word": "accommodate",
-          "meaning": "수용하다",
-          "example": "The hotel can only accommodate about 100 people."
-        },
-        {
-          "word": "accompany",
-          "meaning": "동행하다",
-          "example": "I want you to accompany her."
-        },
-        {
-          "word": "accomplish",
-          "meaning": "달성하다",
-          "example": "We have accomplished much in a short period of time."
-        },
-        {
-          "word": "according to",
-          "meaning": "~에 따르면",
-          "example": "According to the law, we had to pay a small fine."
-        },
-        {
-          "word": "accordingly",
-          "meaning": "따라서",
-          "example": "No complaint was made. Accordingly, they took no action."
-        },
-        {
-          "word": "account for",
-          "meaning": "~를 차지하다, 설명하다",
-          "example": "African-Americans account for about 13% of the US population."
-        },
-        {
-          "word": "account",
-          "meaning": "설명, 이야기, 계좌",
-          "example": "He gave a brief account of what had happened."
-        },
-        {
-          "word": "accountable",
-          "meaning": "책임이 있는",
-          "example": "Managers must be accountable for their decisions."
-        }
-      ]
-    },
-    "mode": "learn"
+      "unit1": {
+        "title": "Unit 1",
+        "words": [
+          {
+            "word": "favorite",
+            "example": "My favorite food is pizza.",
+            "example_pronunciation": "/maɪ ˈfeɪvərɪt fuːd ɪz ˈpiːtsə/",
+            "meaning": "가장 좋아하는",
+            "translation": "내가 가장 좋아하는 음식은 피자이다.",
+            "pronunciation": "/ˈfeɪvərɪt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "introduce",
+            "example": "Let me introduce myself.",
+            "example_pronunciation": "/let miː ˌɪntrəˈdjuːs maɪˈself/",
+            "meaning": "소개하다",
+            "translation": "제 자신을 소개하겠습니다.",
+            "pronunciation": "/ˌɪntrəˈdjuːs/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "meet",
+            "example": "Nice to meet you.",
+            "example_pronunciation": "/naɪs tə miːt juː/",
+            "meaning": "만나다",
+            "translation": "만나서 반갑습니다.",
+            "pronunciation": "/miːt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "grade",
+            "example": "What grade are you in?",
+            "example_pronunciation": "/wɒt ɡreɪd ɑːr juː ɪn/",
+            "meaning": "학년",
+            "translation": "너는 몇 학년이니?",
+            "pronunciation": "/ɡreɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "first",
+            "example": "I'm in the first grade.",
+            "example_pronunciation": "/aɪm ɪn ðə fɜːrst ɡreɪd/",
+            "meaning": "처음의, 첫",
+            "translation": "나는 1학년이야.",
+            "pronunciation": "/fɜːrst/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "from",
+            "example": "Where are you from?",
+            "example_pronunciation": "/weər ɑːr juː frɒm/",
+            "meaning": "~에서, ~로부터",
+            "translation": "당신은 어디에서 왔나요?",
+            "pronunciation": "/frɒm/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "glad",
+            "example": "I'm glad to meet you.",
+            "example_pronunciation": "/aɪm ɡlæd tə miːt juː/",
+            "meaning": "기쁜",
+            "translation": "만나서 반가워.",
+            "pronunciation": "/ɡlæd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "old",
+            "example": "I'm 14 years old.",
+            "example_pronunciation": "/aɪm fɔːˈtiːn jɪərz oʊld/",
+            "meaning": "나이 든, 늙은",
+            "translation": "나는 14살입니다.",
+            "pronunciation": "/oʊld/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "club",
+            "example": "I'm in the dance club.",
+            "example_pronunciation": "/aɪm ɪn ðə dæns klʌb/",
+            "meaning": "동아리, 클럽",
+            "translation": "나는 춤 동아리에 있어.",
+            "pronunciation": "/klʌb/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "Korean",
+            "example": "Jamie speaks Korean well.",
+            "example_pronunciation": "/ˈdʒeɪmi spiːks kəˈriən wel/",
+            "meaning": "한국인, 한국어",
+            "translation": "제이미는 한국어를 잘한다.",
+            "pronunciation": "/kəˈriən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "England",
+            "example": "England is far from Korea.",
+            "example_pronunciation": "/ˈɪŋɡlənd ɪz fɑːr frɒm kəˈriə/",
+            "meaning": "잉글랜드",
+            "translation": "잉글랜드는 한국에서 멀다.",
+            "pronunciation": "/ˈɪŋɡlənd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "Germany",
+            "example": "Ann is from Germany.",
+            "example_pronunciation": "/æn ɪz frɒm ˈdʒɜːməni/",
+            "meaning": "독일",
+            "translation": "앤은 독일에서 왔다.",
+            "pronunciation": "/ˈdʒɜːməni/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "USA",
+            "example": "The USA means the United States of America.",
+            "example_pronunciation": "/ðə juː es ˈeɪ miːnz ðə juːˈnaɪtɪd steɪts əv əˈmerɪkə/",
+            "meaning": "미국",
+            "translation": "USA(미국)는 United States of America(미국 / 미합중국)를 의미한다.",
+            "pronunciation": "/juː es ˈeɪ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "India",
+            "example": "My friend, Ruso, is from India.",
+            "example_pronunciation": "/maɪ frend ˈruːsoʊ ɪz frɒm ˈɪndiə/",
+            "meaning": "인도",
+            "translation": "내 친구 루소는 인도에서 왔다.",
+            "pronunciation": "/ˈɪndiə/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "sports",
+            "example": "I love winter sports.",
+            "example_pronunciation": "/aɪ lʌv ˈwɪntər spɔːrts/",
+            "meaning": "운동, 스포츠",
+            "translation": "나는 겨울 스포츠를 좋아한다.",
+            "pronunciation": "/spɔːrts/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "smart",
+            "example": "Monkeys are smart animals.",
+            "example_pronunciation": "/ˈmʌŋkiz ɑːr smɑːrt ˈænɪməlz/",
+            "meaning": "영리한, 똑똑한",
+            "translation": "원숭이는 똑똑한 동물이다.",
+            "pronunciation": "/smɑːrt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "shy",
+            "example": "Don't be shy and say hello to your new friend.",
+            "example_pronunciation": "/doʊnt biː ʃaɪ ænd seɪ həˈloʊ tə jɔːr njuː frend/",
+            "meaning": "수줍은, 부끄러운",
+            "translation": "수줍어하지 말고 새 친구에게 인사하세요.",
+            "pronunciation": "/ʃaɪ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "active",
+            "example": "I have many active friends.",
+            "example_pronunciation": "/aɪ hæv ˈmeni ˈæktɪv frendz/",
+            "meaning": "활동적인, 활발한",
+            "translation": "나에게는 활동적인 친구들이 많다.",
+            "pronunciation": "/ˈæktɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "kind",
+            "example": "What kind of dog do you have?",
+            "example_pronunciation": "/wɒt kaɪnd əv dɒɡ duː juː hæv/",
+            "meaning": "종류",
+            "translation": "너는 어떤 종류의 개를 갖고 있니?",
+            "pronunciation": "/kaɪnd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "humorous",
+            "example": "He is a humorous boy.",
+            "example_pronunciation": "/hiː ɪz ə ˈhjuːmərəs bɔɪ/",
+            "meaning": "유머러스한, 유머가 풍부한",
+            "translation": "그는 유머가 풍부한 소년이다.",
+            "pronunciation": "/ˈhjuːmərəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "always",
+            "example": "The sun always rises in the east.",
+            "example_pronunciation": "/ðə sʌn ˈɔːlweɪz ˈraɪzɪz ɪn ði iːst/",
+            "meaning": "항상, 언제나",
+            "translation": "해는 언제나 동쪽에서 뜬다.",
+            "pronunciation": "/ˈɔːlweɪz/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "international",
+            "example": "She goes to an international school.",
+            "example_pronunciation": "/ʃiː ɡoʊz tʊ ən ˌɪntərˈnæʃənəl skuːl/",
+            "meaning": "국제적인, 세계적인",
+            "translation": "그녀는 국제 학교에 다닌다.",
+            "pronunciation": "/ˌɪntərˈnæʃənəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "wonderful",
+            "example": "He is a wonderful singer.",
+            "example_pronunciation": "/hiː ɪz ə ˈwʌndərfəl ˈsɪŋər/",
+            "meaning": "훌륭한, 멋진, 놀라운",
+            "translation": "그는 훌륭한 가수이다.",
+            "pronunciation": "/ˈwʌndərfəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "Canada",
+            "example": "Canada is a beautiful country.",
+            "example_pronunciation": "/ˈkænədə ɪz ə ˈbjuːtɪfəl ˈkʌntri/",
+            "meaning": "캐나다",
+            "translation": "캐나다는 아름다운 나라이다.",
+            "pronunciation": "/ˈkænədə/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "nickname",
+            "example": "Her nickname is 'Ms. Smile.'",
+            "example_pronunciation": "/hɜːr ˈnɪkneɪm ɪz mɪz smaɪl/",
+            "meaning": "별명, 애칭",
+            "translation": "그녀의 별명은 '미소씨'야.",
+            "pronunciation": "/ˈnɪkneɪm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "French",
+            "example": "I love French food.",
+            "example_pronunciation": "/aɪ lʌv frentʃ fuːd/",
+            "meaning": "프랑스의, 프랑스인(어)의",
+            "translation": "나는 프랑스 음식을 정말 좋아한다.",
+            "pronunciation": "/frentʃ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "language",
+            "example": "She speaks three languages.",
+            "example_pronunciation": "/ʃiː spiːks θriː ˈlæŋɡwɪdʒɪz/",
+            "meaning": "언어",
+            "translation": "그녀는 3개 국어를 한다.",
+            "pronunciation": "/ˈlæŋɡwɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fan",
+            "example": "I'm a big fan of Michael Jackson.",
+            "example_pronunciation": "/aɪm ə bɪɡ fæn əv ˈmaɪkəl ˈdʒæksən/",
+            "meaning": "팬, 애호가",
+            "translation": "나는 마이클 잭슨의 열렬한 팬이다.",
+            "pronunciation": "/fæn/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit2": {
+        "title": "Unit 2",
+        "words": [
+          {
+            "word": "funny",
+            "example": "He is a very funny friend.",
+            "example_pronunciation": "/hiː ɪz ə ˈveri ˈfʌni frend/",
+            "meaning": "재미있는, 웃기는",
+            "translation": "그는 매우 웃기는 친구이다.",
+            "pronunciation": "/ˈfʌni/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "outgoing",
+            "example": "I'm very active and outgoing.",
+            "example_pronunciation": "/aɪm ˈveri ˈæktɪv ænd ˈaʊtɡoʊɪŋ/",
+            "meaning": "사교적인, 외향적인",
+            "translation": "나는 매우 활발하고 외향적이야.",
+            "pronunciation": "/ˈaʊtɡoʊɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "easygoing",
+            "example": "They are all easygoing.",
+            "example_pronunciation": "/ðeɪ ɑːr ɔːl ˈiːziɡoʊɪŋ/",
+            "meaning": "느긋한, 여유 있는, 털털한",
+            "translation": "그들은 모두 느긋하다.",
+            "pronunciation": "/ˈiːziɡoʊɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "friendly",
+            "example": "Everyone is friendly to me.",
+            "example_pronunciation": "/ˈevriwʌn ɪz ˈfrendli tə miː/",
+            "meaning": "친절한, 호의적인",
+            "translation": "모두들 나에게 친절하다.",
+            "pronunciation": "/ˈfrendli/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "guitar",
+            "example": "He is playing the guitar.",
+            "example_pronunciation": "/hiː ɪz ˈpleɪɪŋ ðə ɡɪˈtɑːr/",
+            "meaning": "기타",
+            "translation": "그는 기타를 연주하고 있다.",
+            "pronunciation": "/ɡɪˈtɑːr/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "classical",
+            "example": "I love classical music.",
+            "example_pronunciation": "/aɪ lʌv ˈklæsɪkəl ˈmjuːzɪk/",
+            "meaning": "고전의, 클래식 음악의",
+            "translation": "나는 클래식 음악을 정말 좋아한다.",
+            "pronunciation": "/ˈklæsɪkəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "interested",
+            "example": "Are you interested in music?",
+            "example_pronunciation": "/ɑːr juː ˈɪntrəstɪd ɪn ˈmjuːzɪk/",
+            "meaning": "흥미를 가진, 관심이 있는",
+            "translation": "당신은 음악에 관심이 있나요?",
+            "pronunciation": "/ˈɪntrəstɪd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "politics",
+            "example": "I don't know much about politics.",
+            "example_pronunciation": "/aɪ doʊnt noʊ mʌtʃ əˈbaʊt ˈpɒlɪtɪks/",
+            "meaning": "정치",
+            "translation": "나는 정치에 대해 많이 알지 못한다.",
+            "pronunciation": "/ˈpɒlɪtɪks/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "spaghetti",
+            "example": "Spaghetti is my favorite food.",
+            "example_pronunciation": "/spəˈɡeti ɪz maɪ ˈfeɪvərɪt fuːd/",
+            "meaning": "스파게티",
+            "translation": "스파게티는 내가 좋아하는 음식이야.",
+            "pronunciation": "/spəˈɡeti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "giraffe",
+            "example": "Giraffes have long necks.",
+            "example_pronunciation": "/dʒɪˈræfs hæv lɒŋ neks/",
+            "meaning": "기린",
+            "translation": "기린은 긴 목을 갖고 있다.",
+            "pronunciation": "/dʒɪˈræf/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "elephant",
+            "example": "Elephants are smart.",
+            "example_pronunciation": "/ˈelɪfənts ɑːr smɑːrt/",
+            "meaning": "코끼리",
+            "translation": "코끼리는 영리하다.",
+            "pronunciation": "/ˈelɪfənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "purple",
+            "example": "Look at the purple flowers.",
+            "example_pronunciation": "/lʊk æt ðə ˈpɜːrpl ˈflaʊərz/",
+            "meaning": "보라색의, 자주색의",
+            "translation": "보라색 꽃들을 봐.",
+            "pronunciation": "/ˈpɜːrpl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "performance",
+            "example": "The young musician's performance was so touching.",
+            "example_pronunciation": "/ðə jʌŋ mjuːˈzɪʃənz pərˈfɔːrməns wɒz soʊ ˈtʌtʃɪŋ/",
+            "meaning": "공연",
+            "translation": "그 어린 음악가의 공연은 정말 감동적이었다.",
+            "pronunciation": "/pərˈfɔːrməns/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "talk",
+            "example": "Let's talk about your future dream.",
+            "example_pronunciation": "/lets tɔːk əˈbaʊt jɔːr ˈfjuːtʃər driːm/",
+            "meaning": "이야기하다",
+            "translation": "너의 미래 꿈에 대해서 이야기해 보자.",
+            "pronunciation": "/tɔːk/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "excellent",
+            "example": "Swimming is an excellent exercise.",
+            "example_pronunciation": "/ˈswɪmɪŋ ɪz ən ˈeksələnt ˈeksərsaɪz/",
+            "meaning": "훌륭한, 뛰어난",
+            "translation": "수영은 훌륭한 운동이다.",
+            "pronunciation": "/ˈeksələnt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "sometimes",
+            "example": "Sometimes they are very noisy.",
+            "example_pronunciation": "/ˈsʌmtaɪmz ðeɪ ɑːr ˈveri ˈnɔɪzi/",
+            "meaning": "때때로, 가끔",
+            "translation": "가끔씩 그들은 매우 시끄럽다.",
+            "pronunciation": "/ˈsʌmtaɪmz/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "send",
+            "example": "Send me your photos.",
+            "example_pronunciation": "/send miː jɔːr ˈfoʊtoʊz/",
+            "meaning": "보내다",
+            "translation": "나에게 너의 사진들을 보내줘.",
+            "pronunciation": "/send/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "healthy",
+            "example": "Japchae is healthy food.",
+            "example_pronunciation": "/dʒɑːpˈtʃeɪ ɪz ˈhelθi fuːd/",
+            "meaning": "건강에 좋은, 건강한",
+            "translation": "잡채는 건강에 좋은 음식이다.",
+            "pronunciation": "/ˈhelθi/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "plain",
+            "example": "Eat some plain breads.",
+            "example_pronunciation": "/iːt sʌm pleɪn bredz/",
+            "meaning": "담백한",
+            "translation": "담백한 빵들을 좀 먹어봐.",
+            "pronunciation": "/pleɪn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "traditional",
+            "example": "She is wearing the traditional clothes.",
+            "example_pronunciation": "/ʃiː ɪz ˈweərɪŋ ðə trəˈdɪʃənəl kloʊðz/",
+            "meaning": "전통의, 전통적인",
+            "translation": "그녀는 전통 의상을 입고 있다.",
+            "pronunciation": "/trəˈdɪʃənəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "usually",
+            "example": "I usually wake up at 7:00 in the morning.",
+            "example_pronunciation": "/aɪ ˈjuːʒuəli weɪk ʌp æt ˈsevən ɪn ðə ˈmɔːrnɪŋ/",
+            "meaning": "보통, 대개, 평소",
+            "translation": "나는 보통 아침 7시에 일어난다.",
+            "pronunciation": "/ˈjuːʒuəli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "wrong",
+            "example": "Your answer is wrong.",
+            "example_pronunciation": "/jɔːr ˈænsər ɪz rɒŋ/",
+            "meaning": "잘못된, 틀린",
+            "translation": "당신의 답변은 틀렸습니다.",
+            "pronunciation": "/rɒŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "question",
+            "example": "I have a question for you.",
+            "example_pronunciation": "/aɪ hæv ə ˈkwestʃən fɔːr juː/",
+            "meaning": "질문, 문제",
+            "translation": "당신에게 질문이 있습니다.",
+            "pronunciation": "/ˈkwestʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "note",
+            "example": "My classmates take note in English class.",
+            "example_pronunciation": "/maɪ ˈklæsmeɪts teɪk noʊt ɪn ˈɪŋɡlɪʃ klæs/",
+            "meaning": "메모, 기록",
+            "translation": "내 급우들은 영어 수업에서 메모를 한다.",
+            "pronunciation": "/noʊt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "practice",
+            "example": "He goes to soccer practice every morning.",
+            "example_pronunciation": "/hiː ɡoʊz tə ˈsɒkər ˈpræktɪs ˈevri ˈmɔːrnɪŋ/",
+            "meaning": "연습",
+            "translation": "그는 매일 아침 축구 연습에 간다.",
+            "pronunciation": "/ˈpræktɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "until",
+            "example": "He plays soccer until 8:30 in the morning.",
+            "example_pronunciation": "/hiː pleɪz ˈsɒkər ənˈtɪl eɪt ˈθɜːrti ɪn ðə ˈmɔːrnɪŋ/",
+            "meaning": "~까지",
+            "translation": "그는 아침 8시 30분까지 축구를 한다.",
+            "pronunciation": "/ənˈtɪl/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "alphabet",
+            "example": "Hangul is the Korean alphabet.",
+            "example_pronunciation": "/ˈhɑːŋɡʊl ɪz ðə kəˈriən ˈælfəbet/",
+            "meaning": "문자, 알파벳",
+            "translation": "한글은 한국의 문자입니다.",
+            "pronunciation": "/ˈælfəbet/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cartoon",
+            "example": "She can draw cartoon.",
+            "example_pronunciation": "/ʃiː kæn drɔː kɑːrˈtuːn/",
+            "meaning": "만화",
+            "translation": "그녀는 만화를 그릴 수 있다.",
+            "pronunciation": "/kɑːrˈtuːn/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit3": {
+        "title": "Unit 3",
+        "words": [
+          {
+            "word": "magazine",
+            "example": "The magazines are on the table.",
+            "example_pronunciation": "/ðə ˌmæɡəˈziːnz ɑːr ɒn ðə ˈteɪbl/",
+            "meaning": "잡지",
+            "translation": "잡지들은 테이블 위에 있다.",
+            "pronunciation": "/ˌmæɡəˈziːn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "kitten",
+            "example": "There are three kittens in the room.",
+            "example_pronunciation": "/ðeər ɑːr θriː ˈkɪtnz ɪn ðə ruːm/",
+            "meaning": "아기 고양이",
+            "translation": "방 안에는 세 마리의 아기 고양이가 있다.",
+            "pronunciation": "/ˈkɪtn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "behind",
+            "example": "There is a cat behind the desk.",
+            "example_pronunciation": "/ðeər ɪz ə kæt bɪˈhaɪnd ðə desk/",
+            "meaning": "~ 뒤에",
+            "translation": "책상 뒤에 고양이 한 마리가 있다.",
+            "pronunciation": "/bɪˈhaɪnd/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "above",
+            "example": "There is a TV above the bed.",
+            "example_pronunciation": "/ðeər ɪz ə ˌtiːˈviː əˈbʌv ðə bed/",
+            "meaning": "~ 위에, ~ 위쪽에",
+            "translation": "침대 위에 TV가 있다.",
+            "pronunciation": "/əˈbʌv/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "in front of",
+            "example": "There is a woman in front of the door.",
+            "example_pronunciation": "/ðeər ɪz ə ˈwʊmən ɪn frʌnt əv ðə dɔːr/",
+            "meaning": "~의 앞에",
+            "translation": "문 앞에 한 여자가 있다.",
+            "pronunciation": "/ɪn frʌnt əv/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "present",
+            "example": "Here's your birthday present.",
+            "example_pronunciation": "/hɪərz jɔːr ˈbɜːrθdeɪ ˈpreznt/",
+            "meaning": "선물",
+            "translation": "여기 너의 생일 선물이야.",
+            "pronunciation": "/ˈpreznt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "carnation",
+            "example": "She puts some carnation on her mom's chair.",
+            "example_pronunciation": "/ʃiː pʊts sʌm kɑːrˈneɪʃən ɒn hɜːr mɒmz tʃeər/",
+            "meaning": "카네이션",
+            "translation": "그녀는 엄마의 의자 위에 카네이션 몇 송이를 놓는다.",
+            "pronunciation": "/kɑːrˈneɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "express",
+            "example": "She wants to express her thanks.",
+            "example_pronunciation": "/ʃiː wɒnts tuː ɪkˈspres hɜːr θæŋks/",
+            "meaning": "표현하다, 나타내다",
+            "translation": "그녀는 감사를 표현하고 싶어한다.",
+            "pronunciation": "/ɪkˈspres/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "soup",
+            "example": "She cooks rice and soup for her friends.",
+            "example_pronunciation": "/ʃiː kʊks raɪs ænd suːp fɔːr hɜːr frendz/",
+            "meaning": "국, 스프",
+            "translation": "그녀는 친구들을 위해 밥과 국을 요리한다.",
+            "pronunciation": "/suːp/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "birth",
+            "example": "Thank you for giving birth to me.",
+            "example_pronunciation": "/θæŋk juː fɔːr ˈɡɪvɪŋ bɜːrθ tə miː/",
+            "meaning": "탄생, 태어남",
+            "translation": "저를 낳아주셔서 감사해요.",
+            "pronunciation": "/bɜːrθ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "side dish",
+            "example": "She puts some side dishes on the table.",
+            "example_pronunciation": "/ʃiː pʊts sʌm saɪd ˈdɪʃɪz ɒn ðə ˈteɪbl/",
+            "meaning": "반찬",
+            "translation": "그녀는 테이블 위에 반찬 몇 가지를 놓는다.",
+            "pronunciation": "/saɪd dɪʃ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "in the center of",
+            "example": "In the center of the table, there is a beautiful cake.",
+            "example_pronunciation": "/ɪn ðə ˈsentər əv ðə ˈteɪbl, ðeər ɪz ə ˈbjuːtɪfəl keɪk/",
+            "meaning": "~의 중앙에",
+            "translation": "테이블 중앙에는 아름다운 케이크가 있다.",
+            "pronunciation": "/ɪn ðə ˈsentər əv/",
+            "part_of_speech": "구"
+          },
+          {
+            "word": "library",
+            "example": "He goes to the school library every day.",
+            "example_pronunciation": "/hiː ɡoʊz tə ðə skuːl ˈlaɪbreri ˈevri deɪ/",
+            "meaning": "도서관",
+            "translation": "그는 매일 학교 도서관에 간다.",
+            "pronunciation": "/ˈlaɪbreri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "often",
+            "example": "I often play the guitar.",
+            "example_pronunciation": "/aɪ ˈɒfən pleɪ ðə ɡɪˈtɑːr/",
+            "meaning": "자주, 종종",
+            "translation": "나는 종종 기타를 친다.",
+            "pronunciation": "/ˈɒfən/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "finish",
+            "example": "Yujin's school finishes at 3.",
+            "example_pronunciation": "/juːdʒɪnz skuːl ˈfɪnɪʃɪz æt θriː/",
+            "meaning": "끝나다, 마치다",
+            "translation": "유진이네 학교는 3시에 끝난다.",
+            "pronunciation": "/ˈfɪnɪʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "begin",
+            "example": "Her first class begins at 9 a.m.",
+            "example_pronunciation": "/hɜːr fɜːrst klæs bɪˈɡɪnz æt naɪn ˈeɪ em/",
+            "meaning": "시작하다",
+            "translation": "그녀의 첫 수업은 오전 9시에 시작한다.",
+            "pronunciation": "/bɪˈɡɪn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "ride",
+            "example": "I ride a bike to school.",
+            "example_pronunciation": "/aɪ raɪd ə baɪk tə skuːl/",
+            "meaning": "타다",
+            "translation": "나는 학교에 자전거를 타고 간다.",
+            "pronunciation": "/raɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "muscular",
+            "example": "He is short and muscular.",
+            "example_pronunciation": "/hiː ɪz ʃɔːrt ænd ˈmʌskjələr/",
+            "meaning": "근육의",
+            "translation": "그는 키가 작고 근육질이다.",
+            "pronunciation": "/ˈmʌskjələr/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "strict",
+            "example": "My math teacher is strict with me.",
+            "example_pronunciation": "/maɪ mæθ ˈtiːtʃər ɪz strɪkt wɪð miː/",
+            "meaning": "엄격한, 엄한",
+            "translation": "우리 수학 선생님은 나에게 엄격하시다.",
+            "pronunciation": "/strɪkt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "blond",
+            "example": "She has long blond hair.",
+            "example_pronunciation": "/ʃiː hæz lɒŋ blɒnd heər/",
+            "meaning": "금발의",
+            "translation": "그녀는 긴 금발 머리를 갖고 있다.",
+            "pronunciation": "/blɒnd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "slim",
+            "example": "He is tall and slim.",
+            "example_pronunciation": "/hiː ɪz tɔːl ænd slɪm/",
+            "meaning": "날씬한, 호리호리한",
+            "translation": "그는 키가 크고 날씬하다.",
+            "pronunciation": "/slɪm/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "native",
+            "example": "My native English teacher is handsome.",
+            "example_pronunciation": "/maɪ ˈneɪtɪv ˈɪŋɡlɪʃ ˈtiːtʃər ɪz ˈhænsəm/",
+            "meaning": "원어민의, 원주민의",
+            "translation": "우리 영어 원어민 선생님은 잘생겼다.",
+            "pronunciation": "/ˈneɪtɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "voice",
+            "example": "Her voice is soft.",
+            "example_pronunciation": "/hɜːr vɔɪs ɪz sɒft/",
+            "meaning": "목소리",
+            "translation": "그녀의 목소리는 부드럽다.",
+            "pronunciation": "/vɔɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "Chinese",
+            "example": "There are many Chinese people in New York.",
+            "example_pronunciation": "/ðeər ɑːr ˈmeni ˌtʃaɪˈniːz ˈpiːpl ɪn nuː jɔːrk/",
+            "meaning": "중국의",
+            "translation": "뉴욕에는 중국 사람들이 많다.",
+            "pronunciation": "/ˌtʃaɪˈniːz/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "writer",
+            "example": "Andersen is a great writer.",
+            "example_pronunciation": "/ˈændərsən ɪz ə ɡreɪt ˈraɪtər/",
+            "meaning": "작가",
+            "translation": "안데르센은 위대한 작가이다.",
+            "pronunciation": "/ˈraɪtər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fast",
+            "example": "Tina can run fast.",
+            "example_pronunciation": "/ˈtiːnə kæn rʌn fæst/",
+            "meaning": "빠르게",
+            "translation": "티나는 빠르게 뛸 수 있다.",
+            "pronunciation": "/fæst/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "leave",
+            "example": "Would you like to leave a message?",
+            "example_pronunciation": "/wʊd juː laɪk tə liːv ə ˈmesɪdʒ/",
+            "meaning": "남기다, 떠나다",
+            "translation": "메시지를 남기시겠습니까?",
+            "pronunciation": "/liːv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "invite",
+            "example": "I'd like to invite you to my birthday party.",
+            "example_pronunciation": "/aɪd laɪk tə ɪnˈvaɪt juː tə maɪ ˈbɜːrθdeɪ ˈpɑːrti/",
+            "meaning": "초대하다",
+            "translation": "제 생일 파티에 당신을 초대하고 싶습니다.",
+            "pronunciation": "/ɪnˈvaɪt/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit4": {
+        "title": "Unit 4",
+
+        "words": [
+          {
+            "word": "borrow",
+            "example": "I usually borrow books from the school library.",
+            "example_pronunciation": "/aɪ ˈjuːʒuəli ˈbɒroʊ bʊks frɒm ðə skuːl ˈlaɪbrəri/",
+            "meaning": "빌리다, 대출하다",
+            "translation": "나는 보통 학교 도서관에서 책을 빌린다.",
+            "pronunciation": "/ˈbɒroʊ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cousin",
+            "example": "I met my uncles and cousins.",
+            "example_pronunciation": "/aɪ met maɪ ˈʌŋklz ænd ˈkʌznz/",
+            "meaning": "사촌",
+            "translation": "나는 나의 삼촌들과 사촌들을 만났다.",
+            "pronunciation": "/ˈkʌzn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "niece",
+            "example": "She is my lovely niece.",
+            "example_pronunciation": "/ʃiː ɪz maɪ ˈlʌvli niːs/",
+            "meaning": "여자 조카, 조카딸",
+            "translation": "그녀는 나의 사랑스러운 조카이다.",
+            "pronunciation": "/niːs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "aunt",
+            "example": "My aunt is my grandfather's daughter.",
+            "example_pronunciation": "/maɪ ænt ɪz maɪ ˈɡrænfɑːðərz ˈdɔːtər/",
+            "meaning": "이모, 고모, (외)숙모",
+            "translation": "우리 고모는 우리 할아버지의 딸이다.",
+            "pronunciation": "/ænt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "imagine",
+            "example": "Imagine that someone asks you about your family.",
+            "example_pronunciation": "/ɪˈmædʒɪn ðæt ˈsʌmwʌn æsks juː əˈbaʊt jɔːr ˈfæməli/",
+            "meaning": "상상하다",
+            "translation": "누군가가 당신의 가족에 대해 묻는다고 상상해 봐라.",
+            "pronunciation": "/ɪˈmædʒɪn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "learn",
+            "example": "I'm learning Chinese.",
+            "example_pronunciation": "/aɪm ˈlɜːrnɪŋ ˌtʃaɪˈniːz/",
+            "meaning": "배우다",
+            "translation": "나는 중국어를 배우고 있다.",
+            "pronunciation": "/lɜːrn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "actually",
+            "example": "Most people don't actually know a lot about their family.",
+            "example_pronunciation": "/moʊst ˈpiːpl doʊnt ˈæktʃuəli noʊ ə lɒt əˈbaʊt ðeər ˈfæməli/",
+            "meaning": "사실상",
+            "translation": "대부분의 사람들은 사실 자신의 가족에 대해서 많이 알고 있지는 않다.",
+            "pronunciation": "/ˈæktʃuəli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "suggestion",
+            "example": "Do you have any suggestions?",
+            "example_pronunciation": "/duː juː hæv ˈeni səˈdʒestʃənz/",
+            "meaning": "제안",
+            "translation": "제안사항이 없니?",
+            "pronunciation": "/səˈdʒestʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "below",
+            "example": "Please do not write below this line.",
+            "example_pronunciation": "/pliːz duː nɒt raɪt bɪˈloʊ ðɪs laɪn/",
+            "meaning": "~ 아래에",
+            "translation": "이 선 아래로는 쓰지 마세요.",
+            "pronunciation": "/bɪˈloʊ/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "moment",
+            "example": "Wait a moment.",
+            "example_pronunciation": "/weɪt ə ˈmoʊmənt/",
+            "meaning": "순간",
+            "translation": "잠시만 기다려.",
+            "pronunciation": "/ˈmoʊmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "hero",
+            "example": "He is a true hero.",
+            "example_pronunciation": "/hiː ɪz ə truː ˈhɪəroʊ/",
+            "meaning": "존경하는 사람, 영웅",
+            "translation": "그는 진정한 영웅이다.",
+            "pronunciation": "/ˈhɪəroʊ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "expensive",
+            "example": "That's too expensive.",
+            "example_pronunciation": "/ðæts tuː ɪkˈspensɪv/",
+            "meaning": "비싼",
+            "translation": "그건 너무 비싸네요.",
+            "pronunciation": "/ɪkˈspensɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "alien",
+            "example": "I bought a toy alien.",
+            "example_pronunciation": "/aɪ bɔːt ə tɔɪ ˈeɪliən/",
+            "meaning": "외계인",
+            "translation": "나는 장난감 외계인을 샀다.",
+            "pronunciation": "/ˈeɪliən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "different",
+            "example": "Different colors mean different things.",
+            "example_pronunciation": "/ˈdɪfərənt ˈkʌlərz miːn ˈdɪfərənt θɪŋz/",
+            "meaning": "다른",
+            "translation": "다른 색깔들은 다른 것들을 의미한다.",
+            "pronunciation": "/ˈdɪfərənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "garage",
+            "example": "We're having a garage sale now.",
+            "example_pronunciation": "/wɪər ˈhævɪŋ ə ɡəˈrɑːʒ seɪl naʊ/",
+            "meaning": "차고, 창고",
+            "translation": "우리는 지금 창고세일을 하고 있다.",
+            "pronunciation": "/ɡəˈrɑːʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "traffic",
+            "example": "The traffic is always heavy here.",
+            "example_pronunciation": "/ðə ˈtræfɪk ɪz ˈɔːlweɪz ˈhevi hɪər/",
+            "meaning": "교통, 차량",
+            "translation": "여기는 항상 교통이 혼잡하다.",
+            "pronunciation": "/ˈtræfɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "safe",
+            "example": "The traffic sign will help to keep you safe.",
+            "example_pronunciation": "/ðə ˈtræfɪk saɪn wɪl help tə kiːp juː seɪf/",
+            "meaning": "안전한",
+            "translation": "교통 신호는 당신의 안전에 도움을 줄 것이다.",
+            "pronunciation": "/seɪf/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "across",
+            "example": "It's across from the middle school.",
+            "example_pronunciation": "/ɪts əˈkrɒs frɒm ðə ˈmɪdl skuːl/",
+            "meaning": "가로질러서",
+            "translation": "그것은 중학교 맞은 편에 있다.",
+            "pronunciation": "/əˈkrɒs/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "item",
+            "example": "At the garage sale, they sold many items.",
+            "example_pronunciation": "/æt ðə ɡəˈrɑːʒ seɪl, ðeɪ soʊld ˈmeni ˈaɪtəmz/",
+            "meaning": "물건, 물품",
+            "translation": "창고세일에서 그들은 많은 물건들을 팔았다.",
+            "pronunciation": "/ˈaɪtəm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "neighbor",
+            "example": "My neighbor and his family are moving to a different city.",
+            "example_pronunciation": "/maɪ ˈneɪbər ænd hɪz ˈfæməli ɑːr ˈmuːvɪŋ tə ə ˈdɪfərənt ˈsɪti/",
+            "meaning": "이웃",
+            "translation": "나의 이웃과 그의 가족들이 다른 도시로 이사를 가게 되었다.",
+            "pronunciation": "/ˈneɪbər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "clothes",
+            "example": "My mom took out my winter clothes for me.",
+            "example_pronunciation": "/maɪ mɒm tʊk aʊt maɪ ˈwɪntər kloʊðz fɔːr miː/",
+            "meaning": "옷",
+            "translation": "우리 엄마는 나를 위해 겨울 옷을 꺼내주셨다.",
+            "pronunciation": "/kloʊðz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "dolphin",
+            "example": "Dolphins sleep with one eye open.",
+            "example_pronunciation": "/ˈdɒlfɪnz sliːp wɪð wʌn aɪ ˈoʊpən/",
+            "meaning": "돌고래",
+            "translation": "돌고래는 한쪽 눈을 뜨고 잔다.",
+            "pronunciation": "/ˈdɒlfɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "careful",
+            "example": "Be careful. A car is coming.",
+            "example_pronunciation": "/biː ˈkeəfəl. ə kɑːr ɪz ˈkʌmɪŋ/",
+            "meaning": "주의 깊은, 조심스러운, 신중한",
+            "translation": "조심하세요. 차가 오고 있습니다.",
+            "pronunciation": "/ˈkeəfəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "save",
+            "example": "He's trying to save people's lives.",
+            "example_pronunciation": "/hiːz ˈtraɪɪŋ tə seɪv ˈpiːplz laɪvz/",
+            "meaning": "구하다, 구조하다",
+            "translation": "그는 사람들의 생명을 구하려고 하고 있다.",
+            "pronunciation": "/seɪv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "obey",
+            "example": "You have to obey the traffic signs.",
+            "example_pronunciation": "/juː hæv tə əˈbeɪ ðə ˈtræfɪk saɪnz/",
+            "meaning": "(규칙 등에) 따르다, 복종하다",
+            "translation": "당신은 교통신호를 지켜야 합니다.",
+            "pronunciation": "/əˈbeɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "protect",
+            "example": "Wear dark glasses to protect your eyes from the sun.",
+            "example_pronunciation": "/weər dɑːrk ˈɡlæsɪz tə prəˈtekt jɔːr aɪz frɒm ðə sʌn/",
+            "meaning": "보호하다",
+            "translation": "햇빛으로부터 눈을 보호하기 위해 어두운 색 안경을 써라.",
+            "pronunciation": "/prəˈtekt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "nature",
+            "example": "I'm interested in protecting nature.",
+            "example_pronunciation": "/aɪm ˈɪntrəstɪd ɪn prəˈtektɪŋ ˈneɪtʃər/",
+            "meaning": "자연",
+            "translation": "나는 자연 보호에 관심이 있다.",
+            "pronunciation": "/ˈneɪtʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "church",
+            "example": "This church is 100 years old.",
+            "example_pronunciation": "/ðɪs tʃɜːrtʃ ɪz ˈwʌn ˈhʌndrəd jɪərz oʊld/",
+            "meaning": "교회",
+            "translation": "이 교회는 100년 되었다.",
+            "pronunciation": "/tʃɜːrtʃ/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit5": {
+        "title": "Unit 5",
+        "words": [
+          {
+            "word": "mat",
+            "example": "I bought a mat for my room.",
+            "example_pronunciation": "/aɪ bɔːt ə mæt fɔːr maɪ ruːm/",
+            "meaning": "매트",
+            "translation": "나는 내 방에 쓸 매트를 샀다.",
+            "pronunciation": "/mæt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "sell",
+            "example": "We sell everything in this store.",
+            "example_pronunciation": "/wiː sel ˈevriθɪŋ ɪn ðɪs stɔːr/",
+            "meaning": "팔다",
+            "translation": "이 가게에서는 모든 것을 팝니다.",
+            "pronunciation": "/sel/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "share",
+            "example": "They like to share new items with neighbors.",
+            "example_pronunciation": "/ðeɪ laɪk tə ʃeə njuː ˈaɪtəmz wɪð ˈneɪbərz/",
+            "meaning": "나누다, 공유하다",
+            "translation": "그들은 이웃들과 새로운 물건을 공유하는 것을 좋아한다.",
+            "pronunciation": "/ʃeər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "remember",
+            "example": "I remember his name.",
+            "example_pronunciation": "/aɪ rɪˈmembər hɪz neɪm/",
+            "meaning": "기억하다",
+            "translation": "나는 그의 이름을 기억했다.",
+            "pronunciation": "/rɪˈmembər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "emergency",
+            "example": "My father needed to go to the emergency room.",
+            "example_pronunciation": "/maɪ ˈfɑːðər ˈniːdɪd tə ɡoʊ tə ði ɪˈmɜːrdʒənsi ruːm/",
+            "meaning": "비상, 비상사태",
+            "translation": "우리 아빠는 응급실에 가야했다.",
+            "pronunciation": "/ɪˈmɜːrdʒənsi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "floor",
+            "example": "Is there a mouse under the floor?",
+            "example_pronunciation": "/ɪz ðeər ə maʊs ˈʌndər ðə flɔːr/",
+            "meaning": "바닥",
+            "translation": "바닥 아래에 쥐가 있나요?",
+            "pronunciation": "/flɔːr/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "price",
+            "example": "What's the price?",
+            "example_pronunciation": "/wɒts ðə praɪs/",
+            "meaning": "가격",
+            "translation": "가격이 어떻게 되나요?",
+            "pronunciation": "/praɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "donate",
+            "example": "I want to donate some money to the church.",
+            "example_pronunciation": "/aɪ wɒnt tə ˈdoʊneɪt sʌm ˈmʌni tə ðə tʃɜːrtʃ/",
+            "meaning": "기부하다",
+            "translation": "나는 교회에 돈을 기부하고 싶다.",
+            "pronunciation": "/ˈdoʊneɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "communicate",
+            "example": "Dolphins communicate with each other.",
+            "example_pronunciation": "/ˈdɒlfɪnz kəˈmjuːnɪkeɪt wɪð iːtʃ ˈʌðər/",
+            "meaning": "의사소통하다",
+            "translation": "돌고래들은 서로 의사소통을 한다.",
+            "pronunciation": "/kəˈmjuːnɪkeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "attach",
+            "example": "He suggested attaching a web to his leg.",
+            "example_pronunciation": "/hiː səˈdʒestɪd əˈtætʃɪŋ ə web tə hɪz leɡ/",
+            "meaning": "붙이다",
+            "translation": "그는 그의 다리에 거미줄을 붙일 것을 제안했다.",
+            "pronunciation": "/əˈtætʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "sturdy",
+            "example": "Anansi, the spider, had short and sturdy legs.",
+            "example_pronunciation": "/əˈnænsi, ðə ˈspaɪdər, hæd ʃɔːrt ænd ˈstɜːrdi leɡz/",
+            "meaning": "튼튼한, 건장한",
+            "translation": "거미 아난시는 짧고 튼튼한 다리를 갖고 있었다.",
+            "pronunciation": "/ˈstɜːrdi/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "thin",
+            "example": "His legs got thinner and thinner.",
+            "example_pronunciation": "/hɪz leɡz ɡɒt ˈθɪnər ænd ˈθɪnər/",
+            "meaning": "(굵기가) 가는, 얇은",
+            "translation": "그의 다리는 점점 더 가늘어졌다.",
+            "pronunciation": "/θɪn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "terrified",
+            "example": "I was terrified when I saw a car accident.",
+            "example_pronunciation": "/aɪ wɒz ˈterɪfaɪd wen aɪ sɔː ə kɑːr ˈæksɪdənt/",
+            "meaning": "공포에 질린",
+            "translation": "나는 자동차 사고를 봤을 때 공포에 질렸다.",
+            "pronunciation": "/ˈterɪfaɪd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "statue",
+            "example": "I found a statue in the cinema.",
+            "example_pronunciation": "/aɪ faʊnd ə ˈstætʃuː ɪn ðə ˈsɪnəmə/",
+            "meaning": "조각상",
+            "translation": "나는 영화관에서 조각상 하나를 발견했다.",
+            "pronunciation": "/ˈstætʃuː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "steal",
+            "example": "I steal the eyes from the statue.",
+            "example_pronunciation": "/aɪ stiːl ði aɪz frɒm ðə ˈstætʃuː/",
+            "meaning": "훔치다",
+            "translation": "나는 그 조각상에서 눈을 훔쳤다.",
+            "pronunciation": "/stiːl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "finally",
+            "example": "Finally, he finished his homework.",
+            "example_pronunciation": "/ˈfaɪnəli, hiː ˈfɪnɪʃt hɪz ˈhoʊmwɜːrk/",
+            "meaning": "마침내, 마지막으로",
+            "translation": "마침내 그는 숙제를 끝냈다.",
+            "pronunciation": "/ˈfaɪnəli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "instead",
+            "example": "Instead, I touched a kangaroo's tail.",
+            "example_pronunciation": "/ɪnˈsted, aɪ tʌtʃt ə ˌkæŋɡəˈruːz teɪl/",
+            "meaning": "대신에",
+            "translation": "대신, 나는 캥거루의 꼬리를 만져보았다.",
+            "pronunciation": "/ɪnˈsted/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "participate",
+            "example": "The students participate in the 100 meter race.",
+            "example_pronunciation": "/ðə ˈstuːdənts pɑːrˈtɪsɪpeɪt ɪn ðə ˈwʌn ˈhʌndrəd ˈmiːtər reɪs/",
+            "meaning": "참가하다",
+            "translation": "학생들은 100미터 달리기에 참가했다.",
+            "pronunciation": "/pɑːrˈtɪsɪpeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cheer",
+            "example": "The parents cheered for their kids.",
+            "example_pronunciation": "/ðə ˈpeərənts tʃɪərd fɔːr ðeər kɪdz/",
+            "meaning": "응원하다",
+            "translation": "학부모들은 아이들을 응원했다.",
+            "pronunciation": "/tʃɪər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "choose",
+            "example": "Why did you choose the movie?",
+            "example_pronunciation": "/waɪ dɪd juː tʃuːz ðə ˈmuːvi/",
+            "meaning": "선택하다",
+            "translation": "왜 그 영화를 선택했니?",
+            "pronunciation": "/tʃuːz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bean",
+            "example": "I'm cooking beans.",
+            "example_pronunciation": "/aɪm ˈkʊkɪŋ biːnz/",
+            "meaning": "콩",
+            "translation": "나는 콩을 요리하고 있어.",
+            "pronunciation": "/biːn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "ready",
+            "example": "The dinner will be ready soon.",
+            "example_pronunciation": "/ðə ˈdɪnər wɪl biː ˈredi suːn/",
+            "meaning": "준비된",
+            "translation": "저녁이 곧 준비될거야.",
+            "pronunciation": "/ˈredi/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "improve",
+            "example": "I want to improve my English skills.",
+            "example_pronunciation": "/aɪ wɒnt tə ɪmˈpruːv maɪ ˈɪŋɡlɪʃ skɪlz/",
+            "meaning": "개선시키다, 향상시키다",
+            "translation": "나는 영어 실력을 향상시키고 싶다.",
+            "pronunciation": "/ɪmˈpruːv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "plan",
+            "example": "You should make a study plan.",
+            "example_pronunciation": "/juː ʃʊd meɪk ə ˈstʌdi plæn/",
+            "meaning": "계획",
+            "translation": "너는 공부 계획을 짜야 한다.",
+            "pronunciation": "/plæn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "rest",
+            "example": "I think you should take a rest.",
+            "example_pronunciation": "/aɪ θɪŋk juː ʃʊd teɪk ə rest/",
+            "meaning": "휴식",
+            "translation": "네가 휴식을 취해야 할 것 같아.",
+            "pronunciation": "/rest/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "regularly",
+            "example": "Why don't you exercise regularly?",
+            "example_pronunciation": "/waɪ doʊnt juː ˈeksərsaɪz ˈreɡjələrli/",
+            "meaning": "정기적으로",
+            "translation": "규칙적으로 운동을 하는 건 어때?",
+            "pronunciation": "/ˈreɡjələrli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "follow",
+            "example": "The spider followed the smell of potatoes.",
+            "example_pronunciation": "/ðə ˈspaɪdər ˈfɒloʊd ðə smel əv pəˈteɪtoʊz/",
+            "meaning": "따르다, 따라가다",
+            "translation": "거미는 감자의 냄새를 따라갔다.",
+            "pronunciation": "/ˈfɒloʊ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "blind",
+            "example": "I'm as blind as a bat without my glasses.",
+            "example_pronunciation": "/aɪm æz blaɪnd æz ə bæt wɪˈðaʊt maɪ ˈɡlæsɪz/",
+            "meaning": "눈이 먼, 보이지 않는",
+            "translation": "나는 안경 없이는 장님이나 다름없다.",
+            "pronunciation": "/blaɪnd/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit6": {
+        "title": "Unit 6",
+        "words": [
+          {
+            "word": "quarter",
+            "example": "It's a quarter past two.",
+            "example_pronunciation": "/ɪts ə ˈkwɔːrtər pæst tuː/",
+            "meaning": "(매 정시 앞뒤의) 15분",
+            "translation": "2시 15분입니다.",
+            "pronunciation": "/ˈkwɔːrtər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "spend",
+            "example": "I spend most of the vacation at home.",
+            "example_pronunciation": "/aɪ spend moʊst əv ðə veɪˈkeɪʃən æt hoʊm/",
+            "meaning": "(시간을) 보내다",
+            "translation": "나는 대부분의 방학을 집에서 보냈다.",
+            "pronunciation": "/spend/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "surf",
+            "example": "She surfed the internet during the break.",
+            "example_pronunciation": "/ʃiː sɜːrft ði ˈɪntərnet ˈdjʊərɪŋ ðə breɪk/",
+            "meaning": "인터넷의 정보를 찾아 다니다",
+            "translation": "그녀는 쉬는 시간 동안 인터넷을 검색했다.",
+            "pronunciation": "/sɜːrf/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "weight",
+            "example": "I have to lose weight.",
+            "example_pronunciation": "/aɪ hæv tə luːz weɪt/",
+            "meaning": "몸무게, 체중",
+            "translation": "나는 체중을 줄여야 한다.",
+            "pronunciation": "/weɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "advertisement",
+            "example": "I found the club advertisement on the Internet.",
+            "example_pronunciation": "/aɪ faʊnd ðə klʌb ədˈvɜːrtɪsmənt ɒn ði ˈɪntərnet/",
+            "meaning": "광고",
+            "translation": "나는 인터넷에서 동아리 광고를 찾았다.",
+            "pronunciation": "/ədˈvɜːrtɪsmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "excited",
+            "example": "My brother and I are excited to join the club.",
+            "example_pronunciation": "/maɪ ˈbrʌðər ænd aɪ ɑːr ɪkˈsaɪtɪd tə dʒɔɪn ðə klʌb/",
+            "meaning": "신나는",
+            "translation": "형과 나는 그 모임에 가입한다는 것에 신이 났다.",
+            "pronunciation": "/ɪkˈsaɪtɪd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "breezy",
+            "example": "It's breezy in spring.",
+            "example_pronunciation": "/ɪts ˈbriːzi ɪn sprɪŋ/",
+            "meaning": "산들바람이 부는",
+            "translation": "봄에는 산들바람이 분다.",
+            "pronunciation": "/ˈbriːzi/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "chilly",
+            "example": "It's chilly in winter.",
+            "example_pronunciation": "/ɪts ˈtʃɪli ɪn ˈwɪntər/",
+            "meaning": "쌀쌀한",
+            "translation": "겨울에는 쌀쌀하다.",
+            "pronunciation": "/ˈtʃɪli/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "reason",
+            "example": "Tell me the reason why you're late.",
+            "example_pronunciation": "/tel miː ðə ˈriːzn waɪ jʊər leɪt/",
+            "meaning": "이유",
+            "translation": "네가 늦은 이유를 말해주렴",
+            "pronunciation": "/ˈriːzn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "memory",
+            "example": "You've got a good memory.",
+            "example_pronunciation": "/juːv ɡɒt ə ɡʊd ˈmeməri/",
+            "meaning": "기억력",
+            "translation": "너는 기억력이 좋구나.",
+            "pronunciation": "/ˈmeməri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "mean",
+            "example": "I didn't mean that.",
+            "example_pronunciation": "/aɪ ˈdɪdnt miːn ðæt/",
+            "meaning": "의미하다",
+            "translation": "나는 그것을 의미한 건 아니었어.",
+            "pronunciation": "/miːn/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "badminton",
+            "example": "We need two players for badminton.",
+            "example_pronunciation": "/wiː niːd tuː ˈpleɪərz fɔːr ˈbædmɪntən/",
+            "meaning": "배드민턴",
+            "translation": "배드민턴을 할 때 두 명의 선수가 필요하다.",
+            "pronunciation": "/ˈbædmɪntən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "through",
+            "example": "We can make new friends through sports.",
+            "example_pronunciation": "/wiː kæn meɪk njuː frendz θruː spɔːrts/",
+            "meaning": "~을 통해서",
+            "translation": "우리는 운동을 통해서 새 친구들을 사귈 수 있다.",
+            "pronunciation": "/θruː/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "president",
+            "example": "I am the president of the computer club.",
+            "example_pronunciation": "/aɪ æm ðə ˈprezɪdənt əv ðə kəmˈpjuːtər klʌb/",
+            "meaning": "회장",
+            "translation": "나는 컴퓨터 동아리의 회장이다.",
+            "pronunciation": "/ˈprezɪdənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "winner",
+            "example": "My soccer team won the game. Everyone is the winner.",
+            "example_pronunciation": "/maɪ ˈsɒkər tiːm wʌn ðə ɡeɪm. ˈevriwʌn ɪz ðə ˈwɪnər/",
+            "meaning": "우승자",
+            "translation": "우리 축구팀이 경기에서 이겼다. 모두가 승자이다.",
+            "pronunciation": "/ˈwɪnər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cafeteria",
+            "example": "I'm going to meet him at the school cafeteria.",
+            "example_pronunciation": "/aɪm ˈɡoʊɪŋ tə miːt hɪm æt ðə skuːl ˌkæfəˈtɪəriə/",
+            "meaning": "구내 식당",
+            "translation": "나는 학교 식당에서 그를 만날 거야.",
+            "pronunciation": "/ˌkæfəˈtɪəriə/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "catch",
+            "example": "He caught a cold yesterday.",
+            "example_pronunciation": "/hiː kɔːt ə koʊld ˈjestərdeɪ/",
+            "meaning": "잡다, (병에) 걸리다",
+            "translation": "그는 어제 감기에 걸렸다.",
+            "pronunciation": "/kætʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "absent",
+            "example": "Tom is absent today.",
+            "example_pronunciation": "/tɒm ɪz ˈæbsənt təˈdeɪ/",
+            "meaning": "결석한",
+            "translation": "탐은 오늘 결석이다.",
+            "pronunciation": "/ˈæbsənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "already",
+            "example": "She already had lunch.",
+            "example_pronunciation": "/ʃiː ɔːlˈredi hæd lʌntʃ/",
+            "meaning": "이미, 벌써",
+            "translation": "그녀는 이미 점심을 먹었다.",
+            "pronunciation": "/ɔːlˈredi/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "boring",
+            "example": "The movie was so boring.",
+            "example_pronunciation": "/ðə ˈmuːvi wɒz soʊ ˈbɔːrɪŋ/",
+            "meaning": "지루한",
+            "translation": "그 영화는 정말 지루했다.",
+            "pronunciation": "/ˈbɔːrɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "without",
+            "example": "He could finish the project without any help.",
+            "example_pronunciation": "/hiː kʊd ˈfɪnɪʃ ðə ˈprɒdʒekt wɪˈðaʊt ˈeni help/",
+            "meaning": "~ 없이",
+            "translation": "그는 아무런 도움 없이도 그 프로젝트를 끝낼 수 있었다.",
+            "pronunciation": "/wɪˈðaʊt/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "possible",
+            "example": "Everything may not be possible without math.",
+            "example_pronunciation": "/ˈevriθɪŋ meɪ nɒt biː ˈpɒsəbl wɪˈðaʊt mæθ/",
+            "meaning": "가능한",
+            "translation": "수학 없이는 모든 것이 가능하지 않을지도 모른다.",
+            "pronunciation": "/ˈpɒsəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "like",
+            "example": "It is just like an interesting puzzle for me.",
+            "example_pronunciation": "/ɪt ɪz dʒʌst laɪk ən ˈɪntrəstɪŋ ˈpʌzl fɔːr miː/",
+            "meaning": "~와 같은",
+            "translation": "그것은 나에게 단지 재미있는 퍼즐과도 같다.",
+            "pronunciation": "/laɪk/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "twice",
+            "example": "We met twice a week.",
+            "example_pronunciation": "/wiː met twaɪs ə wiːk/",
+            "meaning": "두 번",
+            "translation": "우리는 일주일에 두 번 만났다.",
+            "pronunciation": "/twaɪs/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "pool",
+            "example": "Students may use the pool from 10 a.m. to 5 p.m.",
+            "example_pronunciation": "/ˈstjuːdənts meɪ juːz ðə puːl frɒm ten ˈeɪ em tə faɪv ˈpiː em/",
+            "meaning": "수영장",
+            "translation": "학생들은 오전 10시부터 오후 5시까지 수영장을 이용할 수 있다.",
+            "pronunciation": "/puːl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "volcano",
+            "example": "You can watch a big volcano in Hawaii.",
+            "example_pronunciation": "/juː kæn wɒtʃ ə bɪɡ vɒlˈkeɪnoʊ ɪn həˈwaɪi/",
+            "meaning": "화산",
+            "translation": "당신은 하와이에서 큰 화산을 관찰할 수 있습니다.",
+            "pronunciation": "/vɒlˈkeɪnoʊ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "someday",
+            "example": "What do you think of visiting the Bishop Museum someday?",
+            "example_pronunciation": "/wɒt duː juː θɪŋk əv ˈvɪzɪtɪŋ ðə ˈbɪʃəp mjuːˈziːəm ˈsʌmdeɪ/",
+            "meaning": "언젠가",
+            "translation": "언젠가 비숍 박물관을 방문해 보는 것에 대해 어떻게 생각하나요?",
+            "pronunciation": "/ˈsʌmdeɪ/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "ocean",
+            "example": "People are swimming in the ocean.",
+            "example_pronunciation": "/ˈpiːpl ɑːr ˈswɪmɪŋ ɪn ði ˈoʊʃən/",
+            "meaning": "대양, 바다",
+            "translation": "사람들이 바다에서 수영을 하고 있다.",
+            "pronunciation": "/ˈoʊʃən/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit7": {
+        "title": "Unit 7",
+        "words": [
+          {
+            "word": "explore",
+            "example": "You can also explore the ocean and the sky.",
+            "example_pronunciation": "/juː kæn ˈɔːlsoʊ ɪkˈsplɔːr ði ˈoʊʃən ænd ðə skaɪ/",
+            "meaning": "탐험하다",
+            "translation": "당신은 또한 대양과 하늘을 탐험할 수 있습니다.",
+            "pronunciation": "/ɪkˈsplɔːr/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "comfortable",
+            "example": "She looks so comfortable on the sofa.",
+            "example_pronunciation": "/ʃiː lʊks soʊ ˈkʌmftəbl ɒn ðə ˈsoʊfə/",
+            "meaning": "편안한",
+            "translation": "그녀는 소파 위에서 참 편해 보인다.",
+            "pronunciation": "/ˈkʌmftəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "calory",
+            "example": "Which has more calory, a banana or an apple?",
+            "example_pronunciation": "/wɪtʃ hæz mɔːr ˈkæləri, ə bəˈnænə ɔːr ən ˈæpl/",
+            "meaning": "칼로리",
+            "translation": "바나나 한 개와 사과 한 개 중에 어떤 것이 더 많은 칼로리를 갖고 있나요?",
+            "pronunciation": "/ˈkæləri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "population",
+            "example": "Does Seoul have a bigger population than London?",
+            "example_pronunciation": "/dʌz ˈsoʊʊl hæv ə ˈbɪɡər ˌpɒpjʊˈleɪʃən ðæn ˈlʌndən/",
+            "meaning": "인구",
+            "translation": "서울은 런던보다 인구가 많나요?",
+            "pronunciation": "/ˌpɒpjʊˈleɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "digital",
+            "example": "I want to buy a digital television.",
+            "example_pronunciation": "/aɪ wɒnt tə baɪ ə ˈdɪdʒɪtl ˈtelɪvɪʒn/",
+            "meaning": "디지털의",
+            "translation": "나는 디지털 텔레비전을 사고 싶다.",
+            "pronunciation": "/ˈdɪdʒɪtl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "quickly",
+            "example": "Can't you finish your work more quickly?",
+            "example_pronunciation": "/kænt juː ˈfɪnɪʃ jɔːr wɜːrk mɔːr ˈkwɪkli/",
+            "meaning": "빠르게",
+            "translation": "더 빨리 당신의 일을 끝낼 수는 없습니까?",
+            "pronunciation": "/ˈkwɪkli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "professional",
+            "example": "He became a professional baseball player in 2009.",
+            "example_pronunciation": "/hiː bɪˈkeɪm ə prəˈfeʃənl ˈbeɪsbɔːl ˈpleɪər ɪn ˈtuː ˈθaʊznd ənd naɪn/",
+            "meaning": "프로의, 직업의",
+            "translation": "그는 2009년 프로 야구선수가 되었다.",
+            "pronunciation": "/prəˈfeʃənl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "convenient",
+            "example": "It is very convenient that he can drive you to school.",
+            "example_pronunciation": "/ɪt ɪz ˈveri kənˈviːniənt ðæt hiː kæn draɪv juː tə skuːl/",
+            "meaning": "편리한",
+            "translation": "그가 당신을 학교에 차로 데려다 줄 수 있다는 것은 매우 편리합니다.",
+            "pronunciation": "/kənˈviːniənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "gallery",
+            "example": "I sometimes visit an art gallery.",
+            "example_pronunciation": "/aɪ ˈsʌmtaɪmz ˈvɪzɪt ən ɑːrt ˈɡæləri/",
+            "meaning": "화랑, 미술관",
+            "translation": "나는 가끔씩 미술관을 방문한다.",
+            "pronunciation": "/ˈɡæləri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "display",
+            "example": "He sometimes displays his photos at an art gallery.",
+            "example_pronunciation": "/hiː ˈsʌmtaɪmz dɪˈspleɪz hɪz ˈfoʊtoʊz æt ən ɑːrt ˈɡæləri/",
+            "meaning": "전시하다",
+            "translation": "그는 가끔씩 미술관에 그의 사진을 전시한다.",
+            "pronunciation": "/dɪˈspleɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "prefer",
+            "example": "He prefers film cameras.",
+            "example_pronunciation": "/hiː prɪˈfɜːrz fɪlm ˈkæmərəz/",
+            "meaning": "선호하다",
+            "translation": "그는 필름 카메라를 선호한다.",
+            "pronunciation": "/prɪˈfɜːr/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "rarely",
+            "example": "She rarely wears a skirt.",
+            "example_pronunciation": "/ʃiː ˈreərli weərz ə skɜːrt/",
+            "meaning": "드물게, 좀처럼 ~하지 않는",
+            "translation": "그녀는 좀처럼 치마를 입지 않는다.",
+            "pronunciation": "/ˈreərli/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "water",
+            "example": "She waters the flowers in the afternoon.",
+            "example_pronunciation": "/ʃiː ˈwɔːtərz ðə ˈflaʊərz ɪn ðə ˌæftərˈnuːn/",
+            "meaning": "물을 주다",
+            "translation": "그녀는 오후에 꽃에 물을 준다.",
+            "pronunciation": "/ˈwɔːtər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "decide",
+            "example": "She decides to exercise after school.",
+            "example_pronunciation": "/ʃiː dɪˈsaɪdz tə ˈeksərsaɪz ˈæftər skuːl/",
+            "meaning": "결정하다",
+            "translation": "그녀는 방과 후에 운동을 하기로 결심한다.",
+            "pronunciation": "/dɪˈsaɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "sound",
+            "example": "It sounds fun.",
+            "example_pronunciation": "/ɪt saʊndz fʌn/",
+            "meaning": "~하게 들리다",
+            "translation": "그거 재미있게 들린다.",
+            "pronunciation": "/saʊnd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "creative",
+            "example": "Kate likes to draw pictures. She is a creative person.",
+            "example_pronunciation": "/keɪt laɪks tə drɔː ˈpɪktʃərz. ʃiː ɪz ə kriˈeɪtɪv ˈpɜːrsn/",
+            "meaning": "창의적인",
+            "translation": "케이트는 그림 그리는 것을 좋아한다. 그녀는 창의적인 사람이다.",
+            "pronunciation": "/kriˈeɪtɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "director",
+            "example": "Sangho loves to watch movies. His dream is to be a director.",
+            "example_pronunciation": "/sæŋhoʊ lʌvz tə wɒtʃ ˈmuːviz. hɪz driːm ɪz tə biː ə dɪˈrektər/",
+            "meaning": "감독",
+            "translation": "상호는 영화를 보는 것을 좋아한다. 그의 꿈은 감독이 되는 것이다.",
+            "pronunciation": "/dɪˈrektər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "personality",
+            "example": "When you think about your future job, you should know your personality.",
+            "example_pronunciation": "/wen juː θɪŋk əˈbaʊt jɔːr ˈfjuːtʃər dʒɒb, juː ʃʊd noʊ jɔːr ˌpɜːrsəˈnæləti/",
+            "meaning": "성격",
+            "translation": "당신의 미래 직업에 대해 생각해 볼 때, 당신의 성격에 대해 알아야 한다.",
+            "pronunciation": "/ˌpɜːrsəˈnæləti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "photographer",
+            "example": "My father is a famous photographer.",
+            "example_pronunciation": "/maɪ ˈfɑːðər ɪz ə ˈfeɪməs fəˈtɒɡrəfər/",
+            "meaning": "사진가, 사진 작가",
+            "translation": "우리 아버지는 유명한 사진 작가이다.",
+            "pronunciation": "/fəˈtɒɡrəfər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "painting",
+            "example": "This painting makes me happy.",
+            "example_pronunciation": "/ðɪs ˈpeɪntɪŋ meɪks miː ˈhæpi/",
+            "meaning": "그림",
+            "translation": "이 그림은 나를 행복하게 한다.",
+            "pronunciation": "/ˈpeɪntɪŋ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "still",
+            "example": "He still thinks about what he will do to make people happy.",
+            "example_pronunciation": "/hiː stɪl θɪŋks əˈbaʊt wɒt hiː wɪl duː tə meɪk ˈpiːpl ˈhæpi/",
+            "meaning": "여전히",
+            "translation": "그는 여전히 사람들을 행복하게 하기 위해 무엇을 할까 생각한다.",
+            "pronunciation": "/stɪl/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "laugh",
+            "example": "He is so funny. He always makes me laugh.",
+            "example_pronunciation": "/hiː ɪz soʊ ˈfʌni. hiː ˈɔːlweɪz meɪks miː læf/",
+            "meaning": "웃다",
+            "translation": "그는 정말 재미있다. 그는 항상 나를 웃게 만든다.",
+            "pronunciation": "/læf/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "few",
+            "example": "Few people understand what he says.",
+            "example_pronunciation": "/fjuː ˈpiːpl ˌʌndərˈstænd wɒt hiː sez/",
+            "meaning": "거의 ~없는",
+            "translation": "그가 말하는 것을 이해하는 사람은 거의 없다.",
+            "pronunciation": "/fjuː/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "between",
+            "example": "I don't understand the difference between them.",
+            "example_pronunciation": "/aɪ doʊnt ˌʌndərˈstænd ðə ˈdɪfərəns bɪˈtwiːn ðem/",
+            "meaning": "~사이의",
+            "translation": "나는 그들 사이의 차이점을 이해하지 못한다.",
+            "pronunciation": "/bɪˈtwiːn/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "close",
+            "example": "My close friend lives in Jeju-do.",
+            "example_pronunciation": "/maɪ kloʊs frend lɪvz ɪn ˈdʒeɪdʒuː doʊ/",
+            "meaning": "가까운",
+            "translation": "나의 가까운 친구가 제주도에 산다.",
+            "pronunciation": "/kloʊs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "right away",
+            "example": "He thought he would become a star right away.",
+            "example_pronunciation": "/hiː θɔːt hiː wʊd bɪˈkʌm ə stɑːr raɪt əˈweɪ/",
+            "meaning": "바로, 당장",
+            "translation": "그는 자신이 곧바로 스타가 될 거라고 생각했다.",
+            "pronunciation": "/raɪt əˈweɪ/",
+            "part_of_speech": "구"
+          },
+          {
+            "word": "backpack",
+            "example": "Is this your backpack?",
+            "example_pronunciation": "/ɪz ðɪs jɔːr ˈbækpæk/",
+            "meaning": "배낭",
+            "translation": "이것이 너의 배낭이니?",
+            "pronunciation": "/ˈbækpæk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "promise",
+            "example": "Why do you think we must keep a promise?",
+            "example_pronunciation": "/waɪ duː juː θɪŋk wiː mʌst kiːp ə ˈprɒmɪs/",
+            "meaning": "약속",
+            "translation": "너는 왜 우리가 약속을 지켜야한다고 생각하니?",
+            "pronunciation": "/ˈprɒmɪs/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit8": {
+        "title": "Unit 8",
+        "words": [
+          {
+            "word": "because",
+            "example": "I like Korean food because it is very colorful and delicious.",
+            "example_pronunciation": "/aɪ laɪk kəˈriən fuːd bɪˈkɒz ɪt ɪz ˈveri ˈkʌləfəl ænd dɪˈlɪʃəs/",
+            "meaning": "왜냐하면",
+            "translation": "나는 한국 음식이 매우 다채롭고 맛있기 때문에 좋아합니다.",
+            "pronunciation": "/bɪˈkɒz/",
+            "part_of_speech": "접속사"
+          },
+          {
+            "word": "want",
+            "example": "I want to make friends all around the world.",
+            "example_pronunciation": "/aɪ wɒnt tə meɪk frendz ɔːl əˈraʊnd ðə wɜːrld/",
+            "meaning": "원하다",
+            "translation": "나는 전세계의 친구들을 사귀고 싶다.",
+            "pronunciation": "/wɒnt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "important",
+            "example": "It is important to eat breakfast.",
+            "example_pronunciation": "/ɪt ɪz ɪmˈpɔːrtnt tə iːt ˈbrekfəst/",
+            "meaning": "중요한",
+            "translation": "아침을 먹는 것은 중요하다.",
+            "pronunciation": "/ɪmˈpɔːrtnt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "serious",
+            "example": "Sohyun has a serious headache.",
+            "example_pronunciation": "/soʊhjʊn hæz ə ˈsɪəriəs ˈhedeɪk/",
+            "meaning": "심각한",
+            "translation": "소현이는 심한 두통이 있다.",
+            "pronunciation": "/ˈsɪəriəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "novel",
+            "example": "I like to read novels.",
+            "example_pronunciation": "/aɪ laɪk tə riːd ˈnɒvəlz/",
+            "meaning": "소설",
+            "translation": "나는 소설을 읽는 것을 좋아한다.",
+            "pronunciation": "/ˈnɒvəl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "detective",
+            "example": "Sherlock Holmes is a very smart detective.",
+            "example_pronunciation": "/ˈʃɜːrlɒk hoʊmz ɪz ə ˈveri smɑːrt dɪˈtektɪv/",
+            "meaning": "탐정",
+            "translation": "셜록 홈즈는 매우 똑똑한 탐정이다.",
+            "pronunciation": "/dɪˈtektɪv/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "solve",
+            "example": "He enjoyed solving difficult problems.",
+            "example_pronunciation": "/hiː ɪnˈdʒɔɪd ˈsɒlvɪŋ ˈdɪfɪkəlt ˈprɒbləmz/",
+            "meaning": "해결하다",
+            "translation": "그는 어려운 문제들을 해결하는 것을 즐겼다.",
+            "pronunciation": "/sɒlv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "give up",
+            "example": "He never gave up solving the cases.",
+            "example_pronunciation": "/hiː ˈnevər ɡeɪv ʌp ˈsɒlvɪŋ ðə ˈkeɪsɪz/",
+            "meaning": "포기하다",
+            "translation": "그는 사건들을 해결하는 것을 절대 포기하지 않았다.",
+            "pronunciation": "/ɡɪv ʌp/",
+            "part_of_speech": "구"
+          },
+          {
+            "word": "appear",
+            "example": "Sherlock Holmes first appeared in the novels of Sir Arthur Conan Doyle.",
+            "example_pronunciation": "/ˈʃɜːrlɒk hoʊmz fɜːrst əˈpɪəd ɪn ðə ˈnɒvəlz əv sɜːr ˈɑːθər ˈkoʊnən dɔɪl/",
+            "meaning": "등장하다",
+            "translation": "셜록 홈즈는 아서 코난 도일의 소설에 최초로 등장했다.",
+            "pronunciation": "/əˈpɪər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "well-known",
+            "example": "He is well-known to people.",
+            "example_pronunciation": "/hiː ɪz wel-noʊn tə ˈpiːpl/",
+            "meaning": "잘 알려진",
+            "translation": "그는 사람들에게 잘 알려져 있다.",
+            "pronunciation": "/wel-noʊn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "believe",
+            "example": "Some people even believed he was real.",
+            "example_pronunciation": "/sʌm ˈpiːpl ˈiːvn bɪˈliːvd hiː wɒz rɪəl/",
+            "meaning": "믿다",
+            "translation": "몇몇 사람들은 심지어 그가 진짜라고 믿었다.",
+            "pronunciation": "/bɪˈliːv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "avoid",
+            "example": "You should avoid talking with her.",
+            "example_pronunciation": "/juː ʃʊd əˈvɔɪd ˈtɔːkɪŋ wɪð hɜːr/",
+            "meaning": "피하다",
+            "translation": "너는 그녀와 이야기하는 것을 피해야 한다.",
+            "pronunciation": "/əˈvɔɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "continue",
+            "example": "He continued reading novels.",
+            "example_pronunciation": "/hiː kənˈtɪnjuːd ˈriːdɪŋ ˈnɒvəlz/",
+            "meaning": "계속하다",
+            "translation": "그는 계속해서 소설을 읽었다.",
+            "pronunciation": "/kənˈtɪnjuː/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "cross",
+            "example": "He drew a cross on the desk.",
+            "example_pronunciation": "/hiː druː ə krɒs ɒn ðə desk/",
+            "meaning": "십자가",
+            "translation": "그는 책상 위에 십자가를 그렸다.",
+            "pronunciation": "/krɒs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "mark",
+            "example": "People marked crosses on pancakes.",
+            "example_pronunciation": "/ˈpiːpl mɑːrkt ˈkrɒsɪz ɒn ˈpænkeɪks/",
+            "meaning": "표시하다",
+            "translation": "사람들은 펜케이크 위에 십자가를 표시했다.",
+            "pronunciation": "/mɑːrk/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "ingredient",
+            "example": "We need ingredients such as butter, eggs, and milk.",
+            "example_pronunciation": "/wiː niːd ɪnˈɡriːdiənts sʌtʃ æz ˈbʌtər, eɡz, ænd mɪlk/",
+            "meaning": "재료, 성분",
+            "translation": "우리는 버터, 달걀 그리고 우유와 같은 재료들이 필요하다.",
+            "pronunciation": "/ɪnˈɡriːdiənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fat",
+            "example": "People stopped using fat in their food at that time.",
+            "example_pronunciation": "/ˈpiːpl stɒpt ˈjuːzɪŋ fæt ɪn ðeər fuːd æt ðæt taɪm/",
+            "meaning": "지방",
+            "translation": "그 당시 사람들은 음식에 지방을 사용하는 것을 그만뒀다.",
+            "pronunciation": "/fæt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "key",
+            "example": "The key to good writing is keeping it short and simple.",
+            "example_pronunciation": "/ðə kiː tə ɡʊd ˈraɪtɪŋ ɪz ˈkiːpɪŋ ɪt ʃɔːrt ænd ˈsɪmpl/",
+            "meaning": "핵심, 비결",
+            "translation": "훌륭한 작문의 핵심은 글을 짧고 간결하게 쓰는 것이다.",
+            "pronunciation": "/kiː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "gather",
+            "example": "Writing is not about just gathering many words together.",
+            "example_pronunciation": "/ˈraɪtɪŋ ɪz nɒt əˈbaʊt dʒʌst ˈɡæðərɪŋ ˈmeni wɜːrdz təˈɡeðər/",
+            "meaning": "모으다",
+            "translation": "작문은 그저 여러 단어를 모아 놓는 것은 아니다.",
+            "pronunciation": "/ˈɡæðər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "length",
+            "example": "Many people write at great lengths.",
+            "example_pronunciation": "/ˈmeni ˈpiːpl raɪt æt ɡreɪt leŋθs/",
+            "meaning": "길이",
+            "translation": "많은 사람들이 장황하게 글을 쓴다.",
+            "pronunciation": "/leŋθ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "lead",
+            "example": "Writing simply leads to good writing.",
+            "example_pronunciation": "/ˈraɪtɪŋ ˈsɪmpli liːdz tə ɡʊd ˈraɪtɪŋ/",
+            "meaning": "~에 이르게 하다",
+            "translation": "간결한 작문은 좋은 작문으로 이어진다.",
+            "pronunciation": "/liːd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "clarity",
+            "example": "Clarity leads the readers to an easier understanding.",
+            "example_pronunciation": "/ˈklærəti liːdz ðə ˈriːdərz tʊ ən ˈiːziər ˌʌndərˈstændɪŋ/",
+            "meaning": "명료함",
+            "translation": "명료함은 독자들이 쉽게 이해할 수 있도록 이끈다.",
+            "pronunciation": "/ˈklærəti/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fill up",
+            "example": "Don't try to fill up empty pages.",
+            "example_pronunciation": "/doʊnt traɪ tə fɪl ʌp ˈempti ˈpeɪdʒɪz/",
+            "meaning": "가득 채우다",
+            "translation": "빈 페이지들을 채우려고 노력하지 말아라.",
+            "pronunciation": "/fɪl ʌp/",
+            "part_of_speech": "구"
+          },
+          {
+            "word": "habit",
+            "example": "It's hard to give up an old habit.",
+            "example_pronunciation": "/ɪts hɑːrd tə ɡɪv ʌp ən oʊld ˈhæbɪt/",
+            "meaning": "습관",
+            "translation": "오래된 습관을 버리는 것은 어렵다.",
+            "pronunciation": "/ˈhæbɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "energy",
+            "example": "Plants need energy from the sun.",
+            "example_pronunciation": "/plænts niːd ˈenərdʒi frɒm ðə sʌn/",
+            "meaning": "에너지",
+            "translation": "식물들은 태양으로부터의 에너지를 필요로 한다.",
+            "pronunciation": "/ˈenərdʒi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "stairs",
+            "example": "Do you use the stairs in a subway station?",
+            "example_pronunciation": "/duː juː juːz ðə steəz ɪn ə ˈsʌbweɪ ˈsteɪʃn/",
+            "meaning": "계단",
+            "translation": "당신은 지하철역에서 계단을 사용합니까?",
+            "pronunciation": "/steərz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "however",
+            "example": "I want to watch TV. However, I have to finish my homework first.",
+            "example_pronunciation": "/aɪ wɒnt tə wɒtʃ ˌtiːˈviː. haʊˈevər, aɪ hæv tə ˈfɪnɪʃ maɪ ˈhoʊmwɜːrk fɜːrst/",
+            "meaning": "하지만",
+            "translation": "나는 텔레비전을 보고 싶다. 하지만 먼저 숙제를 끝내야 한다.",
+            "pronunciation": "/haʊˈevər/",
+            "part_of_speech": "접속사"
+          },
+          {
+            "word": "build",
+            "example": "It is a good idea to build healthy walking habits.",
+            "example_pronunciation": "/ɪt ɪz ə ɡʊd aɪˈdiə tə bɪld ˈhelθi ˈwɔːkɪŋ ˈhæbɪts/",
+            "meaning": "세우다, 짓다, (습관 등을) 기르다",
+            "translation": "그것은 건강한 걷기 습관을 기를 수 있는 좋은 아이디어이다.",
+            "pronunciation": "/bɪld/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit9": {
+        "title": "Unit 9",
+        "words": [
+          {
+            "word": "enough",
+            "example": "I have enough money to buy this car.",
+            "example_pronunciation": "/aɪ hæv ɪˈnʌf ˈmʌni tə baɪ ðɪs kɑːr/",
+            "meaning": "충분한",
+            "translation": "나는 이 차를 살 충분한 돈이 있어.",
+            "pronunciation": "/ɪˈnʌf/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bottle",
+            "example": "I need a bottle of water now.",
+            "example_pronunciation": "/aɪ niːd ə ˈbɒtl əv ˈwɔːtər naʊ/",
+            "meaning": "(물 등을 담는) 병",
+            "translation": "나는 지금 물 한 병이 필요하다.",
+            "pronunciation": "/ˈbɒtl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "choice",
+            "example": "My first choice will be a bottle of water.",
+            "example_pronunciation": "/maɪ fɜːrst tʃɔɪs wɪl biː ə ˈbɒtl əv ˈwɔːtər/",
+            "meaning": "선택",
+            "translation": "나의 첫 번째 선택은 물 한병이 될 것이다.",
+            "pronunciation": "/tʃɔɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "wild",
+            "example": "The fire will save me from wild animals at night.",
+            "example_pronunciation": "/ðə ˈfaɪər wɪl seɪv miː frɒm waɪld ˈænɪməlz æt naɪt/",
+            "meaning": "야생의",
+            "translation": "불은 밤에 나를 야생 동물들로부터 구해줄 것이다.",
+            "pronunciation": "/waɪld/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "machine",
+            "example": "Could you fix this machine right now?",
+            "example_pronunciation": "/kʊd juː fɪks ðɪs məˈʃiːn raɪt naʊ/",
+            "meaning": "기계",
+            "translation": "지금 당장 이 기계를 고쳐주실 수 있나요?",
+            "pronunciation": "/məˈʃiːn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "Paris",
+            "example": "I want to go to Paris to meet my grandmother.",
+            "example_pronunciation": "/aɪ wɒnt tə ɡoʊ tə ˈpærɪs tə miːt maɪ ˈɡrændˌmʌðər/",
+            "meaning": "파리",
+            "translation": "나는 할머니를 뵙기 위해 파리에 가고 싶다.",
+            "pronunciation": "/ˈpærɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "purse",
+            "example": "A boy found my purse on the bus.",
+            "example_pronunciation": "/ə bɔɪ faʊnd maɪ pɜːrs ɒn ðə bʌs/",
+            "meaning": "핸드백",
+            "translation": "한 남자 아이가 버스에서 내 핸드백을 찾았다.",
+            "pronunciation": "/pɜːrs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "mysterious",
+            "example": "I'm looking for a mysterious woman.",
+            "example_pronunciation": "/aɪm ˈlʊkɪŋ fɔːr ə mɪˈstɪəriəs ˈwʊmən/",
+            "meaning": "신비에 싸인",
+            "translation": "나는 신비한 여자를 찾고 있습니다.",
+            "pronunciation": "/mɪˈstɪəriəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "dark-skinned",
+            "example": "My younger brother is dark-skinned.",
+            "example_pronunciation": "/maɪ ˈjʌŋɡər ˈbrʌðər ɪz dɑːrk-skɪnd/",
+            "meaning": "피부가 검은, 까무잡잡한",
+            "translation": "내 남동생은 피부가 까무잡잡하다.",
+            "pronunciation": "/dɑːrk-skɪnd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "information",
+            "example": "If you have any information, please call the school office.",
+            "example_pronunciation": "/ɪf juː hæv ˈeni ˌɪnfərˈmeɪʃən, pliːz kɔːl ðə skuːl ˈɒfɪs/",
+            "meaning": "정보",
+            "translation": "만일 어떤 정보라도 알고 계신 분은 학교 교무실로 연락주세요.",
+            "pronunciation": "/ˌɪnfərˈmeɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "straight",
+            "example": "The girl has short and straight hair.",
+            "example_pronunciation": "/ðə ɡɜːl hæz ʃɔːrt ænd streɪt heər/",
+            "meaning": "(머리카락이) 곱슬곱슬하지 않은, 직모의",
+            "translation": "그 여자 아이는 짧은 생머리를 갖고 있다.",
+            "pronunciation": "/streɪt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "round",
+            "example": "Yuki has a round face and big eyes.",
+            "example_pronunciation": "/juːki hæz ə raʊnd feɪs ænd bɪɡ aɪz/",
+            "meaning": "둥근",
+            "translation": "유키는 둥근 얼굴과 큰 눈을 갖고 있다.",
+            "pronunciation": "/raʊnd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "glasses",
+            "example": "He is wearing glasses.",
+            "example_pronunciation": "/hiː ɪz ˈweərɪŋ ˈɡlæsɪz/",
+            "meaning": "안경",
+            "translation": "그는 안경을 끼고 있다.",
+            "pronunciation": "/ˈɡlæsɪz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "travel",
+            "example": "Traveling with friends is fun.",
+            "example_pronunciation": "/ˈtrævəlɪŋ wɪð frendz ɪz fʌn/",
+            "meaning": "여행하다",
+            "translation": "친구들과 여행하는 것은 재미있다.",
+            "pronunciation": "/ˈtrævəl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "valley",
+            "example": "I think we should go to a valley on a school trip.",
+            "example_pronunciation": "/aɪ θɪŋk wiː ʃʊd ɡoʊ tə ə ˈvæli ɒn ə skuːl trɪp/",
+            "meaning": "계곡",
+            "translation": "나는 수학 여행에서 계곡에 가야한다고 생각해.",
+            "pronunciation": "/ˈvæli/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "dangerous",
+            "example": "It is dangerous to stay here.",
+            "example_pronunciation": "/ɪt ɪz ˈdeɪndʒərəs tə steɪ hɪər/",
+            "meaning": "위험한",
+            "translation": "이 곳에 머무는 것은 위험하다.",
+            "pronunciation": "/ˈdeɪndʒərəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "wooden",
+            "example": "A wooden box is strong and heavy.",
+            "example_pronunciation": "/ə ˈwʊdn bɒks ɪz strɒŋ ænd ˈhevi/",
+            "meaning": "나무로 된",
+            "translation": "나무로 된 상자는 튼튼하고 무겁다.",
+            "pronunciation": "/ˈwʊdn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "familiar",
+            "example": "Are you familiar with Korean history?",
+            "example_pronunciation": "/ɑːr juː fəˈmɪliər wɪð kəˈriən ˈhɪstəri/",
+            "meaning": "친숙한",
+            "translation": "당신은 한국 역사에 친숙한가요?",
+            "pronunciation": "/fəˈmɪliər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "culture",
+            "example": "Gyeongbokgung is important in Korean culture.",
+            "example_pronunciation": "/ɡjʌŋbokɡuŋ ɪz ɪmˈpɔːrtnt ɪn kəˈriən ˈkʌltʃər/",
+            "meaning": "문화",
+            "translation": "경복궁은 한국 문화에서 중요하다.",
+            "pronunciation": "/ˈkʌltʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "palace",
+            "example": "Gyeongbokgung is a beautiful palace.",
+            "example_pronunciation": "/ɡjʌŋbokɡuŋ ɪz ə ˈbjuːtɪfəl ˈpæləs/",
+            "meaning": "궁전",
+            "translation": "경복궁은 아름다운 궁전이다.",
+            "pronunciation": "/ˈpæləs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "desert",
+            "example": "I know nothing about deserts in America.",
+            "example_pronunciation": "/aɪ noʊ ˈnʌθɪŋ əˈbaʊt ˈdezərts ɪn əˈmerɪkə/",
+            "meaning": "사막",
+            "translation": "나는 미국의 사막에 대해 아무것도 모른다.",
+            "pronunciation": "/ˈdezət/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "magical",
+            "example": "Stars in the sky are beautiful. It is a really magical night.",
+            "example_pronunciation": "/stɑːrz ɪn ðə skaɪ ɑːr ˈbjuːtɪfəl. ɪt ɪz ə ˈrɪəli ˈmædʒɪkəl naɪt/",
+            "meaning": "마법의",
+            "translation": "하늘의 별들이 아름다워. 정말로 마법과 같은 밤이야.",
+            "pronunciation": "/ˈmædʒɪkəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "huge",
+            "example": "You can see huge bears in Alaska.",
+            "example_pronunciation": "/juː kæn siː hjuːdʒ beərz ɪn əˈlæskə/",
+            "meaning": "거대한",
+            "translation": "당신은 알래스카에서 거대한 곰들을 볼 수 있습니다.",
+            "pronunciation": "/hjuːdʒ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "environment",
+            "example": "Wild animals are living in a natural environment.",
+            "example_pronunciation": "/waɪld ˈænɪməlz ɑːr ˈlɪvɪŋ ɪn ə ˈnætʃərəl ɪnˈvaɪrənmənt/",
+            "meaning": "환경",
+            "translation": "야생 동물들은 자연 환경 속에서 살고 있다.",
+            "pronunciation": "/ɪnˈvaɪrənmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "glacier",
+            "example": "Glaciers were so huge and beautiful.",
+            "example_pronunciation": "/ˈɡleɪsiərz wər soʊ hjuːdʒ ænd ˈbjuːtɪfəl/",
+            "meaning": "빙하",
+            "translation": "빙하가 매우 크고 아름다웠다.",
+            "pronunciation": "/ˈɡleɪsiər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "rest",
+            "example": "The lions are resting on the rocks.",
+            "example_pronunciation": "/ðə ˈlaɪənz ɑːr ˈrestɪŋ ɒn ðə rɒks/",
+            "meaning": "휴식하다",
+            "translation": "사자들은 바위 위에서 쉬고 있는 중이다.",
+            "pronunciation": "/rest/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "impressive",
+            "example": "The wild animals around the park were very impressive.",
+            "example_pronunciation": "/ðə waɪld ˈænɪməlz əˈraʊnd ðə pɑːrk wər ˈveri ɪmˈpresɪv/",
+            "meaning": "인상적인",
+            "translation": "공원 주변의 야생 동물들이 매우 인상적이었다.",
+            "pronunciation": "/ɪmˈpresɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "territory",
+            "example": "Dokdo is a part of Korea's territory.",
+            "example_pronunciation": "/dokdo ɪz ə pɑːrt əv kəˈriəz ˈterɪtəri/",
+            "meaning": "영토",
+            "translation": "독도는 한국 영토의 일부이다.",
+            "pronunciation": "/ˈterɪtəri/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit10": {
+        "title": "Unit 10",
+        "words": [
+          {
+            "word": "national",
+            "example": "You should not cook in a national park.",
+            "example_pronunciation": "/juː ʃʊd nɒt kʊk ɪn ə ˈnæʃnəl pɑːrk/",
+            "meaning": "국가의",
+            "translation": "국립 공원에서 취사는 금지되어 있다.",
+            "pronunciation": "/ˈnæʃnəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "project",
+            "example": "I have to finish the project by tomorrow.",
+            "example_pronunciation": "/aɪ hæv tə ˈfɪnɪʃ ðə ˈprɒdʒekt baɪ təˈmɒroʊ/",
+            "meaning": "프로젝트, 사업",
+            "translation": "나는 내일까지 프로젝트를 끝내야 한다.",
+            "pronunciation": "/ˈprɒdʒekt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "expand",
+            "example": "The car company decided to expand its factory.",
+            "example_pronunciation": "/ðə kɑːr ˈkʌmpəni dɪˈsaɪdɪd tʊ ɪkˈspænd ɪts ˈfæktri/",
+            "meaning": "확장시키다, 넓히다",
+            "translation": "그 자동차 회사는 공장을 확장하기로 결정했다.",
+            "pronunciation": "/ɪkˈspænd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "block",
+            "example": "It is dark outside because the clouds block the moonlight.",
+            "example_pronunciation": "/ɪt ɪz dɑːrk ˈaʊtsaɪd bɪˈkɒz ðə klaʊdz blɒk ðə ˈmuːnlaɪt/",
+            "meaning": "막다",
+            "translation": "구름이 달빛을 막아 밖이 어둡다.",
+            "pronunciation": "/blɒk/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "seawall",
+            "example": "It is the longest seawall in the world.",
+            "example_pronunciation": "/ɪt ɪz ðə ˈlɒŋɡɪst ˈsiːwɔːl ɪn ðə wɜːrld/",
+            "meaning": "방조제",
+            "translation": "그것은 세상에서 가장 긴 방조제이다.",
+            "pronunciation": "/ˈsiːwɔːl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "port",
+            "example": "Busan has the biggest and oldest port in Korea.",
+            "example_pronunciation": "/ˈbuːsən hæz ðə ˈbɪɡɪst ænd ˈoʊldɪst pɔːrt ɪn kəˈriə/",
+            "meaning": "항구",
+            "translation": "부산에는 한국에서 가장 크고 오래된 항구가 있다.",
+            "pronunciation": "/pɔːrt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "famous",
+            "example": "It is one of the most famous places in Busan.",
+            "example_pronunciation": "/ɪt ɪz wʌn əv ðə moʊst ˈfeɪməs ˈpleɪsɪz ɪn ˈbuːsən/",
+            "meaning": "유명한",
+            "translation": "그 곳은 부산에서 가장 유명한 장소들 중 하나이다.",
+            "pronunciation": "/ˈfeɪməs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "field",
+            "example": "We're going on a field trip to Gyeongju.",
+            "example_pronunciation": "/wɪər ˈɡoʊɪŋ ɒn ə fiːld trɪp tə ɡjʌŋdʒu/",
+            "meaning": "들판, 현장",
+            "translation": "우리는 경주로 현장 학습을 갑니다.",
+            "pronunciation": "/fiːld/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "tomb",
+            "example": "We watched a video about the tombs of the Silla Dynasty.",
+            "example_pronunciation": "/wiː wɒtʃt ə ˈvɪdioʊ əˈbaʊt ðə tuːmz əv ðə ˈʃɪlə ˈdaɪnəsti/",
+            "meaning": "무덤",
+            "translation": "우리는 신라 왕조의 무덤에 대한 비디오를 봤다.",
+            "pronunciation": "/tuːm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "documentary",
+            "example": "My history teacher likes to show us documentary films.",
+            "example_pronunciation": "/maɪ ˈhɪstri ˈtiːtʃər laɪks tə ʃoʊ ʌs ˌdɒkjʊˈmentri fɪlmz/",
+            "meaning": "다큐멘터리의",
+            "translation": "우리 역사 선생님은 우리에게 다큐멘터리 영화를 보여주는 것을 좋아하신다.",
+            "pronunciation": "/ˌdɒkjʊˈmentri/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "useful",
+            "example": "News gives us useful information.",
+            "example_pronunciation": "/njuːz ɡɪvz ʌs ˈjuːsfʊl ˌɪnfərˈmeɪʃən/",
+            "meaning": "유용한",
+            "translation": "뉴스는 우리에게 유용한 정보를 준다.",
+            "pronunciation": "/ˈjuːsfʊl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "whole",
+            "example": "Try to see things as a whole.",
+            "example_pronunciation": "/traɪ tə siː θɪŋz æz ə hoʊl/",
+            "meaning": "전체",
+            "translation": "사물들을 전체로 보려고 노력해라.",
+            "pronunciation": "/hoʊl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "alone",
+            "example": "I like being alone.",
+            "example_pronunciation": "/aɪ laɪk ˈbiːɪŋ əˈloʊn/",
+            "meaning": "혼자, 홀로",
+            "translation": "나는 혼자 있는 것을 좋아한다.",
+            "pronunciation": "/əˈloʊn/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "logical",
+            "example": "I enjoy solving logical problems like math.",
+            "example_pronunciation": "/aɪ ɪnˈdʒɔɪ ˈsɒlvɪŋ ˈlɒdʒɪkəl ˈprɒbləmz laɪk mæθ/",
+            "meaning": "논리적인",
+            "translation": "나는 수학과 같은 논리적 문제를 푸는 것을 즐긴다.",
+            "pronunciation": "/ˈlɒdʒɪkəl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "detail",
+            "example": "They didn't give me any details about the game.",
+            "example_pronunciation": "/ðeɪ ˈdɪdnt ɡɪv miː ˈeni ˈdiːteɪlz əˈbaʊt ðə ɡeɪm/",
+            "meaning": "세부사항",
+            "translation": "그들은 나에게 경기에 대한 어떤 세부사항도 알려주지 않았다.",
+            "pronunciation": "/ˈdiːteɪl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "pay attention to",
+            "example": "I can't pay attention to anything here.",
+            "example_pronunciation": "/aɪ kænt peɪ əˈtenʃən tʊ ˈeniθɪŋ hɪər/",
+            "meaning": "~에 주의를 기울이다, ~에 집중하다",
+            "translation": "나는 여기서 어떤 것에도 집중할 수 없어.",
+            "pronunciation": "/peɪ əˈtenʃən tʊ/",
+            "part_of_speech": "구"
+          },
+          {
+            "word": "apology",
+            "example": "He began to make an apology for his mistake.",
+            "example_pronunciation": "/hiː bɪˈɡæn tə meɪk ən əˈpɒlədʒi fɔːr hɪz mɪˈsteɪk/",
+            "meaning": "사과",
+            "translation": "그는 그의 실수에 대한 사과를 하기 시작했다.",
+            "pronunciation": "/əˈpɒlədʒi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fault",
+            "example": "It's all my fault.",
+            "example_pronunciation": "/ɪts ɔːl maɪ fɔːlt/",
+            "meaning": "잘못",
+            "translation": "모두 다 제 잘못입니다.",
+            "pronunciation": "/fɔːlt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "private",
+            "example": "I don't know much about his private life.",
+            "example_pronunciation": "/aɪ doʊnt noʊ mʌtʃ əˈbaʊt hɪz ˈpraɪvət laɪf/",
+            "meaning": "사적인",
+            "translation": "나는 그의 사적인 삶에 대해 많이 모른다.",
+            "pronunciation": "/ˈpraɪvət/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "respect",
+            "example": "You should respect others.",
+            "example_pronunciation": "/juː ʃʊd rɪˈspekt ˈʌðərz/",
+            "meaning": "존중하다",
+            "translation": "다른 사람들을 존중해야 한다.",
+            "pronunciation": "/rɪˈspekt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "forget",
+            "example": "Don't forget to lock the door.",
+            "example_pronunciation": "/doʊnt fərˈɡet tə lɒk ðə dɔːr/",
+            "meaning": "잊어버리다",
+            "translation": "문을 잠그는 것을 잊지 말아라.",
+            "pronunciation": "/fərˈɡet/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "limit",
+            "example": "There's no age limit.",
+            "example_pronunciation": "/ðeərz noʊ eɪdʒ ˈlɪmɪt/",
+            "meaning": "한계, 제한",
+            "translation": "나이 제한이 없습니다.",
+            "pronunciation": "/ˈlɪmɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "trouble",
+            "example": "It can sometimes be troubling to adults.",
+            "example_pronunciation": "/ɪt kæn ˈsʌmtaɪmz biː ˈtrʌblɪŋ tʊ ˈædʌlts/",
+            "meaning": "골치 아프게 하다",
+            "translation": "그것이 때때로 어른들을 골치 아프게 할 수 있다.",
+            "pronunciation": "/ˈtrʌbl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "teenager",
+            "example": "Teenagers have their own ideas about things.",
+            "example_pronunciation": "/ˈtiːneɪdʒərz hæv ðeər oʊn aɪˈdiːəz əˈbaʊt θɪŋz/",
+            "meaning": "십대",
+            "translation": "십대들은 사물들에 대한 그들만의 생각을 갖고 있다.",
+            "pronunciation": "/ˈtiːneɪdʒər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "persuade",
+            "example": "I tried to persuade him.",
+            "example_pronunciation": "/aɪ traɪd tə pərˈsweɪd hɪm/",
+            "meaning": "설득하다",
+            "translation": "나는 그를 설득하려고 했다.",
+            "pronunciation": "/pərˈsweɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "reduce",
+            "example": "We need to reduce air pollution.",
+            "example_pronunciation": "/wiː niːd tə rɪˈdjuːs eər pəˈluːʃən/",
+            "meaning": "줄이다",
+            "translation": "우리는 대기오염을 줄여야 한다.",
+            "pronunciation": "/rɪˈdjuːs/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "celebrate",
+            "example": "People celebrate Christmas Eve.",
+            "example_pronunciation": "/ˈpiːpl ˈselɪbreɪt ˈkrɪsməs iːv/",
+            "meaning": "기념하다",
+            "translation": "사람들은 크리스마스 이브를 기념한다.",
+            "pronunciation": "/ˈselɪbreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "separate",
+            "example": "Please, separate your personal things from business.",
+            "example_pronunciation": "/pliːz, ˈsepəreɪt jɔːr ˈpɜːrsənl θɪŋz frɒm ˈbɪznəs/",
+            "meaning": "구분하다",
+            "translation": "공적인 일과 사적인 일을 구별하세요.",
+            "pronunciation": "/ˈsepəreɪt/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit11": {
+        "title": "Unit 11",
+        "words": [
+          {
+            "word": "article",
+            "example": "I read an article about air pollution.",
+            "example_pronunciation": "/aɪ rɛd æn ˈɑːrtɪkl əˈbaʊt ɛər pəˈluːʃən/",
+            "meaning": "기사",
+            "translation": "나는 대기오염에 대한 기사를 읽었다.",
+            "pronunciation": "/ˈɑːrtɪkl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "certain",
+            "example": "Put the same kind of trash into a certain colored bin.",
+            "example_pronunciation": "/pʊt ðə seɪm kaɪnd əv træʃ ˈɪntuː ə ˈsɜːrtən ˈkʌlərd bɪn/",
+            "meaning": "특정한",
+            "translation": "같은 종류의 쓰레기는 특정 색의 쓰레기통에 넣어라.",
+            "pronunciation": "/ˈsɜːrtən/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "trash",
+            "example": "There is a lot of trash in the river.",
+            "example_pronunciation": "/ðɛr ɪz ə lɒt əv træʃ ɪn ðə ˈrɪvər/",
+            "meaning": "쓰레기",
+            "translation": "강에는 쓰레기가 많습니다.",
+            "pronunciation": "/træʃ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "inform",
+            "example": "I want to inform about the dangers the Earth is facing.",
+            "example_pronunciation": "/aɪ wɒnt tʊ ɪnˈfɔːrm əˈbaʊt ðə ˈdeɪndʒərz ði ɜːrθ ɪz ˈfeɪsɪŋ/",
+            "meaning": "알리다",
+            "translation": "나는 지구가 당면한 위험들에 대해 알리고 싶다.",
+            "pronunciation": "/ɪnˈfɔːrm/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "rally",
+            "example": "Kids hold a rally to celebrate Earth Day.",
+            "example_pronunciation": "/kɪdz hoʊld ə ˈræli tʊ ˈsɛlɪbreɪt ɜːrθ deɪ/",
+            "meaning": "집회",
+            "translation": "아이들은 지구의 날을 기념하기 위해 집회를 열었다.",
+            "pronunciation": "/ˈræli/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "preserve",
+            "example": "People plant trees to preserve nature.",
+            "example_pronunciation": "/ˈpiːpl plænt triːz tʊ prɪˈzɜːrv ˈneɪtʃər/",
+            "meaning": "보존하다",
+            "translation": "사람들은 자연을 보존하기 위해 나무를 심는다.",
+            "pronunciation": "/prɪˈzɜːrv/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "forest",
+            "example": "I watched birds in the forest.",
+            "example_pronunciation": "/aɪ wɒtʃt bɜːrdz ɪn ðə ˈfɒrɪst/",
+            "meaning": "숲",
+            "translation": "나는 숲 속에서 새들을 관찰했다.",
+            "pronunciation": "/ˈfɒrɪst/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "public transportation",
+            "example": "There's no public transportation, so you have to walk to school.",
+            "example_pronunciation": "/ðɛrz noʊ ˈpʌblɪk ˌtrænspərˈteɪʃən soʊ ju hæv tʊ wɔːk tʊ skuːl/",
+            "meaning": "대중 교통",
+            "translation": "대중 교통이 없어서 학교까지 걸어가야 한다.",
+            "pronunciation": "/ˈpʌblɪk ˌtrænspərˈteɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "government",
+            "example": "The government gives free food to the poor.",
+            "example_pronunciation": "/ðə ˈɡʌvərnmənt ɡɪvz friː fuːd tʊ ðə pʊr/",
+            "meaning": "정부",
+            "translation": "정부는 가난한 사람들에게 무료 음식을 제공한다.",
+            "pronunciation": "/ˈɡʌvərnmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "tragic",
+            "example": "It was such a tragic accident.",
+            "example_pronunciation": "/ɪt wəz sʌtʃ ə ˈtrædʒɪk ˈæksɪdənt/",
+            "meaning": "비극적인",
+            "translation": "그것은 정말 비극적인 사고였다.",
+            "pronunciation": "/ˈtrædʒɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "victim",
+            "example": "I feel so sad for the victim.",
+            "example_pronunciation": "/aɪ fiːl soʊ sæd fɔːr ðə ˈvɪktɪm/",
+            "meaning": "희생자, 피해자",
+            "translation": "나는 희생자들에게 애도를 표한다.",
+            "pronunciation": "/ˈvɪktɪm/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "deep",
+            "example": "This hole is quite deep.",
+            "example_pronunciation": "/ðɪs hoʊl ɪz kwaɪt diːp/",
+            "meaning": "깊은",
+            "translation": "이 구멍은 꽤 깊다.",
+            "pronunciation": "/diːp/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "break out",
+            "example": "I think a war will break out.",
+            "example_pronunciation": "/aɪ θɪŋk ə wɔːr wɪl breɪk aʊt/",
+            "meaning": "일어나다, 발생하다",
+            "translation": "나는 전쟁이 일어날 것이라고 생각한다.",
+            "pronunciation": "/breɪk aʊt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "earthquake",
+            "example": "A huge earthquake broke out in Japan.",
+            "example_pronunciation": "/ə hjuːdʒ ˈɜːrθkweɪk broʊk aʊt ɪn dʒəˈpæn/",
+            "meaning": "지진",
+            "translation": "일본에서 거대한 지진이 발생했다.",
+            "pronunciation": "/ˈɜːrθkweɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "disaster",
+            "example": "Because of the disaster, many people lost their houses to live in.",
+            "example_pronunciation": "/bɪˈkɔːz əv ðə dɪˈzæstər, ˈmɛni ˈpiːpl lɒst ðer ˈhaʊzɪz tʊ lɪv ɪn/",
+            "meaning": "재난",
+            "translation": "재난으로 인해 많은 사람들이 살 집을 잃었다.",
+            "pronunciation": "/dɪˈzæstər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "moreover",
+            "example": "Moreover, there was not enough food to eat.",
+            "example_pronunciation": "/mɔːrˈoʊvər ðɛr wəz nɒt ɪˈnʌf fuːd tʊ iːt/",
+            "meaning": "게다가",
+            "translation": "게다가 먹을 음식도 충분하지 않았다.",
+            "pronunciation": "/mɔːrˈoʊvər/",
+            "part_of_speech": "부사"
+          }
+        ]
+      },
+      "unit12": {
+        "title": "Unit 12",
+        "words": [
+          {
+            "word": "last",
+            "example": "I visited my uncle last month.",
+            "example_pronunciation": "/aɪ ˈvɪzɪtɪd maɪ ˈʌŋkl læst mʌnθ/",
+            "meaning": "지난",
+            "translation": "나는 지난 달에 삼촌을 방문했다.",
+            "pronunciation": "/læst/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "competition",
+            "example": "I won a gold medal at the ski competition.",
+            "example_pronunciation": "/aɪ wʌn ə ɡoʊld ˈmedl æt ðə skiː ˌkɒmpəˈtɪʃən/",
+            "meaning": "대회",
+            "translation": "나는 스키대회에서 금메달을 땄다.",
+            "pronunciation": "/ˌkɒmpəˈtɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "holiday",
+            "example": "I like taking photos when I'm on holiday.",
+            "example_pronunciation": "/aɪ laɪk ˈteɪkɪŋ ˈfoʊtoʊz wɛn aɪm ɒn ˈhɒlɪdeɪ/",
+            "meaning": "휴가",
+            "translation": "나는 휴가 때 사진을 찍는 것을 좋아한다.",
+            "pronunciation": "/ˈhɒlɪdeɪ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "riverside",
+            "example": "The campsite was on the riverside.",
+            "example_pronunciation": "/ðə ˈkæmpsaɪt wəz ɒn ðə ˈrɪvərsaɪd/",
+            "meaning": "강변",
+            "translation": "캠핑장은 강변에 있었다.",
+            "pronunciation": "/ˈrɪvərsaɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "outdoors",
+            "example": "He enjoyed cooking outdoors with his family.",
+            "example_pronunciation": "/hi ɪnˈdʒɔɪd ˈkʊkɪŋ ˌaʊtˈdɔːrz wɪð hɪz ˈfæməli/",
+            "meaning": "야외에서",
+            "translation": "그는 야외에서 가족들과 함께 요리하는 것을 즐겼다.",
+            "pronunciation": "/ˌaʊtˈdɔːrz/",
+            "part_of_speech": "부사"
+          },
+          {
+            "word": "sunset",
+            "example": "They enjoyed the wonderful sunset from the river.",
+            "example_pronunciation": "/ðeɪ ɪnˈdʒɔɪd ðə ˈwʌndərfl ˈsʌnˌsɛt frɒm ðə ˈrɪvər/",
+            "meaning": "일몰",
+            "translation": "그들은 강에서의 멋진 일몰을 즐겼다.",
+            "pronunciation": "/ˈsʌnˌsɛt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "temperature",
+            "example": "The temperature in the room is not so high.",
+            "example_pronunciation": "/ðə ˈtɛmpərətʃər ɪn ðə ruːm ɪz nɒt soʊ haɪ/",
+            "meaning": "기온, 온도",
+            "translation": "방 안의 온도는 그렇게 높지 않다.",
+            "pronunciation": "/ˈtɛmpərətʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "flight",
+            "example": "The flight from London will arrive soon.",
+            "example_pronunciation": "/ðə flaɪt frɒm ˈlʌndən wɪl əˈraɪv suːn/",
+            "meaning": "비행",
+            "translation": "런던에서 출발한 비행기가 곧 도착할 것이다.",
+            "pronunciation": "/flaɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "cancel",
+            "example": "All the flights have been cancelled because of the heavy rain.",
+            "example_pronunciation": "/ɔːl ðə flaɪts hæv bɪn ˈkænsl̩d bɪˈkɒz əv ðə ˈhɛvi reɪn/",
+            "meaning": "취소하다",
+            "translation": "폭우로 모든 비행이 취소되었다.",
+            "pronunciation": "/ˈkænsl/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "delay",
+            "example": "He wanted to delay the decision until tomorrow.",
+            "example_pronunciation": "/hi ˈwɒntɪd tʊ dɪˈleɪ ðə dɪˈsɪʒən ʌnˈtɪl təˈmɒroʊ/",
+            "meaning": "연기하다, 미루다",
+            "translation": "그는 내일까지 결정을 미루기를 원했다.",
+            "pronunciation": "/dɪˈleɪ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "frequent",
+            "example": "There will be frequent rains in Seoul.",
+            "example_pronunciation": "/ðeər wɪl bi ˈfriːkwənt reɪnz ɪn soʊl/",
+            "meaning": "잦은, 빈번한",
+            "translation": "서울에는 잦은 비가 내릴 것입니다.",
+            "pronunciation": "/ˈfriːkwənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "crowded",
+            "example": "The beach was crowded with people.",
+            "example_pronunciation": "/ðə biːʧ wəz ˈkraʊdɪd wɪð ˈpiːpl/",
+            "meaning": "붐비는",
+            "translation": "해변은 사람들로 붐볐다.",
+            "pronunciation": "/ˈkraʊdɪd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "barbecue",
+            "example": "The beach was filled with the smell of barbecue.",
+            "example_pronunciation": "/ðə biːʧ wəz fɪld wɪð ðə smɛl əv ˈbɑːrbɪkjuː/",
+            "meaning": "바비큐",
+            "translation": "해변은 바비큐 냄새로 가득 차 있었다.",
+            "pronunciation": "/ˈbɑːrbɪkjuː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "lobster",
+            "example": "I enjoyed barbecue with fresh seafood like lobster.",
+            "example_pronunciation": "/aɪ ɪnˈdʒɔɪd ˈbɑːrbɪkjuː wɪð frɛʃ ˈsiːfuːd laɪk ˈlɒbstər/",
+            "meaning": "바닷가재",
+            "translation": "나는 바닷가재와 같은 신선한 해산물과 함께 바비큐를 즐겼다.",
+            "pronunciation": "/ˈlɒbstər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "highlight",
+            "example": "This event is the highlight of the Christmas season.",
+            "example_pronunciation": "/ðɪs ɪˈvɛnt ɪz ðə ˈhaɪˌlaɪt əv ðə ˈkrɪsməs ˈsiːzən/",
+            "meaning": "하이라이트, 압권",
+            "translation": "이 행사는 크리스마스 시즌의 하이라이트이다.",
+            "pronunciation": "/ˈhaɪˌlaɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "notice",
+            "example": "I noticed that she was wearing a wig.",
+            "example_pronunciation": "/aɪ ˈnoʊtɪst ðæt ʃi wəz ˈwɛrɪŋ ə wɪɡ/",
+            "meaning": "알아차리다",
+            "translation": "나는 그녀가 가발을 쓰고 있다는 것을 알아차렸다.",
+            "pronunciation": "/ˈnoʊtɪs/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "event",
+            "example": "His visit was the main event of this month.",
+            "example_pronunciation": "/hɪz ˈvɪzɪt wəz ðə meɪn ɪˈvɛnt əv ðɪs mʌnθ/",
+            "meaning": "행사",
+            "translation": "그의 방문은 이번 달의 중요한 행사였다.",
+            "pronunciation": "/ɪˈvɛnt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "blanket",
+            "example": "Cover yourself with a blanket.",
+            "example_pronunciation": "/ˈkʌvər jɔːrˈsɛlf wɪð ə ˈblæŋkɪt/",
+            "meaning": "담요",
+            "translation": "담요로 몸을 덮어라.",
+            "pronunciation": "/ˈblæŋkɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "president",
+            "example": "We're going to elect a new president of our class.",
+            "example_pronunciation": "/wɪr ˈɡoʊɪŋ tʊ ɪˈlɛkt ə nuː ˈprɛzɪdənt əv aʊər klæs/",
+            "meaning": "회장, 대통령",
+            "translation": "우리는 우리 반의 새 회장을 뽑을 것이다.",
+            "pronunciation": "/ˈprɛzɪdənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "elect",
+            "example": "We elected the new leader of our club.",
+            "example_pronunciation": "/wi ɪˈlɛkt ðə nuː ˈliːdər əv aʊər klʌb/",
+            "meaning": "뽑다, 선출하다",
+            "translation": "우리는 우리 동아리의 새로운 지도자를 선출했다.",
+            "pronunciation": "/ɪˈlɛkt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "capital",
+            "example": "Ottawa is the capital of Canada.",
+            "example_pronunciation": "/ˈɒtəwə ɪz ðə ˈkæpɪtl əv ˈkænədə/",
+            "meaning": "수도",
+            "translation": "오타와는 캐나다의 수도이다.",
+            "pronunciation": "/ˈkæpɪtl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "expect",
+            "example": "I didn't expect to see you here.",
+            "example_pronunciation": "/aɪ dɪdnt ɪkˈspɛkt tʊ siː ju hɪər/",
+            "meaning": "기대하다",
+            "translation": "나는 당신을 여기서 볼 것이라고 기대하지 않았다.",
+            "pronunciation": "/ɪkˈspɛkt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "tradition",
+            "example": "It has been New York's Thanksgiving tradition for 90 years.",
+            "example_pronunciation": "/ɪt hæz bɪn nuː jɔːrks ˈθæŋksˌɡɪvɪŋ trəˈdɪʃən fɔːr ˈnaɪnti jɪərz/",
+            "meaning": "전통",
+            "translation": "그것은 90년 동안 뉴욕의 추수감사 전통이 되어 왔다.",
+            "pronunciation": "/trəˈdɪʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "parade",
+            "example": "The parade is now known for its large balloons.",
+            "example_pronunciation": "/ðə pəˈreɪd ɪz naʊ noʊn fɔːr ɪts lɑːrdʒ bəˈluːnz/",
+            "meaning": "퍼레이드, 행진",
+            "translation": "이제 퍼레이드는 큰 풍선으로 유명하다.",
+            "pronunciation": "/pəˈreɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "attract",
+            "example": "The parade attracts more than 3 million people every year.",
+            "example_pronunciation": "/ðə pəˈreɪd əˈtrækts mɔːr ðæn θriː ˈmɪljən ˈpiːpl ˈɛvri jɪər/",
+            "meaning": "끌어당기다",
+            "translation": "그 퍼레이드는 매해 삼백만명 이상의 사람들을 끌어들인다.",
+            "pronunciation": "/əˈtrækt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "attend",
+            "example": "Do I have to attend the meeting?",
+            "example_pronunciation": "/du aɪ hæv tʊ əˈtɛnd ðə ˈmiːtɪŋ/",
+            "meaning": "~에 참석하다",
+            "translation": "제가 회의에 참석해야 하나요?",
+            "pronunciation": "/əˈtɛnd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bite",
+            "example": "I was bitten by a bug.",
+            "example_pronunciation": "/aɪ wəz ˈbɪtn baɪ ə bʌɡ/",
+            "meaning": "물다",
+            "translation": "나는 벌레에 물렸다.",
+            "pronunciation": "/baɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "exchange",
+            "example": "We exchanged our phone numbers.",
+            "example_pronunciation": "/wi ɪksˈʧeɪndʒd aʊər foʊn ˈnʌmbərz/",
+            "meaning": "교환하다",
+            "translation": "우리는 전화번호를 교환했다.",
+            "pronunciation": "/ɪksˈʧeɪndʒ/",
+            "part_of_speech": "동사"
+          }
+        ]
+      },
+      "unit13": {
+        "title": "Unit 13",
+        "words": [
+          {
+            "word": "whether",
+            "example": "I'll see whether she's at home.",
+            "example_pronunciation": "/aɪl siː ˈweðər ʃiz æt hoʊm/",
+            "meaning": "~인지(아닌지)",
+            "translation": "그녀가 집에 있는지 보겠습니다.",
+            "pronunciation": "/ˈweðər/",
+            "part_of_speech": "접속사"
+          },
+          {
+            "word": "wonder",
+            "example": "I wonder who he is.",
+            "example_pronunciation": "/aɪ ˈwʌndər huː hiː ɪz/",
+            "meaning": "궁금해하다",
+            "translation": "나는 그가 누구인지 궁금하다.",
+            "pronunciation": "/ˈwʌndər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bride",
+            "example": "My uncle introduced his new bride.",
+            "example_pronunciation": "/maɪ ˈʌŋkl ˌɪntrəˈdjuːst hɪz njuː braɪd/",
+            "meaning": "신부",
+            "translation": "우리 삼촌은 그의 새 신부를 소개했다.",
+            "pronunciation": "/braɪd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "sculpture",
+            "example": "They are looking at the ice sculptures.",
+            "example_pronunciation": "/ðeɪ ɑːr ˈlʊkɪŋ æt ði aɪs ˈskʌlptʃərz/",
+            "meaning": "조각품",
+            "translation": "그들은 얼음 조각품들을 보고 있었다.",
+            "pronunciation": "/ˈskʌlptʃər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "experience",
+            "example": "You can experience a lot of winter activities here.",
+            "example_pronunciation": "/juː kæn ɪkˈspɪəriəns ə lɒt əv ˈwɪntər ækˈtɪvətiz hɪər/",
+            "meaning": "경험하다",
+            "translation": "당신은 이 곳에서 많은 겨울 활동들을 경험할 수 있습니다.",
+            "pronunciation": "/ɪkˈspɪəriəns/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "brochure",
+            "example": "Do you want a copy of the festival brochure?",
+            "example_pronunciation": "/duː juː wɒnt ə ˈkɒpi əv ðə ˈfestɪvəl brəʊˈʃʊər/",
+            "meaning": "(안내용) 책자",
+            "translation": "축제 안내 책자를 원하시나요?",
+            "pronunciation": "/brəʊˈʃʊər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "entire",
+            "example": "There's a lot of fun for the entire family.",
+            "example_pronunciation": "/ðeəz ə lɒt əv fʌn fɔːr ði ɪnˈtaɪə ˈfæməli/",
+            "meaning": "전체의",
+            "translation": "온가족을 위한 재미있는 활동이 많이 있습니다",
+            "pronunciation": "/ɪnˈtaɪər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "decorate",
+            "example": "I decorated my room with flowers and candles.",
+            "example_pronunciation": "/aɪ ˈdekəreɪtɪd maɪ ruːm wɪð ˈflaʊərz ænd ˈkændlz/",
+            "meaning": "꾸미다, 장식하다",
+            "translation": "나는 꽃과 양초로 내 방을 꾸몄다.",
+            "pronunciation": "/ˈdekəreɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "advice",
+            "example": "I'll give you a piece of advice.",
+            "example_pronunciation": "/aɪl ɡɪv juː ə piːs əv ədˈvaɪs/",
+            "meaning": "조언, 충고",
+            "translation": "너에게 충고 하나 할게.",
+            "pronunciation": "/ədˈvaɪs/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "various",
+            "example": "People study English in various ways.",
+            "example_pronunciation": "/ˈpiːpl ˈstʌdi ˈɪŋɡlɪʃ ɪn ˈveəriəs weɪz/",
+            "meaning": "다양한",
+            "translation": "사람들은 다양한 방법으로 영어를 공부한다.",
+            "pronunciation": "/ˈveəriəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "suggest",
+            "example": "My friend suggested watching a movie tonight.",
+            "example_pronunciation": "/maɪ frend səˈdʒestɪd ˈwɒtʃɪŋ ə ˈmuːvi təˈnaɪt/",
+            "meaning": "제안하다",
+            "translation": "내 친구는 오늘 밤 영화를 보자고 제안했다.",
+            "pronunciation": "/səˈdʒest/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "embarrassed",
+            "example": "She's embarrassed about her weight.",
+            "example_pronunciation": "/ʃiz ɪmˈbærəst əˈbaʊt hər weɪt/",
+            "meaning": "부끄러워하는",
+            "translation": "그녀는 자신의 몸무게에 대해 부끄러워 한다.",
+            "pronunciation": "/ɪmˈbærəst/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "ignore",
+            "example": "He just ignored his father's advice.",
+            "example_pronunciation": "/hiː dʒʌst ɪɡˈnɔːd hɪz ˈfɑːðərz ədˈvaɪs/",
+            "meaning": "무시하다",
+            "translation": "그는 그냥 아버지의 조언을 무시했다.",
+            "pronunciation": "/ɪɡˈnɔːr/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "similar",
+            "example": "My best friends are similar to me.",
+            "example_pronunciation": "/maɪ best frendz ɑːr ˈsɪmɪlər tə miː/",
+            "meaning": "비슷한",
+            "translation": "나와 가장 친한 친구들은 나와 비슷하다.",
+            "pronunciation": "/ˈsɪmɪlər/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bully",
+            "example": "You should not bully your friends.",
+            "example_pronunciation": "/juː ʃʊd nɒt ˈbʊli jɔːr frendz/",
+            "meaning": "따돌림시키다, 괴롭히다",
+            "translation": "친구들을 따돌림시켜서는 안된다.",
+            "pronunciation": "/ˈbʊli/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "violent",
+            "example": "People suddenly became violent.",
+            "example_pronunciation": "/ˈpiːpl ˈsʌdənli bɪˈkeɪm ˈvaɪələnt/",
+            "meaning": "폭력적인",
+            "translation": "사람들이 갑자기 난폭해졌다.",
+            "pronunciation": "/ˈvaɪələnt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "direction",
+            "example": "You should follow directions in class.",
+            "example_pronunciation": "/juː ʃʊd ˈfɒləʊ dɪˈrekʃənz ɪn klɑːs/",
+            "meaning": "방향, 지시사항",
+            "translation": "수업 시간에는 지시사항을 따라야 한다.",
+            "pronunciation": "/dɪˈrekʃən/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "technology",
+            "example": "Technology is helpful for our lives.",
+            "example_pronunciation": "/tekˈnɒlədʒi ɪz ˈhelpfʊl fɔːr ˈaʊər laɪvz/",
+            "meaning": "기술",
+            "translation": "기술은 우리의 삶에 도움이 된다.",
+            "pronunciation": "/tekˈnɒlədʒi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "role",
+            "example": "The role of teachers in the classroom is important.",
+            "example_pronunciation": "/ðə rəʊl əv ˈtiːtʃərz ɪn ðə ˈklɑːsruːm ɪz ɪmˈpɔːtnt/",
+            "meaning": "역할",
+            "translation": "교실에서 교사의 역할은 중요하다.",
+            "pronunciation": "/rəʊl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "happen",
+            "example": "What will happen next?",
+            "example_pronunciation": "/wɒt wɪl ˈhæpən nekst/",
+            "meaning": "일어나다",
+            "translation": "다음에는 무슨 일이 일어날까?",
+            "pronunciation": "/ˈhæpən/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "relationship",
+            "example": "What is the relationship between the people?",
+            "example_pronunciation": "/wɒt ɪz ðə rɪˈleɪʃənʃɪp bɪˈtwiːn ðə ˈpiːpl/",
+            "meaning": "관계",
+            "translation": "그 사람들의 관계는 어떻게 되나요?",
+            "pronunciation": "/rɪˈleɪʃənʃɪp/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fashionable",
+            "example": "It is fashionable to wear sneakers these days.",
+            "example_pronunciation": "/ɪt ɪz ˈfæʃənəbl tə weər ˈsniːkərz ðiːz deɪz/",
+            "meaning": "유행하는",
+            "translation": "요즘은 운동화를 신는 것이 유행이다.",
+            "pronunciation": "/ˈfæʃənəbl/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "trade",
+            "example": "You can trade apples for bananas if the other person agrees.",
+            "example_pronunciation": "/juː kæn treɪd ˈæplz fɔːr bəˈnɑːnəz ɪf ði ˈʌðər ˈpɜːsn əˈɡriːz/",
+            "meaning": "맞바꾸다",
+            "translation": "상대방이 동의한다면 사과를 바나나와 맞바꿀 수 있다.",
+            "pronunciation": "/treɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "value",
+            "example": "Sometimes people couldn't agree on the value of certain goods.",
+            "example_pronunciation": "/ˈsʌmtaɪmz ˈpiːpl ˈkʊdnt əˈɡriː ɒn ðə ˈvæljuː əv ˈsɜːtn ɡʊdz/",
+            "meaning": "가치",
+            "translation": "때때로 사람들은 특정 상품의 가치에 대해 동의할 수 없었다.",
+            "pronunciation": "/ˈvæljuː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "goods",
+            "example": "We should sell more goods.",
+            "example_pronunciation": "/wiː ʃʊd sel mɔːr ɡʊdz/",
+            "meaning": "상품",
+            "translation": "우리는 더 많은 상품을 팔아야 한다.",
+            "pronunciation": "/ɡʊdz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "refund",
+            "example": "Can I have a refund on this?",
+            "example_pronunciation": "/kæn aɪ hæv ə ˈriːfʌnd ɒn ðɪs/",
+            "meaning": "환불",
+            "translation": "이거 환불받을 수 있을까요?",
+            "pronunciation": "/ˈriːfʌnd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "order",
+            "example": "Are you ready to order?",
+            "example_pronunciation": "/ɑːr juː ˈredi tə ˈɔːdər/",
+            "meaning": "주문하다",
+            "translation": "주문하시겠습니까?",
+            "pronunciation": "/ˈɔːdər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "support",
+            "example": "Teachers give you a lot of support for a happier school life.",
+            "example_pronunciation": "/ˈtiːtʃərz ɡɪv juː ə lɒt əv səˈpɔːt fɔːr ə ˈhæpiər skuːl laɪf/",
+            "meaning": "지지, 도움",
+            "translation": "선생님들은 여러분의 보다 행복한 학교 생활을 위해 많은 도움을 줍니다.",
+            "pronunciation": "/səˈpɔːt/",
+            "part_of_speech": "명사"
+          }
+        ]
+      },
+      "unit14": {
+        "title": "Unit 14",
+        "words": [
+          {
+            "word": "tourist",
+            "example": "There are always lots of tourists in Jeju-do.",
+            "example_pronunciation": "/ðeər ɑːr ˈɔːlweɪz lɒts əv ˈtʊərɪsts ɪn ˈdʒeɪdʒuː doʊ/",
+            "meaning": "관광객",
+            "translation": "제주도에는 항상 관광객들이 많다.",
+            "pronunciation": "/ˈtʊərɪst/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "record",
+            "example": "A travel journal is a traveler's record on the road.",
+            "example_pronunciation": "/ə ˈtrævl ˈdʒɜːrnl ɪz ə ˈtrævələrz ˈrekɔːrd ɒn ðə roʊd/",
+            "meaning": "기록, 기록물",
+            "translation": "여행 일지는 여행객들의 여행 중의 기록이다.",
+            "pronunciation": "/ˈrekɔːrd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "knowledge",
+            "example": "You don't have to have any special knowledge about how to write such a journal.",
+            "example_pronunciation": "/juː doʊnt hæv tə hæv ˈeni ˈspeʃl ˈnɒlɪdʒ əˈbaʊt haʊ tə raɪt sʌtʃ ə ˈdʒɜːrnl/",
+            "meaning": "지식",
+            "translation": "그런 일지를 쓰는 방법에 대해 특별한 지식을 갖고 있을 필요는 없다.",
+            "pronunciation": "/ˈnɒlɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "include",
+            "example": "You can include your thoughts and feelings in your journal.",
+            "example_pronunciation": "/juː kæn ɪnˈkluːd jɔːr θɔːts ænd ˈfiːlɪŋz ɪn jɔːr ˈdʒɜːrnl/",
+            "meaning": "포함하다",
+            "translation": "일지에 자신의 생각과 느낌을 포함시킬 수 있다.",
+            "pronunciation": "/ɪnˈkluːd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "bamboo",
+            "example": "There were lots of bamboo trees in Juknokwon.",
+            "example_pronunciation": "/ðeər wər lɒts əv ˌbæmˈbuː triːz ɪn dʒʊknoʊkwɒn/",
+            "meaning": "대나무",
+            "translation": "죽녹원에는 대나무가 많았다.",
+            "pronunciation": "/ˌbæmˈbuː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "postcard",
+            "example": "I sent a postcard to my best friend.",
+            "example_pronunciation": "/aɪ sent ə ˈpəʊstkɑːrd tə maɪ best frend/",
+            "meaning": "엽서",
+            "translation": "나는 가장 친한 친구에게 엽서를 보냈다.",
+            "pronunciation": "/ˈpəʊstkɑːrd/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "prize",
+            "example": "I won a free movie ticket as a prize.",
+            "example_pronunciation": "/aɪ wʌn ə friː ˈmuːvi ˈtɪkɪt æz ə praɪz/",
+            "meaning": "상, 상품",
+            "translation": "나는 상품으로 공짜 영화표를 얻었다.",
+            "pronunciation": "/praɪz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "delivery",
+            "example": "The pizza store provides a quick delivery service.",
+            "example_pronunciation": "/ðə ˈpiːtsə stɔːr prəˈvaɪdz ə kwɪk dɪˈlɪvəri ˈsɜːrvɪs/",
+            "meaning": "배달",
+            "translation": "피자 가게는 빠른 배달 서비스를 제공한다.",
+            "pronunciation": "/dɪˈlɪvəri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "provide",
+            "example": "The magazine provides us with a lot of information.",
+            "example_pronunciation": "/ðə ˌmæɡəˈziːn prəˈvaɪdz ʌs wɪð ə lɒt əv ˌɪnfərˈmeɪʃən/",
+            "meaning": "제공하다",
+            "translation": "그 잡지는 우리에게 많은 정보를 제공한다.",
+            "pronunciation": "/prəˈvaɪd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "contest",
+            "example": "I'm going to enter a writing contest in June.",
+            "example_pronunciation": "/aɪm ˈɡoʊɪŋ tə ˈentər ə ˈraɪtɪŋ ˈkɒntest ɪn dʒuːn/",
+            "meaning": "대회",
+            "translation": "나는 6월에 글쓰기 대회에 참여할 것이다.",
+            "pronunciation": "/ˈkɒntest/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "inconvenient",
+            "example": "Living without a cell phone would be very inconvenient.",
+            "example_pronunciation": "/ˈlɪvɪŋ wɪˈðaʊt ə sel fəʊn wʊd biː ˈveri ˌɪnkənˈviːniənt/",
+            "meaning": "불편한",
+            "translation": "핸드폰 없이 사는 것은 매우 불편할 것이다.",
+            "pronunciation": "/ˌɪnkənˈviːniənt/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "bargain",
+            "example": "The store had a clearance sale with many good bargains.",
+            "example_pronunciation": "/ðə stɔːr hæd ə ˈklɪərəns seɪl wɪð ˈmeni ɡʊd ˈbɑːɡɪnz/",
+            "meaning": "(정상가보다) 싸게 파는 물건",
+            "translation": "그 가게는 많은 특가품을 내걸고 창고 정리 세일을 했다.",
+            "pronunciation": "/ˈbɑːɡɪn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "fee",
+            "example": "My mom got home delivery for a small fee.",
+            "example_pronunciation": "/maɪ mɒm ɡɒt hoʊm dɪˈlɪvəri fɔːr ə smɔːl fiː/",
+            "meaning": "요금, 보수, 사례",
+            "translation": "우리 엄마는 약간의 요금을 내고 집으로 배달을 받았다.",
+            "pronunciation": "/fiː/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "grocery",
+            "example": "Shopping for groceries is not the only thing you can do there.",
+            "example_pronunciation": "/ˈʃɒpɪŋ fɔːr ˈɡrəʊsəriz ɪz nɒt ði ˈəʊnli θɪŋ juː kæn duː ðeər/",
+            "meaning": "식료품",
+            "translation": "식료품 쇼핑이 당신이 그 곳에서 할 수 있는 유일한 일은 아닙니다.",
+            "pronunciation": "/ˈɡrəʊsəri/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "exhausted",
+            "example": "I felt exhausted after the travel.",
+            "example_pronunciation": "/aɪ felt ɪɡˈzɔːstɪd ˈɑːftər ðə ˈtrævl/",
+            "meaning": "매우 지친",
+            "translation": "나는 여행 후에 매우 지쳤다.",
+            "pronunciation": "/ɪɡˈzɔːstɪd/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "nervous",
+            "example": "I always get nervous before a test.",
+            "example_pronunciation": "/aɪ ˈɔːlweɪz ɡet ˈnɜːrvəs bɪˈfɔːr ə test/",
+            "meaning": "불안한, 초조한",
+            "translation": "나는 시험 전에 항상 긴장된다.",
+            "pronunciation": "/ˈnɜːrvəs/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "routine",
+            "example": "Going to school is part of my daily routine.",
+            "example_pronunciation": "/ˈɡoʊɪŋ tə skuːl ɪz pɑːrt əv maɪ ˈdeɪli ruːˈtiːn/",
+            "meaning": "일상",
+            "translation": "학교에 가는 것은 나의 일상의 일부분이다.",
+            "pronunciation": "/ruːˈtiːn/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "challenge",
+            "example": "Learning Chinese will be another challenge for me next year.",
+            "example_pronunciation": "/ˈlɜːrnɪŋ ˌtʃaɪˈniːz wɪl biː əˈnʌðər ˈtʃælɪndʒ fɔːr miː nekst jɪər/",
+            "meaning": "도전",
+            "translation": "중국어를 배우는 것은 내년에 나에게 또 하나의 도전이 될 것이다.",
+            "pronunciation": "/ˈtʃælɪndʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "discover",
+            "example": "Doctors are trying to discover the cure for the common cold.",
+            "example_pronunciation": "/ˈdɒktərz ɑːr ˈtraɪɪŋ tə dɪˈskʌvər ðə kjʊər fɔːr ðə ˈkɒmən kəʊld/",
+            "meaning": "발견하다",
+            "translation": "의사들은 일반 감기에 대한 치료법을 찾으려고 노력하고 있다.",
+            "pronunciation": "/dɪˈskʌvər/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "spirit",
+            "example": "Everyone has the spirit to try something challenging inside of them.",
+            "example_pronunciation": "/ˈevriwʌn hæz ðə ˈspɪrɪt tə traɪ ˈsʌmθɪŋ ˈtʃælɪndʒɪŋ ˈɪnsaɪd əv ðem/",
+            "meaning": "정신, 영혼",
+            "translation": "모두가 자신의 안에 무언가 도전이 되는 것을 시도하려는 정신을 갖고 있다.",
+            "pronunciation": "/ˈspɪrɪt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "mistake",
+            "example": "No one wants to make a mistake.",
+            "example_pronunciation": "/noʊ wʌn wɒnts tə meɪk ə mɪˈsteɪk/",
+            "meaning": "실수",
+            "translation": "아무도 실수를 하고 싶어하지 않는다.",
+            "pronunciation": "/mɪˈsteɪk/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "rest",
+            "example": "Imagine living the rest of your life doing the same thing.",
+            "example_pronunciation": "/ɪˈmædʒɪn ˈlɪvɪŋ ðə rest əv jɔːr laɪf ˈduːɪŋ ðə seɪm θɪŋ/",
+            "meaning": "나머지",
+            "translation": "당신의 남은 평생을 같은 일만 하고 산다고 상상해봐라.",
+            "pronunciation": "/rest/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "growth",
+            "example": "Challenging yourself is important for personal growth.",
+            "example_pronunciation": "/ˈtʃælɪndʒɪŋ jɔːrˈself ɪz ɪmˈpɔːrtnt fɔːr ˈpɜːrsənl ɡrəʊθ/",
+            "meaning": "성장",
+            "translation": "스스로에게 도전하는 것은 개인적인 성장을 위해서 중요하다.",
+            "pronunciation": "/ɡrəʊθ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "normal",
+            "example": "Try something different instead of your normal choices.",
+            "example_pronunciation": "/traɪ ˈsʌmθɪŋ ˈdɪfərənt ɪnˈsted əv jɔːr ˈnɔːrml ˈtʃɔɪsɪz/",
+            "meaning": "보통의, 평범한",
+            "translation": "평범한 선택을 하는 대신 다른 무언가를 시도해 봐라.",
+            "pronunciation": "/ˈnɔːrml/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "develop",
+            "example": "Scientists have already developed many amazing robots so far.",
+            "example_pronunciation": "/ˈsaɪəntɪsts hæv ɔːlˈredi dɪˈveləpt ˈmeni əˈmeɪzɪŋ ˈrəʊbɒts soʊ fɑːr/",
+            "meaning": "개발하다",
+            "translation": "과학자들은 지금까지 이미 많은 놀라운 로봇들을 개발해 왔다.",
+            "pronunciation": "/dɪˈveləp/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "amazing",
+            "example": "It is such an amazing story.",
+            "example_pronunciation": "/ɪt ɪz sʌtʃ ən əˈmeɪzɪŋ ˈstɔːri/",
+            "meaning": "놀라운",
+            "translation": "그거 정말 놀라운 이야기다.",
+            "pronunciation": "/əˈmeɪzɪŋ/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "surprise",
+            "example": "The robot can show surprise, anger and other emotions.",
+            "example_pronunciation": "/ðə ˈrəʊbɒt kæn ʃoʊ sərˈpraɪz, ˈæŋɡər ænd ˈʌðər ɪˈməʊʃnz/",
+            "meaning": "놀라움",
+            "translation": "그 로봇은 놀라움, 화남 그리고 다른 감정들을 보여줄 수 있다.",
+            "pronunciation": "/sərˈpraɪz/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "lonely",
+            "example": "It sometimes becomes friends with lonely people.",
+            "example_pronunciation": "/ɪt ˈsʌmtaɪmz bɪˈkʌmz frendz wɪð ˈləʊnli ˈpiːpl/",
+            "meaning": "외로운",
+            "translation": "그것은 때때로 외로운 사람들의 친구가 되어준다.",
+            "pronunciation": "/ˈləʊnli/",
+            "part_of_speech": "형용사"
+          }
+        ]
+      },
+      "unit15": {
+        "title": "Unit 15",
+        "words": [
+          {
+            "word": "relaxed",
+            "example": "The first way to improve your memory is to be relaxed.",
+            "example_pronunciation": "/ðə fɜːrst weɪ tə ɪmˈpruːv jɔːr ˈmɛməri ɪz tə bi rɪˈlækst/",
+            "meaning": "느긋한, 여유있는",
+            "translation": "당신의 기억력을 향상시키는 첫 번째 방법은 여유로운 마음을 갖는 것입니다.",
+            "pronunciation": "/rɪˈlækst/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "ease",
+            "example": "It is important to ease your mind.",
+            "example_pronunciation": "/ɪt ɪz ɪmˈpɔːrtnt tə iːz jɔːr maɪnd/",
+            "meaning": "편하게 해주다",
+            "translation": "마음을 편하게 갖는 것이 중요하다.",
+            "pronunciation": "/iːz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "positive",
+            "example": "Another thing you can do is to be positive.",
+            "example_pronunciation": "/əˈnʌðər θɪŋ ju kæn du ɪz tə bi ˈpɒzətɪv/",
+            "meaning": "긍정적인",
+            "translation": "당신이 할 수 있는 또 하나의 방법은 긍정적인 마음을 갖는 것이다.",
+            "pronunciation": "/ˈpɒzətɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "recommend",
+            "example": "Could you recommend good movies for studying English?",
+            "example_pronunciation": "/kʊd ju ˌrɛkəˈmɛnd ɡʊd ˈmuːviz fər ˈstʌdiɪŋ ˈɪŋɡlɪʃ/",
+            "meaning": "추천하다",
+            "translation": "영어 공부에 좋은 영화를 추천해 줄 수 있나요?",
+            "pronunciation": "/ˌrɛkəˈmɛnd/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "appointment",
+            "example": "I was late for a doctor's appointment.",
+            "example_pronunciation": "/aɪ wəz leɪt fər ə ˈdɒktərz əˈpɔɪntmənt/",
+            "meaning": "약속",
+            "translation": "나는 의사와의 약속에 늦었다.",
+            "pronunciation": "/əˈpɔɪntmənt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "match",
+            "example": "Your clothes match the music very well.",
+            "example_pronunciation": "/jɔːr kloʊðz mætʃ ðə ˈmjuːzɪk ˈvɛri wɛl/",
+            "meaning": "어울리다",
+            "translation": "당신의 옷이 음악과 매우 잘 어울리는군요.",
+            "pronunciation": "/mætʃ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "grab",
+            "example": "The baby grabbed a cake from the plate.",
+            "example_pronunciation": "/ðə ˈbeɪbi ɡræbd ə keɪk frəm ðə pleɪt/",
+            "meaning": "붙잡다, 움켜 잡다",
+            "translation": "아기는 접시의 케이크 하나를 움켜 잡았다.",
+            "pronunciation": "/ɡræb/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "refrigerator",
+            "example": "You should put the milk in the refrigerator.",
+            "example_pronunciation": "/ju ʃʊd pʊt ðə mɪlk ɪn ðə rɪˈfrɪdʒəreɪtər/",
+            "meaning": "냉장고",
+            "translation": "우유를 냉장고에 넣어야 한다.",
+            "pronunciation": "/rɪˈfrɪdʒəreɪtər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "example",
+            "example": "For example, ASIMO can walk by itself and climb stairs.",
+            "example_pronunciation": "/fər ɪɡˈzæmpl, ˈæsɪmoʊ kæn wɔːk baɪ ɪtˈsɛlf ænd klaɪm stɛərz/",
+            "meaning": "예",
+            "translation": "예를 들어, 아시모는 스스로 걷고 계단을 오를 수 있다.",
+            "pronunciation": "/ɪɡˈzæmpl/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "praise",
+            "example": "A lot of foreigners praise Hangul for its beauty.",
+            "example_pronunciation": "/ə lɒt əv ˈfɒrənərz preɪz ˈhænɡʊl fər ɪts ˈbjuːti/",
+            "meaning": "칭찬하다",
+            "translation": "많은 외국인들이 한글의 아름다움을 칭찬한다.",
+            "pronunciation": "/preɪz/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "although",
+            "example": "Tom can jump high although he is short.",
+            "example_pronunciation": "/tɒm kæn dʒʌmp haɪ ɔːlˈðoʊ hi ɪz ʃɔːrt/",
+            "meaning": "~임에도 불구하고",
+            "translation": "탐은 키가 작지만 높이 뛸 수 있다.",
+            "pronunciation": "/ɔːlˈðoʊ/",
+            "part_of_speech": "접속사"
+          },
+          {
+            "word": "effective",
+            "example": "The new drugs are very effective.",
+            "example_pronunciation": "/ðə njuː drʌɡz ər ˈvɛri ɪˈfɛktɪv/",
+            "meaning": "효과적인",
+            "translation": "새로운 약은 매우 효과적이다.",
+            "pronunciation": "/ɪˈfɛktɪv/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "heritage",
+            "example": "We should be proud of our special heritage, Hangul.",
+            "example_pronunciation": "/wi ʃʊd bi praʊd əv aʊər ˈspɛʃl ˈhɛrɪtɪdʒ, ˈhænɡʊl/",
+            "meaning": "유산",
+            "translation": "우리는 우리의 특별한 유산인 한글을 자랑스러워해야 한다.",
+            "pronunciation": "/ˈhɛrɪtɪdʒ/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "import",
+            "example": "Korea imports cars from Japan.",
+            "example_pronunciation": "/ˈkɔːriə ɪmˈpɔːrts kɑːrz frəm dʒəˈpæn/",
+            "meaning": "수입하다",
+            "translation": "한국은 일본에서 자동차를 수입한다.",
+            "pronunciation": "/ɪmˈpɔːrt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "scientific",
+            "example": "I found a scientific way to solve the problem.",
+            "example_pronunciation": "/aɪ faʊnd ə ˌsaɪənˈtɪfɪk weɪ tə sɒlv ðə ˈprɒbləm/",
+            "meaning": "과학적인",
+            "translation": "나는 문제를 해결하는 과학적인 방법을 찾았다.",
+            "pronunciation": "/ˌsaɪənˈtɪfɪk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "unique",
+            "example": "Everyone's voices are unique just as everyone looks different.",
+            "example_pronunciation": "/ˈɛvrɪwʌnz ˈvɔɪsɪz ər juːˈniːk dʒʌst æz ˈɛvrɪwʌn lʊks ˈdɪfrənt/",
+            "meaning": "독특한",
+            "translation": "모두가 다르게 생긴 것처럼 사람들의 목소리는 모두 독특하다.",
+            "pronunciation": "/juːˈniːk/",
+            "part_of_speech": "형용사"
+          },
+          {
+            "word": "tribe",
+            "example": "Hangul was imported to a small island in Indonesia for a tribe.",
+            "example_pronunciation": "/ˈhænɡʊl wəz ɪmˈpɔːrtɪd tə ə smɔːl ˈaɪlənd ɪn ˌɪndəˈniːʒə fər ə traɪb/",
+            "meaning": "부족",
+            "translation": "한글은 인도네시아의 작은 섬에 있는 한 부족에게 수입되었다.",
+            "pronunciation": "/traɪb/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "result",
+            "example": "As a result, we now have Hangul that is easy to learn.",
+            "example_pronunciation": "/æz ə rɪˈzʌlt, wi naʊ hæv ˈhænɡʊl ðæt ɪz ˈiːzi tə lɜːrn/",
+            "meaning": "결과",
+            "translation": "그 결과, 우리에게는 현재 쉽게 배울 수 있는 한글이 있다.",
+            "pronunciation": "/rɪˈzʌlt/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "scholar",
+            "example": "King Sejong made his scholar create an easy writing system.",
+            "example_pronunciation": "/kɪŋ ˈsɛdʒɒŋ meɪd hɪz ˈskɒlər kriˈeɪt ən ˈiːzi ˈraɪtɪŋ ˈsɪstəm/",
+            "meaning": "학자",
+            "translation": "세종대왕은 그의 학자들에게 쉬운 문자 체계를 만들도록 했다.",
+            "pronunciation": "/ˈskɒlər/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "create",
+            "example": "I create this unique toy for my science class.",
+            "example_pronunciation": "/aɪ kriˈeɪt ðɪs juːˈniːk tɔɪ fər maɪ ˈsaɪəns klæs/",
+            "meaning": "창조하다, 만들어내다",
+            "translation": "나는 과학 수업을 위해 이 독특한 장난감을 만들어냈다.",
+            "pronunciation": "/kriˈeɪt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "promote",
+            "example": "The campaign promotes healthy eating habits.",
+            "example_pronunciation": "/ðə kæmˈpeɪn prəˈmoʊts ˈhɛlθi ˈiːtɪŋ ˈhæbɪts/",
+            "meaning": "촉진하다, 홍보하다",
+            "translation": "캠페인은 건강한 식습관을 홍보했다.",
+            "pronunciation": "/prəˈmoʊt/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "host",
+            "example": "What do I need to host a party?",
+            "example_pronunciation": "/wɒt du aɪ niːd tə hoʊst ə ˈpɑːrti/",
+            "meaning": "주최하다",
+            "translation": "파티를 주최하기 위해서 무엇이 필요한가요?",
+            "pronunciation": "/hoʊst/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "chef",
+            "example": "A famous American chef hosted a cooking contest.",
+            "example_pronunciation": "/ə ˈfeɪməs əˈmɛrɪkən ʃɛf ˈhoʊstɪd ə ˈkʊkɪŋ ˈkɒntɛst/",
+            "meaning": "요리사",
+            "translation": "유명한 미국인 요리사가 요리 대회를 주최했다.",
+            "pronunciation": "/ʃɛf/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "including",
+            "example": "The chef created a special menu including Bibimbap Burger.",
+            "example_pronunciation": "/ðə ʃɛf kriˈeɪtɪd ə ˈspɛʃl ˈmɛnju ɪnˈkluːdɪŋ ˈbiːbɪmbæp ˈbɜːrɡər/",
+            "meaning": "~을 포함하여",
+            "translation": "요리사는 비빔밥 버거를 포함하는 특별한 메뉴를 만들어냈다。",
+            "pronunciation": "/ɪnˈkluːdɪŋ/",
+            "part_of_speech": "전치사"
+          },
+          {
+            "word": "recipe",
+            "example": "He is trying to promote Korean food recipe around the world.",
+            "example_pronunciation": "/hi ɪz ˈtraɪɪŋ tə prəˈmoʊt ˈkɔːriən fuːd ˈrɛsəpi əˈraʊnd ðə wɜːrld/",
+            "meaning": "요리법",
+            "translation": "그는 전세계에 한국 음식 요리법을 홍보하기 위해 노력하고 있다.",
+            "pronunciation": "/ˈrɛsəpi/",
+            "part_of_speech": "명사"
+          },
+          {
+            "word": "impress",
+            "example": "The new recipes impress the Korean chefs and the Asian food lovers.",
+            "example_pronunciation": "/ðə njuː ˈrɛsəpiz ɪmˈprɛs ðə ˈkɔːriən ʃɛfs ænd ðə ˈeɪʒn fuːd ˈlʌvərz/",
+            "meaning": "깊은 인상을 주다",
+            "translation": "그 새로운 요리법은 한국 요리사들과 아시아 요리를 사랑하는 사람들에게 깊은 인상을 주었다。",
+            "pronunciation": "/ɪmˈprɛs/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "allow",
+            "example": "My father doesn't allow me to stay up late.",
+            "example_pronunciation": "/maɪ ˈfɑːðər ˈdʌznt əˈlaʊ mi tə steɪ ʌp leɪt/",
+            "meaning": "허락하다",
+            "translation": "우리 아버지는 내가 늦게까지 자지 않고 있는 것을 허락하지 않으신다。",
+            "pronunciation": "/əˈlaʊ/",
+            "part_of_speech": "동사"
+          },
+          {
+            "word": "shadow",
+            "example": "The dog is barking at her shadow on the wall.",
+            "example_pronunciation": "/ðə dɒɡ ɪz ˈbɑːrkɪŋ æt hər ˈʃædoʊ ɒn ðə wɔːl/",
+            "meaning": "그림자",
+            "translation": "그 개는 벽에 비친 자신의 그림자에 짖고 있다。",
+            "pronunciation": "/ˈʃædoʊ/",
+            "part_of_speech": "명사"
+          }
+        ]
+      }
+    }
   }
 ]

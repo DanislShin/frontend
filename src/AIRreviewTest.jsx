@@ -74,7 +74,8 @@ function AIRreviewTest({ module, testId, day, onBack, session, language }) {
           return res.json();
         })
         .then((data) => {
-          if (data.feedback) return { index, feedback: data.feedback };
+          if (data.feedback && data.feedback["종합 평가"])
+            return { index, feedback: data.feedback };
           throw new Error("응답 데이터 형식이 올바르지 않습니다.");
         });
     });
@@ -86,7 +87,7 @@ function AIRreviewTest({ module, testId, day, onBack, session, language }) {
 
       results.forEach(({ index, feedback }) => {
         newFeedbacks[index] = feedback;
-        newScores[index] = feedback["총점"].스코어;
+        newScores[index] = feedback["종합 평가"].스코어;
       });
 
       setAiFeedbacks(newFeedbacks);
@@ -106,9 +107,9 @@ function AIRreviewTest({ module, testId, day, onBack, session, language }) {
     return (
       feedback &&
       typeof feedback === "object" &&
-      feedback["문법"]?.스코어 != null &&
-      feedback["단어 선택 및 문맥"]?.스코어 != null &&
-      feedback["총점"]?.스코어 != null
+      feedback["종합 평가"] &&
+      typeof feedback["종합 평가"].스코어 === "number" &&
+      feedback["종합 평가"].피드백
     );
   };
 
@@ -171,21 +172,6 @@ function AIRreviewTest({ module, testId, day, onBack, session, language }) {
                 }}
               >
                 <h5>문제 {index + 1} 피드백</h5>
-                <div style={{ marginBottom: "10px" }}>
-                  <strong>
-                    📝 문법 평가 ({feedback["문법"]?.스코어 || 0}/100):
-                  </strong>
-                  <p>{feedback["문법"]?.피드백 || "피드백 없음"}</p>
-                </div>
-                <div style={{ marginBottom: "10px" }}>
-                  <strong>
-                    🔠 단어 선택 및 문맥 (
-                    {feedback["단어 선택 및 문맥"]?.스코어 || 0}/100):
-                  </strong>
-                  <p>
-                    {feedback["단어 선택 및 문맥"]?.피드백 || "피드백 없음"}
-                  </p>
-                </div>
                 <div
                   style={{
                     marginBottom: "10px",
@@ -194,9 +180,9 @@ function AIRreviewTest({ module, testId, day, onBack, session, language }) {
                   }}
                 >
                   <strong>
-                    ⭐ 종합 평가 ({feedback["총점"]?.스코어 || 0}/100):
+                    ⭐ 종합 평가 ({feedback["종합 평가"].스코어 || 0}/100):
                   </strong>
-                  <p>{feedback["총점"]?.피드백 || "피드백 없음"}</p>
+                  <p>{feedback["종합 평가"].피드백 || "피드백 없음"}</p>
                 </div>
               </div>
             );

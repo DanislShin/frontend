@@ -4769,6 +4769,1520 @@
           ],
           "correct": 0
         }
+      ],
+      "22": [
+        {
+          "id": "22-1",
+          "word": "criticize",
+          "question": "뜻을 선택하세요",
+          "options": ["비난하다", "가공하지 않은", "현재의", "고객"],
+          "correct": 0
+        },
+        {
+          "id": "22-2",
+          "word": "cross off",
+          "question": "뜻을 선택하세요",
+          "options": ["횡단보도", "줄을 그어 지우다", "세관", "결정적인"],
+          "correct": 1
+        },
+        {
+          "id": "22-3",
+          "word": "crosswalk",
+          "question": "뜻을 선택하세요",
+          "options": ["경작하다", "치료하다", "횡단보도", "관습"],
+          "correct": 2
+        },
+        {
+          "id": "22-4",
+          "word": "crowded",
+          "question": "뜻을 선택하세요",
+          "options": ["호기심 많은", "유람선 여행", "붐비는", "원인, 범인"],
+          "correct": 2
+        },
+        {
+          "id": "22-5",
+          "word": "crown",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "단서, 실마리",
+            "(모자의) 꼭대기",
+            "문화적 다양성",
+            "깨끗한"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "22-6",
+          "word": "crucial",
+          "question": "뜻을 선택하세요",
+          "options": ["관례의", "결정적인", "잔인함", "통화, 화폐"],
+          "correct": 1
+        },
+        {
+          "id": "22-7",
+          "word": "crude",
+          "question": "뜻을 선택하세요",
+          "options": ["가공하지 않은", "비난하다", "현재의", "고객"],
+          "correct": 0
+        },
+        {
+          "id": "22-8",
+          "word": "cruelty",
+          "question": "뜻을 선택하세요",
+          "options": ["줄을 그어 지우다", "잔인함", "세관", "결정적인"],
+          "correct": 1
+        },
+        {
+          "id": "22-9",
+          "word": "cruise",
+          "question": "뜻을 선택하세요",
+          "options": ["경작하다", "치료하다", "유람선 여행", "관습"],
+          "correct": 2
+        },
+        {
+          "id": "22-10",
+          "word": "crystal clear",
+          "question": "뜻을 선택하세요",
+          "options": ["현재의", "고객", "호기심 많은", "깨끗한"],
+          "correct": 3
+        },
+        {
+          "id": "22-11",
+          "word": "cue",
+          "question": "뜻을 선택하세요",
+          "options": ["단서, 실마리", "가공하지 않은", "경작하다", "치료하다"],
+          "correct": 0
+        },
+        {
+          "id": "22-12",
+          "word": "culprit",
+          "question": "뜻을 선택하세요",
+          "options": ["횡단보도", "원인, 범인", "세관", "결정적인"],
+          "correct": 1
+        },
+        {
+          "id": "22-13",
+          "word": "cultivate",
+          "question": "뜻을 선택하세요",
+          "options": ["유람선 여행", "붐비는", "경작하다", "원인, 범인"],
+          "correct": 2
+        },
+        {
+          "id": "22-14",
+          "word": "cultural diversity",
+          "question": "뜻을 선택하세요",
+          "options": ["호기심 많은", "관습", "문화적 다양성", "통화, 화폐"],
+          "correct": 2
+        },
+        {
+          "id": "22-15",
+          "word": "cure",
+          "question": "뜻을 선택하세요",
+          "options": ["치료하다", "줄을 그어 지우다", "세관", "관례의"],
+          "correct": 0
+        },
+        {
+          "id": "22-16",
+          "word": "curious",
+          "question": "뜻을 선택하세요",
+          "options": ["가공하지 않은", "호기심 많은", "현재의", "고객"],
+          "correct": 1
+        },
+        {
+          "id": "22-17",
+          "word": "currency",
+          "question": "뜻을 선택하세요",
+          "options": ["경작하다", "치료하다", "통화, 화폐", "관습"],
+          "correct": 2
+        },
+        {
+          "id": "22-18",
+          "word": "current",
+          "question": "뜻을 선택하세요",
+          "options": ["현재의", "비난하다", "잔인함", "깨끗한"],
+          "correct": 0
+        },
+        {
+          "id": "22-19",
+          "word": "custom",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "단서, 실마리",
+            "관습, 풍습",
+            "문화적 다양성",
+            "가공하지 않은"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "22-20",
+          "word": "customary",
+          "question": "뜻을 선택하세요",
+          "options": ["유람선 여행", "붐비는", "관례의", "원인, 범인"],
+          "correct": 2
+        },
+        {
+          "id": "22-21",
+          "word": "customer",
+          "question": "뜻을 선택하세요",
+          "options": ["호기심 많은", "관습", "고객", "통화, 화폐"],
+          "correct": 2
+        },
+        {
+          "id": "22-22",
+          "word": "customs",
+          "question": "뜻을 선택하세요",
+          "options": ["줄을 그어 지우다", "세관", "결정적인", "깨끗한"],
+          "correct": 1
+        }
+      ],
+      "23": [
+        {
+          "id": "23-1",
+          "word": "cutback",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "축소, 삭감, 감원",
+            "냉소적인",
+            "일상적인 일",
+            "유제품의"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "23-2",
+          "word": "cynical",
+          "question": "뜻을 선택하세요",
+          "options": ["축소, 삭감", "냉소적인, 빈정대는", "파손된", "마감일"],
+          "correct": 1
+        },
+        {
+          "id": "23-3",
+          "word": "daily routine",
+          "question": "뜻을 선택하세요",
+          "options": ["살상의, 치명적인", "귀가 먼", "일상적인 일", "토론"],
+          "correct": 2
+        },
+        {
+          "id": "23-4",
+          "word": "dairy",
+          "question": "뜻을 선택하세요",
+          "options": ["10년", "부패, 타락", "괜찮은, 근사한", "유제품의"],
+          "correct": 3
+        },
+        {
+          "id": "23-5",
+          "word": "damaged",
+          "question": "뜻을 선택하세요",
+          "options": ["파손된, 손상된", "새벽", "비번일, 휴일", "직불카드"],
+          "correct": 0
+        },
+        {
+          "id": "23-6",
+          "word": "dawn",
+          "question": "뜻을 선택하세요",
+          "options": ["유제품의", "새벽, 동이 틀 무렵", "마감일", "사기, 기만"],
+          "correct": 1
+        },
+        {
+          "id": "23-7",
+          "word": "day off",
+          "question": "뜻을 선택하세요",
+          "options": ["다루다", "토론", "비번일, 휴일", "10년"],
+          "correct": 2
+        },
+        {
+          "id": "23-8",
+          "word": "deadline",
+          "question": "뜻을 선택하세요",
+          "options": ["결정, 판단", "선언하다", "감소하다", "마감일"],
+          "correct": 3
+        },
+        {
+          "id": "23-9",
+          "word": "deadly",
+          "question": "뜻을 선택하세요",
+          "options": ["살상의, 치명적인", "귀가 먼", "다루다", "토론"],
+          "correct": 0
+        },
+        {
+          "id": "23-10",
+          "word": "deaf",
+          "question": "뜻을 선택하세요",
+          "options": ["냉소적인", "귀가 먼, 청각장애의", "직불카드", "10년"],
+          "correct": 1
+        },
+        {
+          "id": "23-11",
+          "word": "deal with",
+          "question": "뜻을 선택하세요",
+          "options": ["부패, 타락", "괜찮은, 근사한", "다루다", "결심하다"],
+          "correct": 2
+        },
+        {
+          "id": "23-12",
+          "word": "debate",
+          "question": "뜻을 선택하세요",
+          "options": ["결정, 판단", "선언하다", "감소하다", "토론"],
+          "correct": 3
+        },
+        {
+          "id": "23-13",
+          "word": "debit card",
+          "question": "뜻을 선택하세요",
+          "options": ["직불카드, 현금카드", "일상적인 일", "파손된", "새벽"],
+          "correct": 0
+        },
+        {
+          "id": "23-14",
+          "word": "decade",
+          "question": "뜻을 선택하세요",
+          "options": ["살상의", "10년", "다루다", "사기, 기만"],
+          "correct": 1
+        },
+        {
+          "id": "23-15",
+          "word": "decay",
+          "question": "뜻을 선택하세요",
+          "options": ["비번일", "마감일", "부패, 타락", "결심하다"],
+          "correct": 2
+        },
+        {
+          "id": "23-16",
+          "word": "decent",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "전념하는, 헌신적인",
+            "축소, 삭감",
+            "냉소적인",
+            "괜찮은, 근사한"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "23-17",
+          "word": "deception",
+          "question": "뜻을 선택하세요",
+          "options": ["사기, 기만, 속임수", "유제품의", "파손된", "새벽"],
+          "correct": 0
+        },
+        {
+          "id": "23-18",
+          "word": "decide",
+          "question": "뜻을 선택하세요",
+          "options": ["비번일", "결심하다", "직불카드", "10년"],
+          "correct": 1
+        },
+        {
+          "id": "23-19",
+          "word": "decision",
+          "question": "뜻을 선택하세요",
+          "options": ["부패", "괜찮은", "결정, 판단", "선언하다"],
+          "correct": 2
+        },
+        {
+          "id": "23-20",
+          "word": "declare",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "감소하다",
+            "전념하는",
+            "축소, 삭감",
+            "선언하다, 선포하다"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "23-21",
+          "word": "decline",
+          "question": "뜻을 선택하세요",
+          "options": ["감소하다", "냉소적인", "일상적인 일", "유제품의"],
+          "correct": 0
+        },
+        {
+          "id": "23-22",
+          "word": "dedicated",
+          "question": "뜻을 선택하세요",
+          "options": ["파손된", "전념하는, 헌신적인", "마감일", "사기, 기만"],
+          "correct": 1
+        }
+      ],
+      "24": [
+        {
+          "id": "24-1",
+          "word": "defect",
+          "question": "뜻을 선택하세요",
+          "options": ["결함", "수비 선수", "정의 내리다", "확실하게"],
+          "correct": 0
+        },
+        {
+          "id": "24-2",
+          "word": "defender",
+          "question": "뜻을 선택하세요",
+          "options": ["결함", "수비 선수", "수비", "지연, 지체"],
+          "correct": 1
+        },
+        {
+          "id": "24-3",
+          "word": "defense",
+          "question": "뜻을 선택하세요",
+          "options": ["고의적인", "전달하다", "수비", "요구하다"],
+          "correct": 2
+        },
+        {
+          "id": "24-4",
+          "word": "define",
+          "question": "뜻을 선택하세요",
+          "options": ["시위하다", "밀도가 높은", "부정하다", "정의 내리다"],
+          "correct": 3
+        },
+        {
+          "id": "24-5",
+          "word": "definitely",
+          "question": "뜻을 선택하세요",
+          "options": ["확실하게", "학과, 부서", "백화점", "출발"],
+          "correct": 0
+        },
+        {
+          "id": "24-6",
+          "word": "delay",
+          "question": "뜻을 선택하세요",
+          "options": ["고의적인", "지연, 지체", "시위하다", "밀도가 높은"],
+          "correct": 1
+        },
+        {
+          "id": "24-7",
+          "word": "deliberate",
+          "question": "뜻을 선택하세요",
+          "options": ["부정하다", "학과, 부서", "고의적인", "백화점"],
+          "correct": 2
+        },
+        {
+          "id": "24-8",
+          "word": "deliver",
+          "question": "뜻을 선택하세요",
+          "options": ["출발", "신뢰할 수 있는", "의존도", "전달하다, 연설하다"],
+          "correct": 3
+        },
+        {
+          "id": "24-9",
+          "word": "demand",
+          "question": "뜻을 선택하세요",
+          "options": ["요구하다", "묘사", "고갈시키다", "우울한"],
+          "correct": 0
+        },
+        {
+          "id": "24-10",
+          "word": "demonstrate",
+          "question": "뜻을 선택하세요",
+          "options": ["수비", "시위하다", "정의 내리다", "지연, 지체"],
+          "correct": 1
+        },
+        {
+          "id": "24-11",
+          "word": "dense",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "고의적인",
+            "전달하다",
+            "밀도가 높은, 조밀한",
+            "요구하다"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "24-12",
+          "word": "deny",
+          "question": "뜻을 선택하세요",
+          "options": ["시위하다", "밀도가 높은", "부정하다", "학과, 부서"],
+          "correct": 3
+        },
+        {
+          "id": "24-13",
+          "word": "department",
+          "question": "뜻을 선택하세요",
+          "options": ["학과, 부서", "백화점", "출발", "신뢰할 수 있는"],
+          "correct": 0
+        },
+        {
+          "id": "24-14",
+          "word": "department store",
+          "question": "뜻을 선택하세요",
+          "options": ["의존도", "백화점", "묘사", "고갈시키다"],
+          "correct": 1
+        },
+        {
+          "id": "24-15",
+          "word": "departure",
+          "question": "뜻을 선택하세요",
+          "options": ["우울한", "불황, 우울", "출발", "~에게서 …를 박탈하다"],
+          "correct": 2
+        },
+        {
+          "id": "24-16",
+          "word": "dependable",
+          "question": "뜻을 선택하세요",
+          "options": ["결함", "수비 선수", "확실하게", "신뢰할 수 있는"],
+          "correct": 3
+        },
+        {
+          "id": "24-17",
+          "word": "dependency",
+          "question": "뜻을 선택하세요",
+          "options": ["의존도", "지연, 지체", "고의적인", "전달하다"],
+          "correct": 0
+        },
+        {
+          "id": "24-18",
+          "word": "depiction",
+          "question": "뜻을 선택하세요",
+          "options": ["요구하다", "묘사", "시위하다", "밀도가 높은"],
+          "correct": 1
+        },
+        {
+          "id": "24-19",
+          "word": "deplete",
+          "question": "뜻을 선택하세요",
+          "options": ["부정하다", "학과, 부서", "고갈시키다", "백화점"],
+          "correct": 2
+        },
+        {
+          "id": "24-20",
+          "word": "depressed",
+          "question": "뜻을 선택하세요",
+          "options": ["출발", "신뢰할 수 있는", "의존도", "우울한"],
+          "correct": 3
+        },
+        {
+          "id": "24-21",
+          "word": "depression",
+          "question": "뜻을 선택하세요",
+          "options": ["불황, 우울", "묘사", "고갈시키다", "우울한"],
+          "correct": 0
+        },
+        {
+          "id": "24-22",
+          "word": "deprive ~ of ...",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "의존도",
+            "~에게서 …를 박탈하다",
+            "출발",
+            "신뢰할 수 있는"
+          ],
+          "correct": 1
+        }
+      ],
+      "25": [
+        {
+          "id": "25-1",
+          "word": "depth",
+          "question": "뜻을 선택하세요",
+          "options": ["깊이", "후손", "묘사하다", "버리다"],
+          "correct": 0
+        },
+        {
+          "id": "25-2",
+          "word": "descendant",
+          "question": "뜻을 선택하세요",
+          "options": ["깊이", "후손", "~의 가치가 있다", "욕구, 갈망"],
+          "correct": 1
+        },
+        {
+          "id": "25-3",
+          "word": "describe",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "절망",
+            "간절히 필요로 하는",
+            "묘사하다",
+            "~에도 불구하고"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "25-4",
+          "word": "desert",
+          "question": "뜻을 선택하세요",
+          "options": ["목적지, 행선지", "운명", "파괴하다", "버리다"],
+          "correct": 3
+        },
+        {
+          "id": "25-5",
+          "word": "deserve",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "~의 가치가 있다, ~을 받을 만하다",
+            "탐정 소설",
+            "결정하다",
+            "대단히 파괴적인"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "25-6",
+          "word": "desire",
+          "question": "뜻을 선택하세요",
+          "options": ["묘사하다", "욕구, 갈망, 바람", "버리다", "절망"],
+          "correct": 1
+        },
+        {
+          "id": "25-7",
+          "word": "despair",
+          "question": "뜻을 선택하세요",
+          "options": ["간절히 필요로 하는", "~에도 불구하고", "절망", "목적지"],
+          "correct": 2
+        },
+        {
+          "id": "25-8",
+          "word": "desperate",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "운명",
+            "파괴하다",
+            "파괴적인",
+            "간절히 필요로 하는, 필사적인"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "25-9",
+          "word": "despite",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "~에도 불구하고",
+            "발달시키다, 개발하다",
+            "장치",
+            "당뇨병"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "25-10",
+          "word": "destination",
+          "question": "뜻을 선택하세요",
+          "options": ["후손", "목적지, 행선지", "묘사하다", "~의 가치가 있다"],
+          "correct": 1
+        },
+        {
+          "id": "25-11",
+          "word": "destiny",
+          "question": "뜻을 선택하세요",
+          "options": ["욕구", "절망", "운명", "간절히 필요로 하는"],
+          "correct": 2
+        },
+        {
+          "id": "25-12",
+          "word": "destroy",
+          "question": "뜻을 선택하세요",
+          "options": ["~에도 불구하고", "목적지", "파괴하다", "탐정 소설"],
+          "correct": 3
+        },
+        {
+          "id": "25-13",
+          "word": "destructive",
+          "question": "뜻을 선택하세요",
+          "options": ["파괴적인", "결정하다", "대단히 파괴적인", "발달시키다"],
+          "correct": 0
+        },
+        {
+          "id": "25-14",
+          "word": "detective story",
+          "question": "뜻을 선택하세요",
+          "options": ["장치", "탐정 소설", "당뇨병", "진단하다"],
+          "correct": 1
+        },
+        {
+          "id": "25-15",
+          "word": "determine",
+          "question": "뜻을 선택하세요",
+          "options": ["방언, 지방 사투리", "지시하다", "결정하다", "깊이"],
+          "correct": 2
+        },
+        {
+          "id": "25-16",
+          "word": "devastating",
+          "question": "뜻을 선택하세요",
+          "options": ["후손", "묘사하다", "버리다", "대단히 파괴적인"],
+          "correct": 3
+        },
+        {
+          "id": "25-17",
+          "word": "develop",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "발달시키다, 개발하다",
+            "~의 가치가 있다",
+            "욕구, 갈망",
+            "절망"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "25-18",
+          "word": "device",
+          "question": "뜻을 선택하세요",
+          "options": ["간절히 필요로 하는", "장치", "~에도 불구하고", "목적지"],
+          "correct": 1
+        },
+        {
+          "id": "25-19",
+          "word": "diabetes",
+          "question": "뜻을 선택하세요",
+          "options": ["운명", "파괴하다", "당뇨병", "파괴적인"],
+          "correct": 2
+        },
+        {
+          "id": "25-20",
+          "word": "diagnose",
+          "question": "뜻을 선택하세요",
+          "options": ["탐정 소설", "결정하다", "대단히 파괴적인", "진단하다"],
+          "correct": 3
+        },
+        {
+          "id": "25-21",
+          "word": "dialect",
+          "question": "뜻을 선택하세요",
+          "options": ["방언, 지방 사투리", "발달시키다", "장치", "당뇨병"],
+          "correct": 0
+        },
+        {
+          "id": "25-22",
+          "word": "dictate",
+          "question": "뜻을 선택하세요",
+          "options": ["진단하다", "지시하다", "방언", "깊이"],
+          "correct": 1
+        }
+      ],
+      "26": [
+        {
+          "id": "26-1",
+          "word": "dietary",
+          "question": "뜻을 선택하세요",
+          "options": ["식사 섭취", "구별하다", "캐다", "소화의"],
+          "correct": 0
+        },
+        {
+          "id": "26-2",
+          "word": "differentiate",
+          "question": "뜻을 선택하세요",
+          "options": ["식사 섭취", "구별하다", "방향", "영화 감독"],
+          "correct": 1
+        },
+        {
+          "id": "26-3",
+          "word": "dig up",
+          "question": "뜻을 선택하세요",
+          "options": ["안내 책자", "장애", "캐다", "단점"],
+          "correct": 2
+        },
+        {
+          "id": "26-4",
+          "word": "digestive",
+          "question": "뜻을 선택하세요",
+          "options": ["불일치", "사라지다", "실망한", "소화의"],
+          "correct": 3
+        },
+        {
+          "id": "26-5",
+          "word": "direction",
+          "question": "뜻을 선택하세요",
+          "options": ["방향", "재난", "불편함", "할인"],
+          "correct": 0
+        },
+        {
+          "id": "26-6",
+          "word": "director",
+          "question": "뜻을 선택하세요",
+          "options": ["구별하다", "영화 감독", "캐다", "소화의"],
+          "correct": 1
+        },
+        {
+          "id": "26-7",
+          "word": "directory",
+          "question": "뜻을 선택하세요",
+          "options": ["방향", "영화 감독", "안내 책자", "장애"],
+          "correct": 2
+        },
+        {
+          "id": "26-8",
+          "word": "disability",
+          "question": "뜻을 선택하세요",
+          "options": ["단점", "불일치", "사라지다", "장애"],
+          "correct": 3
+        },
+        {
+          "id": "26-9",
+          "word": "disadvantage",
+          "question": "뜻을 선택하세요",
+          "options": ["단점", "실망한", "재난", "불편함"],
+          "correct": 0
+        },
+        {
+          "id": "26-10",
+          "word": "disagreement",
+          "question": "뜻을 선택하세요",
+          "options": ["안내 책자", "불일치", "장애", "단점"],
+          "correct": 1
+        },
+        {
+          "id": "26-11",
+          "word": "disappear",
+          "question": "뜻을 선택하세요",
+          "options": ["사라지다", "실망한", "재난", "불편함"],
+          "correct": 2
+        },
+        {
+          "id": "26-12",
+          "word": "disappointed",
+          "question": "뜻을 선택하세요",
+          "options": ["할인", "발견하다", "차별", "실망한"],
+          "correct": 3
+        },
+        {
+          "id": "26-13",
+          "word": "disaster",
+          "question": "뜻을 선택하세요",
+          "options": ["재난", "의논하다", "질병, 병", "살균제"],
+          "correct": 0
+        },
+        {
+          "id": "26-14",
+          "word": "discomfort",
+          "question": "뜻을 선택하세요",
+          "options": ["사라지다", "불편함", "실망한", "재난"],
+          "correct": 1
+        },
+        {
+          "id": "26-15",
+          "word": "discount",
+          "question": "뜻을 선택하세요",
+          "options": ["불일치", "할인", "발견하다", "차별"],
+          "correct": 2
+        },
+        {
+          "id": "26-16",
+          "word": "discover",
+          "question": "뜻을 선택하세요",
+          "options": ["의논하다", "질병, 병", "살균제", "발견하다"],
+          "correct": 3
+        },
+        {
+          "id": "26-17",
+          "word": "discrimination",
+          "question": "뜻을 선택하세요",
+          "options": ["차별", "장애, 이상", "전시, 진열", "식사 섭취"],
+          "correct": 0
+        },
+        {
+          "id": "26-18",
+          "word": "discuss",
+          "question": "뜻을 선택하세요",
+          "options": ["구별하다", "의논하다", "캐다", "소화의"],
+          "correct": 1
+        },
+        {
+          "id": "26-19",
+          "word": "disease",
+          "question": "뜻을 선택하세요",
+          "options": ["방향", "영화 감독", "질병, 병", "안내 책자"],
+          "correct": 2
+        },
+        {
+          "id": "26-20",
+          "word": "disinfectant",
+          "question": "뜻을 선택하세요",
+          "options": ["장애", "단점", "불일치", "살균제"],
+          "correct": 3
+        },
+        {
+          "id": "26-21",
+          "word": "disorder",
+          "question": "뜻을 선택하세요",
+          "options": ["장애, 이상", "사라지다", "실망한", "재난"],
+          "correct": 0
+        },
+        {
+          "id": "26-22",
+          "word": "display",
+          "question": "뜻을 선택하세요",
+          "options": ["불편함", "할인", "전시, 진열", "발견하다"],
+          "correct": 1
+        }
+      ],
+      "27": [
+        {
+          "id": "27-1",
+          "word": "dispute",
+          "question": "뜻을 선택하세요",
+          "options": ["분쟁", "실격시키다", "거리감 있는", "독특한"],
+          "correct": 0
+        },
+        {
+          "id": "27-2",
+          "word": "disqualify",
+          "question": "뜻을 선택하세요",
+          "options": ["분쟁", "실격시키다", "산만하게 하다", "나눠주다"],
+          "correct": 1
+        },
+        {
+          "id": "27-3",
+          "word": "distant",
+          "question": "뜻을 선택하세요",
+          "options": ["지구, 지역", "방해하다", "거리감 있는", "잠수부"],
+          "correct": 2
+        },
+        {
+          "id": "27-4",
+          "word": "distinctive",
+          "question": "뜻을 선택하세요",
+          "options": ["다양한", "다양성", "재주부리다", "독특한"],
+          "correct": 3
+        },
+        {
+          "id": "27-5",
+          "word": "distract",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "산만하게 하다",
+            "문서, 서류",
+            "재빨리 피하다",
+            "국내 비행"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "27-6",
+          "word": "distribute",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "실격시키다",
+            "나눠주다, 분배하다",
+            "거리감 있는",
+            "독특한"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "27-7",
+          "word": "district",
+          "question": "뜻을 선택하세요",
+          "options": ["산만하게 하다", "나눠주다", "지구, 지역", "방해하다"],
+          "correct": 2
+        },
+        {
+          "id": "27-8",
+          "word": "disturb",
+          "question": "뜻을 선택하세요",
+          "options": ["잠수부", "다양한", "다양성", "방해하다"],
+          "correct": 3
+        },
+        {
+          "id": "27-9",
+          "word": "diver",
+          "question": "뜻을 선택하세요",
+          "options": ["잠수부", "재주부리다", "문서, 서류", "재빨리 피하다"],
+          "correct": 0
+        },
+        {
+          "id": "27-10",
+          "word": "diverse",
+          "question": "뜻을 선택하세요",
+          "options": ["거리감 있는", "다양한", "독특한", "산만하게 하다"],
+          "correct": 1
+        },
+        {
+          "id": "27-11",
+          "word": "diversity",
+          "question": "뜻을 선택하세요",
+          "options": ["나눠주다", "지구, 지역", "다양성", "방해하다"],
+          "correct": 2
+        },
+        {
+          "id": "27-12",
+          "word": "do tricks",
+          "question": "뜻을 선택하세요",
+          "options": ["잠수부", "다양한", "재주부리다", "문서"],
+          "correct": 3
+        },
+        {
+          "id": "27-13",
+          "word": "document",
+          "question": "뜻을 선택하세요",
+          "options": ["문서, 서류", "재빨리 피하다", "국내 비행", "가정부"],
+          "correct": 0
+        },
+        {
+          "id": "27-14",
+          "word": "dodge",
+          "question": "뜻을 선택하세요",
+          "options": ["나눠주다", "재빨리 피하다", "지구, 지역", "방해하다"],
+          "correct": 1
+        },
+        {
+          "id": "27-15",
+          "word": "domestic flight",
+          "question": "뜻을 선택하세요",
+          "options": ["잠수부", "다양한", "국내 비행", "다양성"],
+          "correct": 2
+        },
+        {
+          "id": "27-16",
+          "word": "domestic maid",
+          "question": "뜻을 선택하세요",
+          "options": ["재주부리다", "문서, 서류", "재빨리 피하다", "가정부"],
+          "correct": 3
+        },
+        {
+          "id": "27-17",
+          "word": "dominate",
+          "question": "뜻을 선택하세요",
+          "options": ["지배하다", "기부, 기부금", "기숙사", "두 배로 되다"],
+          "correct": 0
+        },
+        {
+          "id": "27-18",
+          "word": "donation",
+          "question": "뜻을 선택하세요",
+          "options": ["분쟁", "기부, 기부금", "실격시키다", "거리감 있는"],
+          "correct": 1
+        },
+        {
+          "id": "27-19",
+          "word": "dormitory",
+          "question": "뜻을 선택하세요",
+          "options": ["독특한", "산만하게 하다", "기숙사", "나눠주다"],
+          "correct": 2
+        },
+        {
+          "id": "27-20",
+          "word": "double",
+          "question": "뜻을 선택하세요",
+          "options": ["지구, 지역", "방해하다", "잠수부", "두 배로 되다"],
+          "correct": 3
+        },
+        {
+          "id": "27-21",
+          "word": "doubt",
+          "question": "뜻을 선택하세요",
+          "options": ["의심", "다양한", "다양성", "재주부리다"],
+          "correct": 0
+        },
+        {
+          "id": "27-22",
+          "word": "downpour",
+          "question": "뜻을 선택하세요",
+          "options": ["문서, 서류", "호우, 폭우", "재빨리 피하다", "국내 비행"],
+          "correct": 1
+        }
+      ],
+      "28": [
+        {
+          "id": "28-1",
+          "word": "downtime",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "휴식시간, 비가동시간",
+            "수많은",
+            "물을 빼내다",
+            "무승부, 비기기"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "28-2",
+          "word": "dozens of",
+          "question": "뜻을 선택하세요",
+          "options": ["휴식시간", "수많은", "결점", "예장용 구두"],
+          "correct": 1
+        },
+        {
+          "id": "28-3",
+          "word": "drain",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "몰아가다",
+            "중퇴하다",
+            "물을 빼내다",
+            "음향 효과를 넣다"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "28-4",
+          "word": "draw",
+          "question": "뜻을 선택하세요",
+          "options": ["마감일", "~ 때문에", "난쟁이", "무승부, 비기기"],
+          "correct": 3
+        },
+        {
+          "id": "28-5",
+          "word": "drawback",
+          "question": "뜻을 선택하세요",
+          "options": ["결점", "역동적인", "열성인", "얻다"],
+          "correct": 0
+        },
+        {
+          "id": "28-6",
+          "word": "dress shoes",
+          "question": "뜻을 선택하세요",
+          "options": ["수많은", "예장용 구두", "물을 빼내다", "무승부"],
+          "correct": 1
+        },
+        {
+          "id": "28-7",
+          "word": "drive",
+          "question": "뜻을 선택하세요",
+          "options": ["결점", "예장용 구두", "몰아가다", "중퇴하다"],
+          "correct": 2
+        },
+        {
+          "id": "28-8",
+          "word": "drop out",
+          "question": "뜻을 선택하세요",
+          "options": ["음향 효과를 넣다", "마감일", "~ 때문에", "중퇴하다"],
+          "correct": 3
+        },
+        {
+          "id": "28-9",
+          "word": "dub",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "음향 효과를 넣다, 재녹음하다",
+            "난쟁이",
+            "역동적인",
+            "열성인"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "28-10",
+          "word": "due date",
+          "question": "뜻을 선택하세요",
+          "options": ["물을 빼내다", "마감일", "무승부", "결점"],
+          "correct": 1
+        },
+        {
+          "id": "28-11",
+          "word": "due to ~",
+          "question": "뜻을 선택하세요",
+          "options": ["예장용 구두", "몰아가다", "~ 때문에", "중퇴하다"],
+          "correct": 2
+        },
+        {
+          "id": "28-12",
+          "word": "dwarf",
+          "question": "뜻을 선택하세요",
+          "options": ["음향 효과를 넣다", "마감일", "난쟁이", "역동적인"],
+          "correct": 3
+        },
+        {
+          "id": "28-13",
+          "word": "dynamic",
+          "question": "뜻을 선택하세요",
+          "options": ["역동적인", "얻다", "지진", "섭식 장애"],
+          "correct": 0
+        },
+        {
+          "id": "28-14",
+          "word": "eager",
+          "question": "뜻을 선택하세요",
+          "options": ["난쟁이", "열성인", "역동적인", "얻다"],
+          "correct": 1
+        },
+        {
+          "id": "28-15",
+          "word": "earn",
+          "question": "뜻을 선택하세요",
+          "options": ["지진", "섭식 장애", "얻다", "산울림 같은"],
+          "correct": 2
+        },
+        {
+          "id": "28-16",
+          "word": "earthquake",
+          "question": "뜻을 선택하세요",
+          "options": ["경제적인", "경제학", "생태계", "지진"],
+          "correct": 3
+        },
+        {
+          "id": "28-17",
+          "word": "eating disorder",
+          "question": "뜻을 선택하세요",
+          "options": ["섭식 장애", "산울림 같은", "경제적인", "경제학"],
+          "correct": 0
+        },
+        {
+          "id": "28-18",
+          "word": "echoic",
+          "question": "뜻을 선택하세요",
+          "options": ["얻다", "산울림 같은, 되울리는", "지진", "섭식 장애"],
+          "correct": 1
+        },
+        {
+          "id": "28-19",
+          "word": "economical",
+          "question": "뜻을 선택하세요",
+          "options": ["산울림 같은", "경제적인", "경제학", "생태계"],
+          "correct": 2
+        },
+        {
+          "id": "28-20",
+          "word": "economics",
+          "question": "뜻을 선택하세요",
+          "options": ["식용의", "휴식시간", "수많은", "경제학"],
+          "correct": 3
+        },
+        {
+          "id": "28-21",
+          "word": "ecosystem",
+          "question": "뜻을 선택하세요",
+          "options": ["생태계", "물을 빼내다", "무승부", "결점"],
+          "correct": 0
+        },
+        {
+          "id": "28-22",
+          "word": "edible",
+          "question": "뜻을 선택하세요",
+          "options": ["예장용 구두", "식용의", "몰아가다", "중퇴하다"],
+          "correct": 1
+        }
+      ],
+      "29": [
+        {
+          "id": "29-1",
+          "word": "edit",
+          "question": "뜻을 선택하세요",
+          "options": ["편집하다", "교육", "효과적으로", "효과"],
+          "correct": 0
+        },
+        {
+          "id": "29-2",
+          "word": "education",
+          "question": "뜻을 선택하세요",
+          "options": ["편집하다", "교육", "노력", "자존심"],
+          "correct": 1
+        },
+        {
+          "id": "29-3",
+          "word": "effectively",
+          "question": "뜻을 선택하세요",
+          "options": ["둘 중 하나", "팔꿈치", "효과적으로", "나이가 지긋한"],
+          "correct": 2
+        },
+        {
+          "id": "29-4",
+          "word": "effectiveness",
+          "question": "뜻을 선택하세요",
+          "options": ["선출하다", "전기", "전자책", "효과"],
+          "correct": 3
+        },
+        {
+          "id": "29-5",
+          "word": "effort",
+          "question": "뜻을 선택하세요",
+          "options": ["노력", "원소", "자격이 되는", "제거하다"],
+          "correct": 0
+        },
+        {
+          "id": "29-6",
+          "word": "ego",
+          "question": "뜻을 선택하세요",
+          "options": ["효과적으로", "자존심", "효과", "노력"],
+          "correct": 1
+        },
+        {
+          "id": "29-7",
+          "word": "either",
+          "question": "뜻을 선택하세요",
+          "options": ["자존심", "둘 중 하나", "팔꿈치", "나이가 지긋한"],
+          "correct": 2
+        },
+        {
+          "id": "29-8",
+          "word": "elbow",
+          "question": "뜻을 선택하세요",
+          "options": ["선출하다", "전기", "전자책", "팔꿈치"],
+          "correct": 3
+        },
+        {
+          "id": "29-9",
+          "word": "elderly",
+          "question": "뜻을 선택하세요",
+          "options": ["나이가 지긋한", "원소", "자격이 되는", "제거하다"],
+          "correct": 0
+        },
+        {
+          "id": "29-10",
+          "word": "elect",
+          "question": "뜻을 선택하세요",
+          "options": ["편집하다", "선출하다", "교육", "효과적으로"],
+          "correct": 1
+        },
+        {
+          "id": "29-11",
+          "word": "electricity",
+          "question": "뜻을 선택하세요",
+          "options": ["효과", "노력", "전기", "자존심"],
+          "correct": 2
+        },
+        {
+          "id": "29-12",
+          "word": "electronic book",
+          "question": "뜻을 선택하세요",
+          "options": ["둘 중 하나", "팔꿈치", "나이가 지긋한", "전자책"],
+          "correct": 3
+        },
+        {
+          "id": "29-13",
+          "word": "element",
+          "question": "뜻을 선택하세요",
+          "options": ["원소", "제거하다", "당황한", "수용하다, 껴안다"],
+          "correct": 0
+        },
+        {
+          "id": "29-14",
+          "word": "eligible",
+          "question": "뜻을 선택하세요",
+          "options": ["선출하다", "자격이 되는", "전기", "전자책"],
+          "correct": 1
+        },
+        {
+          "id": "29-15",
+          "word": "eliminate",
+          "question": "뜻을 선택하세요",
+          "options": ["원소", "자격이 되는", "제거하다", "당황한"],
+          "correct": 2
+        },
+        {
+          "id": "29-16",
+          "word": "embarrassed",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "수용하다, 껴안다",
+            "나오다, 모습을 드러내다",
+            "비상",
+            "당황한"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "29-17",
+          "word": "embrace",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "수용하다, 껴안다",
+            "새로 생겨난",
+            "배출물, 배기 가스",
+            "배출하다"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "29-18",
+          "word": "emerge",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "제거하다",
+            "나오다, 모습을 드러내다",
+            "당황한",
+            "수용하다"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "29-19",
+          "word": "emergency",
+          "question": "뜻을 선택하세요",
+          "options": ["나오다", "비상", "새로 생겨난", "배출물"],
+          "correct": 2
+        },
+        {
+          "id": "29-20",
+          "word": "emerging",
+          "question": "뜻을 선택하세요",
+          "options": ["배출하다", "편집하다", "교육", "새로 생겨난"],
+          "correct": 3
+        },
+        {
+          "id": "29-21",
+          "word": "emissions",
+          "question": "뜻을 선택하세요",
+          "options": ["배출물, 배기 가스", "효과적으로", "효과", "노력"],
+          "correct": 0
+        },
+        {
+          "id": "29-22",
+          "word": "emit",
+          "question": "뜻을 선택하세요",
+          "options": ["자존심", "배출하다", "둘 중 하나", "팔꿈치"],
+          "correct": 1
+        }
+      ],
+      "30": [
+        {
+          "id": "30-1",
+          "word": "emotion",
+          "question": "뜻을 선택하세요",
+          "options": ["감정", "공감", "강조", "종업원"],
+          "correct": 0
+        },
+        {
+          "id": "30-2",
+          "word": "empathy",
+          "question": "뜻을 선택하세요",
+          "options": ["감정", "공감", "고용주", "능력을 주다"],
+          "correct": 1
+        },
+        {
+          "id": "30-3",
+          "word": "emphasis",
+          "question": "뜻을 선택하세요",
+          "options": ["강조", "종업원", "고용주", "능력을 주다"],
+          "correct": 2
+        },
+        {
+          "id": "30-4",
+          "word": "employee",
+          "question": "뜻을 선택하세요",
+          "options": ["~을 할 수 있게 하다", "동봉하다", "만나다", "종업원"],
+          "correct": 3
+        },
+        {
+          "id": "30-5",
+          "word": "employer",
+          "question": "뜻을 선택하세요",
+          "options": ["고용주", "격려하다", "백과사전", "노력"],
+          "correct": 0
+        },
+        {
+          "id": "30-6",
+          "word": "empower",
+          "question": "뜻을 선택하세요",
+          "options": ["공감", "능력을 주다", "강조", "종업원"],
+          "correct": 1
+        },
+        {
+          "id": "30-7",
+          "word": "enable",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "고용주",
+            "능력을 주다",
+            "~을 할 수 있게 하다",
+            "동봉하다"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "30-8",
+          "word": "enclose",
+          "question": "뜻을 선택하세요",
+          "options": ["만나다", "격려하다", "백과사전", "동봉하다"],
+          "correct": 3
+        },
+        {
+          "id": "30-9",
+          "word": "encounter",
+          "question": "뜻을 선택하세요",
+          "options": ["만나다", "적", "~에 참여하다", "향상시키다"],
+          "correct": 0
+        },
+        {
+          "id": "30-10",
+          "word": "encourage",
+          "question": "뜻을 선택하세요",
+          "options": ["동봉하다", "격려하다", "만나다", "격려하다"],
+          "correct": 1
+        },
+        {
+          "id": "30-11",
+          "word": "encyclopedia",
+          "question": "뜻을 선택하세요",
+          "options": ["백과사전", "노력", "적", "~에 참여하다"],
+          "correct": 2
+        },
+        {
+          "id": "30-12",
+          "word": "endeavor",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "향상시키다",
+            "막대한, 어마어마한",
+            "보장하다, 확실히 하다",
+            "노력"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "30-13",
+          "word": "enemy",
+          "question": "뜻을 선택하세요",
+          "options": ["적", "오락", "열광, 열의", "전체의"],
+          "correct": 0
+        },
+        {
+          "id": "30-14",
+          "word": "engage in ~",
+          "question": "뜻을 선택하세요",
+          "options": ["만나다", "~에 참여하다", "격려하다", "백과사전"],
+          "correct": 1
+        },
+        {
+          "id": "30-15",
+          "word": "enhance",
+          "question": "뜻을 선택하세요",
+          "options": ["노력", "적", "향상시키다", "~에 참여하다"],
+          "correct": 2
+        },
+        {
+          "id": "30-16",
+          "word": "enormous",
+          "question": "뜻을 선택하세요",
+          "options": ["향상시키다", "막대한, 어마어마한", "보장하다", "오락"],
+          "correct": 3
+        },
+        {
+          "id": "30-17",
+          "word": "ensure",
+          "question": "뜻을 선택하세요",
+          "options": ["보장하다, 확실히 하다", "열광, 열의", "전체의", "입구"],
+          "correct": 0
+        },
+        {
+          "id": "30-18",
+          "word": "entertainment",
+          "question": "뜻을 선택하세요",
+          "options": ["적", "오락", "~에 참여하다", "향상시키다"],
+          "correct": 1
+        },
+        {
+          "id": "30-19",
+          "word": "enthusiasm",
+          "question": "뜻을 선택하세요",
+          "options": ["막대한", "보장하다", "열광, 열의", "오락"],
+          "correct": 2
+        },
+        {
+          "id": "30-20",
+          "word": "entire",
+          "question": "뜻을 선택하세요",
+          "options": ["전체의", "입구", "참가비", "감정"],
+          "correct": 3
+        },
+        {
+          "id": "30-21",
+          "word": "entrance",
+          "question": "뜻을 선택하세요",
+          "options": ["입구", "공감", "강조", "종업원"],
+          "correct": 0
+        },
+        {
+          "id": "30-22",
+          "word": "entry fee",
+          "question": "뜻을 선택하세요",
+          "options": ["고용주", "참가비", "능력을 주다", "~을 할 수 있게 하다"],
+          "correct": 1
+        }
       ]
     }
   }

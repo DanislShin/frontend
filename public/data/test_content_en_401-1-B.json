@@ -292,6 +292,162 @@
           "id": "10-10",
           "question_text": "Enberg was also a best-selling writer and won Emmy Awards as a sportscaster, a writer, and a producer."
         }
+      ],
+      "11": [
+        {
+          "id": "11-1",
+          "question_text": "The Adenville City Pass Card is a public transportation card for tourists visiting Adenville."
+        },
+        {
+          "id": "11-2",
+          "question_text": "Service Range : ∙Adenville-based subway lines ∙Adenville-licensed buses ※ This card cannot be used for city tour buses."
+        },
+        {
+          "id": "11-3",
+          "question_text": "1-Day Card: The price is $10, 3-Day Card: The price is $25. 5-Day Card: The price is $40.Additional Benefit :10% off admission for major tourist attractions"
+        },
+        {
+          "id": "11-4",
+          "question_text": "Unused cards are refundable within 30 days of the purchase date."
+        },
+        {
+          "id": "11-5",
+          "question_text": "Purchase Information ∙Physical cards can be purchased at subway stations. ∙Mobile cards can be purchased on the A-Transit app."
+        }
+      ],
+      "12": [
+        {
+          "id": "12-1",
+          "question_text": "Luckwood Snow Festival. We’re happy to announce the 15th annual Luckwood Snow Festival. Come to the festival to enjoy winter activities and enjoy activities. [announce: 알리다, annual: 해마다의, festival: 축제, enjoy: 즐기다, activities: 활동]"
+        },
+        {
+          "id": "12-2",
+          "question_text": "When & Where ∙January 24th—30th (7 days), from 9 a.m. to 8 p.m. ∙Luckwood Park [a.m.: 오전, p.m.: 오후]"
+        },
+        {
+          "id": "12-3",
+          "question_text": "Special Activities ∙Snow Sculpture Contest: 11 teams will participate. ∙Fun in the Snow: Kids can enjoy snow tunnels and snow slides and participate snow slides. [sculpture: 조각, contest: 대회, participate: 참가하다, tunnel: 터널, slides: 미끄럼틀]"
+        },
+        {
+          "id": "12-4",
+          "question_text": "Transportation ∙Parking is not available (Use public transportation and/or shuttle bus service). ∙The shuttle bus runs between Luckwood Subway Station and Luckwood Park (One-way fare: $1, cash only). [transportation: 교통, available: 이용 가능한, public transportation: 대중교통, shuttle bus: 셔틀버스, runs: 운행하다, between: 사이를, one-way: 편도의, fare: 요금, cash: 현금, only: 오직]"
+        },
+        {
+          "id": "12-5",
+          "question_text": "※ For more information, please visit www.ldsnow.org. [information: 정보, visit: 방문하다]"
+        }
+      ],
+      "13": [
+        {
+          "id": "13-1",
+          "question_text": "Think of yourself. When you decide to get up and get a drink of water, for example, you don’t consciously organize or consider the host of steps involved. [get up: 일어나다, drink: 마시다, water: 물, steps: 단계, consciously: 의식적으로, organize: 정리하다, consider: 고려하다, host of: 많은, involved: 관련된]"
+        },
+        {
+          "id": "13-2",
+          "question_text": "Imagine if we had to consider every single muscle that needed to be contracted or relaxed just to stand up and walk. [imagine: 상상하다, every: 모든, single: 단 하나의, muscle: 근육, contracted: 수축된, relaxed: 이완된, stand up: 일어서다, walk: 걷다, just: 단지]"
+        },
+        {
+          "id": "13-3",
+          "question_text": "It would be tiresome and very slow ― as patients recovering from a brain injury affecting the motor system knows. [tiresome: 지루한, slow: 느린, patients: 환자, recovering: 회복 중인, brain: 뇌, injury: 부상, affecting: 영향을 주는, motor system: 운동 체계, knows: 알고 있다]"
+        },
+        {
+          "id": "13-4",
+          "question_text": "The autopilot parts of our brain do it for us automatically, freeing up our conscious mind for more important jobs. [autopilot: 자동 조종, parts: 부분, do: 하다, automatically: 자동으로, freeing up: 확보하다, conscious: 의식적인, mind: 마음, important: 중요한, jobs: 일]"
+        },
+        {
+          "id": "13-5",
+          "question_text": "It is the older parts of our brain that support these automatic processes that allow us to move, hear, see, and use many of our social skills. [older: 더 오래된, parts: 부분, support: 지원하다, automatic: 자동의, processes: 과정, allow: 허락하다, move: 움직이다, hear: 듣다, see: 보다, use: 사용하다, social skills: 사회적 기술]"
+        },
+        {
+          "id": "13-6",
+          "question_text": "More recently evolved abilities like talking, reading, and writing are far less automated. [more: 더, recently: 최근에, evolved: 발전한, abilities: 능력, talking: 말하기, reading: 읽기, writing: 쓰기, far less: 훨씬 덜, automated: 자동화된]"
+        },
+        {
+          "id": "13-7",
+          "question_text": "So, most of the time, what you are perceiving, feeling, or thinking is based on a very crude and fast analysis that happens completely without your awareness. [most: 대부분, time: 시간, perceiving: 인지하는, feeling: 느끼는, thinking: 생각하는, based on: ~에 근거한, crude: 대략적인, fast: 빠른, analysis: 분석, completely: 완전히, awareness: 의식]"
+        }
+      ],
+      "14": [
+        {
+          "id": "14-1",
+          "question_text": "Studies in psychology have reported cases in which competitive incentives resulted in lower task effort, and their focus was on the psychological underpinnings of the reduction in motivation. [studies: 연구, psychology: 심리학, reported: 보고했다, cases: 사례, competitive: 경쟁적인, incentives: 동기, resulted in: ~의 결과가 되다, lower: 낮은, task: 과제, effort: 노력, focus: 초점, underpinnings: 근거, reduction: 감소, motivation: 동기]"
+        },
+        {
+          "id": "14-2",
+          "question_text": "For example, competition presents an inevitable conflict between the motivation to achieve one’s personal goal and the desire to maintain good relationships with others. [for example: 예를 들어, competition: 경쟁, presents: 보여주다/제시하다, inevitable: 불가피한, conflict: 갈등, motivation: 동기, achieve: 달성하다, personal: 개인의, goal: 목표, desire: 욕구, maintain: 유지하다, good relationships: 좋은 관계, others: 다른 사람들]"
+        },
+        {
+          "id": "14-3",
+          "question_text": "When the maintenance of interpersonal relationships is important, with their counterparts in particular or with others generally, competitors experience an internal conflict that can harm their desire to achieve their goal and taint the good feeling brought about by winning. [maintenance: 유지, interpersonal relationships: 대인관계, important: 중요한, counterparts: 상대, in particular: 특히, generally: 일반적으로, competitors: 경쟁자, experience: 경험하다, internal conflict: 내적 갈등, harm: 해치다, desire: 욕구, achieve: 달성하다, goal: 목표, taint: 해치다, good feeling: 좋은 기분, brought about: 초래된, winning: 승리]"
+        },
+        {
+          "id": "14-4",
+          "question_text": "Exline and Lobel found that the perception of oneself as a target for upward social comparison often makes people uncomfortable. [found: 발견했다, perception: 인식, oneself: 자신, target: 목표, upward: 위로 향하는, social comparison: 사회적 비교, often: 자주, makes: 만들다, uncomfortable: 불편한]"
+        },
+        {
+          "id": "14-5",
+          "question_text": "When they believe that others are making envious comparisons with them, people feel uneasiness, distress, or sorrow. [believe: 믿다, others: 다른 사람들, making: 하는, envious: 질투하는, comparisons: 비교, feel: 느끼다, uneasiness: 불안, distress: 고통, sorrow: 슬픔]"
+        },
+        {
+          "id": "14-6",
+          "question_text": "Feelings of guilt, an emotion generally associated with high motivation for goal-achievement, lead to stronger motivation and performance in the pursuit of competitive goals. [feelings: 감정, guilt: 죄책감, emotion: 감정, generally: 일반적으로, associated with: 관련된, high: 높은, motivation: 동기, goal-achievement: 목표 달성, lead to: ~로 이어지다, stronger: 더 강한, performance: 수행, pursuit: 추구, competitive goals: 경쟁 목표]"
+        },
+        {
+          "id": "14-7",
+          "question_text": "Consequences of this emotional state include lower task motivation in a competition and preferences for more cooperative and altruistic outcomes, such as diminishing the significance of the outcome or sharing the winner’s reward. [consequences: 결과, emotional state: 감정 상태, include: 포함하다, lower: 낮은, task: 과제, motivation: 동기, competition: 경쟁, preferences: 선호, cooperative: 협력적인, altruistic: 이타적인, outcomes: 결과, diminishing: 줄이는, significance: 중요성, outcome: 결과, sharing: 나누기, winner’s reward: 승자 보상]"
+        }
+      ],
+      "15": [
+        {
+          "id": "15-1",
+          "question_text": "The expansion of sports tourism in the twentieth century has been influenced by further developments in transportation. [expansion: 확장, sports tourism: 스포츠 관광, twentieth century: 20세기, influenced: 영향을 받다, further: 더, developments: 발전, transportation: 교통]"
+        },
+        {
+          "id": "15-2",
+          "question_text": "Just as the railways revolutionized travel in the nineteenth century, so the automobile produced even more dramatic changes in the twentieth. [just as: 마치 ~처럼, railways: 철도, revolutionized: 혁신을 일으켰다, travel: 여행, nineteenth century: 19세기, automobile: 자동차, produced: 만들어내다, dramatic: 극적인, changes: 변화, twentieth: 20세기]"
+        },
+        {
+          "id": "15-3",
+          "question_text": "The significance of the car in the development of sport and tourism generally has attracted considerable coverage and it has had no less an impact on sports tourism specifically. [significance: 중요성, car: 자동차, development: 발전, sport: 스포츠, tourism: 관광, generally: 일반적으로, attracted: 끌다, considerable: 상당한, coverage: 보도/주목, impact: 영향, specifically: 구체적으로]"
+        },
+        {
+          "id": "15-4",
+          "question_text": "Although originally invented towards the end of the nineteenth century, it started to become a mass form of transport in the 1920s in the USA and rather later in Britain. [originally: 원래, invented: 발명되다, towards: ~쪽으로, mass form: 대중적인 형태, transport: 교통수단, rather later: 다소 늦게, Britain: 영국]"
+        },
+        {
+          "id": "15-5",
+          "question_text": "Apart from its convenience and flexibility, the car has the additional advantages of affording access to many areas not served by public transport, as well as allowing the easy transport of luggage and equipment. [apart from: ~외에도, convenience: 편리함, flexibility: 융통성, additional: 추가적인, advantages: 장점, affording: 제공하다, access: 접근, areas: 지역, served: 제공되다, public transport: 대중교통, allowing: 허용하다, easy: 쉬운, luggage: 짐, equipment: 장비]"
+        },
+        {
+          "id": "15-6",
+          "question_text": "The expansion of reasonably priced, good quality accommodation associated with tourism growth has also facilitated the growth of locally based restaurants. [expansion: 확장, reasonably priced: 적당한 가격의, good quality: 좋은 품질, accommodation: 숙박시설, associated with: ~와 관련된, tourism growth: 관광 성장, facilitated: 용이하게 했다, locally based: 지역 기반의, restaurants: 식당]"
+        },
+        {
+          "id": "15-7",
+          "question_text": "As a result, it was invaluable for the development of many forms of sports tourism but especially those which require the transportation of people and equipment to relatively remote locations. [as a result: 결과적으로, invaluable: 매우 귀중한, development: 발전, forms: 형태, require: 필요로 하다, transportation: 운송, people: 사람, equipment: 장비, relatively: 비교적, remote: 먼, locations: 장소]"
+        }
+      ],
+      "16": [
+        {
+          "id": "16-1",
+          "question_text": "The potential for market enforcement is greater when contracting parties have developed reputational capital that can be devalued when contracts are violated. [potential: 잠재력, market enforcement: 시장 규제/집행, greater: 더 큰, contracting parties: 계약 당사자, developed: 개발된, reputational capital: 평판 자산, devalued: 가치가 떨어지다, contracts: 계약, violated: 위반되다]"
+        },
+        {
+          "id": "16-2",
+          "question_text": "Similarly, a landowner can undermaintain fences, ditches, and irrigation systems. Accurate assessments of farmer and landowner behavior will be made over time, and those farmers and landowners who attempt to gain at each other’s expense will find that others may refuse to deal with them in the future. [similarly: 마찬가지로, landowner: 토지 소유주, undermaintain: 충분히 관리하지 않다, fences: 울타리, ditches: 배수로, irrigation systems: 관개 시스템, accurate: 정확한, assessments: 평가, behavior: 행동, over time: 시간이 지나면서, attempt: 시도하다, gain: 얻다, at each other’s expense: 서로의 손해를 보면서, refuse: 거절하다, deal with: 거래하다]"
+        },
+        {
+          "id": "16-3",
+          "question_text": "Over time landowners indirectly monitor farmers by observing the reported output, the general quality of the soil, and any unusual or extreme behavior. [over time: 시간이 지나면서, landowners: 토지 소유주, indirectly: 간접적으로, monitor: 관찰하다, farmers: 농부, observing: 관찰하면서, reported output: 보고된 생산량, general quality: 일반적 품질, soil: 토양, unusual: 이상한, extreme: 극단적인, behavior: 행동]"
+        },
+        {
+          "id": "16-4",
+          "question_text": "Farmer and landowner reputations act as a bond. In any growing season a farmer can reduce effort, overuse soil, or underreport the crop. [reputations: 평판, act as: ~로 작용하다, bond: 유대/연결, growing season: 성장기, reduce: 줄이다, effort: 노력, overuse: 과도하게 사용하다, soil: 토양, underreport: 적게 보고하다, crop: 작물]"
+        },
+        {
+          "id": "16-5",
+          "question_text": "Farmers and landowners develop reputations for honesty, fairness, producing high yields, and consistently demonstrating that they are good at what they do. In small, close-knit farming communities, reputations are well known. [develop: 개발하다, reputations: 평판, honesty: 정직, fairness: 공정함, producing: 생산, high yields: 높은 수확량, consistently: 꾸준히, demonstrating: 보여주다, good at: ~을 잘하다, small: 작은, close-knit: 친밀한, farming communities: 농촌 공동체, well known: 잘 알려진]"
+        }
       ]
     }
   }

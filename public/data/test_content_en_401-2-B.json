@@ -1463,12 +1463,12 @@
           "word": "Oh, really? Then, I'd like to contribute to the auction. Actually, I have a bike that I don't ride anymore.",
           "question": "뜻을 선택하세요",
           "options": [
-            "나도 자전거 기부할게. 안 타는 게 하나 있어",
-            "그럼 내가 좀 후원해야겠다",
+            "나도 내가 좀 후원해야겠다. 안 타는 자전거가 하나 있어",
+            "그럼 나도 자전거 타고 참석해야겠다",
             "주최측에 연락해야겠어",
             "가격은 어떻게 정해지지?"
           ],
-          "correct": 1
+          "correct": 0
         },
         {
           "id": "13-10",

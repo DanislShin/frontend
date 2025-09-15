@@ -147,12 +147,14 @@
       {
         "id": "302",
         "name": "302 - 중급 단어",
-        "dataFile": "300-302-learning.json"
+        "dataFile": "300-302-learning.json",
+        "component": "WordLearning"
       },
       {
         "id": "303",
         "name": "303 - 초급 단어",
-        "dataFile": "300-303-learning.json"
+        "dataFile": "300-303-learning.json",
+        "component": "WordLearning"
       }
     ]
   },
