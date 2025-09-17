@@ -3438,7 +3438,8 @@
             "굴, 은신처",
             "터지다"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "I don't wish to burden you with my problems."
         },
         {
           "id": "14-2",
@@ -3450,7 +3451,8 @@
             "강도",
             "구내식당, 교내식당"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "A burglar broke into the house next door last night."
         },
         {
           "id": "14-3",
@@ -3459,313 +3461,222 @@
           "options": [
             "계산하다",
             "굴, 은신처",
-            "~을 요구하다",
-            "~을 취소하다"
+            "칼로리의",
+            "취소하다"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "Rabbits live in burrow."
         },
         {
           "id": "14-4",
           "word": "burst",
           "question": "뜻을 선택하세요",
           "options": [
-            "~에게 ~을 요구하다",
-            "침착하다",
+            "후보, 입후보자",
+            "보살피는, 배려하는",
             "터지다",
-            "촬영기사"
+            "목수"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "A pipe burst, shooting water into the air."
         },
         {
           "id": "14-5",
           "word": "by all means",
           "question": "뜻을 선택하세요",
           "options": [
-            "캠페인",
-            "운하",
+            "경력, 직업",
+            "이산화탄소",
             "기꺼이, 반드시",
-            "취소하다"
+            "자동차 대여"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "“May I come in?” “By all means!”"
         },
         {
           "id": "14-6",
           "word": "bystander",
           "question": "뜻을 선택하세요",
           "options": [
-            "암",
-            "후보자",
-            "사탕",
-            "방관자, 구경꾼"
+            "대포",
+            "후보, 입후보자",
+            "방관자, 구경꾼",
+            "수용력"
           ],
-          "correct": 3
+          "correct": 2,
+          "example": "Two bystander were injured in the shooting."
         },
         {
           "id": "14-7",
           "word": "cafeteria",
           "question": "뜻을 선택하세요",
           "options": [
-            "할 수 있는, 유능한",
-            "용량, 수용력",
+            "보유하다",
+            "수용력",
             "구내식당, 교내식당",
-            "망토"
+            "자본의, 자본주의의"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The students met in the cafeteria for lunch."
         },
         {
           "id": "14-8",
           "word": "calculate",
           "question": "뜻을 선택하세요",
           "options": [
-            "수도",
-            "선장",
+            "선장, 주장",
+            "포착하다, 획득하다",
             "계산하다",
-            "포착하다, 획득하다"
+            "칼로리의"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "We'll need to calculate the overall costs."
         },
         {
           "id": "14-9",
-          "word": "call for",
+          "word": "caloric",
           "question": "뜻을 선택하세요",
           "options": [
             "자동차 대여",
             "이산화탄소",
-            "~을 요구하다",
+            "칼로리의",
             "경력, 직업"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "You need to avoid eating highly caloric foods."
         },
         {
           "id": "14-10",
-          "word": "call off",
+          "word": "cancel",
           "question": "뜻을 선택하세요",
           "options": [
             "보살피는, 배려하는",
             "목수",
             "보유하다",
-            "~을 취소하다"
+            "취소하다"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "I'm afraid I'll have to cancel our meeting tomorrow."
         },
         {
           "id": "14-11",
-          "word": "call on",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "짐을 지우다, 부담을 주다",
-            "~에게 ~을 요구하다",
-            "강도",
-            "굴, 은신처"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "14-12",
-          "word": "calm",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "터지다",
-            "기꺼이, 반드시",
-            "침착하다",
-            "방관자, 구경꾼"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-13",
-          "word": "cameraman",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "구내식당, 교내식당",
-            "계산하다",
-            "촬영기사",
-            "~을 요구하다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-14",
-          "word": "campaign",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "~을 취소하다",
-            "~에게 ~을 요구하다",
-            "캠페인",
-            "침착하다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-15",
-          "word": "canal",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "촬영기사",
-            "운하",
-            "캠페인",
-            "취소하다"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "14-16",
-          "word": "cancel",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "암",
-            "후보자",
-            "취소하다",
-            "사탕"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-17",
-          "word": "cancer",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "할 수 있는, 유능한",
-            "암",
-            "용량, 수용력",
-            "망토"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "14-18",
           "word": "candidate",
           "question": "뜻을 선택하세요",
           "options": [
-            "수도",
-            "선장",
-            "후보자",
-            "포착하다, 획득하다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-19",
-          "word": "candy",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "자동차 대여",
-            "이산화탄소",
-            "사탕",
-            "경력, 직업"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-20",
-          "word": "capable",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "보살피는, 배려하는",
-            "목수",
-            "할 수 있는, 유능한",
-            "보유하다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-21",
-          "word": "capacity",
-          "question": "뜻을 선택하세요",
-          "options": [
             "짐을 지우다, 부담을 주다",
-            "용량, 수용력",
+            "후보, 입후보자",
             "강도",
             "굴, 은신처"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "He is a candidate for the Player of the Year award."
         },
         {
-          "id": "14-22",
-          "word": "cape",
+          "id": "14-12",
+          "word": "cannon",
           "question": "뜻을 선택하세요",
           "options": [
             "터지다",
             "기꺼이, 반드시",
-            "방관자, 구경꾼",
-            "망토"
+            "대포",
+            "방관자, 구경꾼"
           ],
-          "correct": 3
+          "correct": 2,
+          "example": "A ship fired its cannon against soldiers on land."
         },
         {
-          "id": "14-23",
-          "word": "capital",
+          "id": "14-13",
+          "word": "capacity",
           "question": "뜻을 선택하세요",
           "options": [
             "구내식당, 교내식당",
             "계산하다",
-            "수도",
-            "~을 요구하다"
+            "수용력",
+            "포착하다, 획득하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The room had seating capacity for 80."
         },
         {
-          "id": "14-24",
-          "word": "captain",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "~을 취소하다",
-            "선장",
-            "~에게 ~을 요구하다",
-            "침착하다"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "14-25",
-          "word": "capture",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "촬영기사",
-            "캠페인",
-            "포착하다, 획득하다",
-            "운하"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "14-26",
-          "word": "car rental",
+          "id": "14-14",
+          "word": "capitalistic",
           "question": "뜻을 선택하세요",
           "options": [
             "취소하다",
-            "암",
-            "자동차 대여",
-            "후보자"
+            "보살피는, 배려하는",
+            "자본의, 자본주의의",
+            "침착하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The U.S. economy is a capitalistic economy based on a market economy."
         },
         {
-          "id": "14-27",
+          "id": "14-15",
+          "word": "captain",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "경력, 직업",
+            "선장, 주장",
+            "칼로리의",
+            "취소하다"
+          ],
+          "correct": 1,
+          "example": "The captain ordered the crew to abandon their ship."
+        },
+        {
+          "id": "14-16",
+          "word": "capture",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "목수",
+            "이산화탄소",
+            "포착하다, 획득하다",
+            "자동차 대여"
+          ],
+          "correct": 2,
+          "example": "She captured 60 percent of the vote in the last election."
+        },
+        {
+          "id": "14-17",
+          "word": "car rental",
+          "question": "뜻을 선택하세요",
+          "options": [
+            "방관자, 구경꾼",
+            "강도",
+            "자동차 대여",
+            "후보, 입후보자"
+          ],
+          "correct": 2,
+          "example": "Are you looking for a car rental service?"
+        },
+        {
+          "id": "14-18",
           "word": "carbon dioxide",
           "question": "뜻을 선택하세요",
           "options": [
-            "사탕",
-            "할 수 있는, 유능한",
+            "계산하다",
+            "보유하다",
             "이산화탄소",
-            "용량, 수용력"
+            "수용력"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "Plants give off carbon dioxide mostly at night."
         },
         {
-          "id": "14-28",
+          "id": "14-19",
           "word": "career",
           "question": "뜻을 선택하세요",
           "options": [
-            "망토",
-            "수도",
+            "짐을 지우다, 부담을 주다",
             "경력, 직업",
-            "선장"
+            "선장, 주장",
+            "대포"
           ],
-          "correct": 2
+          "correct": 1,
+          "example": "During his career in advertising, he won numerous awards."
         },
         {
-          "id": "14-29",
+          "id": "14-20",
           "word": "caring",
           "question": "뜻을 선택하세요",
           "options": [
@@ -3774,10 +3685,11 @@
             "보살피는, 배려하는",
             "이산화탄소"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The school provides a caring environment."
         },
         {
-          "id": "14-30",
+          "id": "14-21",
           "word": "carpenter",
           "question": "뜻을 선택하세요",
           "options": [
@@ -3786,10 +3698,11 @@
             "목수",
             "보유하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "He hired a couple of carpenters to do some woodworking."
         },
         {
-          "id": "14-31",
+          "id": "14-22",
           "word": "carry",
           "question": "뜻을 선택하세요",
           "options": [
@@ -3798,7 +3711,8 @@
             "강도",
             "굴, 은신처"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "All the soldiers carry rifles."
         }
       ],
       "15": [
@@ -3812,7 +3726,8 @@
             "(배역을) 정하다, 맡기다",
             "성, 대저택"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "I took a small bag on board as carry-on luggage."
         },
         {
           "id": "15-2",
@@ -3824,7 +3739,8 @@
             "출납원, 계산원",
             "경고하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "He took a ten-dollar bill out to pay the cashier."
         },
         {
           "id": "15-3",
@@ -3832,47 +3748,51 @@
           "question": "뜻을 선택하세요",
           "options": [
             "신중한, 조심스러운",
-            "동굴",
+            "충치",
             "(배역을) 정하다, 맡기다",
             "축하하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The director cast a famous actor in the leading role."
         },
         {
           "id": "15-4",
           "word": "castle",
           "question": "뜻을 선택하세요",
           "options": [
-            "유명인사",
-            "휴대전화",
-            "묘지",
+            "검열",
+            "의식, 행사",
+            "충전",
             "성, 대저택"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "There are many old castles in Europe."
         },
         {
           "id": "15-5",
           "word": "category",
           "question": "뜻을 선택하세요",
           "options": [
-            "인구조사",
-            "세기",
+            "증명서, 자격증",
+            "장애가 있는, 힘든",
             "범주, 종목, 부류",
-            "의식, 행사"
+            "혼란스러운"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "These are the category: pop music, jazz, and the blues."
         },
         {
           "id": "15-6",
           "word": "cause",
           "question": "뜻을 선택하세요",
           "options": [
-            "확실한",
-            "증명서",
+            "특징",
+            "자선, 자선단체",
             "원인",
-            "도전적인"
+            "이야기하다, 잡담하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The major cause of these accidents is speeding by drivers."
         },
         {
           "id": "15-7",
@@ -3884,7 +3804,8 @@
             "경고하다",
             "특징"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "She caution me not to decide too quickly."
         },
         {
           "id": "15-8",
@@ -3896,235 +3817,190 @@
             "신중한, 조심스러운",
             "이야기하다, 잡담하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "He has a cautious attitude about mass media."
         },
         {
           "id": "15-9",
-          "word": "cave",
+          "word": "cavity",
           "question": "뜻을 선택하세요",
           "options": [
             "부정행위를 하다",
             "응원",
             "기내수화물",
-            "동굴"
+            "충치"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "I had two cavity filled at the dentist`s."
         },
         {
           "id": "15-10",
-          "word": "celebrate",
+          "word": "cease",
           "question": "뜻을 선택하세요",
           "options": [
             "출납원, 계산원",
-            "축하하다",
+            "멈추다, 그치다",
             "(배역을) 정하다, 맡기다",
             "성, 대저택"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "Conversation ceased when she entered the room."
         },
         {
           "id": "15-11",
-          "word": "celebrity",
+          "word": "celebrate",
           "question": "뜻을 선택하세요",
           "options": [
             "범주, 종목, 부류",
             "원인",
-            "유명인사",
+            "축하하다",
             "경고하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "Let's have a party to celebrate your birthday."
         },
         {
           "id": "15-12",
-          "word": "cell phone",
+          "word": "censorship",
           "question": "뜻을 선택하세요",
           "options": [
             "신중한, 조심스러운",
-            "동굴",
-            "휴대전화",
+            "충치",
+            "검열",
             "축하하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "They oppose government censorship."
         },
         {
           "id": "15-13",
-          "word": "cemetery",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "유명인사",
-            "묘지",
-            "인구조사",
-            "세기"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "15-14",
-          "word": "census",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "의식, 행사",
-            "확실한",
-            "인구조사",
-            "증명서"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "15-15",
-          "word": "century",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "도전적인",
-            "장애가 있는, 힘든",
-            "세기",
-            "혼란스러운"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "15-16",
           "word": "ceremony",
           "question": "뜻을 선택하세요",
           "options": [
-            "특징",
-            "충전",
+            "검열",
             "의식, 행사",
-            "자선, 자선단체"
+            "충전",
+            "성, 대저택"
           ],
-          "correct": 2
+          "correct": 1,
+          "example": "The chief performed a marriage ceremony."
         },
         {
-          "id": "15-17",
-          "word": "certain",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "이야기하다, 잡담하다",
-            "부정행위를 하다",
-            "확실한",
-            "응원"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "15-18",
+          "id": "15-14",
           "word": "certificate",
           "question": "뜻을 선택하세요",
           "options": [
-            "기내수화물",
-            "출납원, 계산원",
-            "증명서",
-            "(배역을) 정하다, 맡기다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "15-19",
-          "word": "challenging",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "성, 대저택",
+            "증명서, 자격증",
+            "장애가 있는, 힘든",
             "범주, 종목, 부류",
-            "도전적인",
-            "원인"
+            "혼란스러운"
           ],
-          "correct": 2
+          "correct": 0,
+          "example": "He earned his teaching certificate last year."
         },
         {
-          "id": "15-20",
+          "id": "15-15",
           "word": "challenged",
           "question": "뜻을 선택하세요",
           "options": [
-            "경고하다",
-            "신중한, 조심스러운",
+            "특징",
+            "자선, 자선단체",
             "장애가 있는, 힘든",
-            "동굴"
+            "이야기하다, 잡담하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "She has worked as an advocate for the physically challenged."
         },
         {
-          "id": "15-21",
+          "id": "15-16",
           "word": "chaotic",
           "question": "뜻을 선택하세요",
           "options": [
-            "축하하다",
-            "유명인사",
+            "장애가 있는, 힘든",
             "혼란스러운",
-            "휴대전화"
+            "경고하다",
+            "특징"
           ],
-          "correct": 2
+          "correct": 1,
+          "example": "After he became famous, his life became even more chaotic."
         },
         {
-          "id": "15-22",
+          "id": "15-17",
           "word": "characteristic",
           "question": "뜻을 선택하세요",
           "options": [
-            "묘지",
-            "인구조사",
-            "특징",
-            "세기"
+            "충전",
+            "자선, 자선단체",
+            "신중한, 조심스러운",
+            "특징"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "What are the characteristic of this breed of dog?"
         },
         {
-          "id": "15-23",
+          "id": "15-18",
           "word": "charge",
           "question": "뜻을 선택하세요",
           "options": [
-            "의식, 행사",
-            "확실한",
-            "충전",
-            "증명서"
+            "부정행위를 하다",
+            "응원",
+            "기내수화물",
+            "충전"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "Leave the battery charge over night."
         },
         {
-          "id": "15-24",
+          "id": "15-19",
           "word": "charity",
           "question": "뜻을 선택하세요",
           "options": [
-            "도전적인",
-            "자선, 자선단체",
-            "장애가 있는, 힘든",
-            "혼란스러운"
+            "출납원, 계산원",
+            "축하하다",
+            "(배역을) 정하다, 맡기다",
+            "자선, 자선단체"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "The event was held to raise funds for charity."
         },
         {
-          "id": "15-25",
+          "id": "15-20",
           "word": "chat",
           "question": "뜻을 선택하세요",
           "options": [
-            "특징",
+            "범주, 종목, 부류",
             "이야기하다, 잡담하다",
-            "충전",
-            "자선, 자선단체"
+            "원인",
+            "경고하다"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "We chatted about our plans for the summer."
         },
         {
-          "id": "15-26",
+          "id": "15-21",
           "word": "cheat",
           "question": "뜻을 선택하세요",
           "options": [
-            "이야기하다, 잡담하다",
+            "신중한, 조심스러운",
+            "충치",
             "부정행위를 하다",
-            "응원",
-            "기내수화물"
+            "축하하다"
           ],
-          "correct": 1
+          "correct": 2,
+          "example": "He cheated on the test by using a calculator."
         },
         {
-          "id": "15-27",
+          "id": "15-22",
           "word": "cheerleading",
           "question": "뜻을 선택하세요",
           "options": [
-            "출납원, 계산원",
-            "(배역을) 정하다, 맡기다",
-            "성, 대저택",
-            "응원"
+            "검열",
+            "의식, 행사",
+            "응원",
+            "성, 대저택"
           ],
-          "correct": 3
+          "correct": 2,
+          "example": "She tried out for the cheerleading squad."
         }
       ],
       "16": [
@@ -4138,7 +4014,8 @@
             "고르다, 선택하다",
             "젓가락"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "Many household cleaners contain harmful chemicals."
         },
         {
           "id": "16-2",
@@ -4148,405 +4025,270 @@
             "어린 시절",
             "만성적인",
             "상당히 많은 양",
-            "순환하다"
+            "집단, 사회"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "She had a happy childhood with her loving parents."
         },
         {
           "id": "16-3",
           "word": "choose",
           "question": "뜻을 선택하세요",
           "options": [
-            "상황, 여건",
-            "인용하다",
+            "상황, 환경",
+            "문명",
             "고르다, 선택하다",
-            "시민"
+            "고전적인, 고전주의의"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "It took us about an hour to choose a new carpet."
         },
         {
           "id": "16-4",
           "word": "chopsticks",
           "question": "뜻을 선택하세요",
           "options": [
-            "시민의",
-            "문명",
-            "주장하다",
+            "분류하다",
+            "풍토, 기후",
+            "임상의",
             "젓가락"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "I am still awkward at using chopsticks."
         },
         {
           "id": "16-5",
           "word": "chronic",
           "question": "뜻을 선택하세요",
           "options": [
-            "박수치다",
-            "명확히 하다",
+            "막상막하의, 박빙의",
+            "천, 옷감",
             "만성적인",
-            "충돌하다"
+            "탁한, 뿌연"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "He has suffered chronic pain in his right knee."
         },
         {
           "id": "16-6",
           "word": "chunk",
           "question": "뜻을 선택하세요",
           "options": [
-            "교실",
-            "폐쇄공포증",
-            "점토",
+            "실마리, 단서",
+            "해안",
+            "규약, 규칙",
             "상당히 많은 양"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "The rent takes a large chunk out of my monthly salary."
         },
         {
           "id": "16-7",
-          "word": "circulate",
+          "word": "circle",
           "question": "뜻을 선택하세요",
           "options": [
-            "순환하다",
-            "청소하다",
-            "개다",
-            "기후"
+            "집단, 사회",
+            "공존하다",
+            "인지적인",
+            "일치하다, 동시에 일어나다"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "He is well-known in fashionable circles."
         },
         {
           "id": "16-8",
           "word": "circumstance",
           "question": "뜻을 선택하세요",
           "options": [
-            "오르다",
-            "진료소",
-            "상황, 여건",
-            "오려내다"
+            "화학물질",
+            "어린 시절",
+            "상황, 환경",
+            "고르다, 선택하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "We must be able to adapt to changing circumstances."
         },
         {
           "id": "16-9",
-          "word": "cite",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "복제하다",
-            "닫다",
-            "벽장",
-            "인용하다"
-          ],
-          "correct": 3
-        },
-        {
-          "id": "16-10",
-          "word": "citizen",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "흐린, 뿌연",
-            "실마리, 단서",
-            "시민",
-            "해안"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "16-11",
-          "word": "civil",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "규약, 규칙",
-            "공존하다",
-            "시민의",
-            "인지적인"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "16-12",
           "word": "civilization",
           "question": "뜻을 선택하세요",
           "options": [
             "문명",
-            "일치하다, 동시에 일어나다",
-            "화학물질",
-            "어린 시절"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "16-13",
-          "word": "claim",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "고르다, 선택하다",
-            "주장하다",
             "젓가락",
-            "만성적인"
+            "만성적인",
+            "상당히 많은 양"
           ],
-          "correct": 1
+          "correct": 0,
+          "example": "Ancient Greek civilization had important effects on Roman culture."
         },
         {
-          "id": "16-14",
-          "word": "clap",
+          "id": "16-10",
+          "word": "classical",
           "question": "뜻을 선택하세요",
           "options": [
-            "상당히 많은 양",
-            "순환하다",
-            "박수치다",
-            "상황, 여건"
+            "집단, 사회",
+            "상황, 환경",
+            "고전적인, 고전주의의",
+            "풍토, 기후"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "Beethoven and Mozart were classical composers."
         },
         {
-          "id": "16-15",
-          "word": "clarify",
+          "id": "16-11",
+          "word": "classify",
           "question": "뜻을 선택하세요",
           "options": [
-            "인용하다",
-            "명확히 하다",
-            "시민",
-            "시민의"
+            "임상의",
+            "막상막하의, 박빙의",
+            "분류하다",
+            "천, 옷감"
           ],
-          "correct": 1
+          "correct": 2,
+          "example": "Students will learn about the ways scientists classify animals."
         },
         {
-          "id": "16-16",
-          "word": "clash",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "문명",
-            "주장하다",
-            "박수치다",
-            "충돌하다"
-          ],
-          "correct": 3
-        },
-        {
-          "id": "16-17",
-          "word": "classroom",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "명확히 하다",
-            "교실",
-            "충돌하다",
-            "폐쇄공포증"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "16-18",
-          "word": "claustrophobia",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "점토",
-            "청소하다",
-            "폐쇄공포증",
-            "개다"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "16-19",
-          "word": "clay",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "기후",
-            "오르다",
-            "점토",
-            "진료소"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "16-20",
-          "word": "clean up",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "청소하다",
-            "오려내다",
-            "복제하다",
-            "닫다"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "16-21",
-          "word": "clear up",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "벽장",
-            "흐린, 뿌연",
-            "개다",
-            "실마리, 단서"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "16-22",
+          "id": "16-12",
           "word": "climate",
           "question": "뜻을 선택하세요",
           "options": [
+            "탁한, 뿌연",
+            "실마리, 단서",
             "해안",
+            "풍토, 기후"
+          ],
+          "correct": 3,
+          "example": "Small businesses can`t survive in the present economic climate."
+        },
+        {
+          "id": "16-13",
+          "word": "clinical",
+          "question": "뜻을 선택하세요",
+          "options": [
             "규약, 규칙",
             "공존하다",
-            "기후"
+            "임상의",
+            "인지적인"
           ],
-          "correct": 3
+          "correct": 2,
+          "example": "Three hundred patients were involved in the clinical study."
         },
         {
-          "id": "16-23",
-          "word": "climb",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "오르다",
-            "인지적인",
-            "일치하다, 동시에 일어나다",
-            "화학물질"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "16-24",
-          "word": "clinic",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "어린 시절",
-            "진료소",
-            "고르다, 선택하다",
-            "젓가락"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "16-25",
-          "word": "clip",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "만성적인",
-            "오려내다",
-            "상당히 많은 양",
-            "순환하다"
-          ],
-          "correct": 1
-        },
-        {
-          "id": "16-26",
-          "word": "clone",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "복제하다",
-            "상황, 여건",
-            "인용하다",
-            "시민"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "16-27",
+          "id": "16-14",
           "word": "close",
           "question": "뜻을 선택하세요",
           "options": [
-            "시민의",
-            "문명",
-            "닫다",
-            "주장하다"
+            "일치하다, 동시에 일어나다",
+            "화학물질",
+            "막상막하의, 박빙의",
+            "어린 시절"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "We won the close game by one point."
         },
         {
-          "id": "16-28",
-          "word": "closet",
+          "id": "16-15",
+          "word": "cloth",
           "question": "뜻을 선택하세요",
           "options": [
-            "벽장",
-            "박수치다",
-            "명확히 하다",
-            "충돌하다"
+            "고르다, 선택하다",
+            "젓가락",
+            "만성적인",
+            "천, 옷감"
           ],
-          "correct": 0
+          "correct": 3,
+          "example": "The dress is made out of a beautiful silk cloth."
         },
         {
-          "id": "16-29",
+          "id": "16-16",
           "word": "cloudy",
           "question": "뜻을 선택하세요",
           "options": [
-            "교실",
-            "폐쇄공포증",
-            "흐린, 뿌연",
-            "점토"
+            "집단, 사회",
+            "상황, 환경",
+            "탁한, 뿌연",
+            "문명"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The mud in the liquid made it cloudy."
         },
         {
-          "id": "16-30",
+          "id": "16-17",
           "word": "clue",
           "question": "뜻을 선택하세요",
           "options": [
-            "청소하다",
-            "개다",
+            "고전적인, 고전주의의",
+            "분류하다",
             "실마리, 단서",
-            "기후"
+            "풍토, 기후"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "One of the most valuable clue at the scene of a crime is fingerprints."
         },
         {
-          "id": "16-31",
+          "id": "16-18",
           "word": "coast",
           "question": "뜻을 선택하세요",
           "options": [
-            "오르다",
-            "진료소",
-            "오려내다",
-            "해안"
+            "임상의",
+            "막상막하의, 박빙의",
+            "해안",
+            "천, 옷감"
           ],
-          "correct": 3
+          "correct": 2,
+          "example": "We drove along a long stretch of coast."
         },
         {
-          "id": "16-32",
+          "id": "16-19",
           "word": "code",
           "question": "뜻을 선택하세요",
           "options": [
-            "복제하다",
-            "닫다",
+            "탁한, 뿌연",
+            "실마리, 단서",
             "규약, 규칙",
-            "벽장"
+            "공존하다"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "My school has a strict dress code."
         },
         {
-          "id": "16-33",
+          "id": "16-20",
           "word": "coexist",
           "question": "뜻을 선택하세요",
           "options": [
-            "흐린, 뿌연",
+            "인지적인",
             "공존하다",
-            "실마리, 단서",
-            "해안"
+            "일치하다, 동시에 일어나다",
+            "화학물질"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "They found proof that dinosaurs and turtles coexisted."
         },
         {
-          "id": "16-34",
+          "id": "16-21",
           "word": "cognitive",
           "question": "뜻을 선택하세요",
           "options": [
-            "규약, 규칙",
+            "어린 시절",
+            "고르다, 선택하다",
             "인지적인",
-            "공존하다",
-            "일치하다, 동시에 일어나다"
+            "젓가락"
           ],
-          "correct": 1
+          "correct": 2,
+          "example": "Many old people suffer a decline in cognitive functions."
         },
         {
-          "id": "16-35",
+          "id": "16-22",
           "word": "coincide",
           "question": "뜻을 선택하세요",
           "options": [
             "일치하다, 동시에 일어나다",
-            "화학물질",
-            "어린 시절",
-            "고르다, 선택하다"
+            "만성적인",
+            "상당히 많은 양",
+            "집단, 사회"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "The population increase coincided with rapid industrial growth."
         }
       ],
       "17": [
@@ -4826,7 +4568,8 @@
             "경쟁, 경기",
             "경쟁적인, 경쟁력 있는"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "This printer is compatible with most personal computers."
         },
         {
           "id": "18-2",
@@ -4834,23 +4577,25 @@
           "question": "뜻을 선택하세요",
           "options": [
             "불평",
-            "완료하다",
+            "완성, 마침",
             "보상",
             "복잡한"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "He offered to pay for lunch as compensation for keeping me waiting."
         },
         {
           "id": "18-3",
           "word": "competition",
           "question": "뜻을 선택하세요",
           "options": [
-            "준수하다",
-            "구성요소",
+            "복잡한",
+            "칭찬",
             "경쟁, 경기",
-            "작곡하다"
+            "무료의"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The competition for jobs is fiercer than ever."
         },
         {
           "id": "18-4",
@@ -4858,275 +4603,246 @@
           "question": "뜻을 선택하세요",
           "options": [
             "경쟁적인, 경쟁력 있는",
-            "화합물",
-            "이해하다",
-            "포괄적인"
+            "작곡가",
+            "화합물, 복합체",
+            "충동, 강한 욕구"
           ],
-          "correct": 0
+          "correct": 0,
+          "example": "competitive sports allow children to develop teamwork skills."
         },
         {
           "id": "18-5",
           "word": "complaint",
           "question": "뜻을 선택하세요",
           "options": [
-            "압축하다",
-            "타협하다",
+            "숨기다",
+            "~에 집중하다",
             "불평",
-            "계산하다"
+            "우려, 걱정"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "Many civil complaints have been filed against the construction company."
         },
         {
           "id": "18-6",
-          "word": "complete",
+          "word": "completion",
           "question": "뜻을 선택하세요",
           "options": [
-            "숨기다",
-            "완료하다",
-            "집중하다",
-            "개념"
+            "걱정하는",
+            "결론내리다",
+            "완성, 마침",
+            "결론"
           ],
-          "correct": 1
+          "correct": 2,
+          "example": "The completion of the building is scheduled for the end of March."
         },
         {
           "id": "18-7",
           "word": "complex",
           "question": "뜻을 선택하세요",
           "options": [
-            "우려",
-            "염려하는, 걱정하는",
+            "비난하다, 나무라다",
+            "회의, 회담",
             "복잡한",
-            "결론내리다"
+            "자신감"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The situation is more complex than you realize."
         },
         {
           "id": "18-8",
-          "word": "comply",
+          "word": "complicated",
           "question": "뜻을 선택하세요",
           "options": [
-            "결론",
-            "비난하다, 나무라다",
-            "준수하다",
-            "회의, 회담"
+            "함께 사용될 수 있는, 양립할 수 있는",
+            "보상",
+            "복잡한",
+            "경쟁, 경기"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "The game's rules are too complicated."
         },
         {
           "id": "18-9",
-          "word": "component",
+          "word": "compliment",
           "question": "뜻을 선택하세요",
           "options": [
-            "자신감",
-            "함께 사용될 수 있는, 양립할 수 있는",
-            "구성요소",
-            "보상"
+            "경쟁적인, 경쟁력 있는",
+            "불평",
+            "완성, 마침",
+            "칭찬"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "When I called you a perfectionist, I meant it as a compliment."
         },
         {
           "id": "18-10",
-          "word": "compose",
+          "word": "complimentary",
           "question": "뜻을 선택하세요",
           "options": [
-            "경쟁, 경기",
-            "경쟁적인, 경쟁력 있는",
-            "불평",
-            "작곡하다"
+            "복잡한",
+            "복잡한",
+            "작곡가",
+            "무료의"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "The restaurant offers valet parking as a complimentary service."
         },
         {
           "id": "18-11",
-          "word": "compound",
+          "word": "composer",
           "question": "뜻을 선택하세요",
           "options": [
-            "완료하다",
-            "복잡한",
-            "화합물",
-            "준수하다"
+            "화합물, 복합체",
+            "충동, 강한 욕구",
+            "숨기다",
+            "작곡가"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "The music of great composer is played around the world."
         },
         {
           "id": "18-12",
-          "word": "comprehend",
+          "word": "compound",
           "question": "뜻을 선택하세요",
           "options": [
-            "구성요소",
-            "이해하다",
-            "작곡하다",
-            "화합물"
+            "~에 집중하다",
+            "우려, 걱정",
+            "걱정하는",
+            "화합물, 복합체"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "Water is a compound made of hydrogen and oxygen."
         },
         {
           "id": "18-13",
-          "word": "comprehensive",
+          "word": "compulsion",
           "question": "뜻을 선택하세요",
           "options": [
-            "이해하다",
-            "포괄적인",
-            "압축하다",
-            "타협하다"
+            "결론내리다",
+            "결론",
+            "비난하다, 나무라다",
+            "충동, 강한 욕구"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "He felt a compulsion to say something."
         },
         {
           "id": "18-14",
-          "word": "compress",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "계산하다",
-            "숨기다",
-            "집중하다",
-            "압축하다"
-          ],
-          "correct": 3
-        },
-        {
-          "id": "18-15",
-          "word": "compromise",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "개념",
-            "우려",
-            "타협하다",
-            "염려하는, 걱정하는"
-          ],
-          "correct": 2
-        },
-        {
-          "id": "18-16",
-          "word": "compute",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "계산하다",
-            "결론내리다",
-            "결론",
-            "비난하다, 나무라다"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "18-17",
           "word": "conceal",
           "question": "뜻을 선택하세요",
           "options": [
             "회의, 회담",
-            "숨기다",
             "자신감",
-            "함께 사용될 수 있는, 양립할 수 있는"
+            "함께 사용될 수 있는, 양립할 수 있는",
+            "숨기다"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "The defendant is accused of attempting to conceal evidence."
         },
         {
-          "id": "18-18",
-          "word": "concentrate",
+          "id": "18-15",
+          "word": "concentrate on",
           "question": "뜻을 선택하세요",
           "options": [
             "보상",
             "경쟁, 경기",
-            "집중하다",
+            "~에 집중하다",
             "경쟁적인, 경쟁력 있는"
           ],
-          "correct": 2
+          "correct": 2,
+          "example": "We need to concentrate on finding ways to work more efficiently."
         },
         {
-          "id": "18-19",
-          "word": "concept",
-          "question": "뜻을 선택하세요",
-          "options": [
-            "개념",
-            "불평",
-            "완료하다",
-            "복잡한"
-          ],
-          "correct": 0
-        },
-        {
-          "id": "18-20",
+          "id": "18-16",
           "word": "concern",
           "question": "뜻을 선택하세요",
           "options": [
-            "준수하다",
-            "우려",
-            "구성요소",
-            "작곡하다"
+            "불평",
+            "완성, 마침",
+            "복잡한",
+            "우려, 걱정"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "They have expressed concern about the cost of the project."
         },
         {
-          "id": "18-21",
+          "id": "18-17",
           "word": "concerned",
           "question": "뜻을 선택하세요",
           "options": [
-            "화합물",
-            "이해하다",
-            "염려하는, 걱정하는",
-            "포괄적인"
+            "복잡한",
+            "칭찬",
+            "무료의",
+            "걱정하는"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "Her parents were very concerned about her safety."
         },
         {
-          "id": "18-22",
+          "id": "18-18",
           "word": "conclude",
           "question": "뜻을 선택하세요",
           "options": [
-            "압축하다",
-            "타협하다",
-            "결론내리다",
-            "계산하다"
+            "작곡가",
+            "화합물, 복합체",
+            "충동, 강한 욕구",
+            "결론내리다"
           ],
-          "correct": 2
+          "correct": 3,
+          "example": "At that time, I conclude that I must find a new job."
         },
         {
-          "id": "18-23",
+          "id": "18-19",
           "word": "conclusion",
           "question": "뜻을 선택하세요",
           "options": [
             "숨기다",
-            "결론",
-            "집중하다",
-            "개념"
+            "~에 집중하다",
+            "우려, 걱정",
+            "결론"
           ],
-          "correct": 1
+          "correct": 3,
+          "example": "Scientists haven't yet reached a conclusion on the causes of this illness."
         },
         {
-          "id": "18-24",
+          "id": "18-20",
           "word": "condemn",
           "question": "뜻을 선택하세요",
           "options": [
-            "비난하다, 나무라다",
-            "우려",
-            "염려하는, 걱정하는",
-            "결론내리다"
+            "걱정하는",
+            "결론내리다",
+            "결론",
+            "비난하다, 나무라다"
           ],
-          "correct": 0
+          "correct": 3,
+          "example": "The law has been condemn as an attack on personal liberty."
         },
         {
-          "id": "18-25",
+          "id": "18-21",
           "word": "conference",
           "question": "뜻을 선택하세요",
           "options": [
-            "결론",
-            "회의, 회담",
             "비난하다, 나무라다",
-            "자신감"
+            "회의, 회담",
+            "자신감",
+            "함께 사용될 수 있는, 양립할 수 있는"
           ],
-          "correct": 1
+          "correct": 1,
+          "example": "Representatives from over 100 countries attended the conference."
         },
         {
-          "id": "18-26",
+          "id": "18-22",
           "word": "confidence",
           "question": "뜻을 선택하세요",
           "options": [
-            "함께 사용될 수 있는, 양립할 수 있는",
             "보상",
             "경쟁, 경기",
+            "경쟁적인, 경쟁력 있는",
             "자신감"
           ],
-          "correct": 3
+          "correct": 3,
+          "example": "You should have more confidence in your own abilities."
         }
       ],
       "19": [
@@ -5625,7 +5341,7 @@
           "correct": 2
         },
         {
-          "id": "极速快3-20",
+          "id": "20-20",
           "word": "copyright",
           "question": "뜻을 선택하세요",
           "options": [
@@ -5903,7 +5619,7 @@
           "correct": 1
         },
         {
-          "id": "3-21",
+          "id": "21-21",
           "word": "critic",
           "question": "뜻을 선택하세요",
           "options": [
